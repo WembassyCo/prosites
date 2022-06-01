@@ -1,0 +1,204 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/work\/xbox-hbo-go?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/cms_portfolio_project"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/field_cms_page_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/portfolio\/images\/xbox-one-hbo_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/field_cms_portfolio_category": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/12?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ca12e180-862f-4581-9fbc-b424db07c9e8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cms_portfolio_project"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-01-12T18:49:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "647d1baf-9551-424b-8101-517366013a96"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "647d1baf-9551-424b-8101-517366013a96"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/field_cms_page_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/portfolio\/images\/xbox-one-hbo_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a2555c95-e5cd-4144-a254-a71e55a7a2c1"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "1280",
+                "height": "640"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/field_cms_portfolio_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/12?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_portfolio_category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5fadaf23-eb94-42d5-a32c-c77a96292da5"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "XBox Hbo Go",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-12T18:48:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-12T18:50:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/work\/xbox-hbo-go",
+            "pid": 29,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_cms_page_body": [
+        {
+            "value": "<div>\r\n\t<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p>\r\n\r\n\t<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen.<\/p>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "summary": ""
+        }
+    ],
+    "field_cms_portfolio_client": [
+        {
+            "value": "SooperThemes"
+        }
+    ],
+    "field_image_display": [
+        {
+            "type": "image",
+            "settings": "a:2:{s:11:\"image_style\";s:15:\"full_width_1920\";s:10:\"image_link\";s:0:\"\";}"
+        }
+    ]
+}

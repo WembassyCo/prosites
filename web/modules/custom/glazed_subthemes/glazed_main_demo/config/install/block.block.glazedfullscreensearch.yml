@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - glazed_helper
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: glazedfullscreensearch
+theme: glazed
+region: navigation_collapsible
+weight: -5
+provider: null
+plugin: full_screen_search
+settings:
+  id: full_screen_search
+  label: 'Glazed Full Screen Search'
+  provider: glazed_helper
+  label_display: '0'
+visibility: {  }

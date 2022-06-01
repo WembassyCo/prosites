@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/9\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "href": "http:\/\/default\/services\/landscaping?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_parent_entity": [
+            {
+                "href": "http:\/\/default\/admin\/structure\/menu\/item\/7\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ad0f6712-43de-47ae-ba22-b5cb3a15e532"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "value": "menu_link_content"
+        }
+    ],
+    "title": [
+        {
+            "value": "Landscaping",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main"
+        }
+    ],
+    "link": [
+        {
+            "uri": "entity:node\/34",
+            "title": null,
+            "options": [],
+            "target_uuid": "6c1bb5bc-f7b2-479c-9c31-34f305047e15"
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": false
+        }
+    ],
+    "weight": [
+        {
+            "value": -50
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "parent": [
+        {
+            "value": "menu_link_content:6e9f55d7-233d-4487-bd74-97f33ea61e48"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-17T08:44:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/services\/landscaping?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6c1bb5bc-f7b2-479c-9c31-34f305047e15"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_parent_entity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/admin\/structure\/menu\/item\/7\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6e9f55d7-233d-4487-bd74-97f33ea61e48"
+                    }
+                ]
+            }
+        ]
+    }
+}

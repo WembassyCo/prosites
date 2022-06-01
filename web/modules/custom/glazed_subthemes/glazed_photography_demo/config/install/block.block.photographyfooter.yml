@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: photographyfooter
+theme: glazed
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:22f31f0d-3f1e-4d85-b014-cf75676d0bed'
+settings:
+  id: 'block_content:22f31f0d-3f1e-4d85-b014-cf75676d0bed'
+  label: 'Photography Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,95 @@
+sooperthemes_cube_portfolio_slider_popup:
+  remote: https://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959
+  version: 4.2.0
+  license:
+    name: CodeCanyon License
+    url: https://codecanyon.net/licenses/
+    gpl-compatible: false
+  js:
+    vendor/cubeportfolio/js/jquery.cubeportfolio-sooperthemes-custom-search-slider-popup.min.js: {minified: true, preprocess: false}
+  css:
+    component:
+      vendor/cubeportfolio/css/cubeportfolio-sooperthemes-custom-search-slider-popup.min.css: {minified: true, preprocess: false}
+  dependencies:
+    - core/jquery
+
+sooperthemes_cube_portfolio_slider:
+  remote: https://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959
+  version: 4.2.0
+  license:
+    name: CodeCanyon License
+    url: https://codecanyon.net/licenses/
+    gpl-compatible: false
+  js:
+    vendor/cubeportfolio/js/jquery.cubeportfolio-sooperthemes-custom-search-slider.min.js: {minified: true, preprocess: false}
+  css:
+    component:
+      vendor/cubeportfolio/css/cubeportfolio-sooperthemes-custom-search-slider.min.css: {minified: true, preprocess: false}
+  dependencies:
+    - core/jquery
+
+sooperthemes_cube_portfolio_popup:
+  remote: https://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959
+  version: 4.2.0
+  license:
+    name: CodeCanyon License
+    url: https://codecanyon.net/licenses/
+    gpl-compatible: false
+  js:
+    vendor/cubeportfolio/js/jquery.cubeportfolio-sooperthemes-custom-search-popup.min.js: {minified: true, preprocess: false}
+  css:
+    component:
+      vendor/cubeportfolio/css/cubeportfolio-sooperthemes-custom-search-popup.min.css: {minified: true, preprocess: false}
+  dependencies:
+    - core/jquery
+
+sooperthemes_cube_portfolio:
+  remote: https://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959
+  version: 4.2.0
+  license:
+    name: CodeCanyon License
+    url: https://codecanyon.net/licenses/
+    gpl-compatible: false
+  js:
+    vendor/cubeportfolio/js/jquery.cubeportfolio-sooperthemes-custom-search.min.js: {minified: true, preprocess: false}
+  css:
+    component:
+      vendor/cubeportfolio/css/cubeportfolio-sooperthemes-custom-search.min.css: {minified: true, preprocess: false}
+  dependencies:
+    - core/jquery
+
+sooperthemes_portfolio:
+  js:
+    js/sooperthemes-portfolio.js: {}
+  css:
+    component:
+      css/sooperthemes-portfolio.css: {}
+  dependencies:
+    - core/drupal
+    - core/jquery.once
+
+image_formatter:
+  js:
+    js/image-formatter.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery.once
+    - sooperthemes_portfolio/sooperthemes_cube_portfolio_popup
+  css:
+    component:
+      css/sooperthemes-portfolio-lightbox.css: {}
+
+# Admin interface color picker for SooperThemes views row plugin.
+admin:
+  version: 1.0
+  js:
+    vendor/jquery.iris.alphapatch/dist/iris.js: {}
+    vendor/wp-color-picker/color-picker--rgba.js: {}
+    js/sooperthemes-portfolio-admin.js: {}
+  css:
+    component:
+      vendor/wp-color-picker/color-picker.css: {}
+      css/sooperthemes-portfolio-admin.css: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.slider

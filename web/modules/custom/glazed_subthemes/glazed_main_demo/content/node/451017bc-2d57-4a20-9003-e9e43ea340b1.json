@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/video-element?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "451017bc-2d57-4a20-9003-e9e43ea340b1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-07-21T08:56:32+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Video Element",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T19:45:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-07-21T08:56:32+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/video-element",
+            "pid": 69,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"61zolaup\" class=\"az-element az-section\" style=\"padding-top:5%;\" data-az-id=\"61zolaup\" data-azb=\"az_section\" data-azat-style=\"padding-top:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"xnofpf2i\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"okkfajwn\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"ii10qdzs\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"83c33dlf\" data-azb=\"az_text\" data-azcnt=\"true\">\n<h2 style=\"text-align: center;\">Responsive Video Element<\/h2>\n<\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"4h2az6cu\" data-azb=\"az_text\" data-azcnt=\"true\">\n<p class=\"lead\">With the video element you can easily add YouTube and Vimeo media to your page. No need to worry about responsive video players and video streaming bills.<\/p>\n\n<p class=\"lead\">New: <em>placeholder image<\/em>s. You can use these to add your own branding to videos. This also makes your page faster because the video player is loaded after clicking the image.<\/p>\n<\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"qczk51it\" data-azb=\"az_separator\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"xpge6f61\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"2dcdrteo\" class=\"az-element az-section\" style=\"\" data-az-id=\"2dcdrteo\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"padding-top:5%;\" data-az-id=\"rwiimfzp\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-style=\"padding-top:5%;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"cp8xsis9\" data-azb=\"az_column\" data-azat-width=\"1\/6\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-8\" style=\"\" data-az-id=\"88sqysbx\" data-azb=\"az_column\" data-azat-width=\" 4\/6 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"0d7eyr4m\" data-azb=\"az_text\" data-azcnt=\"true\">\n<h3>Video with placeholder image<\/h3>\n<\/div><div class=\"az-element az-video embed-responsive embed-responsive-16by9\" style=\"\" data-az-id=\"kdx50dft\" data-azb=\"az_video\" data-azat-link=\"https:\/\/www.youtube.com\/watch?v=ZwzY1o_hB5Y\" data-azat-image=\"https:\/\/i.imgur.com\/io3Lb31.png\"><div class=\"az-video-play\" style=\"background-image: url(&quot;https:\/\/i.imgur.com\/io3Lb31.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: cover; cursor: pointer; position: absolute; height: 100%; width: 100%;\"><\/div><iframe src=\"\/\/www.youtube.com\/embed\/ZwzY1o_hB5Y?rel=0&amp;showinfo=0\" type=\"text\/html\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" frameborder=\"0\" style=\"width: 100%; z-index: 1; display: none;\"><\/iframe><\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"x8bfuk6a\" data-azb=\"az_column\" data-azat-width=\" 1\/6\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"58geuq2j\" class=\"az-element az-section\" style=\"padding-bottom:5%;\" data-az-id=\"58geuq2j\" data-azb=\"az_section\" data-azat-style=\"padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"qvbee6d9\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"b6hlu5zu\" data-azb=\"az_column\" data-azat-width=\"1\/6\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-8\" style=\"\" data-az-id=\"63k5iegu\" data-azb=\"az_column\" data-azat-width=\" 4\/6 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"dz5nasdi\" data-azb=\"az_text\" data-azcnt=\"true\">\n<h3>Vimeo Video<\/h3>\n<\/div><div class=\"az-element az-video embed-responsive embed-responsive-16by9\" style=\"\" data-az-id=\"lep3f6gs\" data-azb=\"az_video\" data-azat-link=\"https:\/\/vimeo.com\/35396305\"><iframe src=\"\/\/player.vimeo.com\/video\/35396305\" type=\"text\/html\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" frameborder=\"0\" style=\"width: 100%;\"><\/iframe><\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"qyp4lrqb\" data-azb=\"az_column\" data-azat-width=\" 1\/6\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"ww1xwvfz\" class=\"az-element az-section\" style=\"padding-bottom:5%;\" data-az-id=\"ww1xwvfz\" data-azb=\"az_section\" data-azat-style=\"padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"p5xlqvif\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"7jctpozh\" data-azb=\"az_column\" data-azat-width=\"1\/6\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-8\" style=\"\" data-az-id=\"7slhzyib\" data-azb=\"az_column\" data-azat-width=\" 4\/6 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"eler7z3o\" data-azb=\"az_text\" data-azcnt=\"true\">\n<h3>Youtube Video<\/h3>\n<\/div><div class=\"az-element az-video embed-responsive embed-responsive-16by9\" style=\"\" data-az-id=\"5i0mdhyf\" data-azb=\"az_video\" data-azat-link=\"https:\/\/www.youtube.com\/watch?v=ZwzY1o_hB5Y\"><iframe src=\"\/\/www.youtube.com\/embed\/ZwzY1o_hB5Y?rel=0&amp;showinfo=0\" type=\"text\/html\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" frameborder=\"0\" style=\"width: 100%;\"><\/iframe><\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"l9atphru\" data-azb=\"az_column\" data-azat-width=\" 1\/6\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "format": "full_html",
+            "processed": "<div id=\"61zolaup\" class=\"az-element az-section\" style=\"padding-top:5%;\" data-az-id=\"61zolaup\" data-azb=\"az_section\" data-azat-style=\"padding-top:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"xnofpf2i\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"okkfajwn\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"ii10qdzs\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"83c33dlf\" data-azb=\"az_text\" data-azcnt=\"true\">\n<h2 style=\"text-align: center;\">Responsive Video Element<\/h2>\n<\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"4h2az6cu\" data-azb=\"az_text\" data-azcnt=\"true\">\n<p class=\"lead\">With the video element you can easily add YouTube and Vimeo media to your page. No need to worry about responsive video players and video streaming bills.<\/p>\n\n<p class=\"lead\">New: <em>placeholder image<\/em>s. You can use these to add your own branding to videos. This also makes your page faster because the video player is loaded after clicking the image.<\/p>\n<\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"qczk51it\" data-azb=\"az_separator\" \/><\/div><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"xpge6f61\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"2dcdrteo\" class=\"az-element az-section\" style=\"\" data-az-id=\"2dcdrteo\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"padding-top:5%;\" data-az-id=\"rwiimfzp\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-style=\"padding-top:5%;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"cp8xsis9\" data-azb=\"az_column\" data-azat-width=\"1\/6\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-8\" style=\"\" data-az-id=\"88sqysbx\" data-azb=\"az_column\" data-azat-width=\" 4\/6 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"0d7eyr4m\" data-azb=\"az_text\" data-azcnt=\"true\">\n<h3>Video with placeholder image<\/h3>\n<\/div><div class=\"az-element az-video embed-responsive embed-responsive-16by9\" style=\"\" data-az-id=\"kdx50dft\" data-azb=\"az_video\" data-azat-link=\"https:\/\/www.youtube.com\/watch?v=ZwzY1o_hB5Y\" data-azat-image=\"https:\/\/i.imgur.com\/io3Lb31.png\"><div class=\"az-video-play\" style=\"background-image: url(&quot;https:\/\/i.imgur.com\/io3Lb31.png&quot;); background-position: center center; background-repeat: no-repeat; background-size: cover; cursor: pointer; position: absolute; height: 100%; width: 100%;\"><\/div><iframe src=\"\/\/www.youtube.com\/embed\/ZwzY1o_hB5Y?rel=0&amp;showinfo=0\" type=\"text\/html\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" frameborder=\"0\" style=\"width: 100%; z-index: 1; display: none;\"><\/iframe><\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"x8bfuk6a\" data-azb=\"az_column\" data-azat-width=\" 1\/6\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"58geuq2j\" class=\"az-element az-section\" style=\"padding-bottom:5%;\" data-az-id=\"58geuq2j\" data-azb=\"az_section\" data-azat-style=\"padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"qvbee6d9\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"b6hlu5zu\" data-azb=\"az_column\" data-azat-width=\"1\/6\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-8\" style=\"\" data-az-id=\"63k5iegu\" data-azb=\"az_column\" data-azat-width=\" 4\/6 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"dz5nasdi\" data-azb=\"az_text\" data-azcnt=\"true\">\n<h3>Vimeo Video<\/h3>\n<\/div><div class=\"az-element az-video embed-responsive embed-responsive-16by9\" style=\"\" data-az-id=\"lep3f6gs\" data-azb=\"az_video\" data-azat-link=\"https:\/\/vimeo.com\/35396305\"><iframe src=\"\/\/player.vimeo.com\/video\/35396305\" type=\"text\/html\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" frameborder=\"0\" style=\"width: 100%;\"><\/iframe><\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"qyp4lrqb\" data-azb=\"az_column\" data-azat-width=\" 1\/6\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"ww1xwvfz\" class=\"az-element az-section\" style=\"padding-bottom:5%;\" data-az-id=\"ww1xwvfz\" data-azb=\"az_section\" data-azat-style=\"padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"p5xlqvif\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"7jctpozh\" data-azb=\"az_column\" data-azat-width=\"1\/6\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-8\" style=\"\" data-az-id=\"7slhzyib\" data-azb=\"az_column\" data-azat-width=\" 4\/6 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"eler7z3o\" data-azb=\"az_text\" data-azcnt=\"true\">\n<h3>Youtube Video<\/h3>\n<\/div><div class=\"az-element az-video embed-responsive embed-responsive-16by9\" style=\"\" data-az-id=\"5i0mdhyf\" data-azb=\"az_video\" data-azat-link=\"https:\/\/www.youtube.com\/watch?v=ZwzY1o_hB5Y\"><iframe src=\"\/\/www.youtube.com\/embed\/ZwzY1o_hB5Y?rel=0&amp;showinfo=0\" type=\"text\/html\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" frameborder=\"0\" style=\"width: 100%;\"><\/iframe><\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-2\" style=\"\" data-az-id=\"l9atphru\" data-azb=\"az_column\" data-azat-width=\" 1\/6\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

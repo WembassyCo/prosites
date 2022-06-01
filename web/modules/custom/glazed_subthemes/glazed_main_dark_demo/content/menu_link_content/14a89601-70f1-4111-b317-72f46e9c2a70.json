@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/104\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "href": "http:\/\/default\/elements\/content-elements\/colored-icon-boxes?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_parent_entity": [
+            {
+                "href": "http:\/\/default\/admin\/structure\/menu\/item\/74\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "14a89601-70f1-4111-b317-72f46e9c2a70"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "value": "menu_link_content"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Colored Icon Boxes",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main"
+        }
+    ],
+    "link": [
+        {
+            "uri": "entity:node\/41",
+            "title": null,
+            "options": [],
+            "target_uuid": "ab0e8cd0-e2a2-4906-9a4e-dbfe66f318b3"
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": false
+        }
+    ],
+    "weight": [
+        {
+            "value": 4
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "parent": [
+        {
+            "value": "menu_link_content:13ac3beb-28b7-44f8-953f-8a0297fcbdb5"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-07-21T07:59:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/elements\/content-elements\/colored-icon-boxes?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ab0e8cd0-e2a2-4906-9a4e-dbfe66f318b3"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_parent_entity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/admin\/structure\/menu\/item\/74\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "13ac3beb-28b7-44f8-953f-8a0297fcbdb5"
+                    }
+                ]
+            }
+        ]
+    }
+}

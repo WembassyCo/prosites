@@ -1,0 +1,134 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/73\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "href": "http:\/\/default\/elements\/interactive-elements\/drupal-blocks?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_parent_entity": [
+            {
+                "href": "http:\/\/default\/admin\/structure\/menu\/item\/72\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "e10e2181-e33e-42b9-926a-6b3dbe71044d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "value": "menu_link_content"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Drupal Blocks",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main"
+        }
+    ],
+    "link": [
+        {
+            "uri": "entity:node\/76",
+            "title": null,
+            "options": [],
+            "target_uuid": "25423b7f-f3e8-4315-85dd-41776563a80e"
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": false
+        }
+    ],
+    "weight": [
+        {
+            "value": 5
+        }
+    ],
+    "expanded": [
+        {
+            "value": false
+        }
+    ],
+    "parent": [
+        {
+            "value": "menu_link_content:040dcdfc-dc83-48c4-a2da-bfaf6a01de5a"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-07-21T07:59:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/elements\/interactive-elements\/drupal-blocks?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "25423b7f-f3e8-4315-85dd-41776563a80e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_parent_entity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/admin\/structure\/menu\/item\/72\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "040dcdfc-dc83-48c4-a2da-bfaf6a01de5a"
+                    }
+                ]
+            }
+        ]
+    }
+}

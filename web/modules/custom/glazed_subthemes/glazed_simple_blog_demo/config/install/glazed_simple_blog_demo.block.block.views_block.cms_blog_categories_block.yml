@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cms_blog_categories
+  enforced:
+    module:
+      - cms_blog
+  module:
+    - system
+    - views
+  theme:
+    - glazed
+id: views_block.cms_blog_categories_block
+theme: glazed
+region: sidebar_second
+weight: -2
+provider: null
+plugin: 'views_block:cms_blog_categories-block'
+settings:
+  id: 'views_block:cms_blog_categories_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/blog\n/blog/*\n/tags/*"
+    negate: false

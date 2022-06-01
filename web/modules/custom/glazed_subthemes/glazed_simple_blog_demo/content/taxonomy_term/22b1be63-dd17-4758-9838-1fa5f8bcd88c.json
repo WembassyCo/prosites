@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/tags\/lifestyle?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+        }
+    },
+    "uuid": [
+        {
+            "value": "22b1be63-dd17-4758-9838-1fa5f8bcd88c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_tags"
+        }
+    ],
+    "name": [
+        {
+            "value": "Lifestyle",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T20:02:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/tags\/lifestyle",
+            "pid": 44,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,4575 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cms_page_image
+    - field.storage.node.field_cms_portfolio_category
+    - image.style.cms_bootstrap_1_2
+    - image.style.cms_bootstrap_1_2_photo
+    - image.style.cms_bootstrap_1_2_square
+    - node.type.cms_portfolio_project
+  module:
+    - image
+    - node
+    - sooperthemes_portfolio
+    - user
+    - views_bootstrap
+id: premium_portfolio
+label: 'SooperThemes Premium Portfolio Pages'
+module: views
+description: ''
+tag: ''
+base_table: node_field_data
+base_field: nid
+core: 8.x
+display:
+  default:
+    display_plugin: default
+    id: default
+    display_title: Master
+    position: 0
+    display_options:
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      cache:
+        type: tag
+        options: {  }
+      query:
+        type: views_query
+        options:
+          disable_sql_rewrite: false
+          distinct: false
+          replica: false
+          query_comment: ''
+          query_tags: {  }
+      exposed_form:
+        type: basic
+        options:
+          submit_button: Apply
+          reset_button: false
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          expose_sort_order: true
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        type: sooperthemes_portfolio_load_more
+        options:
+          items_per_page: 16
+          offset: 0
+          button_text: 'Load more'
+          auto: '0'
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: sequentially
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '2'
+            gap_vertical: '2'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: moveRight
+          caption_field_animation: 1
+          caption_color: ''
+          caption_text_color: ''
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h2
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          plugin_id: custom
+      filters:
+        status:
+          value: '1'
+          table: node_field_data
+          field: status
+          plugin_id: boolean
+          entity_type: node
+          entity_field: status
+          id: status
+          expose:
+            operator: ''
+          group: 1
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          value:
+            cms_portfolio_project: cms_portfolio_project
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          order: DESC
+          entity_type: node
+          entity_field: created
+          plugin_id: date
+          relationship: none
+          group_type: group
+          admin_label: ''
+          exposed: false
+          expose:
+            label: ''
+          granularity: second
+      title: 'Infite Scroll'
+      header: {  }
+      footer: {  }
+      empty: {  }
+      relationships: {  }
+      arguments: {  }
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_1:
+    display_plugin: page
+    id: page_1
+    display_title: 'Premium Portfolio'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium1
+      title: 'Premium Portfolio'
+      defaults:
+        title: false
+        style: false
+        row: false
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: bottomToTop
+          display_type_speed: 50
+          content_page: inline
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '2'
+            gap_vertical: '2'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: moveRight
+          caption_field_animation: 1
+          caption_color: ''
+          caption_text_color: ''
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_10:
+    display_plugin: page
+    id: page_10
+    display_title: 'Custom Colors'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium10
+      title: 'Premium Portfolio'
+      defaults:
+        title: false
+        style: false
+        row: false
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: sequentially
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '0'
+            gap_vertical: '0'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: pushTop
+          caption_field_animation: 1
+          caption_color: '#05e993'
+          caption_text_color: '#0181ef'
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_11:
+    display_plugin: page
+    id: page_11
+    display_title: 'Dark Overlay Minimalistic'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium11
+      title: 'Dark Overlay Minimalistic'
+      defaults:
+        title: false
+        style: false
+        row: false
+        fields: false
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: bottomToTop
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '4'
+            gap_vertical: '4'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: links
+              position: left
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: fadeOut
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 3
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: fadeIn
+          caption_field_animation: 1
+          caption_color: 'rgba( 0, 0, 0, 0.7 )'
+          caption_text_color: 'rgba( 255, 255, 255, 0.8 )'
+      display_description: ''
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: lead
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2_square
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_12:
+    display_plugin: page
+    id: page_12
+    display_title: 'Light Overlay Minimalistic'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium12
+      title: 'Light Overlay Minimalistic'
+      defaults:
+        title: false
+        style: false
+        row: false
+        fields: false
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: fadeInToTop
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '4'
+            gap_vertical: '4'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: links
+              position: left
+              label: ''
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: scaleSides
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 3
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            nothing: nothing
+          caption: zoom
+          caption_field_animation: 1
+          caption_color: 'rgba( 255, 255, 255, 0.7 )'
+          caption_text_color: 'rgba( 33, 37, 42, 0.8 )'
+      display_description: ''
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: true
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: true
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: '0'
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: false
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2_square
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: '<div class="lead" title="{{ title }}">+</div>'
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+  page_13:
+    display_plugin: page
+    id: page_13
+    display_title: 'Fancy Animations'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium13
+      title: 'Fancy Animations'
+      defaults:
+        title: false
+        style: false
+        row: false
+        fields: false
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: true
+          link: 1
+          display_type: bottomToTop
+          display_type_speed: 50
+          content_page: inline
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '2'
+            gap_vertical: '2'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: right
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: rotateRoom
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+            nothing: nothing
+            nothing_1: nothing_1
+          caption: zoom
+          caption_field_animation: 1
+          caption_color: 'rgba( 105, 36, 197, 0.8 )'
+          caption_text_color: '#ffffff'
+      display_description: ''
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h2
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: "<br />\n<div class=\"down-arrows\">▼▼</div>"
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
+        nothing_1:
+          id: nothing_1
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: '<div class="down-arrows">▼</div>'
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_14:
+    display_plugin: page
+    id: page_14
+    display_title: 'Side Caption'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium14
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h4
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      defaults:
+        fields: false
+        title: false
+        style: false
+        row: false
+      title: 'Side Caption'
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: bottomToTop
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '30'
+            gap_vertical: '30'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: overlayRightAlong
+          caption_field_animation: 0
+          caption_color: '#ffffff'
+          caption_text_color: ''
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_15:
+    display_plugin: page
+    id: page_15
+    display_title: 'Push Down Caption'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium15
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h4
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      defaults:
+        fields: false
+        title: false
+        style: false
+        row: false
+      title: 'Push Down Caption'
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: bottomToTop
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '30'
+            gap_vertical: '30'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: pushDown
+          caption_field_animation: 0
+          caption_color: '#ffffff'
+          caption_text_color: ''
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_16:
+    display_plugin: page
+    id: page_16
+    display_title: 'Reveal Caption'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium16
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h2
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h4
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      defaults:
+        fields: false
+        title: false
+        style: false
+        row: false
+      title: 'Reveal Caption'
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: bottomToTop
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '30'
+            gap_vertical: '30'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: revealBottom
+          caption_field_animation: 0
+          caption_color: '#ffffff'
+          caption_text_color: ''
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_17:
+    display_plugin: page
+    id: page_17
+    display_title: 'Zoom Caption'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium17
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h2
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h4
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      defaults:
+        fields: false
+        title: false
+        style: false
+        row: false
+      title: 'Zoom Caption'
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: bottomToTop
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '30'
+            gap_vertical: '30'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: zoom
+          caption_field_animation: 1
+          caption_color: '#ffffff'
+          caption_text_color: ''
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_2:
+    display_plugin: page
+    id: page_2
+    display_title: 'Bottom Caption'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium2
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h4
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      defaults:
+        fields: false
+        title: false
+        style: false
+        row: false
+      title: 'Bottom Caption'
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: bottomToTop
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '30'
+            gap_vertical: '30'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: overlayBottom
+          caption_field_animation: 0
+          caption_color: 'rgba( 255, 255, 255, 0.9 )'
+          caption_text_color: ''
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_3:
+    display_plugin: page
+    id: page_3
+    display_title: 'Inline Modal'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium3
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: true
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: true
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: '0'
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: false
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: ' <h4 title="{{ title }}">↓</h4>'
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
+      defaults:
+        fields: false
+        title: false
+        style: false
+        row: false
+      title: 'Inline Modal'
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: fadeIn
+          display_type_speed: 50
+          content_page: inline
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '30'
+            gap_vertical: '30'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            nothing: nothing
+          caption: minimal
+          caption_field_animation: 1
+          caption_color: 'rgba( 1, 176, 238, 0.835 )'
+          caption_text_color: '#ffffff'
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+  page_4:
+    display_plugin: page
+    id: page_4
+    display_title: 'Full Screen Modal'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium4
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: true
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: true
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: '0'
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: false
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: false
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        nothing:
+          id: nothing
+          table: views
+          field: nothing
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: true
+            text: '<h2 title="{{ title }}">+</h2>'
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: false
+          plugin_id: custom
+      defaults:
+        fields: false
+        title: false
+        style: false
+        row: false
+      title: 'Full Screen Modal'
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: fadeInToTop
+          display_type_speed: 50
+          content_page: full
+          single_page_animation: right
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '30'
+            gap_vertical: '30'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: scaleSides
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            nothing: nothing
+          caption: zoom
+          caption_field_animation: 0
+          caption_color: 'rgba( 87, 226, 185, 0.862 )'
+          caption_text_color: '#ffffff'
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+  page_5:
+    display_plugin: page
+    id: page_5
+    display_title: 'Slider Portfolio'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium6
+      title: 'Slider Portfolio'
+      defaults:
+        title: false
+        style: false
+        row: false
+        fields: false
+        pager: false
+        header: false
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: sequentially
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: slider
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '2'
+            gap_vertical: '2'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: ''
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: moveRight
+          caption_field_animation: 1
+          caption_color: ''
+          caption_text_color: ''
+      display_description: ''
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h3
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2_photo
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      pager:
+        type: some
+        options:
+          items_per_page: 16
+          offset: 0
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<h4>Slider views are a great choice to use for content blocks</h4>'
+            format: basic_html
+          plugin_id: text
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_6:
+    display_plugin: page
+    id: page_6
+    display_title: 'Lightbox Portfolio'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium5
+      fields:
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: glazed-util-gutter-bottom
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: sooperthemes_portfolio
+          settings:
+            image_style: cms_bootstrap_1_2
+            lightbox_image_style: full_width_4k
+            lightbox_title: image_title
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      defaults:
+        fields: false
+        title: false
+        style: false
+        row: false
+        pager: false
+      title: 'Lightbox Portfolio'
+      style:
+        type: views_bootstrap_grid
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          alignment: vertical
+          columns: '4'
+          col_xs: col-xs-6
+          col_sm: col-sm-6
+          col_md: col-md-3
+          col_lg: col-lg-3
+      row:
+        type: fields
+        options:
+          default_field_elements: false
+          inline: {  }
+          separator: ''
+          hide_empty: true
+      display_description: ''
+      pager:
+        type: some
+        options:
+          items_per_page: 16
+          offset: 0
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+  page_7:
+    display_plugin: page
+    id: page_7
+    display_title: 'Quick Search'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium7
+      title: 'Quick Search'
+      defaults:
+        title: false
+        style: false
+        row: false
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: true
+          link: 1
+          display_type: sequentially
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '2'
+            gap_vertical: '2'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: moveRight
+          caption_field_animation: 1
+          caption_color: ''
+          caption_text_color: ''
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_8:
+    display_plugin: page
+    id: page_8
+    display_title: 'Multiple Filters'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium8
+      title: 'Multiple Filters'
+      defaults:
+        title: false
+        style: false
+        row: false
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: sequentially
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '2'
+            gap_vertical: '2'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: right
+              label: 'Filter by service'
+            2:
+              field: field_cms_portfolio_client
+              style: dropdown
+              position: left
+              label: 'Filter by client'
+            3:
+              field: uid
+              style: buttons
+              position: right
+              label: 'Filter by author:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: moveRight
+          caption_field_animation: 1
+          caption_color: '#ffffff'
+          caption_text_color: '#0180ef'
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'
+  page_9:
+    display_plugin: page
+    id: page_9
+    display_title: 'Side Caption'
+    position: 1
+    display_options:
+      display_extenders: {  }
+      path: portfolio/premium9
+      fields:
+        title:
+          id: title
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: false
+            ellipsis: false
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: h4
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+        field_cms_portfolio_category:
+          id: field_cms_portfolio_category
+          table: node__field_cms_portfolio_category
+          field: field_cms_portfolio_category
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: div
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: entity_reference_label
+          settings:
+            link: true
+          group_column: target_id
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+        field_cms_page_image:
+          id: field_cms_page_image
+          table: node__field_cms_page_image
+          field: field_cms_page_image
+          relationship: none
+          group_type: group
+          admin_label: ''
+          label: ''
+          exclude: false
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image
+          settings:
+            image_style: cms_bootstrap_1_2
+            image_link: ''
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 1
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
+      defaults:
+        fields: false
+        title: false
+        style: false
+        row: false
+      title: 'Side Caption'
+      style:
+        type: sooperthemes_portfolio
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: false
+          search: false
+          link: 1
+          display_type: bottomToTop
+          display_type_speed: 50
+          content_page: ''
+          single_page_animation: left
+          single_page_inline_position: below
+          content_page_display: default
+          layout_mode: grid
+          sort_to_prevent_gaps: false
+          drag: false
+          auto: true
+          auto_timeout: 5000
+          auto_pause_on_hover: true
+          show_navigation: true
+          show_pagination: true
+          rewind_nav: true
+          scroll_by_page: true
+          layout:
+            gap_horizontal: '0'
+            gap_vertical: '0'
+            grid_adjustment: responsive
+          filters:
+            1:
+              field: field_cms_portfolio_category
+              style: buttons
+              position: center
+              label: 'Filter by:'
+            2:
+              field: ''
+              style: buttons
+              position: center
+              label: ''
+            3:
+              field: ''
+              style: dropdown
+              position: left
+              label: 'Filter by:'
+          animation_type: quicksand
+          media_queries:
+            -
+              width: 1500
+              cols: 5
+            -
+              width: 1100
+              cols: 4
+            -
+              width: 800
+              cols: 3
+            -
+              width: 480
+              cols: 2
+            -
+              width: 320
+              cols: 1
+            -
+              width: 320
+              cols: 1
+      row:
+        type: sooperthemes_portfolio_fields
+        options:
+          default_field_elements: 0
+          inline: {  }
+          separator: ''
+          hide_empty: 1
+          default_fields:
+            field_cms_page_image: field_cms_page_image
+          caption_fields:
+            title: title
+            field_cms_portfolio_category: field_cms_portfolio_category
+          caption: overlayRightAlong
+          caption_field_animation: 0
+          caption_color: '#0180ef'
+          caption_text_color: '#ffffff'
+      display_description: ''
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_cms_page_image'
+        - 'config:field.storage.node.field_cms_portfolio_category'

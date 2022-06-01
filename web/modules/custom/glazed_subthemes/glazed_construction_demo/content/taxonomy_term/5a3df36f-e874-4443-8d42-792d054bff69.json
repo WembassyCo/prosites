@@ -1,0 +1,50 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/default\/taxonomy\/term\/18?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_portfolio_category"
+        }
+    },
+    "uuid": [
+        {
+            "value": "5a3df36f-e874-4443-8d42-792d054bff69"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_portfolio_category"
+        }
+    ],
+    "name": [
+        {
+            "value": "Paving & Roofing",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-18T10:01:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

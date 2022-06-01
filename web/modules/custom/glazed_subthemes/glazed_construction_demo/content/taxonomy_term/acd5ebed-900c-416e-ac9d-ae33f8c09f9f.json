@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/default\/blog-category\/buildings?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+        }
+    },
+    "uuid": [
+        {
+            "value": "acd5ebed-900c-416e-ac9d-ae33f8c09f9f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_category"
+        }
+    ],
+    "name": [
+        {
+            "value": "Buildings",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-18T10:10:38+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/blog-category\/buildings",
+            "pid": 71,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

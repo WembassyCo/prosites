@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/layout-elements\/sections-and-backgrounds?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "56f6fddd-278e-4e65-ba09-0b47923f2a48"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-03T14:39:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Sections and Backgrounds",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T20:23:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-03T14:39:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/layout-elements\/sections-and-backgrounds",
+            "pid": 57,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"872y86xv\" class=\"az-element az-section\" style=\"padding-top:5%;\" data-az-id=\"872y86xv\" data-azb=\"az_section\" data-azat-style=\"padding-top:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"ezg8o89u\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"c2z2g1o7\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"8ydy0zld\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"6gqlrqj9\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Advanced Control with Full Width Sections<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"ejv0n4cj\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">Create immersive websites with full width photo backgrounds, parallax images and more. Sections are the outer-most element within Drag and Drop pages. They can contain rows and&nbsp;columns, and any other elements.<\/p><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"j9ot3i9d\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"s3z52axn\" class=\"az-element az-section\" style=\"margin-top: 5%; margin-bottom: 8%; padding-top: 12%; padding-bottom: 12%; background-image: url(&quot;https:\/\/i.imgur.com\/PSjSABp.jpg&quot;); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 0% 251px;\" data-glazed-builder-libraries=\"waypoints\" data-az-id=\"s3z52axn\" data-azb=\"az_section\" data-azat-fluid=\"yes\" data-azat-effect=\"parallax\" data-azat-parallax_speed=\"30\" data-azat-parallax_mode=\"fixed\" data-azat-style=\"margin-top:5%;margin-bottom:8%;padding-top:12%;padding-bottom:12%;background-image: url(https:\/\/i.imgur.com\/PSjSABp.jpg);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"d9dlefb7\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"bfs91spv\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"87x6jxvp\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed undefined\" style=\"\" data-az-id=\"r653yept\" data-azb=\"az_panel\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"tdph75v7\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Full Width Section<\/h2><div class=\"lead\" style=\"text-align: center;\">Think out of the box: Use Full Width Sections to create more engaging content. Especially on larger screens. Sections are the main building block in our Drag and Drop page builder.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"fv29f6e0\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed undefined\" style=\"\" data-az-id=\"wpyad6x6\" data-azb=\"az_panel\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"rpkg6rtt\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Full Width Section<\/h2><div class=\"lead\" style=\"text-align: center;\">Think out of the box: Use Full Width Sections to create more engaging content. Especially on larger screens. Sections are the main building block in our Drag and Drop page builder.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"svytikh4\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"9666ur3l\" class=\"az-element az-section\" style=\"margin-bottom:5%;\" data-az-id=\"9666ur3l\" data-azb=\"az_section\" data-azat-style=\"margin-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"han066q2\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">You can set a parallax scrolling speed parameter on your section background, or just use a normal background.<\/h2><\/div><\/div><\/div><div id=\"lgmdo2ec\" class=\"az-element az-section\" style=\"margin-top:8%;margin-bottom:5%;padding-top:8%;padding-bottom:8%;background-image: url(https:\/\/i.imgur.com\/PqTCt5k.jpg);background-repeat: no-repeat;background-size: cover;\" data-az-id=\"lgmdo2ec\" data-azb=\"az_section\" data-azat-fluid=\"yes\" data-azat-style=\"margin-top:8%;margin-bottom:5%;padding-top:8%;padding-bottom:8%;background-image: url(https:\/\/i.imgur.com\/PqTCt5k.jpg);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"ck7th4hu\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"oy3q0o8z\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"69g7z13a\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed undefined\" style=\"\" data-az-id=\"q7keqd3h\" data-azb=\"az_panel\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"dfkf2orn\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Full Width Section<\/h2><div class=\"lead\" style=\"text-align: center;\">Think out of the box: Use Full Width Sections to create more engaging content. Especially on larger screens. Sections are the main building block in our Drag and Drop page builder.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"6t263oqh\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed undefined\" style=\"\" data-az-id=\"fel40szn\" data-azb=\"az_panel\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"fmatxd5l\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Full Width Section<\/h2><div class=\"lead\" style=\"text-align: center;\">Think out of the box: Use Full Width Sections to create more engaging content. Especially on larger screens. Sections are the main building block in our Drag and Drop page builder.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"umwyiviw\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"ffs87ev6\" class=\"az-element az-section\" style=\"margin-top:8%;margin-bottom:8%;\" data-az-id=\"ffs87ev6\" data-azb=\"az_section\" data-azat-style=\"margin-top:8%;margin-bottom:8%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"1w0rwoht\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">And for truly spectacular sections you can add video backgrounds!<\/h2><\/div><\/div><\/div><div id=\"67ckhlny\" class=\"az-element az-section mb_YTPlayer isMuted\" style=\"margin-top: 10%; padding-top: 5%; padding-bottom: 5%; background-image: none;\" data-glazed-builder-libraries=\"ytplayer\" data-az-id=\"67ckhlny\" data-property=\"{videoURL:'nfWlot6h_JM',containment:'[data-az-id=67ckhlny]', showControls:false, autoPlay:true, stopMovieOnBlur:false, loop:true, mute:true, startAt:150, stopAt:165, opacity:1, addRaster:false}\" data-azb=\"az_section\" data-azat-effect=\"youtube\" data-azat-video_options=\"loop,mute\" data-azat-video_youtube=\"https:\/\/www.youtube.com\/watch?v=nfWlot6h_JM\" data-azat-video_start=\"150\" data-azat-video_stop=\"165\" data-azat-style=\"margin-top:10%;padding-top:5%;padding-bottom:5%;\"><div class=\"az-ctnr container\" style=\"position: relative;\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"wukjj2gk\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"lueue7c6\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"margin-top:-5%;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;background-color:#fcec00;\" data-az-id=\"jknazd0q\" data-azb=\"az_text\" data-azat-style=\"margin-top:-5%;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;background-color:#fcec00;\" data-azcnt=\"true\"><p class=\"lead\" style=\"text-align: center;\"><span style=\"color:#212b9a;\">Create immersive digital experiences with Video Backgrounds. Embed YouTube videos with or without sound.<\/span><\/p><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"6ira2cbq\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"padding-top:50%;\" data-az-id=\"qbe10ib3\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azat-style=\"padding-top:50%;\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"margin-bottom:-5%;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;background-color:#fcec00;\" data-az-id=\"f1we4gjr\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:-5%;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;background-color:#fcec00;\" data-azcnt=\"true\"><h3><span style=\"color:#212b9a;\">Video Background Options<\/span><\/h3><p class=\"lead\"><span style=\"color:#212b9a;\">- Loop video<br>- Mute video<br>- Start Time<br>- Stop Time<\/span><\/p><\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.mb.YTPlayer\/dist\/css\/jquery.mb.YTPlayer.min.css\">\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.parallax\/jquery.parallax.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.mb.YTPlayer\/dist\/jquery.mb.YTPlayer.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "format": "full_html",
+            "processed": "<div id=\"872y86xv\" class=\"az-element az-section\" style=\"padding-top:5%;\" data-az-id=\"872y86xv\" data-azb=\"az_section\" data-azat-style=\"padding-top:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"ezg8o89u\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"c2z2g1o7\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"8ydy0zld\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"6gqlrqj9\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Advanced Control with Full Width Sections<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"ejv0n4cj\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">Create immersive websites with full width photo backgrounds, parallax images and more. Sections are the outer-most element within Drag and Drop pages. They can contain rows and\u00a0columns, and any other elements.<\/p><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"j9ot3i9d\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"s3z52axn\" class=\"az-element az-section\" style=\"margin-top: 5%; margin-bottom: 8%; padding-top: 12%; padding-bottom: 12%; background-image: url(&quot;https:\/\/i.imgur.com\/PSjSABp.jpg&quot;); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 0% 251px;\" data-glazed-builder-libraries=\"waypoints\" data-az-id=\"s3z52axn\" data-azb=\"az_section\" data-azat-fluid=\"yes\" data-azat-effect=\"parallax\" data-azat-parallax_speed=\"30\" data-azat-parallax_mode=\"fixed\" data-azat-style=\"margin-top:5%;margin-bottom:8%;padding-top:12%;padding-bottom:12%;background-image: url(https:\/\/i.imgur.com\/PSjSABp.jpg);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"d9dlefb7\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"bfs91spv\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"87x6jxvp\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed undefined\" style=\"\" data-az-id=\"r653yept\" data-azb=\"az_panel\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"tdph75v7\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Full Width Section<\/h2><div class=\"lead\" style=\"text-align: center;\">Think out of the box: Use Full Width Sections to create more engaging content. Especially on larger screens. Sections are the main building block in our Drag and Drop page builder.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"fv29f6e0\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed undefined\" style=\"\" data-az-id=\"wpyad6x6\" data-azb=\"az_panel\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"rpkg6rtt\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Full Width Section<\/h2><div class=\"lead\" style=\"text-align: center;\">Think out of the box: Use Full Width Sections to create more engaging content. Especially on larger screens. Sections are the main building block in our Drag and Drop page builder.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"svytikh4\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"9666ur3l\" class=\"az-element az-section\" style=\"margin-bottom:5%;\" data-az-id=\"9666ur3l\" data-azb=\"az_section\" data-azat-style=\"margin-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"han066q2\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">You can set a parallax scrolling speed parameter on your section background, or just use a normal background.<\/h2><\/div><\/div><\/div><div id=\"lgmdo2ec\" class=\"az-element az-section\" style=\"margin-top:8%;margin-bottom:5%;padding-top:8%;padding-bottom:8%;background-image: url(https:\/\/i.imgur.com\/PqTCt5k.jpg);background-repeat: no-repeat;background-size: cover;\" data-az-id=\"lgmdo2ec\" data-azb=\"az_section\" data-azat-fluid=\"yes\" data-azat-style=\"margin-top:8%;margin-bottom:5%;padding-top:8%;padding-bottom:8%;background-image: url(https:\/\/i.imgur.com\/PqTCt5k.jpg);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"ck7th4hu\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"oy3q0o8z\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"69g7z13a\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed undefined\" style=\"\" data-az-id=\"q7keqd3h\" data-azb=\"az_panel\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"dfkf2orn\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Full Width Section<\/h2><div class=\"lead\" style=\"text-align: center;\">Think out of the box: Use Full Width Sections to create more engaging content. Especially on larger screens. Sections are the main building block in our Drag and Drop page builder.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"6t263oqh\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed undefined\" style=\"\" data-az-id=\"fel40szn\" data-azb=\"az_panel\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"fmatxd5l\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Full Width Section<\/h2><div class=\"lead\" style=\"text-align: center;\">Think out of the box: Use Full Width Sections to create more engaging content. Especially on larger screens. Sections are the main building block in our Drag and Drop page builder.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"umwyiviw\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"ffs87ev6\" class=\"az-element az-section\" style=\"margin-top:8%;margin-bottom:8%;\" data-az-id=\"ffs87ev6\" data-azb=\"az_section\" data-azat-style=\"margin-top:8%;margin-bottom:8%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"1w0rwoht\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">And for truly spectacular sections you can add video backgrounds!<\/h2><\/div><\/div><\/div><div id=\"67ckhlny\" class=\"az-element az-section mb_YTPlayer isMuted\" style=\"margin-top: 10%; padding-top: 5%; padding-bottom: 5%; background-image: none;\" data-glazed-builder-libraries=\"ytplayer\" data-az-id=\"67ckhlny\" data-property=\"{videoURL:'nfWlot6h_JM',containment:'[data-az-id=67ckhlny]', showControls:false, autoPlay:true, stopMovieOnBlur:false, loop:true, mute:true, startAt:150, stopAt:165, opacity:1, addRaster:false}\" data-azb=\"az_section\" data-azat-effect=\"youtube\" data-azat-video_options=\"loop,mute\" data-azat-video_youtube=\"https:\/\/www.youtube.com\/watch?v=nfWlot6h_JM\" data-azat-video_start=\"150\" data-azat-video_stop=\"165\" data-azat-style=\"margin-top:10%;padding-top:5%;padding-bottom:5%;\"><div class=\"az-ctnr container\" style=\"position: relative;\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"wukjj2gk\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"lueue7c6\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"margin-top:-5%;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;background-color:#fcec00;\" data-az-id=\"jknazd0q\" data-azb=\"az_text\" data-azat-style=\"margin-top:-5%;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;background-color:#fcec00;\" data-azcnt=\"true\"><p class=\"lead\" style=\"text-align: center;\"><span style=\"color:#212b9a;\">Create immersive digital experiences with Video Backgrounds. Embed YouTube videos with or without sound.<\/span><\/p><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"6ira2cbq\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"padding-top:50%;\" data-az-id=\"qbe10ib3\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azat-style=\"padding-top:50%;\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"margin-bottom:-5%;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;background-color:#fcec00;\" data-az-id=\"f1we4gjr\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:-5%;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;background-color:#fcec00;\" data-azcnt=\"true\"><h3><span style=\"color:#212b9a;\">Video Background Options<\/span><\/h3><p class=\"lead\"><span style=\"color:#212b9a;\">- Loop video<br \/>- Mute video<br \/>- Start Time<br \/>- Stop Time<\/span><\/p><\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.mb.YTPlayer\/dist\/css\/jquery.mb.YTPlayer.min.css\" \/>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.parallax\/jquery.parallax.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.mb.YTPlayer\/dist\/jquery.mb.YTPlayer.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

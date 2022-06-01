@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/layout-elements\/positioned-layers?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "548eeac9-edfb-4793-b988-07e466a15e72"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-03T14:37:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Positioned Layers",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T19:38:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-03T14:37:01+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/layout-elements\/positioned-layers",
+            "pid": 64,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"5sm6evek\" class=\"az-element az-section clearfix silver\" style=\"margin-bottom:200px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"5sm6evek\" data-azb=\"az_section\" data-azat-el_class=\"clearfix silver\" data-azat-style=\"margin-bottom:200px;padding-top:5%;padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"hucb784u\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"saj3zjdx\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed glazed-util-background-primary undefined\" style=\"margin-top:60px;padding-top:80px;padding-bottom:80px;padding-left:80px;padding-right:80px;\" data-az-id=\"3t05ibov\" data-azb=\"az_panel\" data-azat-el_class=\"glazed-util-background-primary\" data-azat-style=\"margin-top:60px;padding-top:80px;padding-bottom:80px;padding-left:80px;padding-right:80px;\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"vqks9m6a\" data-azb=\"az_image\" data-azat-image=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/thumbnail\/public\/michael-hinrichs.jpg?itok=2zN0n8LM&amp;fid=565\" data-azat-width=\"75\" data-azat-height=\"75\" data-azat-style=\"margin-top:-120px;margin-left:-120px;border-top-width:2px;border-bottom-width:2px;border-left-width:2px;border-right-width:2px;border-style:solid;\"><img src=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/thumbnail\/public\/michael-hinrichs.jpg?itok=2zN0n8LM&amp;fid=565\" alt=\"\" title=\"\" style=\"margin-top: -120px; margin-left: -120px; border-width: 2px; border-style: solid; width: 75px; height: 75px;\"><\/div><div class=\"az-element az-text\" style=\"margin-top:-6px;\" data-az-id=\"tyib4qsu\" data-azb=\"az_text\" data-azat-style=\"margin-top:-6px;\" data-azcnt=\"true\"><div class=\"lead\">The positioned layers container allows you to use absolute positioning and z-index to create complex layouts with overlapping elements.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"25ty3any\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-layers\" style=\"margin-left:-20%;\" data-az-id=\"i5qdauvu\" data-azb=\"az_layers\" data-azat-width=\"120%\" data-azat-height=\"300\" data-azat-style=\"margin-left:-20%;\"><div id=\"i5qdauvu\" class=\"az-ctnr\" style=\"width: 120%; height: 300px;\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"h66hm4l0\" style=\"z-index: 0; position: relative; left: 0%; top: 0%; width: 100%; height: 100%;\" data-azb=\"az_image\" data-azat-image=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/bootstrap3_col8\/public\/perspective-view-0.1.jpg?itok=uBuh_e0U&amp;fid=564\" data-azat-width=\"\" data-azat-height=\"\" data-azat-pos_left=\"0%\" data-azat-pos_top=\"0%\" data-azat-pos_width=\"100%\" data-azat-pos_height=\"100%\"><img src=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/bootstrap3_col8\/public\/perspective-view-0.1.jpg?itok=uBuh_e0U&amp;fid=564\" alt=\"\" title=\"\" style=\"\"><\/div><\/div><\/div><div class=\"az-element az-panel panel panel-glazed glazed-util-background-accent2 undefined\" style=\"margin-top:-90px;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;\" data-az-id=\"ae5kenyc\" data-azb=\"az_panel\" data-azat-el_class=\"glazed-util-background-accent2\" data-azat-style=\"margin-top:-90px;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"pbp0zuvu\" data-azb=\"az_image\" data-azat-image=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/thumbnail\/public\/sarah-mcfinley.jpg?itok=UPT-UCBU&amp;fid=563\" data-azat-width=\"75\" data-azat-height=\"75\" data-azat-style=\"margin-top:-120px;margin-left:-120px;border-top-width:2px;border-bottom-width:2px;border-left-width:2px;border-right-width:2px;border-style:solid;\"><img src=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/thumbnail\/public\/sarah-mcfinley.jpg?itok=UPT-UCBU&amp;fid=563\" alt=\"\" title=\"\" style=\"margin-top: -120px; margin-left: -120px; border-width: 2px; border-style: solid; width: 75px; height: 75px;\"><\/div><div class=\"az-element az-text\" style=\"margin-top:-6px;\" data-az-id=\"tz1ql7bo\" data-azb=\"az_text\" data-azat-style=\"margin-top:-6px;\" data-azcnt=\"true\"><div class=\"lead\">It's incredible. Glazed impressed me on multiple levels. Design, beautiful code, clean CSS elements. Very easy to install and use. And great service, the page builder was overwhelming at first but now I love it!<\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "format": "full_html",
+            "processed": "<div id=\"5sm6evek\" class=\"az-element az-section clearfix silver\" style=\"margin-bottom:200px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"5sm6evek\" data-azb=\"az_section\" data-azat-el_class=\"clearfix silver\" data-azat-style=\"margin-bottom:200px;padding-top:5%;padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"hucb784u\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"saj3zjdx\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-panel panel panel-glazed glazed-util-background-primary undefined\" style=\"margin-top:60px;padding-top:80px;padding-bottom:80px;padding-left:80px;padding-right:80px;\" data-az-id=\"3t05ibov\" data-azb=\"az_panel\" data-azat-el_class=\"glazed-util-background-primary\" data-azat-style=\"margin-top:60px;padding-top:80px;padding-bottom:80px;padding-left:80px;padding-right:80px;\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"vqks9m6a\" data-azb=\"az_image\" data-azat-image=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/thumbnail\/public\/michael-hinrichs.jpg?itok=2zN0n8LM&amp;fid=565\" data-azat-width=\"75\" data-azat-height=\"75\" data-azat-style=\"margin-top:-120px;margin-left:-120px;border-top-width:2px;border-bottom-width:2px;border-left-width:2px;border-right-width:2px;border-style:solid;\"><img src=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/thumbnail\/public\/michael-hinrichs.jpg?itok=2zN0n8LM&amp;fid=565\" alt=\"\" title=\"\" style=\"margin-top: -120px; margin-left: -120px; border-width: 2px; border-style: solid; width: 75px; height: 75px;\" \/><\/div><div class=\"az-element az-text\" style=\"margin-top:-6px;\" data-az-id=\"tyib4qsu\" data-azb=\"az_text\" data-azat-style=\"margin-top:-6px;\" data-azcnt=\"true\"><div class=\"lead\">The positioned layers container allows you to use absolute positioning and z-index to create complex layouts with overlapping elements.<\/div><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"25ty3any\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-layers\" style=\"margin-left:-20%;\" data-az-id=\"i5qdauvu\" data-azb=\"az_layers\" data-azat-width=\"120%\" data-azat-height=\"300\" data-azat-style=\"margin-left:-20%;\"><div id=\"i5qdauvu\" class=\"az-ctnr\" style=\"width: 120%; height: 300px;\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"h66hm4l0\" style=\"z-index: 0; position: relative; left: 0%; top: 0%; width: 100%; height: 100%;\" data-azb=\"az_image\" data-azat-image=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/bootstrap3_col8\/public\/perspective-view-0.1.jpg?itok=uBuh_e0U&amp;fid=564\" data-azat-width=\"\" data-azat-height=\"\" data-azat-pos_left=\"0%\" data-azat-pos_top=\"0%\" data-azat-pos_width=\"100%\" data-azat-pos_height=\"100%\"><img src=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/bootstrap3_col8\/public\/perspective-view-0.1.jpg?itok=uBuh_e0U&amp;fid=564\" alt=\"\" title=\"\" style=\"\" \/><\/div><\/div><\/div><div class=\"az-element az-panel panel panel-glazed glazed-util-background-accent2 undefined\" style=\"margin-top:-90px;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;\" data-az-id=\"ae5kenyc\" data-azb=\"az_panel\" data-azat-el_class=\"glazed-util-background-accent2\" data-azat-style=\"margin-top:-90px;padding-top:50px;padding-bottom:50px;padding-left:50px;padding-right:50px;\"><div class=\"panel-body az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"pbp0zuvu\" data-azb=\"az_image\" data-azat-image=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/thumbnail\/public\/sarah-mcfinley.jpg?itok=UPT-UCBU&amp;fid=563\" data-azat-width=\"75\" data-azat-height=\"75\" data-azat-style=\"margin-top:-120px;margin-left:-120px;border-top-width:2px;border-bottom-width:2px;border-left-width:2px;border-right-width:2px;border-style:solid;\"><img src=\"https:\/\/www.sooperthemes.com\/-files-directory-\/styles\/thumbnail\/public\/sarah-mcfinley.jpg?itok=UPT-UCBU&amp;fid=563\" alt=\"\" title=\"\" style=\"margin-top: -120px; margin-left: -120px; border-width: 2px; border-style: solid; width: 75px; height: 75px;\" \/><\/div><div class=\"az-element az-text\" style=\"margin-top:-6px;\" data-az-id=\"tz1ql7bo\" data-azb=\"az_text\" data-azat-style=\"margin-top:-6px;\" data-azcnt=\"true\"><div class=\"lead\">It's incredible. Glazed impressed me on multiple levels. Design, beautiful code, clean CSS elements. Very easy to install and use. And great service, the page builder was overwhelming at first but now I love it!<\/div><\/div><\/div><\/div><\/div><\/div><\/div><\/div><script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

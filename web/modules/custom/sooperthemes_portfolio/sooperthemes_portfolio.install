@@ -1,0 +1,45 @@
+<?php
+
+use Drupal\Component\Utility\Html;
+use GuzzleHttp\Exception\RequestException;
+use Psr\Http\Message\ResponseInterface;
+use Drupal\Component\Serialization\Json;
+
+/**
+ * @file
+ * Install, update, uninstall and schema functions for the module.
+ */
+
+/**
+ * Implements hook_requirements().
+ */
+function sooperthemes_portfolio_requirements($phase) {
+  $requirements = [];
+  $result = FALSE;
+  $domain = Html::escape(\Drupal::request()->getHost());
+  // try {
+  //   $result = \Drupal::httpClient()->request('GET', 'https://www.sooperthemes.com/api/domain-status/' . $domain);
+  // }
+  // catch (RequestException $e) {
+  //   watchdog_exception('sooperthemes_portfolio', $e);
+  // }
+  //
+  // $requirements['sooperthemes_portfolio_domain_status'] = [
+  //   'title' => t('Sooperthemes Portfolio License Status'),
+  //   'description' => t('Cannot connect to sooperthemes.com license server, license status unknown'),
+  //   'severity' => REQUIREMENT_INFO,
+  //   'value' => t('License'),
+  // ];
+  // if ($result instanceof ResponseInterface && $result->getStatusCode() == 200) {
+  //   $data = Json::decode($result->getBody());
+  //   if ($data['status'] == 'authorized') {
+  //     $requirements['sooperthemes_portfolio_domain_status']['description'] = t('Sooperthemes domain license found');
+  //     $requirements['sooperthemes_portfolio_domain_status']['severity'] = REQUIREMENT_OK;
+  //   }
+  //   else {
+  //     $requirements['sooperthemes_portfolio_domain_status']['description'] = t('%domain domain license not found. Please contact SooperThemes at www.sooperthemes.com/contact to authorize this website. If this environment is stricly for development or testing a license is not required.', ['%domain' => $domain]);
+  //   }
+  // }
+
+  return $requirements;
+}

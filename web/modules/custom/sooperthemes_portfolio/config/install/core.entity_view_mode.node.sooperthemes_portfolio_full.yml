@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - sooperthemes_portfolio
+  module:
+    - node
+id: node.sooperthemes_portfolio_full
+label: 'Portfolio full'
+targetEntityType: node
+cache: true

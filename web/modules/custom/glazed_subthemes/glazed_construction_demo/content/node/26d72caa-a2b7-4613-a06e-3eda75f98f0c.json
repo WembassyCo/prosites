@@ -1,0 +1,146 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/company\/team?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "26d72caa-a2b7-4613-a06e-3eda75f98f0c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-01-17T20:21:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b5827b9-533a-4e90-ac91-889055eec1cc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b5827b9-533a-4e90-ac91-889055eec1cc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Team",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-17T18:50:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-17T20:21:22+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/company\/team",
+            "pid": 51,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"aqmiuqqb\" class=\"az-element az-section\" style=\"\" data-az-id=\"aqmiuqqb\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"6hshztl2\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Construction Managers<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"mbca445w\" data-azb=\"az_separator\"><\/div><\/div><div id=\"qvh586g7\" class=\"az-element az-section\" style=\"\" data-az-id=\"qvh586g7\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-template\" style=\"\" data-az-id=\"gsje74cx\" data-azb=\"teambox-3\"><div data-azcnt=\"true\"><div class=\"row\">\n          <div class=\"col-sm-4\">\n            <div data-glazed-builder-libraries=\"teambox font_awesome icon_helpers social_icons\" class=\"stpe-teambox stpe-teambox--split clearfix\">\n              <img alt=\"\" class=\"img-responsive\" src=\"-base-url-\/-files-directory-\/2018-01\/p2.jpg?fid=144\" style=\"\">\n              <div class=\"stpe-teambox__member-info\">\n                <div class=\"stpe-teambox__member-social\">\n                  <ul class=\"stbe-social-links stbe-social-links--inline\">\n                    <li class=\"stbe-social-links__item\" title=\"twitter\">\n                    <\/li><li class=\"stbe-social-links__item\" title=\"linkedin\">\n                  <\/li><\/ul>\n                <\/div>\n                <div class=\"stpe-teambox__member-name-role\">\n                  <h3 class=\"stpe-teambox__member-name\" style=\"\">Leonard Bauman<\/h3>\n                  <h4 class=\"stpe-teambox__member-role\" style=\"\">&nbsp;&nbsp;&nbsp;<\/h4>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"col-sm-4\">\n            <div data-glazed-builder-libraries=\"teambox font_awesome icon_helpers social_icons\" class=\"stpe-teambox stpe-teambox--split clearfix\">\n              <img alt=\"\" class=\"img-responsive\" src=\"-base-url-\/-files-directory-\/2018-01\/p3.jpg?fid=145\" style=\"\">\n              <div class=\"stpe-teambox__member-info\">\n                <div class=\"stpe-teambox__member-social\">\n                  <ul class=\"stbe-social-links stbe-social-links--inline\">\n                    <li class=\"stbe-social-links__item\" title=\"twitter\">\n                    <\/li><li class=\"stbe-social-links__item\" title=\"linkedin\">\n                  <\/li><\/ul>\n                <\/div>\n                <div class=\"stpe-teambox__member-name-role\">\n                  <h3 class=\"stpe-teambox__member-name\" style=\"\">David Henderson<\/h3>\n                  <h4 class=\"stpe-teambox__member-role\" style=\"\">&nbsp;&nbsp;&nbsp;<\/h4>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"col-sm-4\">\n            <div data-glazed-builder-libraries=\"teambox font_awesome icon_helpers social_icons\" class=\"stpe-teambox stpe-teambox--split clearfix\">\n              <img alt=\"\" class=\"img-responsive\" src=\"-base-url-\/-files-directory-\/2018-01\/p5.jpg?fid=146\" style=\"\">\n              <div class=\"stpe-teambox__member-info\">\n                <div class=\"stpe-teambox__member-social\">\n                  <ul class=\"stbe-social-links stbe-social-links--inline\">\n                    <li class=\"stbe-social-links__item\" title=\"twitter\">\n                    <\/li><li class=\"stbe-social-links__item\" title=\"linkedin\">\n                  <\/li><\/ul>\n                <\/div>\n                <div class=\"stpe-teambox__member-name-role\">\n                  <h3 class=\"stpe-teambox__member-name\" style=\"\">Frances Ford<\/h3>\n                  <h4 class=\"stpe-teambox__member-role\" style=\"\">&nbsp;&nbsp;&nbsp;<\/h4>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n        <\/div><\/div><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"7mo8b7db\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Operational Managers<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"s3rpxsjk\" data-azb=\"az_separator\"><\/div><\/div><div id=\"bssgvs0l\" class=\"az-element az-section\" style=\"\" data-az-id=\"bssgvs0l\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-template\" style=\"\" data-az-id=\"ekrk0sda\" data-azb=\"teambox-3\"><div data-azcnt=\"true\"><div class=\"row\">\n          <div class=\"col-sm-4\">\n            <div data-glazed-builder-libraries=\"teambox font_awesome icon_helpers social_icons\" class=\"stpe-teambox stpe-teambox--split clearfix\">\n              <img alt=\"\" class=\"img-responsive\" src=\"-base-url-\/-files-directory-\/2018-01\/p1.jpg?fid=147\" style=\"\">\n              <div class=\"stpe-teambox__member-info\">\n                <div class=\"stpe-teambox__member-social\">\n                  <ul class=\"stbe-social-links stbe-social-links--inline\">\n                    <li class=\"stbe-social-links__item\" title=\"twitter\">\n                    <\/li><li class=\"stbe-social-links__item\" title=\"linkedin\">\n                  <\/li><\/ul>\n                <\/div>\n                <div class=\"stpe-teambox__member-name-role\">\n                  <h3 class=\"stpe-teambox__member-name\" style=\"\">Jeffrey Parson<\/h3>\n                  <h4 class=\"stpe-teambox__member-role\" style=\"\">&nbsp;&nbsp;&nbsp;<\/h4>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"col-sm-4\">\n            <div data-glazed-builder-libraries=\"teambox font_awesome icon_helpers social_icons\" class=\"stpe-teambox stpe-teambox--split clearfix\">\n              <img alt=\"\" class=\"img-responsive\" src=\"-base-url-\/-files-directory-\/2018-01\/p4.jpg?fid=148\" style=\"\">\n              <div class=\"stpe-teambox__member-info\">\n                <div class=\"stpe-teambox__member-social\">\n                  <ul class=\"stbe-social-links stbe-social-links--inline\">\n                    <li class=\"stbe-social-links__item\" title=\"twitter\">\n                    <\/li><li class=\"stbe-social-links__item\" title=\"linkedin\">\n                  <\/li><\/ul>\n                <\/div>\n                <div class=\"stpe-teambox__member-name-role\">\n                  <h3 class=\"stpe-teambox__member-name\" style=\"\">Nora Garling<\/h3>\n                  <h4 class=\"stpe-teambox__member-role\" style=\"\">&nbsp;&nbsp;&nbsp;<\/h4>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"col-sm-4\">\n            <div data-glazed-builder-libraries=\"teambox font_awesome icon_helpers social_icons\" class=\"stpe-teambox stpe-teambox--split clearfix\">\n              <img alt=\"\" class=\"img-responsive\" src=\"-base-url-\/-files-directory-\/2018-01\/p6.jpg?fid=149\" style=\"\">\n              <div class=\"stpe-teambox__member-info\">\n                <div class=\"stpe-teambox__member-social\">\n                  <ul class=\"stbe-social-links stbe-social-links--inline\">\n                    <li class=\"stbe-social-links__item\" title=\"twitter\">\n                    <\/li><li class=\"stbe-social-links__item\" title=\"linkedin\">\n                  <\/li><\/ul>\n                <\/div>\n                <div class=\"stpe-teambox__member-name-role\">\n                  <h3 class=\"stpe-teambox__member-name\" style=\"\">Jonas Foster<\/h3>\n                  <h4 class=\"stpe-teambox__member-role\" style=\"\">&nbsp;&nbsp;&nbsp;<\/h4>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n        <\/div><\/div><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"n9j3lp7g\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Top Level Management<\/h2><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"57q2309j\" data-azb=\"az_separator\"><\/div><\/div><div id=\"vxew3xy9\" class=\"az-element az-section\" style=\"\" data-az-id=\"vxew3xy9\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-template\" style=\"\" data-az-id=\"2txqxad8\" data-azb=\"teambox-3\"><div data-azcnt=\"true\"><div class=\"row\">\n          <div class=\"col-sm-4\">\n            <div data-glazed-builder-libraries=\"teambox font_awesome icon_helpers social_icons\" class=\"stpe-teambox stpe-teambox--split clearfix\">\n              <img alt=\"\" class=\"img-responsive\" src=\"-base-url-\/-files-directory-\/2018-01\/p9.jpg?fid=150\" style=\"\">\n              <div class=\"stpe-teambox__member-info\">\n                <div class=\"stpe-teambox__member-social\">\n                  <ul class=\"stbe-social-links stbe-social-links--inline\">\n                    <li class=\"stbe-social-links__item\" title=\"twitter\">\n                    <\/li><li class=\"stbe-social-links__item\" title=\"linkedin\">\n                  <\/li><\/ul>\n                <\/div>\n                <div class=\"stpe-teambox__member-name-role\">\n                  <h3 class=\"stpe-teambox__member-name\" style=\"\">Kari Anderson<\/h3>\n                  <h4 class=\"stpe-teambox__member-role\" style=\"\">CFO<\/h4>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"col-sm-4\">\n            <div data-glazed-builder-libraries=\"teambox font_awesome icon_helpers social_icons\" class=\"stpe-teambox stpe-teambox--split clearfix\">\n              <img alt=\"\" class=\"img-responsive\" src=\"-base-url-\/-files-directory-\/2018-01\/p8.jpg?fid=151\" style=\"\">\n              <div class=\"stpe-teambox__member-info\">\n                <div class=\"stpe-teambox__member-social\">\n                  <ul class=\"stbe-social-links stbe-social-links--inline\">\n                    <li class=\"stbe-social-links__item\" title=\"twitter\">\n                    <\/li><li class=\"stbe-social-links__item\" title=\"linkedin\">\n                  <\/li><\/ul>\n                <\/div>\n                <div class=\"stpe-teambox__member-name-role\">\n                  <h3 class=\"stpe-teambox__member-name\" style=\"\">Kevin Hunter<\/h3>\n                  <h4 class=\"stpe-teambox__member-role\" style=\"\">CTO<\/h4>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n          <div class=\"col-sm-4\">\n            <div data-glazed-builder-libraries=\"teambox font_awesome icon_helpers social_icons\" class=\"stpe-teambox stpe-teambox--split clearfix\">\n              <img alt=\"\" class=\"img-responsive\" src=\"-base-url-\/-files-directory-\/2018-01\/p7.jpg?fid=152\" style=\"\">\n              <div class=\"stpe-teambox__member-info\">\n                <div class=\"stpe-teambox__member-social\">\n                  <ul class=\"stbe-social-links stbe-social-links--inline\">\n                    <li class=\"stbe-social-links__item\" title=\"twitter\">\n                    <\/li><li class=\"stbe-social-links__item\" title=\"linkedin\">\n                  <\/li><\/ul>\n                <\/div>\n                <div class=\"stpe-teambox__member-name-role\">\n                  <h3 class=\"stpe-teambox__member-name\" style=\"\">Matthew Gilmore<\/h3>\n                  <h4 class=\"stpe-teambox__member-role\" style=\"\">CEO<\/h4>\n                <\/div>\n              <\/div>\n            <\/div>\n          <\/div>\n        <\/div><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

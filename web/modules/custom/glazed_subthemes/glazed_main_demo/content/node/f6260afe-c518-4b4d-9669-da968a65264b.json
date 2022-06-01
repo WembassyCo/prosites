@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/media-elements\/drop-shadow?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "f6260afe-c518-4b4d-9669-da968a65264b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-07-20T20:43:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Drop Shadow",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T20:42:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-07-20T20:43:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/media-elements\/drop-shadow",
+            "pid": 49,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" data-az-id=\"ok8tunra\" data-azat-style=\"padding-top:60px;\" data-azb=\"az_section\" id=\"ok8tunra\" style=\"padding-top:60px;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"xzgmj2y7\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"dzsmf2az\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"2px6lgj8\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"hgvtvq1x\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<h2 style=\"text-align: center;\">6 Pixel Perfect Unique CSS3 Drop Shadows<\/h2>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"miwu058u\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section\" data-az-id=\"lilqcoar\" data-azat-style=\"padding-top:5%;\" data-azb=\"az_section\" id=\"lilqcoar\" style=\"padding-top:5%;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"mhthgkio\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"rwfph18h\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"kemzoaf2\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<h2>Raised&nbsp;Drop Shadow<\/h2>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"9svqbh85\" data-azat-width=\"  1\/2  \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"uzaglvan\" data-azb=\"raised\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\">\r\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--raised\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/uYsEqp5.jpg\" style=\"\"><\/div>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"7fkp8sol\" data-azat-width=\"  1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section\" data-az-id=\"mpawj2ld\" data-azb=\"az_section\" id=\"mpawj2ld\" style=\"\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"ur7aoufy\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"wr7bdzj6\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"0ksys0eu\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<h2>Curved horizontal double shadow<\/h2>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"2le1bjab\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"86ylq2m2\" data-azb=\"curved-horizontal-double\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\">\r\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--curved-hz2 stpe-dropshadow--curved\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/epKB2lC.jpg\" style=\"\"><\/div>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"as1gxr5g\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section\" data-az-id=\"s8pif5e9\" data-azb=\"az_section\" id=\"s8pif5e9\" style=\"\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"q5lubr7k\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"qmduxtwy\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"ltit44gc\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<h2>Curved horizontal single&nbsp;shadow<\/h2>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"036125rm\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"wzez6dqm\" data-azb=\"curved-horizontal\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\">\r\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--curved-hz1 stpe-dropshadow--curved\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/idA8LKk.jpg\" style=\"\"><\/div>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"e338bwom\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section\" data-az-id=\"zvflfadh\" data-azb=\"az_section\" id=\"zvflfadh\" style=\"\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"7y8uru2n\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"85u7q8zf\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"9z2ct384\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<h2>Curved vertical double&nbsp;shadow<\/h2>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"sho5zuva\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"mrcn56cf\" data-azb=\"curved-vertical-double\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\">\r\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--curved-vt2 stpe-dropshadow--curved\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/cNA0FRx.jpg\" style=\"\"><\/div>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"4qstwn6p\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section\" data-az-id=\"57enf2pg\" data-azb=\"az_section\" id=\"57enf2pg\" style=\"\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"0g4q6ze6\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"a69ywdp7\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"r2ih3the\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<h2>Lifted Drop Shadow<\/h2>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"yd7pz4p8\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"p5ql8vyb\" data-azb=\"lifted\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\">\r\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--lifted\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/SeE6zNk.jpg\" style=\"\"><\/div>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"voqr8kxs\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section\" data-az-id=\"73fhdjz4\" data-azb=\"az_section\" id=\"73fhdjz4\" style=\"\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"ec9vampz\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"8qabkyzu\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"4u7sxtbl\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<h2>Perspective&nbsp;Drop Shadow<\/h2>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"xif3945v\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"e3yjtxj2\" data-azb=\"perspective\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\">\r\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--perspective\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/vBgHjo1.jpg\" style=\"\"><\/div>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"x3if5mds\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "processed": "<div class=\"az-element az-section\" data-az-id=\"ok8tunra\" data-azat-style=\"padding-top:60px;\" data-azb=\"az_section\" id=\"ok8tunra\" style=\"padding-top:60px;\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"xzgmj2y7\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"dzsmf2az\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"2px6lgj8\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"hgvtvq1x\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<h2 style=\"text-align: center;\">6 Pixel Perfect Unique CSS3 Drop Shadows<\/h2>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"miwu058u\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section\" data-az-id=\"lilqcoar\" data-azat-style=\"padding-top:5%;\" data-azb=\"az_section\" id=\"lilqcoar\" style=\"padding-top:5%;\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"mhthgkio\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"rwfph18h\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"kemzoaf2\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<h2>Raised\u00a0Drop Shadow<\/h2>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"9svqbh85\" data-azat-width=\"  1\/2  \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"uzaglvan\" data-azb=\"raised\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\" \/>\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--raised\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/uYsEqp5.jpg\" style=\"\" \/><\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"7fkp8sol\" data-azat-width=\"  1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section\" data-az-id=\"mpawj2ld\" data-azb=\"az_section\" id=\"mpawj2ld\" style=\"\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"ur7aoufy\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"wr7bdzj6\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"0ksys0eu\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<h2>Curved horizontal double shadow<\/h2>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"2le1bjab\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"86ylq2m2\" data-azb=\"curved-horizontal-double\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\" \/>\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--curved-hz2 stpe-dropshadow--curved\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/epKB2lC.jpg\" style=\"\" \/><\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"as1gxr5g\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section\" data-az-id=\"s8pif5e9\" data-azb=\"az_section\" id=\"s8pif5e9\" style=\"\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"q5lubr7k\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"qmduxtwy\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"ltit44gc\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<h2>Curved horizontal single\u00a0shadow<\/h2>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"036125rm\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"wzez6dqm\" data-azb=\"curved-horizontal\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\" \/>\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--curved-hz1 stpe-dropshadow--curved\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/idA8LKk.jpg\" style=\"\" \/><\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"e338bwom\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section\" data-az-id=\"zvflfadh\" data-azb=\"az_section\" id=\"zvflfadh\" style=\"\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"7y8uru2n\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"85u7q8zf\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"9z2ct384\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<h2>Curved vertical double\u00a0shadow<\/h2>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"sho5zuva\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"mrcn56cf\" data-azb=\"curved-vertical-double\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\" \/>\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--curved-vt2 stpe-dropshadow--curved\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/cNA0FRx.jpg\" style=\"\" \/><\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"4qstwn6p\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section\" data-az-id=\"57enf2pg\" data-azb=\"az_section\" id=\"57enf2pg\" style=\"\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"0g4q6ze6\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"a69ywdp7\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"r2ih3the\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<h2>Lifted Drop Shadow<\/h2>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"yd7pz4p8\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"p5ql8vyb\" data-azb=\"lifted\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\" \/>\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--lifted\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/SeE6zNk.jpg\" style=\"\" \/><\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"voqr8kxs\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section\" data-az-id=\"73fhdjz4\" data-azb=\"az_section\" id=\"73fhdjz4\" style=\"\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"ec9vampz\" data-azat-device=\"sm\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"padding-bottom:5%;\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"8qabkyzu\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"4u7sxtbl\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<h2>Perspective\u00a0Drop Shadow<\/h2>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"xif3945v\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"e3yjtxj2\" data-azb=\"perspective\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Drop%20Shadows\/..\/..\/css\/elements\/dropshadow.css\" rel=\"stylesheet\" type=\"text\/css\" \/>\n\t\t\t\t\t\t<div data-glazed-builder-libraries=\"dropshadow\" class=\"stpe-dropshadow stpe-dropshadow--perspective\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/vBgHjo1.jpg\" style=\"\" \/><\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"x3if5mds\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

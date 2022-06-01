@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/content-elements\/buttons?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "26f5ce6a-b8b8-47b4-8e2f-e869e38e296d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-07-20T20:38:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Buttons",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T20:38:24+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-07-20T20:38:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/content-elements\/buttons",
+            "pid": 62,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" data-az-id=\"cvc7q7e8\" data-azat-style=\"padding-top:5%;\" data-azb=\"az_section\" id=\"cvc7q7e8\" style=\"padding-top:5%;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"1o5le21e\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"rzv8use2\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"0llbi9n8\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"2r2l6d5d\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<h2 style=\"text-align: center;\">Beautiful&nbsp;Customizeable Button Styles<\/h2>\r\n\t\t\t\t<\/div>\r\n\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"tfv8mb8c\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<p class=\"lead\">Glazed comes with a number of&nbsp;beautiful preset button styles. It gets even better, using our page Builder you can easily change the size, colors and hover style of all button styles. Create the perfect&nbsp;conversion machine with Glazed!<\/p>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"li5uzgty\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section text-center\" data-az-id=\"8tueah7j\" data-azat-el_class=\"text-center\" data-azat-style=\"margin-bottom:100px;\" data-azb=\"az_section\" id=\"8tueah7j\" style=\"margin-bottom:100px;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"p8a8np1g\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"mlbvp83w\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"hd6vcsrt\" data-azb=\"button-3d\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-3dbutton glazed-util-background-primary glazed-util-color-white glazed-util-hover-color-white az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"1grpauqg\" data-azat-width=\" 1\/3 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"yhwp0z7x\" data-azb=\"button-outline\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-outlinebutton glazed-util-border-primary glazed-util-color-primary glazed-util-hover-border-primary glazed-util-hover-color-white glazed-util-hover-background-primary az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"4wfn2cyl\" data-azat-width=\" 1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"wexkslhg\" data-azb=\"button-border\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-borderbutton glazed-util-border-primary glazed-util-color-primary glazed-util-hover-border-primary glazed-util-hover-color-white glazed-util-hover-background-primary az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section text-center\" data-az-id=\"pj30nvuq\" data-azat-el_class=\"text-center\" data-azat-style=\"margin-top:100px;margin-bottom:100px;\" data-azb=\"az_section\" id=\"pj30nvuq\" style=\"margin-top:100px;margin-bottom:100px;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"b6c2eieo\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"dwmrru1v\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"6jnfjb6k\" data-azb=\"button-primary\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-primary btn-lg az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"u71izfvv\" data-azat-width=\" 1\/3 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"cak6yx3d\" data-azb=\"button-outline-black\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-outlinebutton glazed-util-border-black glazed-util-color-black glazed-util-hover-background-black glazed-util-hover-color-white az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"5vfqq0qj\" data-azat-width=\" 1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"0pxt7fu0\" data-azb=\"button-border-black\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-borderbutton glazed-util-border-black glazed-util-color-black glazed-util-hover-border-black glazed-util-hover-color-white glazed-util-hover-background-black az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section bg-primary text-center\" data-az-id=\"lrp8entq\" data-azat-el_class=\"bg-primary text-center\" data-azat-style=\"margin-top:100px;padding-top:100px;padding-bottom:100px;\" data-azb=\"az_section\" id=\"lrp8entq\" style=\"margin-top:100px;padding-top:100px;padding-bottom:100px;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"4c19c5l6\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"v2yuygky\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"kfa3dc3s\" data-azb=\"button-border-white\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-borderbutton glazed-util-border-white glazed-util-color-white glazed-util-hover-background-white glazed-util-hover-border-white glazed-util-hover-color-primary az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Buy Now<\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"16f2kf16\" data-azat-width=\" 1\/3 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"bj6j3mvd\" data-azb=\"button-outline-white\" style=\"\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-outlinebutton glazed-util-border-white glazed-util-color-white glazed-util-hover-background-white glazed-util-hover-color-primary az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Buy Now<\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"0i3ne1cw\" data-azat-width=\" 1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "processed": "<div class=\"az-element az-section\" data-az-id=\"cvc7q7e8\" data-azat-style=\"padding-top:5%;\" data-azb=\"az_section\" id=\"cvc7q7e8\" style=\"padding-top:5%;\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"1o5le21e\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"rzv8use2\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"0llbi9n8\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"2r2l6d5d\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<h2 style=\"text-align: center;\">Beautiful\u00a0Customizeable Button Styles<\/h2>\n\t\t\t\t<\/div>\n\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"tfv8mb8c\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<p class=\"lead\">Glazed comes with a number of\u00a0beautiful preset button styles. It gets even better, using our page Builder you can easily change the size, colors and hover style of all button styles. Create the perfect\u00a0conversion machine with Glazed!<\/p>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"li5uzgty\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section text-center\" data-az-id=\"8tueah7j\" data-azat-el_class=\"text-center\" data-azat-style=\"margin-bottom:100px;\" data-azb=\"az_section\" id=\"8tueah7j\" style=\"margin-bottom:100px;\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"p8a8np1g\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"mlbvp83w\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"hd6vcsrt\" data-azb=\"button-3d\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-3dbutton glazed-util-background-primary glazed-util-color-white glazed-util-hover-color-white az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"1grpauqg\" data-azat-width=\" 1\/3 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"yhwp0z7x\" data-azb=\"button-outline\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-outlinebutton glazed-util-border-primary glazed-util-color-primary glazed-util-hover-border-primary glazed-util-hover-color-white glazed-util-hover-background-primary az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"4wfn2cyl\" data-azat-width=\" 1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"wexkslhg\" data-azb=\"button-border\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-borderbutton glazed-util-border-primary glazed-util-color-primary glazed-util-hover-border-primary glazed-util-hover-color-white glazed-util-hover-background-primary az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section text-center\" data-az-id=\"pj30nvuq\" data-azat-el_class=\"text-center\" data-azat-style=\"margin-top:100px;margin-bottom:100px;\" data-azb=\"az_section\" id=\"pj30nvuq\" style=\"margin-top:100px;margin-bottom:100px;\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"b6c2eieo\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"dwmrru1v\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"6jnfjb6k\" data-azb=\"button-primary\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-primary btn-lg az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"u71izfvv\" data-azat-width=\" 1\/3 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"cak6yx3d\" data-azb=\"button-outline-black\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-outlinebutton glazed-util-border-black glazed-util-color-black glazed-util-hover-background-black glazed-util-hover-color-white az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"5vfqq0qj\" data-azat-width=\" 1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"0pxt7fu0\" data-azb=\"button-border-black\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-borderbutton glazed-util-border-black glazed-util-color-black glazed-util-hover-border-black glazed-util-hover-color-white glazed-util-hover-background-black az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section bg-primary text-center\" data-az-id=\"lrp8entq\" data-azat-el_class=\"bg-primary text-center\" data-azat-style=\"margin-top:100px;padding-top:100px;padding-bottom:100px;\" data-azb=\"az_section\" id=\"lrp8entq\" style=\"margin-top:100px;padding-top:100px;padding-bottom:100px;\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"4c19c5l6\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"v2yuygky\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"kfa3dc3s\" data-azb=\"button-border-white\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-borderbutton glazed-util-border-white glazed-util-color-white glazed-util-hover-background-white glazed-util-hover-border-white glazed-util-hover-color-primary az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Buy Now<\/a><\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"16f2kf16\" data-azat-width=\" 1\/3 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"bj6j3mvd\" data-azb=\"button-outline-white\" style=\"\">\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-outlinebutton glazed-util-border-white glazed-util-color-white glazed-util-hover-background-white glazed-util-hover-color-primary az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Buy Now<\/a><\/div>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"0i3ne1cw\" data-azat-width=\" 1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

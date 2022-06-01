@@ -1,0 +1,54 @@
+{#
+/**
+ * @file
+ * Default view template to display all the fields in a row with caption.
+ *
+ * @see template_preprocess_sooperthemes_portfolio_views_row()
+ */
+#}
+{% import _self as row %}
+
+<div class="cbp-caption">
+  <div class="cbp-caption-defaultWrap">
+    {% for field in default_fields -%}
+      {{ row.print_field(field) }}
+    {%- endfor %}
+  </div>
+  <div class="cbp-caption-activeWrap{% if options.caption_field_animation %} sp-cpb-caption-fields-animation{% endif %}" style="background: {{options.caption_color}}; color:{{options.caption_text_color}};">
+    <div class="cbp-l-caption-alignCenter">
+      <div class="cbp-l-caption-body">
+        {% for field in caption_fields -%}
+          {{ row.print_field(field) }}
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="cpb-other-fields">
+  {% for field in fields -%}
+    {{ row.print_field(field) }}
+  {%- endfor %}
+</div>
+
+
+{% macro print_field(field) %}
+  {{ field.separator }}
+  {%- if field.wrapper_element -%}
+    <{{ field.wrapper_element }}{{ field.wrapper_attributes }}>
+  {%- endif %}
+  {%- if field.label -%}
+    {%- if field.label_element -%}
+      <{{ field.label_element }}{{ field.label_attributes }}>{{ field.label }}{{ field.label_suffix }}</{{ field.label_element }}>
+    {%- else -%}
+      {{ field.label }}{{ field.label_suffix }}
+    {%- endif %}
+  {%- endif %}
+  {%- if field.element_type -%}
+    <{{ field.element_type }}{{ field.element_attributes }}>{{ field.content }}</{{ field.element_type }}>
+  {%- else -%}
+    {{ field.content }}
+  {%- endif %}
+  {%- if field.wrapper_element -%}
+    </{{ field.wrapper_element }}>
+  {%- endif %}
+{% endmacro %}

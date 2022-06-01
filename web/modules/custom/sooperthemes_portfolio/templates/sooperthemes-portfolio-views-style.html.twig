@@ -1,0 +1,86 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a view template to display a list of rows.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the container.
+ * - rows: A list of rows.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's contents.
+ * - title: The title of this group of rows. May be empty.
+ *
+ * @see template_preprocess_sooperthemes_portfolio_views_style()
+ */
+#}
+{% if load_more %}
+  {% for row in rows if load_more %}
+    <div{{ row.attributes.addClass('cbp-item') }}>
+      <div {{ row.inner_attributes }}>{{ row.content }}</div>
+    </div>
+  {% endfor %}
+{% else %}
+  <div class="sp-wrapper js-sp-wrapper" id="{{ portfolio_id }}">
+
+    {% if filters %}
+      <div class="sp-filters">
+        {% for delta, filter in filters %}
+          <div {{ filter['attributes'] }}>
+
+            {# Dropdown. #}
+            {% if filter['style'] == 'dropdown' %}
+              <div class="cbp-l-filters-dropdownWrap">
+                <div class="cbp-l-filters-dropdownHeader">{{ filter['label'] }}</div>
+                <div class="cbp-l-filters-dropdownList">
+                  <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                    {{ ' All ' | t }} <div class="cbp-filter-counter"></div>
+                  </div>
+                  {% for key, value in filter.rows %}
+                    <div data-filter=".{{ key }}" class="cbp-filter-item">
+                      {{ value }} <div class="cbp-filter-counter"></div>
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            {# Links. #}
+            {% else %}
+              {% if filter['label'] %}<div class="cbp-l-filters-text-sort">{{ filter['label'] }}</div>{% endif %}
+              <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                {{ 'All' | t }} <div class="cbp-filter-counter"></div>
+              </div>
+              {% for key, value in filter.rows %}
+                <div data-filter=".{{ key }}" class="cbp-filter-item">
+                  {{ value }}
+                  <div class="cbp-filter-counter"></div>
+                </div>
+              {% endfor %}
+            {% endif %}
+
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if options.search %}
+      <div class="cbp-search">
+        <input type="text" placeholder="{{ 'Search' | t }}" data-search="*" class="js-cbp-search cbp-search-input"/>
+        <div class="cbp-search-icon"></div>
+      </div>
+    {% endif %}
+
+    <div class="sp-container js-sp-container cbp" data-content-page="{{ options.content_page }}">
+      {% for row in rows %}
+        {%
+          set row_classes = [
+            'cbp-item',
+            row.content['#row'].onclick ? 'sp-cpb-item--clickable',
+          ]
+        %}
+        <div{{ row.attributes.addClass(row_classes) }} {{ row.content['#row'].onclick|raw }}>
+          <div {{ row.inner_attributes }}>{{ row.content }} </div>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+{% endif %}

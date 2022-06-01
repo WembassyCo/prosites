@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drag_and_drop_block:15bdf245-d06d-4173-b850-012eedef627c'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: marketingagencyfooter
+theme: glazed
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:15bdf245-d06d-4173-b850-012eedef627c'
+settings:
+  id: 'block_content:15bdf245-d06d-4173-b850-012eedef627c'
+  label: 'Marketing Agency Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

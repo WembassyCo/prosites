@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: landscapingsecondaryheader
+theme: glazed
+region: secondary_header
+weight: 0
+provider: null
+plugin: 'block_content:00c5bf23-00a6-43a6-aa52-8a6b50c972c9'
+settings:
+  id: 'block_content:00c5bf23-00a6-43a6-aa52-8a6b50c972c9'
+  label: 'landscaping secondary header'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

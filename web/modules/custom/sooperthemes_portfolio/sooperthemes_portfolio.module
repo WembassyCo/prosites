@@ -1,0 +1,139 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Sooperthemes portfolio module.
+ */
+
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Template\Attribute;
+
+/**
+ * Implements hook_theme().
+ */
+function sooperthemes_portfolio_theme() {
+  return [
+    'sooperthemes_portfolio_image_formatter' => [
+      'variables' => [
+        'item' => NULL,
+        'item_attributes' => NULL,
+        'link_attributes' => NULL,
+        'url' => NULL,
+        'image_style' => NULL,
+        'lightbox_title' => NULL,
+      ],
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for image formatter template.
+ */
+function template_preprocess_sooperthemes_portfolio_image_formatter(&$variables) {
+  module_load_include('inc', 'image', 'image.field');
+  template_preprocess_image_formatter($variables);
+
+  $variables['link_attributes'] = new Attribute(['class' => 'cbp-lightbox']);
+  if ($variables['lightbox_title'] == 'image_title' && !empty($variables['image']['#title'])) {
+    $variables['link_attributes']->setAttribute('data-title', $variables['image']['#title']);
+  }
+  elseif ($variables['lightbox_title'] == 'image_alt' && !empty($variables['image']['#alt'])) {
+    $variables['link_attributes']->setAttribute('data-title', $variables['image']['#alt']);
+  }
+  elseif ($variables['lightbox_title'] == 'entity_label' && $label = $variables['item']->getEntity()->label()) {
+    $variables['link_attributes']->setAttribute('data-title', $label);
+  }
+
+}
+
+/**
+ * Prepares variables for sooperthemes-portfolio-views-style.html.twig template.
+ */
+function template_preprocess_sooperthemes_portfolio_views_style(&$variables) {
+  module_load_include('inc', 'views', 'views.theme');
+  template_preprocess_views_view_unformatted($variables);
+
+  $variables['portfolio_id'] = $variables['view']->style_plugin->getPortfolioId();
+  $variables['options'] = $variables['view']->style_plugin->options;
+  $variables['filters'] = [];
+  $variables['load_more'] = \Drupal::routeMatch()->getRouteName() == 'sooperthemes_portfolio.views_load_more';
+
+  foreach ($variables['options']['filters'] as $filter) {
+    if ($filter['field']) {
+      $variables['filters'][$filter['field']] = $filter;
+
+      $style_class = $filter['style'] == 'dropdown'
+        ? 'cbp-l-filters-dropdown'
+        :  'cbp-l-filters-' . ($filter['style'] == 'links' ? 'text' : 'button');
+
+      $position_class = 'sp-filter-position-' . $filter['position'];
+
+      $variables['filters'][$filter['field']]['attributes'] = new Attribute([
+        'data-drupal-selector' => 'sp-filter-' . $filter['field'],
+        'class' => ['sp-filter', $style_class, $position_class],
+      ]);
+      _sooperthemes_portfolio_preprocess_rows($variables, $filter['field']);
+    }
+  }
+}
+
+/**
+ * Helper function to preprocess views rows.
+ */
+function _sooperthemes_portfolio_preprocess_rows(&$variables, $field) {
+  $page_class = $variables['options']['content_page'] == 'inline' ? 'cbp-singlePageInline' : 'cbp-singlePage';
+  foreach ($variables['rows'] as $index => $row) {
+
+    /** @var Drupal\node\NodeInterface $node */
+    if (isset($row['content']['#node'])) {
+      $node = $row['content']['#node'];
+    }
+    elseif (isset($row['content'])) {
+      $node = $row['content']['#row']->_entity;
+    }
+    else {
+      continue;
+    }
+
+    if (isset($node->{$field}[0])) {
+      $build = $node->{$field}[0]->view();
+      $label = isset($build['#title']) ? $build['#title'] : render($build);
+      $value = 'cbp-item-' . Html::getClass($field . '-' . $label);
+      $variables['rows'][$index]['attributes']->addClass($value);
+      $variables['filters'][$field]['rows'][$value] = strip_tags($label);
+    }
+    if ($variables['options']['content_page']) {
+      $variables['rows'][$index]['inner_attributes'] = new Attribute([
+        'class' => ['sp-page', $page_class],
+        'href' => $node->id(),
+        // The display mode is fetched by JS callback to construct a URL for
+        // ajax request.
+        'data-display-mode' => $variables['options']['content_page_display'],
+      ]);
+    }
+
+  }
+}
+
+/**
+ * Prepares variables for views fields templates.
+ *
+ * Default template: sooperthemes-portfolio-views-row.html.twig.
+ */
+function template_preprocess_sooperthemes_portfolio_views_row(&$variables) {
+  module_load_include('inc', 'views', 'views.theme');
+  template_preprocess_views_view_fields($variables);
+  // Segregate fields.
+  $variables['default_fields'] = [];
+  $variables['caption_fields'] = [];
+  foreach ($variables['fields'] as $field_name => $field) {
+    if (in_array($field_name, $variables['options']['default_fields'])) {
+      $variables['default_fields'][$field_name] = $field;
+      unset($variables['fields'][$field_name]);
+    }
+    if (in_array($field_name, $variables['options']['caption_fields'])) {
+      $variables['caption_fields'][$field_name] = $field;
+      unset($variables['fields'][$field_name]);
+    }
+  }
+}

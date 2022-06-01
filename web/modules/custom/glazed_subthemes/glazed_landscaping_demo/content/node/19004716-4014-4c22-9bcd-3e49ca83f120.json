@@ -1,0 +1,146 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/company\/faq?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "19004716-4014-4c22-9bcd-3e49ca83f120"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-06T08:12:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0b68dca6-e607-4395-940f-89a7074a9251"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0b68dca6-e607-4395-940f-89a7074a9251"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "FAQ",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-16T16:42:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-06T08:12:40+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/company\/faq",
+            "pid": 44,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"ylq3dp69\" class=\"az-element az-section\" style=\"\" data-az-id=\"ylq3dp69\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"zfm6m8v4\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-1\" style=\"\" data-az-id=\"nmnxnqpb\" data-azb=\"az_column\" data-azat-width=\"1\/12\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"cwfwg5py\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-leaf\" data-azat-size=\"fa-2x\" data-azat-st_style=\"stbe-util-icon-rounded\" data-azat-style=\"background-color:#75c655;\"><i class=\"glyphicon glyphicon-leaf fa-2x stbe-util-icon-rounded undefined undefined  \" style=\"background-color:#75c655;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-11\" style=\"\" data-az-id=\"u6a01uxg\" data-azb=\"az_column\" data-azat-width=\" 11\/12\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"1c550nic\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>How do I budget our landscaping?<\/h4><hr>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.<\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"mumhwbe0\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-1\" style=\"\" data-az-id=\"5e21kk30\" data-azb=\"az_column\" data-azat-width=\"1\/12\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"2b5v553z\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-leaf\" data-azat-size=\"fa-2x\" data-azat-st_style=\"stbe-util-icon-rounded\" data-azat-style=\"background-color:#75c655;\"><i class=\"glyphicon glyphicon-leaf fa-2x stbe-util-icon-rounded undefined undefined  \" style=\"background-color:#75c655;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-11\" style=\"\" data-az-id=\"hjznlsot\" data-azb=\"az_column\" data-azat-width=\" 11\/12\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"208yvdvv\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>How does your financing program work?<\/h4><hr>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.<\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"1mly85sy\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-1\" style=\"\" data-az-id=\"5hqt351q\" data-azb=\"az_column\" data-azat-width=\"1\/12\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"kwea9ov4\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-leaf\" data-azat-size=\"fa-2x\" data-azat-st_style=\"stbe-util-icon-rounded\" data-azat-style=\"background-color:#75c655;\"><i class=\"glyphicon glyphicon-leaf fa-2x stbe-util-icon-rounded undefined undefined  \" style=\"background-color:#75c655;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-11\" style=\"\" data-az-id=\"qxxbnc9f\" data-azb=\"az_column\" data-azat-width=\" 11\/12\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"7l2x0ncx\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Can we build an irrigation system in my backyard?<\/h4><hr>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.<\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"roe52cr8\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-1\" style=\"\" data-az-id=\"23na2b37\" data-azb=\"az_column\" data-azat-width=\"1\/12\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"oqim2c7k\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-leaf\" data-azat-size=\"fa-2x\" data-azat-st_style=\"stbe-util-icon-rounded\" data-azat-style=\"background-color:#75c655;\"><i class=\"glyphicon glyphicon-leaf fa-2x stbe-util-icon-rounded undefined undefined  \" style=\"background-color:#75c655;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-11\" style=\"\" data-az-id=\"4f2tytlt\" data-azb=\"az_column\" data-azat-width=\" 11\/12\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"kg52h69y\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>Do really charge nothing for waste and material disposal?<\/h4><hr>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.<\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"6m2b125h\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-1\" style=\"\" data-az-id=\"ua8pqbqo\" data-azb=\"az_column\" data-azat-width=\"1\/12\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"rp3vv9gd\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-leaf\" data-azat-size=\"fa-2x\" data-azat-st_style=\"stbe-util-icon-rounded\" data-azat-style=\"background-color:#75c655;\"><i class=\"glyphicon glyphicon-leaf fa-2x stbe-util-icon-rounded undefined undefined  \" style=\"background-color:#75c655;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-11\" style=\"\" data-az-id=\"mw7vdn6q\" data-azb=\"az_column\" data-azat-width=\" 11\/12\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"r90ktjy9\" data-azb=\"az_text\" data-azcnt=\"true\"><h4>When can we get started?<\/h4><hr>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.<\/div><\/div><\/div><div class=\"az-element az-ctnr az-jumbotron jumbotron\" style=\"\" data-az-id=\"nbomxecj\" data-azb=\"az_jumbotron\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"margin-bottom: 15px; position: relative; left: 0px; top: 0px;\" data-az-id=\"6rwimc0g\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:15px;\" data-azcnt=\"true\"><h2>Question Not here?<\/h2><\/div><div class=\"az-element az-cms-element\" style=\"\" data-az-id=\"2hd1wehp\" data-azb=\"az_block-glazed_builder_webform:landscaping_contact\"><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\">\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

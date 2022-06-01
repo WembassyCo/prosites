@@ -1,0 +1,16 @@
+entity.node.portfolio:
+  path: '/node/{node}/portfolio/{display_mode}'
+  defaults:
+    _controller: '\Drupal\sooperthemes_portfolio\Controller\NodePortfolioController::displayNode'
+  requirements:
+    display_mode: '[a-z0-9_]+'
+    node: '\d+'
+    _entity_access: 'node.view'
+sooperthemes_portfolio.views_load_more:
+  path: '/sp/portfolio/{view_name}/{display_id}'
+  defaults:
+    _controller: '\Drupal\sooperthemes_portfolio\Controller\ViewPortfolioController::displayView'
+  requirements:
+    view_name: '[a-z0-9_]+'
+    display_id: '[a-z0-9_]+'
+    _permission: access content

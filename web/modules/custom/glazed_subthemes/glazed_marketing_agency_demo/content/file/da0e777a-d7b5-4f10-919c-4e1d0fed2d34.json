@@ -1,0 +1,86 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/default\/sites\/default\/files\/2018-01\/marketing-agency-logo_0.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "https:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "da0e777a-d7b5-4f10-919c-4e1d0fed2d34"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "08dc322c-1c68-4ef9-a7a9-e1a9930665b3"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "marketing-agency-logo_0.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2018-01\/marketing-agency-logo_0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 2406
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-12T16:12:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-12T16:12:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "data": [
+        {
+            "value": "iVBORw0KGgoAAAANSUhEUgAAAHsAAAAoCAMAAADpA3UUAAADAFBMVEX\/\/\/\/tjovcJiHfODPfPDfgQT3hSEPiTEjjUEzjU0\/51tX2iojtJiPvODXvPTvvQT\/wR0XvTUrwUU\/oxcX7397eMSzcKCPaGxblYFz\/\/Pv73NvuMC3uKCXwHRrdT028v8H19fXmZGHaHRjcKiXdLCfyYV\/sHhvtKifuLiu\/qqu2v8HP0dLztLLbHxnul5X5s7LxIR3SdXW2xMa5u722uLrr6uv+8vHgPzvbIx7bIRz\/+fjtIyDvJCHlQkC7uru5vcDDxcf8\/P3rhYL4xMP2hYPsHBnIlJTe3t750dDpdnL80tLbXl24ury7vb\/\/\/f3lWVXbIBrcJR\/eNTD96en\/\/v7xWFbvJyTqMzDxpqTwo6H4qajQfn397OvtJSLiSEb0e3nEmpvrg4D4zMvS3+D97+\/tIR73\/P33nZv5sK7f3+D85uXuMzD9\/f3ExsfnbGj0dHL72dizs7Xc29z0u7nuko\/2j43a2trNzc3Nz9DS0tP8+\/v+9PTsiYb1wb\/2lJPtIBz6urn6+vrocW7zamiEgoM\/Ozx\/fH3JyMhJRkdQTU7i4eGmpaVDP0BUUlLp6Oifnp5FQkNNSUpHREV2c3S2tLXPzs5ST09PS0xKR0hBPT6CgICenZ07ODmlo6STkZLBv8Byb3DEw8RqZ2iXlpbs7Oz84uJfXF0NCQoZFBUcGBnZ2NkMBwgnIyQlISI3MzTm5eUCAAAgHB00MTIqJieOjI0jHh8uKyweGhssKCkyLi9dWlqKiIl0cnIHAwQTDg+Vk5Q0MDEaFhfxqqhkYWIVERK+vb3HxsYXExSHhYYKBgdraWnj4uNTUFB+fH3z8vL39\/f5+fnx8fEPCwyioKB4dneMiovS0dF9e3zW1db+8\/OysLFhXl9vbGybmZmpqKjDwsJPTE2sq6soJCXqe3f5x8ZbWFlYVVZ6eHjd3NyqqKnn5+fqfnvv7++6ublmY2TvnZryrqz4paSPjY7k5ORnZWXvOzjLysq4t7fY19fhRUHMy8vR0NC\/vr65uLjU09Pu7u6h+66EAAAGIUlEQVR4AbSVg5pjQRgFT2wnY9u6xtjW2hhjbePBR0n67zXmdr1ANer7Dn6Fy+3xeH0+vz8QDIXCiERjsXgikUym0ul0BkLJ5twlJSXuM0rLyisqo1VVVdEzqmtq6yCS+obGIu6mLJpbWotUtbV3dEIgXd2NjNIe9JK6ta9\/QJIVCEPVdKY2AqYat5jaHhwaluSRUYhirJSpS4xxTEzSi9tTA5IkydMQxIy7hLkbZjFXVUUvPn+qlhYWBeW2tLzC1Ktr6xcu0m9futzeIZ0iC8rtSkMjo+Eqrk1yoV0fkM4QlNu6Z5WpV5aXbsRuUmi3hoeLbiG5zdK1S9wzuM2FVnWneG0xuY3rFFrpXdyzKLTJifsycwvIzQwYTK1rG+XpTaa24upW7QKTO59bT2kjo7sL21xoLTvALl3cudxoQ6jxeuztR0ndDODgkOTy4QGc5AG\/IRV4SNeOtj7CCYpMPH4CB3m6woX2DOObrYzJ5zjjxctXjNdvHNwQH7chftNMknsz+RZCecdvyHt84EL7+Al\/y188xsFnfEe4hNuQL8i2UWiTXwEc91oO0K2kDxy9f9tcz9rHz2b2aDl7tLZm9WzXdlN7gtpKnpLUfqjdPht1u5lUszp6uHEGd\/D7zu874OSMgourmzvg4enlDfj4+vl7HXCHAKdACAr23brUNyQ0VBsWrg0NcfNzDfE+EBFJlDYacA+NAWLjtBHB8QmoEF96XtUhn7N\/tkP+fF8ikCTrXAC8ZL0BtvnKxnAgzJjslCKnpuGXHo7gmR4nhhszMjOzYrJzcvN0yfkFaYXpRRSbcjVgMPvDQZ0x69Dh9ABUHPl+h+zZrQraJwBHdZYkwKrLSzGArcQzJVSC0rJyKjyNPlTKkVQZPasJl\/1qampqa+rqXOsb6urEQmM2xywWP4FN+hBsOt3xOcKJk43M8qa6Q\/5wT9PfFs0G7R8LHe7DuTobYrA+N8cAxWXNLZbNirsVWkxtdnd7hy4lCLu7k0n85C7A4S7pri9mnd3dakzih\/SogvbK+\/xJFbRFvTjcuiJ9H0vl1n69gYT8\/NpI0ym7W+6Pjc9IOU2lriDHchAIt2T5Oh0VHe4z027z8Yh6D2+9G6FyG5w1GCqYoVfdIef45klV0L5m0l3v0mru6D+8SXFHlsXxWUrBeUpL8szmAheoLNF66jznONyeTkel77vLLth0KT4pijscLtbnec12yO9VHfLrD9Wz4rf+8tqMe50+VVdMp34TXpZcrTbD0kWp3NeVk2Kzu+UzQoQcA+FyCJOo3V1Embvz3Ggti4PoGEsw01xSdcgjl\/n0CVXQrjDtjqbclKOxu93X5WVdPHo02NLvuN\/ORq1gdzdwQae78LNu4syH3XDR6SO34WKecSeqOuT5\/\/PaX3b\/eZo1r9\/DJEkmK+s8r4Kr5VpY+nUgLUPnfjz9InNyTQfwM\/lAjOlQXYOc4+kZEQP4mzyAfmWMpbdDnWdZKLTp6rVeBXLlT3bIN2x86sYsLzDFydSbOCj3NRyNiHX8dajLo+AAdEX4nS1ObYY5\/akeA06+Wm1qKxCXOgAcO9TA1YILwKBvOWC7nprvdGzwpzrkF\/Dh3Fm2M40ozXyRtjGJtE2URIC9019W1IiSggiI0+9T30BCobZuBVNsH5o\/G7Sh7dxNfqHukPWqVpgzZy8gVFdX16Aiwf63hILELfLHR1WTla8Alp4AaLRuHrZuomJg5ETQNZrPAucbocJ6c3jUvbECuHaCW0P8\/\/OzQftPIiCMjYpgiBUVG5vGURgbqIWEm8wZqAGxThjYxrYBgVvjsqpD\/ncJYCRtxB1pQMLBukYUXK7FQsJmohNwcPomw+u4Nd78tWqy8vuFgGSlLlp5TkkGNKcrIJYTjYp7jCk6xju4Rc6pgjb\/fQBNhyAEVld3AMLmm5Im0DD4GcRKRE\/Uqdw1bQK3xvuvqIZ2DwoXYkdGxoYZAEShQ9A0ohC7AmF0ThBLq5kikFuj6Q+P\/HKaBb9+E2CiA+CCFDQCYFO5SWsewd0KcF6Eb6VbDNq8oWnmvXoZheEKgCANto5Np20dKzTNW8dH0rDZ3URbYWRp4ybbiAiBt+b+DsAuCxt8avzjAAAAAElFTkSuQmCC"
+        }
+    ]
+}

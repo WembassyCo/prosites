@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/pages\/about-me?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "fe803127-44ee-4895-8fd9-3757b14843bd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-07-25T20:43:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "About Me",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T21:19:42+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-07-25T20:43:23+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/pages\/about-me",
+            "pid": 27,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" data-az-id=\"n0bh8n7s\" data-azat-style=\"padding-top:60px;\" data-azb=\"az_section\" id=\"n0bh8n7s\" style=\"padding-top:60px;\">\r\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"oputwbxp\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"oqjooskg\" data-azat-style=\"padding-bottom:30px;\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"padding-bottom:30px;\">\r\n<div class=\"az-element az-text\" data-az-id=\"uuha5ft5\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n<h1><span style=\"color: #333333; font-size: 72px;\">Hello! I'm James. I'm an allround web design <em>fanatic<\/em><\/span><\/h1>\r\n<\/div>\r\n\r\n<div class=\"az-element az-text\" data-az-id=\"hx4yi83d\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n<h2><span style=\"color: #333333;\">This page is an example of using our theme to <em>tell a story<\/em> about myself. <\/span><\/h2>\r\n\r\n<p class=\"lead\">Use authentic personal photography and relevant texts because about me pages are for visitors who want to know if there are actually real people behind your site\/product.<\/p>\r\n<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"dy40772n\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\" data-azat-width=\" 1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;padding-bottom:0px;\">\r\n<div class=\"az-element az-image\" data-az-id=\"vvjkki49\" data-azat-height=\"\" data-azat-image=\"https:\/\/i.imgur.com\/RcPbdWX.png\" data-azat-style=\"margin-bottom:0px;margin-left:30px;padding-bottom:0px;\" data-azb=\"az_image\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/RcPbdWX.png\" style=\"margin-bottom: 0px; margin-left: 30px; padding-bottom: 0px; width: 100%;\" title=\"\" \/><\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section bg-primary\" data-az-id=\"r57acnn8\" data-azat-el_class=\"bg-primary\" data-azat-style=\"padding-top:100px;padding-bottom:100px;\" data-azb=\"az_section\" id=\"r57acnn8\" style=\"padding-top:100px;padding-bottom:100px;\">\r\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n<div class=\"az-element az-section\" data-az-id=\"jlohefd4\" data-azb=\"az_section\" id=\"jlohefd4\" style=\"\">\r\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"mqlw946t\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-ctnr az-column  col-sm-2\" data-az-id=\"7qfu03i4\" data-azat-width=\"1\/6\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"z0ada8ih\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-ctnr az-column  col-sm-12\" data-az-id=\"d23ajrga\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-text\" data-az-id=\"dn3mubjt\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\"><\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-ctnr az-column  col-sm-8\" data-az-id=\"s4bvnvv8\" data-azat-width=\" 4\/6 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-text\" data-az-id=\"ibtuwadd\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n<h2 style=\"text-align: center;\">Our Theme: Creating a revolutionary product<\/h2>\r\n\r\n<p class=\"lead\" style=\"text-align: center;\"><\/p>\r\n\r\n<p class=\"lead\" style=\"text-align: center;\">Currently my most important project is designing and developing for our theme! I gave myself the job to not only create the biggest and smartest Drupal theme ever but also create the best theme period. I'm looking at the WordPress themes market and looking for areas where my Drupal based theme can outperform WordPress themes. One area where WordPress is disappointing users is in standardization and interoperability.<\/p>\r\n\r\n<p class=\"lead\" style=\"text-align: center;\">Consequently, the drag and drop tools and&nbsp; elements are not limited to how they're used in the demos. You can enable the drag and drop software on any Drupal entity and you can easily extend it with custom HTML elements, creating your own experience!<\/p>\r\n<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-ctnr az-column  col-sm-2\" data-az-id=\"mbs4a4yb\" data-azat-width=\" 1\/6\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"6bdwxkmi\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-ctnr az-column  col-sm-12\" data-az-id=\"u8a6oryq\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-text\" data-az-id=\"etfo1a2w\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\"><\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section glazed-util-background-gray\" data-az-id=\"79gmqp7f\" data-azat-el_class=\"glazed-util-background-gray\" data-azat-style=\"padding-top:0px;padding-bottom:0px;background-color:#444444;\" data-azb=\"az_section\" id=\"79gmqp7f\" style=\"padding-top:0px;padding-bottom:0px;background-color:#444444;\">\r\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n<div class=\"az-element az-row row  az-row--sm az-row--equal-height\" data-az-id=\"dzw1o0z3\" data-azat-device=\"sm\" data-azat-equal=\"yes\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"rwln1ate\" data-azat-style=\"margin-bottom:0px;padding-top:60px;padding-bottom:60px;background-color:#333333;\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;padding-top:60px;padding-bottom:60px;background-color:#333333;\">\r\n<div class=\"az-element az-text\" data-az-id=\"73du3nx1\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n<h2>Education<\/h2>\r\n\r\n<p class=\"lead\">Far far away, behind the word mountains<\/p>\r\n\r\n<p class=\"lead\">Alphabet Village and the subline of her own road<\/p>\r\n\r\n<p class=\"lead\"><\/p>\r\n\r\n<p class=\"lead\"><\/p>\r\n<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"a45pzhcg\" data-azat-style=\"margin-bottom:0px;padding-top:60px;padding-bottom:60px;background-color:#222222;\" data-azat-width=\" 1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;padding-top:60px;padding-bottom:60px;background-color:#222222;\">\r\n<div class=\"az-element az-text\" data-az-id=\"oieyn889\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n<h2>Work Experience<\/h2>\r\n\r\n<p class=\"lead\">2008 \u2013 One day however a small<\/p>\r\n\r\n<p class=\"lead\">2011 - Far far away, behind the word mountains<\/p>\r\n\r\n<p class=\"lead\">2012-2013 \u2013 The Big Oxmox advised her<\/p>\r\n\r\n<p class=\"lead\">Present \u2013 Pityful a rethoric question<\/p>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section\" data-az-id=\"cvi6ca0x\" data-azat-style=\"padding-top:100px;padding-bottom:100px;\" data-azb=\"az_section\" id=\"cvi6ca0x\" style=\"padding-top:100px;padding-bottom:100px;\">\r\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"mhodrgls\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"kplewjim\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\r\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"vz3ch0jp\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-text\" data-az-id=\"3sffamwg\" data-azat-style=\"margin-bottom:60px;\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"margin-bottom:60px;\">\r\n<h2 style=\"text-align: center;\">Connect with me<\/h2>\r\n\r\n<p class=\"lead\" style=\"text-align: center;\"><\/p>\r\n\r\n<p class=\"lead\" style=\"text-align: center;\">You can connect with my via the our newsletter and social media. Alternatively you can find my&nbsp; pages on various professional social media.<\/p>\r\n<\/div>\r\n\r\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"3gsbk29f\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"xvfmrukj\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\r\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"cph7yfjo\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n<div class=\"az-element az-cms-element\" data-az-id=\"4qqcfx95\" data-azb=\"az_block-block_content:ebc91f51-ebd8-4152-b1ef-4f3da70f8d9c\" style=\"\"><\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"3wn1wkqj\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n<\/div>\r\n\r\n<ul class=\"az-element st-social stbe-social-links text-center stbe-social-links--bgcolor-brand stbe-social-links--hover-color-brand\" data-az-id=\"u14npb0f\" data-azat-el_class=\"text-center\" data-azat-st_color=\"#ffffff\" data-azat-st_css3_hover_effects=\"pulse\" data-azat-st_hover_color=\"brand\" data-azat-st_size=\"2x\" data-azat-st_social_links=\"Facebook%3D%22https%3A%2F%2Fwww.example.com%22%0AYouTube%3D%22https%3A%2F%2Fwww.example.com%22%0AAndroid%3D%22https%3A%2F%2Fwww.example.com%22%0ATwitter%3D%22https%3A%2F%2Fwww.example.com%22%0ALinkedIn%3D%22https%3A%2F%2Fwww.example.com%22%0ADrupal%3D%22https%3A%2F%2Fwww.example.com%22%0APinterest%3D%22https%3A%2F%2Fwww.example.com%22\" data-azat-st_style=\"circle\" data-azat-st_theme_bgcolor=\"brand\" data-azat-st_type=\"inline\" data-azat-style=\"margin-top:60px;margin-bottom:60px;\" data-azb=\"st_social\" data-glazed-builder-libraries=\"social_icons font_awesome icon_helpers\" style=\"margin-top:60px;margin-bottom:60px;\">\r\n\t<li class=\"stbe-social-links__item\"><\/li>\r\n\t<li class=\"stbe-social-links__item\"><\/li>\r\n\t<li class=\"stbe-social-links__item\"><\/li>\r\n\t<li class=\"stbe-social-links__item\"><\/li>\r\n\t<li class=\"stbe-social-links__item\"><\/li>\r\n\t<li class=\"stbe-social-links__item\"><\/li>\r\n\t<li class=\"stbe-social-links__item\"><\/li>\r\n<\/ul>\r\n<\/div>\r\n\r\n<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"s6g7fiip\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n<\/div>\r\n<\/div>\r\n<\/div>\r\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/social.css\"><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\"><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/font-awesome\/css\/font-awesome.min.css\">",
+            "format": "full_html",
+            "processed": "<div class=\"az-element az-section\" data-az-id=\"n0bh8n7s\" data-azat-style=\"padding-top:60px;\" data-azb=\"az_section\" id=\"n0bh8n7s\" style=\"padding-top:60px;\">\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"oputwbxp\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"oqjooskg\" data-azat-style=\"padding-bottom:30px;\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"padding-bottom:30px;\">\n<div class=\"az-element az-text\" data-az-id=\"uuha5ft5\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n<h1><span style=\"color: #333333; font-size: 72px;\">Hello! I'm James. I'm an allround web design <em>fanatic<\/em><\/span><\/h1>\n<\/div>\n\n<div class=\"az-element az-text\" data-az-id=\"hx4yi83d\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n<h2><span style=\"color: #333333;\">This page is an example of using our theme to <em>tell a story<\/em> about myself. <\/span><\/h2>\n\n<p class=\"lead\">Use authentic personal photography and relevant texts because about me pages are for visitors who want to know if there are actually real people behind your site\/product.<\/p>\n<\/div>\n<\/div>\n\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"dy40772n\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\" data-azat-width=\" 1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;padding-bottom:0px;\">\n<div class=\"az-element az-image\" data-az-id=\"vvjkki49\" data-azat-height=\"\" data-azat-image=\"https:\/\/i.imgur.com\/RcPbdWX.png\" data-azat-style=\"margin-bottom:0px;margin-left:30px;padding-bottom:0px;\" data-azb=\"az_image\"><img alt=\"\" src=\"https:\/\/i.imgur.com\/RcPbdWX.png\" style=\"margin-bottom: 0px; margin-left: 30px; padding-bottom: 0px; width: 100%;\" title=\"\" \/><\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"az-element az-section bg-primary\" data-az-id=\"r57acnn8\" data-azat-el_class=\"bg-primary\" data-azat-style=\"padding-top:100px;padding-bottom:100px;\" data-azb=\"az_section\" id=\"r57acnn8\" style=\"padding-top:100px;padding-bottom:100px;\">\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\n<div class=\"az-element az-section\" data-az-id=\"jlohefd4\" data-azb=\"az_section\" id=\"jlohefd4\" style=\"\">\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"mqlw946t\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-ctnr az-column  col-sm-2\" data-az-id=\"7qfu03i4\" data-azat-width=\"1\/6\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"z0ada8ih\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-ctnr az-column  col-sm-12\" data-az-id=\"d23ajrga\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-text\" data-az-id=\"dn3mubjt\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\"><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"az-element az-ctnr az-column  col-sm-8\" data-az-id=\"s4bvnvv8\" data-azat-width=\" 4\/6 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-text\" data-az-id=\"ibtuwadd\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n<h2 style=\"text-align: center;\">Our Theme: Creating a revolutionary product<\/h2>\n\n<p class=\"lead\" style=\"text-align: center;\"><\/p>\n\n<p class=\"lead\" style=\"text-align: center;\">Currently my most important project is designing and developing for our theme! I gave myself the job to not only create the biggest and smartest Drupal theme ever but also create the best theme period. I'm looking at the WordPress themes market and looking for areas where my Drupal based theme can outperform WordPress themes. One area where WordPress is disappointing users is in standardization and interoperability.<\/p>\n\n<p class=\"lead\" style=\"text-align: center;\">Consequently, the drag and drop tools and\u00a0 elements are not limited to how they're used in the demos. You can enable the drag and drop software on any Drupal entity and you can easily extend it with custom HTML elements, creating your own experience!<\/p>\n<\/div>\n<\/div>\n\n<div class=\"az-element az-ctnr az-column  col-sm-2\" data-az-id=\"mbs4a4yb\" data-azat-width=\" 1\/6\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"6bdwxkmi\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-ctnr az-column  col-sm-12\" data-az-id=\"u8a6oryq\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-text\" data-az-id=\"etfo1a2w\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\"><\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"az-element az-section glazed-util-background-gray\" data-az-id=\"79gmqp7f\" data-azat-el_class=\"glazed-util-background-gray\" data-azat-style=\"padding-top:0px;padding-bottom:0px;background-color:#444444;\" data-azb=\"az_section\" id=\"79gmqp7f\" style=\"padding-top:0px;padding-bottom:0px;background-color:#444444;\">\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\n<div class=\"az-element az-row row  az-row--sm az-row--equal-height\" data-az-id=\"dzw1o0z3\" data-azat-device=\"sm\" data-azat-equal=\"yes\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"rwln1ate\" data-azat-style=\"margin-bottom:0px;padding-top:60px;padding-bottom:60px;background-color:#333333;\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;padding-top:60px;padding-bottom:60px;background-color:#333333;\">\n<div class=\"az-element az-text\" data-az-id=\"73du3nx1\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n<h2>Education<\/h2>\n\n<p class=\"lead\">Far far away, behind the word mountains<\/p>\n\n<p class=\"lead\">Alphabet Village and the subline of her own road<\/p>\n\n<p class=\"lead\"><\/p>\n\n<p class=\"lead\"><\/p>\n<\/div>\n<\/div>\n\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"a45pzhcg\" data-azat-style=\"margin-bottom:0px;padding-top:60px;padding-bottom:60px;background-color:#222222;\" data-azat-width=\" 1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"margin-bottom:0px;padding-top:60px;padding-bottom:60px;background-color:#222222;\">\n<div class=\"az-element az-text\" data-az-id=\"oieyn889\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n<h2>Work Experience<\/h2>\n\n<p class=\"lead\">2008 \u2013 One day however a small<\/p>\n\n<p class=\"lead\">2011 - Far far away, behind the word mountains<\/p>\n\n<p class=\"lead\">2012-2013 \u2013 The Big Oxmox advised her<\/p>\n\n<p class=\"lead\">Present \u2013 Pityful a rethoric question<\/p>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"az-element az-section\" data-az-id=\"cvi6ca0x\" data-azat-style=\"padding-top:100px;padding-bottom:100px;\" data-azb=\"az_section\" id=\"cvi6ca0x\" style=\"padding-top:100px;padding-bottom:100px;\">\n<div class=\"az-ctnr container\" data-azcnt=\"true\">\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"mhodrgls\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"kplewjim\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"vz3ch0jp\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-text\" data-az-id=\"3sffamwg\" data-azat-style=\"margin-bottom:60px;\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"margin-bottom:60px;\">\n<h2 style=\"text-align: center;\">Connect with me<\/h2>\n\n<p class=\"lead\" style=\"text-align: center;\"><\/p>\n\n<p class=\"lead\" style=\"text-align: center;\">You can connect with my via the our newsletter and social media. Alternatively you can find my\u00a0 pages on various professional social media.<\/p>\n<\/div>\n\n<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"3gsbk29f\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"xvfmrukj\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\n<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"cph7yfjo\" data-azat-width=\" 1\/2 \" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n<div class=\"az-element az-cms-element\" data-az-id=\"4qqcfx95\" data-azb=\"az_block-block_content:ebc91f51-ebd8-4152-b1ef-4f3da70f8d9c\" style=\"\"><\/div>\n<\/div>\n\n<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"3wn1wkqj\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n<\/div>\n\n<ul class=\"az-element st-social stbe-social-links text-center stbe-social-links--bgcolor-brand stbe-social-links--hover-color-brand\" data-az-id=\"u14npb0f\" data-azat-el_class=\"text-center\" data-azat-st_color=\"#ffffff\" data-azat-st_css3_hover_effects=\"pulse\" data-azat-st_hover_color=\"brand\" data-azat-st_size=\"2x\" data-azat-st_social_links=\"Facebook%3D%22https%3A%2F%2Fwww.example.com%22%0AYouTube%3D%22https%3A%2F%2Fwww.example.com%22%0AAndroid%3D%22https%3A%2F%2Fwww.example.com%22%0ATwitter%3D%22https%3A%2F%2Fwww.example.com%22%0ALinkedIn%3D%22https%3A%2F%2Fwww.example.com%22%0ADrupal%3D%22https%3A%2F%2Fwww.example.com%22%0APinterest%3D%22https%3A%2F%2Fwww.example.com%22\" data-azat-st_style=\"circle\" data-azat-st_theme_bgcolor=\"brand\" data-azat-st_type=\"inline\" data-azat-style=\"margin-top:60px;margin-bottom:60px;\" data-azb=\"st_social\" data-glazed-builder-libraries=\"social_icons font_awesome icon_helpers\" style=\"margin-top:60px;margin-bottom:60px;\">\n\t<li class=\"stbe-social-links__item\"><\/li>\n\t<li class=\"stbe-social-links__item\"><\/li>\n\t<li class=\"stbe-social-links__item\"><\/li>\n\t<li class=\"stbe-social-links__item\"><\/li>\n\t<li class=\"stbe-social-links__item\"><\/li>\n\t<li class=\"stbe-social-links__item\"><\/li>\n\t<li class=\"stbe-social-links__item\"><\/li>\n<\/ul>\n<\/div>\n\n<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"s6g7fiip\" data-azat-width=\" 1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n<\/div>\n<\/div>\n<\/div>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/social.css\" \/><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\" \/><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/font-awesome\/css\/font-awesome.min.css\" \/>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

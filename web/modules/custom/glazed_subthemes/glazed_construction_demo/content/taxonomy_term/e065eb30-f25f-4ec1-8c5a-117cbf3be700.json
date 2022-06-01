@@ -1,0 +1,50 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/default\/taxonomy\/term\/16?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_portfolio_category"
+        }
+    },
+    "uuid": [
+        {
+            "value": "e065eb30-f25f-4ec1-8c5a-117cbf3be700"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_portfolio_category"
+        }
+    ],
+    "name": [
+        {
+            "value": "Interior Design",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-18T09:58:50+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

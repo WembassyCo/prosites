@@ -1,0 +1,190 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/music-lessons?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1499442711659-a9566695faed_0.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/486357735_0bc4ec4e69_b.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ae994597-fd6f-487e-8f00-87a3a1412e1f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-01-12T08:16:51+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "af92e5c3-9d8a-445e-80c4-db7cf4eeb19a"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "af92e5c3-9d8a-445e-80c4-db7cf4eeb19a"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1499442711659-a9566695faed_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "78aae52e-4e12-4e00-90bb-47c4a6a3baae"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/486357735_0bc4ec4e69_b.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "208fbe73-e4e4-4d3f-b1d7-15af25c8e164"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Music Lessons",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-12T08:06:06+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-12T08:16:51+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/music-lessons",
+            "pid": 17,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"bosjswg5\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"bosjswg5\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"9slfuccp\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-12\" style=\"\" data-az-id=\"qkn9jzjb\" data-azb=\"az_column\" data-azat-width=\"1\/1\" data-azcnt=\"true\"><div class=\"az-element az-text lead\" style=\"\" data-az-id=\"36wcv5jj\" data-azb=\"az_text\" data-azat-el_class=\"lead\" data-azcnt=\"true\">For beginning students, half hour lessons are recommended. Group lessons are great for children, as they learn to play together with others and develop their social skills too.<\/div><\/div><\/div><div class=\"az-element az-template\" style=\"margin-bottom:30px;\" data-az-id=\"3um1ai0t\" data-azb=\"pricingtable-boxed-3\" data-azat-style=\"margin-bottom:30px;\"><div data-azcnt=\"true\"><div data-glazed-builder-libraries=\"pricingtable\" class=\"stpe-pricingtable stpe-pricingtable--boxed row clearfix\">\n<div class=\"az-editable stpe-pricingtable__panel-wrapper  col-sm-4\">\n<div class=\"stpe-pricingtable__panel-container\">\n<div class=\"stpe-pricingtable__panel\">\n<div class=\"stpe-pricingtable__panel-heading\">\n<h3 class=\"stpe-pricingtable__panel-title\" style=\"\">Hourly rate<\/h3>\n<\/div>\n\n<div class=\"stpe-pricingtable__panel-body\">\n<div class=\"stpe-pricingtable__price\"><span class=\"az-editable stpe-pricingtable__currency\">$<\/span><span class=\"az-editable stpe-pricingtable__integer text-primary az-editable\" style=\"\">30<\/span><sup class=\"az-editable stpe-pricingtable__decimal text-primary az-editable\" style=\"\">00<\/sup><span class=\"az-editable stpe-pricingtable__period\" style=\"\">per lesson<\/span><\/div>\n<\/div>\n\n<ul class=\"list-group az-sortable\">\n\t<li class=\"az-editable list-group-item\" style=\"\">Individual lessons<\/li>\n\t<li class=\"az-editable list-group-item\" style=\"\">Once or twice a week<\/li>\n<\/ul>\n\n<div class=\"stpe-pricingtable__panel-footer\"><a class=\"az-editable stpe-borderbutton btn-lg\" href=\"\/contact\" style=\"\">Sign Up<\/a><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"az-editable stpe-pricingtable__panel-wrapper col-sm-4\">\n<div class=\"stpe-pricingtable__panel-container\">\n<div class=\"stpe-pricingtable__panel\">\n<div class=\"stpe-pricingtable__panel-heading\">\n<h3 class=\"stpe-pricingtable__panel-title\" style=\"\">Half hour<\/h3>\n<\/div>\n\n<div class=\"stpe-pricingtable__panel-body\">\n<div class=\"stpe-pricingtable__price\"><span class=\"az-editable stpe-pricingtable__currency\">$<\/span><span class=\"az-editable stpe-pricingtable__integer text-primary az-editable\" style=\"\">15<\/span><sup class=\"az-editable stpe-pricingtable__decimal text-primary az-editable\" style=\"\">00<\/sup><span class=\"az-editable stpe-pricingtable__period\" style=\"\">per lesson<\/span><\/div>\n<\/div>\n\n<ul class=\"list-group az-sortable\">\n\t<li class=\"az-editable list-group-item\" style=\"\">Individual lessons<\/li>\n\t<li class=\"az-editable list-group-item\" style=\"\">Once or twice a week<\/li>\n<\/ul>\n\n<div class=\"stpe-pricingtable__panel-footer\"><a class=\"az-editable stpe-borderbutton btn-lg\" href=\"\/contact\" style=\"\">Sign Up<\/a><\/div>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"az-editable stpe-pricingtable__panel-wrapper col-sm-4\" style=\"\">\n<div class=\"stpe-pricingtable__panel-container\">\n<div class=\"stpe-pricingtable__panel\">\n<div class=\"stpe-pricingtable__panel-heading\">\n<h3 class=\"stpe-pricingtable__panel-title\" style=\"\">Group lessons<\/h3>\n<\/div>\n\n<div class=\"stpe-pricingtable__panel-body\">\n<div class=\"stpe-pricingtable__price\"><span class=\"az-editable stpe-pricingtable__currency\">$<\/span><span class=\"az-editable stpe-pricingtable__integer text-primary az-editable\" style=\"\">10<\/span><sup class=\"az-editable stpe-pricingtable__decimal text-primary az-editable\" style=\"\">00<\/sup><span class=\"az-editable stpe-pricingtable__period\" style=\"\">per lesson<\/span><\/div>\n<\/div>\n\n<ul class=\"list-group az-sortable\">\n\t<li class=\"az-editable list-group-item\" style=\"\">2 or 3 per group<\/li>\n\t<li class=\"az-editable list-group-item\" style=\"\">20 minutes lesson per person<\/li>\n<\/ul>\n\n<div class=\"stpe-pricingtable__panel-footer\"><a class=\"az-editable stpe-borderbutton btn-lg\" href=\"\/contact\" style=\"\">Sign Up<\/a><\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div><\/div><\/div><\/div><\/div><div id=\"b1qibaa5\" class=\"az-element az-section\" style=\"\" data-az-id=\"b1qibaa5\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"cbgkeprj\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"qrhgkj1s\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"iiv5vl71\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Group lessons<\/h3><\/div><div class=\"az-element az-image\" data-az-id=\"fx1lthsd\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/2018-01\/486357735_0bc4ec4e69_b.jpg\" data-azat-width=\"\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/2018-01\/486357735_0bc4ec4e69_b.jpg\" alt=\"\" title=\"\" style=\"\"><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"uk3mfhxa\" data-azb=\"az_text\" data-azcnt=\"true\"><br>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word \"and\" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn\u2019t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again.<\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"i8307e7y\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"roz092dw\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Private lessons<\/h3><\/div><div class=\"az-element az-image\" data-az-id=\"xhml0row\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/2018-01\/photo-1499442711659-a9566695faed_0.jpg\" data-azat-width=\"\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/2018-01\/photo-1499442711659-a9566695faed_0.jpg\" alt=\"\" title=\"\" style=\"\"><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"i0gnfvc5\" data-azb=\"az_text\" data-azcnt=\"true\"><br>Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn\u2019t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again.<\/div><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

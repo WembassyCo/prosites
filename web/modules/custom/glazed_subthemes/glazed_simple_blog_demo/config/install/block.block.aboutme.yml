@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drag_and_drop_block:b7041ded-5f96-45a2-a320-f2d0fba62fed'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: aboutme
+theme: glazed
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'block_content:b7041ded-5f96-45a2-a320-f2d0fba62fed'
+settings:
+  id: 'block_content:b7041ded-5f96-45a2-a320-f2d0fba62fed'
+  label: 'About Me'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

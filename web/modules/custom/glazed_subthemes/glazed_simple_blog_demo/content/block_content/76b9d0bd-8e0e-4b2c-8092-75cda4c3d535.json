@@ -1,0 +1,65 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/drag_and_drop_block"
+        }
+    },
+    "uuid": [
+        {
+            "value": "76b9d0bd-8e0e-4b2c-8092-75cda4c3d535"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_block"
+        }
+    ],
+    "info": [
+        {
+            "value": "Glazed Blog Spotlight Block",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-11T09:24:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2018-01-11T09:24:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"hkaudccc\" class=\"az-element az-section\" style=\"padding-top:60px;padding-bottom:30px;\" data-az-id=\"hkaudccc\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;padding-bottom:30px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row glazed-util-text-muted az-row--sm\" style=\"\" data-az-id=\"o4dr2ukn\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-el_class=\"glazed-util-text-muted\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"1ww9f4rq\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-template\" style=\"\" data-az-id=\"4568knz3\" data-azb=\"efik-animation\"><div data-azcnt=\"true\"><div data-glazed-builder-libraries=\"imagebox wow\" class=\"stpe-imagebox\">\n  <figure class=\"stpe-imagebox__figure stpe-imagebox__figure--efik wow\" style=\"visibility: visible;\" data-wow-offset=\"519\">\n    <img class=\"stpe-imagebox__image\" src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_square\/public\/glazed-cms-media\/b505f711.jpg\" style=\"\">\n\n    <figcaption class=\"stpe-imagebox__fig-caption\">\n      <h2 class=\"stpe-imagebox__title\" style=\"\">Lifestyle<\/h2>\n\n      <div class=\"stpe-imagebox__fig-content\">\n        <p class=\"az-editable\" style=\"\">&nbsp;&nbsp;&nbsp;<\/p>\n        <a class=\"btn stpe-borderbutton glazed-util-border-white glazed-util-color-white glazed-util-hover-color-black glazed-util-hover-border-white glazed-util-hover-background-white\" href=\"https:\/\/sooperthemes.com\/\" style=\"\">View Articles<\/a>\n      <\/div>\n    <\/figcaption>\n  <\/figure>\n<\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"cmiedpjk\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azcnt=\"true\"><div class=\"az-element az-template\" style=\"\" data-az-id=\"78g6ghtf\" data-azb=\"efik-animation\"><div data-azcnt=\"true\"><div data-glazed-builder-libraries=\"imagebox wow\" class=\"stpe-imagebox\">\n  <figure class=\"stpe-imagebox__figure stpe-imagebox__figure--efik wow\" style=\"visibility: visible;\" data-wow-offset=\"558\">\n    <img class=\"stpe-imagebox__image\" src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_square\/public\/glazed-cms-media\/4f900e54.jpg\" style=\"\">\n\n    <figcaption class=\"stpe-imagebox__fig-caption\">\n      <h2 class=\"stpe-imagebox__title\" style=\"\">Design<\/h2>\n\n      <div class=\"stpe-imagebox__fig-content\">\n        <p class=\"az-editable\" style=\"\">&nbsp;&nbsp;&nbsp;<\/p>\n        <a class=\"btn stpe-borderbutton glazed-util-border-white glazed-util-color-white glazed-util-hover-color-black glazed-util-hover-border-white glazed-util-hover-background-white\" href=\"https:\/\/sooperthemes.com\/\" style=\"\">View Articles<\/a>\n      <\/div>\n    <\/figcaption>\n  <\/figure>\n<\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"j4r7nxg6\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azcnt=\"true\"><div class=\"az-element az-template\" style=\"\" data-az-id=\"fg7xj9ry\" data-azb=\"efik-animation\"><div data-azcnt=\"true\"><div data-glazed-builder-libraries=\"imagebox wow\" class=\"stpe-imagebox\">\n  <figure class=\"stpe-imagebox__figure stpe-imagebox__figure--efik wow\" style=\"visibility: visible;\" data-wow-offset=\"558\">\n    <img class=\"stpe-imagebox__image\" src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_3_square\/public\/glazed-cms-media\/photo-1427691902396-b6229ea993b8.jpg\" style=\"\">\n\n    <figcaption class=\"stpe-imagebox__fig-caption\">\n      <h2 class=\"stpe-imagebox__title\">Efik Animation<\/h2>\n\n      <div class=\"stpe-imagebox__fig-content\">\n        <p class=\"az-editable\" style=\"\">&nbsp;&nbsp;&nbsp;<\/p>\n        <a class=\"btn stpe-borderbutton glazed-util-border-white glazed-util-color-white glazed-util-hover-color-black glazed-util-hover-border-white glazed-util-hover-background-white\" href=\"https:\/\/sooperthemes.com\/\" style=\"\">View Articles<\/a>\n      <\/div>\n    <\/figcaption>\n  <\/figure>\n<\/div><\/div><\/div><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

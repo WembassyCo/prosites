@@ -1,0 +1,103 @@
+views.style.sooperthemes_portfolio:
+  type: views_style
+  label: Portfolio grid layout
+  mapping:
+    layout_mode:
+      type: string
+      label: Layout mode
+    sort_to_prevent_gaps:
+      type: boolean
+      label: Sort the items
+    drag:
+      type: boolean
+      label: Enable mouse and touch drag support
+    animation_type:
+      type: string
+      label: Animation type
+    auto:
+      type: boolean
+      label: Play the slider automatically
+    auto_timeout:
+      type: integer
+      label: Play timeout
+    auto_pause_on_hover:
+      type: boolean
+      label: Stop slider when user hover the slider
+    show_navigation:
+      type: boolean
+      label: Show "next" and "prev" buttons for slider
+    show_pagination:
+      type: boolean
+      label: Show pagination for slider
+    rewind_nav:
+      type: boolean
+      label: Enable slide to first item (last item)
+    scroll_by_page:
+      type: boolean
+      label: Scroll by page and not by item
+    media_queries:
+      type: sequence
+      label: Media queries
+      sequence:
+        type: mapping
+        label: Media query
+        mapping:
+          width:
+            type: integer
+            label: Width
+          cols:
+            type: integer
+            label: Cols
+    filters:
+      type: sequence
+      label: Filters
+      sequence:
+        type: mapping
+        mapping:
+          field:
+            type: string
+            label: Field
+          style:
+            type: string
+            label: Links
+    gap_horizontal:
+      type: integer
+      label: Row gap
+    gap_vertical:
+      type: integer
+      label: Vertical gap
+    grid_adjustment:
+      type: string
+      label: Grid adjustment
+    display_type:
+      type: string
+      label: Display type
+    display_type_speed:
+      type: integer
+      label: Display type speed
+    search:
+      type: boolean
+      label: Add quick search field
+    content_page:
+      type: string
+      label: Content page
+    content_page_display:
+      type: string
+      label: Page display
+    single_page_animation:
+      type: string
+      label: Page animation
+    single_page_inline_position:
+      type: string
+      label: Page position
+
+views.pager.sooperthemes_portfolio_load_more:
+  type: views_pager
+  label: Load more pager
+  mapping:
+    button_text:
+      type: string
+      label: Button Text
+    auto:
+      type: string
+      label: Automatically load content as the user scrolls

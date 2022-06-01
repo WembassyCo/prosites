@@ -1,0 +1,170 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/my-story?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-02\/unsplash-portait-mom.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "b9459fd6-c461-42a8-a8ae-a4b4d1008d23"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-08T14:01:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a1e3f805-c4f4-4396-a258-180c65ae57ca"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a1e3f805-c4f4-4396-a258-180c65ae57ca"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-02\/unsplash-portait-mom.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "56f2fb5d-aa6e-4f9f-9439-0c249dae1862"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "My Story",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-09T10:59:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T14:01:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/my-story",
+            "pid": 27,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"9pbt3rsd\" class=\"az-element az-section\" style=\"margin-top:60px;\" data-az-id=\"9pbt3rsd\" data-azb=\"az_section\" data-azat-style=\"margin-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"ywqfd5o6\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-12\" style=\"\" data-az-id=\"vlr5ey0i\" data-azb=\"az_column\" data-azat-width=\"1\/1\" data-azcnt=\"true\"><div class=\"az-element az-text col-sm-6 col-sm-offset-3 text-center\" style=\"\" data-az-id=\"2j2z7pl9\" data-azb=\"az_text\" data-azat-el_class=\"col-sm-6 col-sm-offset-3 text-center\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Hi! I'm <em>Glazed Portfolio<\/em><\/h2><p class=\"lead\">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p><p class=\"lead\">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p><\/div><\/div><\/div><\/div><\/div><div id=\"3p6gqmba\" class=\"az-element az-section\" style=\"\" data-az-id=\"3p6gqmba\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"qt8qe1pv\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"\" data-az-id=\"ez2y9th0\" data-azb=\"az_column\" data-azat-width=\"2\/3\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"h0ddoyar\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12\/public\/2018-02\/unsplash-portait-mom.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12\/public\/2018-02\/unsplash-portait-mom.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"wtdx67ca\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azcnt=\"true\"><blockquote class=\"az-element az-blockquote\" style=\"margin-top:75px;\" data-az-id=\"iwjjq5ov\" data-azb=\"az_blockquote\" data-azat-style=\"margin-top:75px;\" data-azcnt=\"true\">\n<div aria-describedby=\"cke_95\" aria-label=\"Rich Text Editor, editor2\" class=\"ckeditor-inline cke_editable cke_editable_inline cke_contents_ltr cke_show_borders\" contenteditable=\"true\" role=\"textbox\" spellcheck=\"false\" style=\"position: relative;\" tabindex=\"0\" title=\"Rich Text Editor, editor2\">I am an artist.<br><br>My definition of art is creating<br>something with my hands that is an expression of who I am.<br><br>Art is a part of me.<footer><cite>Glazed Portfolio<\/cite><\/footer><\/div>\n<\/blockquote><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

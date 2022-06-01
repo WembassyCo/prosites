@@ -1,0 +1,13 @@
+name: Sooperthemes portfolio
+type: module
+version: 8.x-1.2
+description: Responsive jQuery grid system for smart portfolio grids
+package: Sooperthemes
+project: sooperthemes_portfolio
+project status url: https://www.sooperthemes.com/release-history
+core: 8.x
+dependencies:
+  - drupal:views
+config:
+  install:
+    - core.entity_view_mode.node.sooperthemes_portfolio_full

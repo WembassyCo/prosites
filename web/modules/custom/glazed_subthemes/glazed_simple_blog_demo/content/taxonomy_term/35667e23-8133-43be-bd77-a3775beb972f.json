@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/tags\/beauty?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+        }
+    },
+    "uuid": [
+        {
+            "value": "35667e23-8133-43be-bd77-a3775beb972f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_tags"
+        }
+    ],
+    "name": [
+        {
+            "value": "beauty",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T19:57:08+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/tags\/beauty",
+            "pid": 35,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

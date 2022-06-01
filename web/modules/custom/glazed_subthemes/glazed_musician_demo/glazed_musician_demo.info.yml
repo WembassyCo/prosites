@@ -1,0 +1,37 @@
+name: Glazed Musician
+type: module
+version: 8.x-1.0
+description: Glazed Main Demo
+core: 8.x
+package: Sooperthemes Demos
+dependencies:
+  - cms_core:cms_core
+  - cms_blog:cms_blog
+  - cms_events:cms_events
+  - drupal:contact
+  - glazed_builder_block:glazed_builder_block
+  - glazed_builder_page:glazed_builder_page
+  - glazed_helper:glazed_helper
+config:
+  install:
+    - glazed.settings
+    - color.theme.glazed
+    - block.block.musiciancontactblock
+    - block.block.sooperthemescopyrightdrupaltm
+    - block.block.glazed_branding
+default_content:
+  node:
+    - cd709a24-866c-4d0a-a65c-90ee4fa54378
+    - ae994597-fd6f-487e-8f00-87a3a1412e1f
+    - 7439516b-e668-4dde-b532-bd05cdedb0c7
+    - 4dbd32f8-29cf-4f9b-8f37-ce2d16d8c6bd
+    - fc3ef659-ad5e-4cf3-ab9e-06f7722005fb
+  block_content:
+    - 16555c37-6fba-43aa-9c92-e077575d635b
+    - 409a4343-0121-4ec7-99fc-964cecd583f9
+  menu_link_content:
+    - e2dc95b6-c296-432b-9ef4-ffd798d0e6e8
+    - dbc47f07-e9d4-4b15-93fc-64e29e52cf29
+    - 7a6db609-e134-4b85-9a33-fb69a37e3d70
+    - 31454924-3dd5-40ee-b4eb-719f3c9bc8ca
+    - 8cad5860-3ab0-4888-8c21-8b81922d1732

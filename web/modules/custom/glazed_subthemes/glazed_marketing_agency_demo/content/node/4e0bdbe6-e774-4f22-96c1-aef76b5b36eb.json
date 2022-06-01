@@ -1,0 +1,196 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/about-us?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1501769214405-5e5ee5125a02.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1499952127939-9bbf5af6c51c.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "4e0bdbe6-e774-4f22-96c1-aef76b5b36eb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-08T14:37:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "647d1baf-9551-424b-8101-517366013a96"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "647d1baf-9551-424b-8101-517366013a96"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1501769214405-5e5ee5125a02.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7904a0-5170-4bd2-8ef8-02e510ab02b6"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1499952127939-9bbf5af6c51c.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bbb124db-99f2-4fd0-82ad-3c4a967a3f73"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "About us",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-12T15:37:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T14:37:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/about-us",
+            "pid": 30,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"mdr04geu\" class=\"az-element az-section glazed-util-overlay-80 glazed-util-overlay-white\" style=\"padding-top: 37%; background-image: url(&quot;-base-url-\/-files-directory-\/2018-01\/photo-1501769214405-5e5ee5125a02.jpg&quot;); background-repeat: no-repeat; background-size: cover; background-position: center center; height: 100vh;\" data-az-id=\"mdr04geu\" data-azb=\"az_section\" data-azat-fluid=\"yes\" data-azat-fullheight=\"yes\" data-azat-el_class=\"glazed-util-overlay-80 glazed-util-overlay-white\" data-azat-style=\"padding-top:37%;background-image: url(-base-url-\/-files-directory-\/2018-01\/photo-1501769214405-5e5ee5125a02.jpg);background-repeat: no-repeat;background-size: cover;background-position:center center;\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"wj390xwr\" data-azb=\"az_icon\"><i class=\"   undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><div class=\"az-element az-text col-sm-8\" style=\"\" data-az-id=\"9nrpyt7n\" data-azb=\"az_text\" data-azat-el_class=\"col-sm-8\" data-azcnt=\"true\"><h1>Glazed is Connected by Design. We help clients innovate by combining creativity with the power of <span style=\"color:#e30613;\">disruptive technology<\/span><\/h1><\/div><\/div><\/div><div id=\"8he7ku0e\" class=\"az-element az-section glazed-util-overlay-white mb_YTPlayer isMuted\" style=\"padding-top:37%;padding-bottom:15%;background-color:#0c0c0c;background-image: url(-base-url-\/-files-directory-\/Screen%2520Shot%25202017-10-12%2520at%252016.48.56.jpg?fid=52);background-repeat: no-repeat;background-size: cover;\" data-glazed-builder-libraries=\"ytplayer\" data-az-id=\"8he7ku0e\" data-property=\"{videoURL:'OQKPyRZ1PJY',containment:'[data-az-id=8he7ku0e]', showControls:false, autoPlay:true, stopMovieOnBlur:false, loop:true, mute:true, startAt:227, stopAt:237, opacity:1, addRaster:false}\" data-azb=\"az_section\" data-azat-fluid=\"yes\" data-azat-effect=\"youtube\" data-azat-video_options=\"loop,mute\" data-azat-video_youtube=\"https:\/\/www.youtube.com\/watch?v=OQKPyRZ1PJY\" data-azat-video_start=\"227\" data-azat-video_stop=\"237\" data-azat-el_class=\"glazed-util-overlay-white\" data-azat-style=\"padding-top:37%;padding-bottom:15%;background-color:#0c0c0c;background-image: url(-base-url-\/-files-directory-\/Screen%2520Shot%25202017-10-12%2520at%252016.48.56.jpg?fid=52);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container-fluid\" style=\"position: relative;\" data-azcnt=\"true\"><div class=\"az-element az-text col-sm-8\" style=\"\" data-az-id=\"ztwnsxd6\" data-azb=\"az_text\" data-azat-el_class=\"col-sm-8\" data-azcnt=\"true\"><h1>Our Clients Cover 4 Continents Across Practically <span style=\"color:#e30613;\">All Industries<\/span><\/h1><p class=\"lead\">Including but not limited to healthcare, government, e-commerce, software, industry, and logistics<\/p><\/div><\/div><\/div><div id=\"bvzt93uh\" class=\"az-element az-section glazed-util-overlay-black\" style=\"padding-top: 90px; padding-bottom: 90px; background-color: rgb(12, 12, 12); background-image: url(&quot;-base-url-\/-files-directory-\/styles\/bootstrap3_col12_photo\/public\/photo-1499952127939-9bbf5af6c51c.jpg?itok=Wue4QLu6&amp;fid=53&quot;); background-repeat: no-repeat; background-size: cover; height: 100vh; background-attachment: fixed;\" data-az-id=\"bvzt93uh\" data-azb=\"az_section\" data-azat-fullheight=\"yes\" data-azat-effect=\"fixed\" data-azat-video_options=\"loop,mute\" data-azat-video_youtube=\"https:\/\/www.youtube.com\/watch?v=OQKPyRZ1PJY\" data-azat-video_start=\"227\" data-azat-video_stop=\"237\" data-azat-el_class=\"glazed-util-overlay-black\" data-azat-style=\"padding-top:90px;padding-bottom:90px;background-color:#0c0c0c;background-image: url(-base-url-\/-files-directory-\/styles\/bootstrap3_col12_photo\/public\/photo-1499952127939-9bbf5af6c51c.jpg?itok=Wue4QLu6&amp;fid=53);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"margin-bottom:90px;\" data-az-id=\"otxtg5ke\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:90px;\" data-azcnt=\"true\"><h2>Our Guarantees<\/h2><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"el8c02gv\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;padding-bottom:40px;border-style:solid;\" data-az-id=\"jkka52vk\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azat-style=\"border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;padding-bottom:40px;border-style:solid;\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"sgnoc0n6\" data-azb=\"az_text\" data-azcnt=\"true\"><h3><span style=\"font-size:60px;\">01<\/span><\/h3><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-9\" style=\"\" data-az-id=\"6uqwzpkd\" data-azb=\"az_column\" data-azat-width=\" 3\/4\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"lrope59d\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>You're aways welcome at our offices<\/h3><p><span style=\"color:#7f8c8d;\">Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic.<\/span><\/p><\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"2wi6alws\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;padding-bottom:40px;border-style:solid;\" data-az-id=\"ubz30s9g\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azat-style=\"border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;padding-bottom:40px;border-style:solid;\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"fzuadtx4\" data-azb=\"az_text\" data-azcnt=\"true\"><h3><span style=\"font-size:60px;\">02<\/span><\/h3><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-9\" style=\"\" data-az-id=\"8jfedt1l\" data-azb=\"az_column\" data-azat-width=\" 3\/4\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"05725n1h\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Great marketing starts with planning<\/h3><p><span style=\"color:#7f8c8d;\">Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic.<\/span><\/p><\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"5tsfx6m6\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;padding-bottom:40px;border-style:solid;\" data-az-id=\"5jnh5lcp\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azat-style=\"border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;padding-bottom:40px;border-style:solid;\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"x5bfvs25\" data-azb=\"az_text\" data-azcnt=\"true\"><h3><span style=\"font-size:60px;\">03<\/span><\/h3><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-9\" style=\"\" data-az-id=\"1v0x8254\" data-azb=\"az_column\" data-azat-width=\" 3\/4\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"rzfwwlfl\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Design takes time, we spend that time well<\/h3><p><span style=\"color:#7f8c8d;\">Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic.<\/span><\/p><\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"hk4qoyez\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;padding-bottom:40px;border-style:solid;\" data-az-id=\"iw6z2e6w\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azat-style=\"border-top-width:0px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;padding-bottom:40px;border-style:solid;\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"i9r3hz2r\" data-azb=\"az_text\" data-azcnt=\"true\"><h3><span style=\"font-size:60px;\">04<\/span><\/h3><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-9\" style=\"\" data-az-id=\"ok8m1gwj\" data-azb=\"az_column\" data-azat-width=\" 3\/4\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"t9x3okit\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Code is king, Testing is Queen<\/h3><p><span style=\"color:#7f8c8d;\">Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic.<\/span><\/p><\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.mb.YTPlayer\/dist\/css\/jquery.mb.YTPlayer.min.css\">\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.mb.YTPlayer\/dist\/jquery.mb.YTPlayer.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_glazed_hide_regions": [
+        {
+            "value": "page_title",
+            "lang": "en"
+        }
+    ]
+}

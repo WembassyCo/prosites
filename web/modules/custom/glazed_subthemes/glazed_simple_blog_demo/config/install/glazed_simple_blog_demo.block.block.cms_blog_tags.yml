@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - cms_blog
+  module:
+    - system
+    - tagclouds
+  theme:
+    - glazed
+id: cms_blog_tags
+theme: glazed
+region: sidebar_second
+weight: -3
+provider: null
+plugin: 'tagclouds_block:cms_blog_tags'
+settings:
+  id: 'tagclouds_block:cms_blog_tags'
+  label: Tags
+  provider: tagclouds
+  label_display: visible
+  cache:
+    max_age: 0
+    contexts: {  }
+  tags: 12
+  vocabulary: cms_blog_tags
+visibility:
+  request_path:
+    id: request_path
+    pages: "/blog\n/blog/*\n/tags/*"
+    negate: false

@@ -1,0 +1,27 @@
+<?php
+
+function glazed_construction_demo_install() {
+  // override existing configuration objects
+  $cfg = \Drupal::configFactory()->getEditable('glazed_construction_demo.glazed.settings');
+  $settings = \Drupal::configFactory()->getEditable('glazed.settings');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('glazed_construction_demo.block.block.glazed_branding');
+  $settings = \Drupal::configFactory()->getEditable('block.block.glazed_branding');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+
+  // generate themesettings css and color module css
+  require_once(drupal_get_path('theme', 'glazed') . '/glazed_callbacks.inc');
+  glazed_color_module_css_write('glazed');
+  glazed_css_cache_build('glazed');
+
+  // Update url aliases with menu tokens (only needed for alises that reflect menu structure)
+  \Drupal::service('pathauto.alias_storage_helper')->deleteAll();
+  $result = \Drupal::entityQuery('node')->execute();
+  $entity_storage = \Drupal::entityTypeManager()->getStorage('node');
+  $entities = $entity_storage->loadMultiple($result);
+  foreach ($entities as $entity) {
+    \Drupal::service('pathauto.generator')->updateEntityAlias($entity, 'update');
+  }
+}

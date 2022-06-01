@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/default\/tags\/buildings?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+        }
+    },
+    "uuid": [
+        {
+            "value": "4babe1f6-9e32-47cf-8882-79b70718d67f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_tags"
+        }
+    ],
+    "name": [
+        {
+            "value": "Buildings",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-18T10:11:39+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/tags\/buildings",
+            "pid": 72,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ]
+}

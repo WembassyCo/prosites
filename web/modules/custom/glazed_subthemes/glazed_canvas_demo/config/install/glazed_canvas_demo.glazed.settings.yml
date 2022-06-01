@@ -1,0 +1,171 @@
+popover_placement: top
+tooltip_placement: 'auto top'
+modal_enabled: 0
+modal_jquery_ui_bridge: 0
+body_line_height: '1.4'
+body_font_size: '14'
+nav_font_size: '14'
+headings_line_height: '1.1'
+scale_factor: '1.25'
+h1_font_size: '36'
+h2_font_size: '30'
+h3_font_size: '24'
+h4_font_size: '18'
+blockquote_font_size: '18'
+blockquote_line_height: '1.5'
+headings_letter_spacing: '0'
+headings_uppercase: 0
+body_mobile_font_size: '14'
+nav_mobile_font_size: '14'
+h1_mobile_font_size: '36'
+h2_mobile_font_size: '30'
+h3_mobile_font_size: '24'
+blockquote_mobile_font_size: '18'
+divider_thickness: '4'
+divider_length: '0'
+divider_position: '1'
+divider_color: ''
+divider_color_custom: '#eeeeee'
+page_title_breadcrumbs: 0
+page_title_home_hide: 1
+page_title_align: left
+page_title_height: '130'
+page_title_image_opacity: '1'
+page_title_image: 0
+page_title_animate: '0'
+boxed_layout: 0
+boxed_layout_boxbg: '#ffffff'
+box_max_width: '1170'
+layout_max_width: '1170'
+gutter_horizontal: '30'
+gutter_vertical: '30'
+gutter_horizontal_mobile: '30'
+gutter_vertical_mobile: '30'
+background_image: 0
+full_width_containers:
+  cnt_secondary_header: 0
+  cnt_header_nav: 0
+  cnt_page_title: 0
+  cnt_content_top: 0
+  cnt_content: 0
+  cnt_content_bottom: 0
+  cnt_footer: 0
+full_width_content_types:
+  drag_and_drop_page: drag_and_drop_page
+  blog: 0
+  page: 0
+  event: 0
+  news: 0
+  portfolio: 0
+sticky_footer: 1
+header_position: 0
+header_top_layout: '0'
+header_top_height: '80'
+header_top_overlay: 0
+header_top_bg_opacity: '1'
+header_top_fixed: 0
+header_top_sticky: 0
+header_top_sticky_show: always
+header_top_height_sticky_offset: '30'
+header_top_height_scroll: '60'
+header_top_bg_opacity_scroll: '1'
+header_side_align: left
+header_side_width: '300'
+menu_type: lead
+menu_hover: opacity
+menu_border_position: bottom
+menu_border_position_offset: '0'
+menu_border_position_offset_sticky: '0'
+menu_border_size: '2'
+menu_border_color: ''
+menu_border_color_custom: '#eeeeee'
+menu_border_animate: drop
+header_mobile_breakpoint: '1200'
+header_mobile_height: '60'
+secondary_header_hide: hidden_none
+body_font_face: '0Source+Sans+Pro:'
+body_font_face_selector: body
+headings_font_face: '0Source+Sans+Pro:200'
+headings_font_face_selector: h1
+nav_font_face: '0Source+Sans+Pro:'
+nav_font_face_selector: 'nav,nav ul li,nav a'
+sitename_font_face: '0Source+Sans+Pro:200'
+sitename_font_face_selector: '.site-name,.navbar-brand,h2,h3,h4,h5,h6,label,.field--label,th,.lead,.tp-caption,.az-counter'
+blockquote_font_face: '0Source+Serif+Pro:'
+blockquote_font_face_selector: 'blockquote, blockquote p'
+glazed_content_elements_examples_1: 1
+glazed_content_elements_examples_2: 1
+glazed_content_page_examples: 1
+glazed_content_homepage_examples: 1
+cms_portfolio_content: 1
+cms_blog_content: 1
+cms_events_content: 1
+cms_news_content: 1
+cms_core_content: 0
+glazed_canvas_theme_settings: 1
+custom_css_site: ''
+custom_javascript_site: ''
+stlink: 0
+block_preset: ''
+block_well: ''
+block_background: ''
+block_background_custom: '#eeeeee'
+block_padding: '0'
+block_border_radius: '0'
+block_border: '0'
+block_border_color: ''
+block_border_color_custom: '#eeeeee'
+title_font_size: h2
+title_align: left
+title_well: ''
+title_background: ''
+title_background_custom: '#eeeeee'
+title_padding: '0'
+title_border: '0'
+title_border_radius: '0'
+title_border_color: ''
+title_border_color_custom: '#eeeeee'
+title_sticker: 0
+block_divider: 0
+block_divider_custom: 0
+block_divider_color: ''
+block_divider_color_custom: '#eeeeee'
+block_divider_thickness: '4'
+block_divider_length: '10'
+block_divider_spacing: '20'
+block_design_regions:
+  sidebar_first: sidebar_first
+  sidebar_second: sidebar_second
+  content_top: content_top
+  content_bottom: content_bottom
+  secondary_header: 0
+  navigation: 0
+  slider: 0
+  header: 0
+  highlighted: 0
+  help: 0
+  content: 0
+  footer: 0
+region_wells:
+  secondary_header: ''
+  page_title: ''
+  content_top: ''
+  content_bottom: ''
+  sidebar_second: ''
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://default/profiles/cms/themes/contrib/bootstrap/favicon.ico'
+  use_default: true
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: ''
+  url: ''
+  use_default: true
+schemas:
+  bootstrap: 8000
+  glazed: 8000

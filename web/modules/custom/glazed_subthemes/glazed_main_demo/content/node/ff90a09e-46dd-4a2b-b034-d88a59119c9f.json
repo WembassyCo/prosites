@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/interactive-elements\/quote-slider?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ff90a09e-46dd-4a2b-b034-d88a59119c9f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-07-20T20:49:18+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Quote Slider",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T20:48:56+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-07-20T20:49:18+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/interactive-elements\/quote-slider",
+            "pid": 43,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-section\" data-az-id=\"m9b1bbk0\" data-azat-style=\"padding-top:60px;\" data-azb=\"az_section\" id=\"m9b1bbk0\" style=\"padding-top:60px;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"nh8avxfj\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"89f7aw26\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"1bcuqqlo\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"3zl9pbi7\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<h2 style=\"text-align: center;\">Easy: Ready-made Quote Slider<\/h2>\r\n\t\t\t\t<\/div>\r\n\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"vro2y5ev\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<p class=\"lead\">The quote slider is great for display for testimonials, reviews or&nbsp;quotes.&nbsp;Glazed allows you to just drop a quote slider anywhere in the page. It will look good in&nbsp;columns of all reasonable sizes.&nbsp;<\/p>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"oy6l9hc7\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section\" data-az-id=\"acnyfu9o\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_section\" id=\"acnyfu9o\" style=\"padding-bottom:5%;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-template\" data-az-id=\"g9yyp0ty\" data-azb=\"quoteslider-4\" style=\"\">\r\n\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Quote%20slider\/..\/..\/css\/elements\/quoteslider.css\" rel=\"stylesheet\" type=\"text\/css\">\r\n\t\t\t\t<div data-glazed-builder-libraries=\"quoteslider\" class=\"stpe-quoteslider carousel slide\" data-ride=\"carousel\" id=\"stpe-quoteslider\"><!-- Bottom Carousel Indicators -->\r\n\t\t\t\t\t<ol class=\"carousel-indicators\">\r\n\t\t\t\t\t\t<li class=\"active\" data-slide-to=\"0\" data-target=\"#stpe-quoteslider\"><\/li>\r\n\t\t\t\t\t\t<li data-slide-to=\"1\" data-target=\"#stpe-quoteslider\"><\/li>\r\n\t\t\t\t\t\t<li data-slide-to=\"2\" data-target=\"#stpe-quoteslider\"><\/li>\r\n\t\t\t\t\t\t<li data-slide-to=\"3\" data-target=\"#stpe-quoteslider\"><\/li>\r\n\t\t\t\t\t<\/ol>\r\n\r\n\t\t\t\t\t<div class=\"carousel-inner\">\r\n\t\t\t\t\t\t<div class=\"item active\">\r\n\t\t\t\t\t\t\t<blockquote>\r\n\t\t\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3 text-center\"><img class=\"img-circle stpe-quoteslider__image\" src=\"https:\/\/i.imgur.com\/capIu94s.jpg\"><\/div>\r\n\r\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-9\">\r\n\t\t\t\t\t\t\t\t\t\t<p class=\"az-editable\">It's incredible. Product impressed me on multiple levels. Very easy to use. Wow what great service, I love it!<\/p>\r\n\t\t\t\t\t\t\t\t\t\t<small class=\"az-editable\">Jack Finklestein<\/small><\/div>\r\n\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t<\/blockquote>\r\n\t\t\t\t\t\t<\/div>\r\n\r\n\t\t\t\t\t\t<div class=\"item\">\r\n\t\t\t\t\t\t\t<blockquote>\r\n\t\t\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3 text-center\"><img class=\"img-circle stpe-quoteslider__image\" src=\"https:\/\/i.imgur.com\/capIu94s.jpg\"><\/div>\r\n\r\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-9\">\r\n\t\t\t\t\t\t\t\t\t\t<p class=\"az-editable\">The best on the net! I would be lost without Product. Product is worth much more than I paid.<\/p>\r\n\t\t\t\t\t\t\t\t\t\t<small class=\"az-editable\">Rick Edwards<\/small><\/div>\r\n\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t<\/blockquote>\r\n\t\t\t\t\t\t<\/div>\r\n\r\n\t\t\t\t\t\t<div class=\"item\">\r\n\t\t\t\t\t\t\t<blockquote>\r\n\t\t\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3 text-center\"><img class=\"img-circle stpe-quoteslider__image\" src=\"https:\/\/i.imgur.com\/capIu94s.jpg\"><\/div>\r\n\r\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-9\">\r\n\t\t\t\t\t\t\t\t\t\t<p class=\"az-editable\">I like Product more and more each day because it makes my life a lot easier. I was amazed at the quality of Product. It's exactly what I've been looking for. Best. Product. Ever!<\/p>\r\n\t\t\t\t\t\t\t\t\t\t<small class=\"az-editable\">Carla Achterberg<\/small><\/div>\r\n\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t<\/blockquote>\r\n\t\t\t\t\t\t<\/div>\r\n\r\n\t\t\t\t\t\t<div class=\"item\">\r\n\t\t\t\t\t\t\t<blockquote>\r\n\t\t\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3 text-center\"><img class=\"img-circle stpe-quoteslider__image\" src=\"https:\/\/i.imgur.com\/capIu94s.jpg\"><\/div>\r\n\r\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-9\">\r\n\t\t\t\t\t\t\t\t\t\t<p class=\"az-editable\">We can't understand how we've been living without Product. Product is the most valuable business resource we have EVER purchased. Man, this thing is getting better and better as I learn more about it. Very easy to use.<\/p>\r\n\t\t\t\t\t\t\t\t\t\t<small class=\"az-editable\">Michael White<\/small><\/div>\r\n\t\t\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t\t\t<\/blockquote>\r\n\t\t\t\t\t\t<\/div>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t\t<!-- Carousel Buttons Next\/Prev --><a class=\"left carousel-control\" data-slide=\"prev\" href=\"#stpe-quoteslider\"><i class=\"glyphicon glyphicon-chevron-left\">&nbsp;<\/i><\/a> <a class=\"right carousel-control\" data-slide=\"next\" href=\"#stpe-quoteslider\"><i class=\"glyphicon glyphicon-chevron-right\">&nbsp;<\/i><\/a><\/div>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "processed": "<div class=\"az-element az-section\" data-az-id=\"m9b1bbk0\" data-azat-style=\"padding-top:60px;\" data-azb=\"az_section\" id=\"m9b1bbk0\" style=\"padding-top:60px;\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"nh8avxfj\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"89f7aw26\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-6\" data-az-id=\"1bcuqqlo\" data-azat-width=\"1\/2\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"3zl9pbi7\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<h2 style=\"text-align: center;\">Easy: Ready-made Quote Slider<\/h2>\n\t\t\t\t<\/div>\n\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"vro2y5ev\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\n\t\t\t\t\t<p class=\"lead\">The quote slider is great for display for testimonials, reviews or\u00a0quotes.\u00a0Glazed allows you to just drop a quote slider anywhere in the page. It will look good in\u00a0columns of all reasonable sizes.\u00a0<\/p>\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-3\" data-az-id=\"oy6l9hc7\" data-azat-width=\"1\/4\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\"><\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<div class=\"az-element az-section\" data-az-id=\"acnyfu9o\" data-azat-style=\"padding-bottom:5%;\" data-azb=\"az_section\" id=\"acnyfu9o\" style=\"padding-bottom:5%;\">\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\n\t\t<div class=\"az-element az-template\" data-az-id=\"g9yyp0ty\" data-azb=\"quoteslider-4\" style=\"\">\n\t\t\t<div data-azcnt=\"true\"><link href=\"-base-url-\/-module-directory-\/glazed_elements\/Quote%20slider\/..\/..\/css\/elements\/quoteslider.css\" rel=\"stylesheet\" type=\"text\/css\" \/>\n\t\t\t\t<div data-glazed-builder-libraries=\"quoteslider\" class=\"stpe-quoteslider carousel slide\" data-ride=\"carousel\" id=\"stpe-quoteslider\"><!-- Bottom Carousel Indicators -->\n\t\t\t\t\t<ol class=\"carousel-indicators\">\n\t\t\t\t\t\t<li class=\"active\" data-slide-to=\"0\" data-target=\"#stpe-quoteslider\"><\/li>\n\t\t\t\t\t\t<li data-slide-to=\"1\" data-target=\"#stpe-quoteslider\"><\/li>\n\t\t\t\t\t\t<li data-slide-to=\"2\" data-target=\"#stpe-quoteslider\"><\/li>\n\t\t\t\t\t\t<li data-slide-to=\"3\" data-target=\"#stpe-quoteslider\"><\/li>\n\t\t\t\t\t<\/ol>\n\n\t\t\t\t\t<div class=\"carousel-inner\">\n\t\t\t\t\t\t<div class=\"item active\">\n\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3 text-center\"><img class=\"img-circle stpe-quoteslider__image\" src=\"https:\/\/i.imgur.com\/capIu94s.jpg\" \/><\/div>\n\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-9\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"az-editable\">It's incredible. Product impressed me on multiple levels. Very easy to use. Wow what great service, I love it!<\/p>\n\t\t\t\t\t\t\t\t\t\t<small class=\"az-editable\">Jack Finklestein<\/small><\/div>\n\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t\t<\/blockquote>\n\t\t\t\t\t\t<\/div>\n\n\t\t\t\t\t\t<div class=\"item\">\n\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3 text-center\"><img class=\"img-circle stpe-quoteslider__image\" src=\"https:\/\/i.imgur.com\/capIu94s.jpg\" \/><\/div>\n\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-9\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"az-editable\">The best on the net! I would be lost without Product. Product is worth much more than I paid.<\/p>\n\t\t\t\t\t\t\t\t\t\t<small class=\"az-editable\">Rick Edwards<\/small><\/div>\n\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t\t<\/blockquote>\n\t\t\t\t\t\t<\/div>\n\n\t\t\t\t\t\t<div class=\"item\">\n\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3 text-center\"><img class=\"img-circle stpe-quoteslider__image\" src=\"https:\/\/i.imgur.com\/capIu94s.jpg\" \/><\/div>\n\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-9\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"az-editable\">I like Product more and more each day because it makes my life a lot easier. I was amazed at the quality of Product. It's exactly what I've been looking for. Best. Product. Ever!<\/p>\n\t\t\t\t\t\t\t\t\t\t<small class=\"az-editable\">Carla Achterberg<\/small><\/div>\n\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t\t<\/blockquote>\n\t\t\t\t\t\t<\/div>\n\n\t\t\t\t\t\t<div class=\"item\">\n\t\t\t\t\t\t\t<blockquote>\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-3 text-center\"><img class=\"img-circle stpe-quoteslider__image\" src=\"https:\/\/i.imgur.com\/capIu94s.jpg\" \/><\/div>\n\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-9\">\n\t\t\t\t\t\t\t\t\t\t<p class=\"az-editable\">We can't understand how we've been living without Product. Product is the most valuable business resource we have EVER purchased. Man, this thing is getting better and better as I learn more about it. Very easy to use.<\/p>\n\t\t\t\t\t\t\t\t\t\t<small class=\"az-editable\">Michael White<\/small><\/div>\n\t\t\t\t\t\t\t\t<\/div>\n\t\t\t\t\t\t\t<\/blockquote>\n\t\t\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t<!-- Carousel Buttons Next\/Prev --><a class=\"left carousel-control\" data-slide=\"prev\" href=\"#stpe-quoteslider\"><i class=\"glyphicon glyphicon-chevron-left\">\u00a0<\/i><\/a> <a class=\"right carousel-control\" data-slide=\"next\" href=\"#stpe-quoteslider\"><i class=\"glyphicon glyphicon-chevron-right\">\u00a0<\/i><\/a><\/div>\n\t\t\t<\/div>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/51\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "href": "http:\/\/default\/work\/portrait-series-slider?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "d95615c3-0b92-4bc1-8070-e57133552660"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "value": "menu_link_content"
+        }
+    ],
+    "enabled": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Gallery Pages",
+            "lang": "en"
+        }
+    ],
+    "menu_name": [
+        {
+            "value": "main"
+        }
+    ],
+    "link": [
+        {
+            "uri": "entity:node\/93",
+            "title": "",
+            "options": [],
+            "target_uuid": "e27e7ad3-34c0-44ed-a96c-8136aa2cc9e6"
+        }
+    ],
+    "external": [
+        {
+            "value": false
+        }
+    ],
+    "rediscover": [
+        {
+            "value": false
+        }
+    ],
+    "weight": [
+        {
+            "value": -70
+        }
+    ],
+    "expanded": [
+        {
+            "value": true
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T18:54:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/work\/portrait-series-slider?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/cms_portfolio_project"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e27e7ad3-34c0-44ed-a96c-8136aa2cc9e6"
+                    }
+                ]
+            }
+        ]
+    }
+}

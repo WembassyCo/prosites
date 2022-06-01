@@ -1,0 +1,64 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/16?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/cms_blog_category\/parent": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "cc2efc77-a443-4e42-862d-deb8e1bbcee4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_category"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Photography",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/cms_blog_category\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2018-01-18T16:48:59+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

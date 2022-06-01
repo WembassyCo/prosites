@@ -1,0 +1,65 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/drag_and_drop_block"
+        }
+    },
+    "uuid": [
+        {
+            "value": "5e850613-1b28-4426-a9d1-28c629982f20"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_block"
+        }
+    ],
+    "info": [
+        {
+            "value": "Brochures",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-18T13:28:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2018-01-18T13:28:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"az-element az-html\" style=\"margin-bottom: 10px; position: relative; left: 0px; top: 0px;\" data-az-id=\"i6bnq72r\" data-azb=\"az_html\" data-azat-style=\"margin-bottom:10px;\" data-azcnt=\"true\"><a class=\"btn btn-primary btn-block glazed-util-background-gray\" href=\"\/-files-directory-\/page-cb_attachments\/iso_and_construction.pdf\" style=\"text-align: left;\"><i aria-hidden=\"true\" class=\"fa fa-download\">&nbsp;<\/i> Home Renovation Brochure <\/a><\/div><div class=\"az-element az-html\" style=\"margin-bottom: 10px; position: relative; left: 0px; top: 0px;\" data-az-id=\"0px4tx8j\" data-azb=\"az_html\" data-azat-style=\"margin-bottom:10px;\" data-azcnt=\"true\"><a class=\"btn btn-primary btn-block glazed-util-background-gray\" href=\"\/-files-directory-\/page-cb_attachments\/iso_and_construction.pdf\" style=\"text-align: left;\"><i aria-hidden=\"true\" class=\"fa fa-download\">&nbsp;<\/i> Management Brochure <\/a><\/div><div class=\"az-element az-html\" style=\"margin-bottom: 10px; position: relative; left: 0px; top: 0px;\" data-az-id=\"t4kzje1b\" data-azb=\"az_html\" data-azat-style=\"margin-bottom:10px;\" data-azcnt=\"true\"><a class=\"btn btn-primary btn-block glazed-util-background-gray\" href=\"\/-files-directory-\/page-cb_attachments\/iso_and_construction.pdf\" style=\"text-align: left;\"><i aria-hidden=\"true\" class=\"fa fa-download\">&nbsp;<\/i> Construction Brochure <\/a><\/div>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

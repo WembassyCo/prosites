@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/media-elements\/icons?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "b163f1a9-245e-4200-b48f-d87212552d99"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-12-14T15:26:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Icons",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T20:40:33+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-12-14T15:26:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/media-elements\/icons",
+            "pid": 51,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"mii82s28\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"mii82s28\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"tfyiquzk\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"o7v55ixh\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"esxewwzd\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"vj1u8tjd\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Icons<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"0nnmace3\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">Instantly access over 1000 icons, including Glyphicons, Font Awesome icons and various line icon sets!<\/p><p class=\"lead\">At SooperThemes we love icons and we make it easy to use them anywhere in your drag and drop pages.<\/p><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"xed7e05k\" data-azb=\"az_separator\"><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"2ljgkqyb\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"7d66mggh\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"7d66mggh\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--xs\" style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-az-id=\"zvyrui5l\" data-azb=\"az_row\" data-azat-device=\"xs\" data-azat-style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column bg-primary col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"i2ppcile\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azat-el_class=\"bg-primary\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\" font_awesome\" data-az-id=\"kglop17v\" data-azb=\"az_icon\" data-azat-icon=\"fa fa-heart-o\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center\"><i class=\"fa fa-heart-o fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent1 col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"50f5wqf1\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azat-el_class=\"glazed-util-background-accent1\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\" font_awesome\" data-az-id=\"p7qj3p7q\" data-azb=\"az_icon\" data-azat-icon=\"fa fa-heart-o\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center\"><i class=\"fa fa-heart-o fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent2 col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"v2gv3qv3\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azat-el_class=\"glazed-util-background-accent2\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\" font_awesome\" data-az-id=\"cgvr2yc0\" data-azb=\"az_icon\" data-azat-icon=\"fa fa-heart-o\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center\"><i class=\"fa fa-heart-o fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><\/div><\/div><\/div><div id=\"qdul7rxu\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"qdul7rxu\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"bujfc71x\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Combine icons with animation<\/h2><\/div><div class=\"az-element az-row row az-row--xs az-row--equal-height\" style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-az-id=\"x3uh0r82\" data-azb=\"az_row\" data-azat-device=\"xs\" data-azat-equal=\"yes\" data-azat-style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column bg-primary col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"lkg5et04\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azat-el_class=\"bg-primary\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\"\" data-az-id=\"n45p2v6q\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-tint\" data-azat-size=\"fa-5x\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInDown\" data-azat-an_infinite=\"yes\" data-azat-an_offset=\"90\" data-azat-an_duration=\"3000\" data-azat-el_class=\"text-center\" style=\"\"><i class=\"glyphicon glyphicon-tint fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent1 col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"nwt60qqi\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azat-el_class=\"glazed-util-background-accent1\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\"\" data-az-id=\"m8dg50sw\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-leaf\" data-azat-size=\"fa-5x\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInLeftBig\" data-azat-an_offset=\"90\" data-azat-an_duration=\"1500\" data-azat-el_class=\"text-center\" style=\"\"><i class=\"glyphicon glyphicon-leaf fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent2 col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"psmz284l\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azat-el_class=\"glazed-util-background-accent2\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\"\" data-az-id=\"11w6lgj9\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-fire\" data-azat-size=\"fa-5x\" data-azat-an_start=\"appear\" data-azat-an_in=\"pulse\" data-azat-an_infinite=\"yes\" data-azat-el_class=\"text-center\" style=\"\"><i class=\"glyphicon glyphicon-fire fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><\/div><\/div><\/div><div id=\"3juq1tah\" class=\"az-element az-section\" style=\"padding-top:60px;padding-bottom:5%;\" data-az-id=\"3juq1tah\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"1vrsokhr\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Or visually support your content<\/h2><\/div><div class=\"az-element az-row row az-row--xs\" style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-az-id=\"l5mwiguo\" data-azb=\"az_row\" data-azat-device=\"xs\" data-azat-style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column glazed-util-color-white col-xs-6\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;background-color:#8968b5;\" data-az-id=\"rgoptclf\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azat-el_class=\"glazed-util-color-white\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;background-color:#8968b5;\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"i5wiref1\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"niql0lpx\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\" et_line_font\" data-az-id=\"3yukaaue\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-wallet\" data-azat-size=\"fa-5x\" data-azat-style=\"color:#57e2b9;font-size:120px;\"><i class=\"et et-icon-wallet fa-5x  undefined undefined  \" style=\"color:#57e2b9;font-size:120px;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"\" data-az-id=\"qltd87ru\" data-azb=\"az_column\" data-azat-width=\" 2\/3\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"r0g0m231\" data-azb=\"az_text\" data-azcnt=\"true\"><h2><span style=\"color:#ffffff;\">Budgeting for success<\/span><\/h2><p class=\"lead\">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><p class=\"lead\"><a data-cke-saved-href=\"https:\/\/www.sooperthemes.com\/pricing\" href=\"https:\/\/www.sooperthemes.com\/pricing\">read more<\/a><\/p><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent1 col-xs-6\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;\" data-az-id=\"n1repc96\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azat-el_class=\"glazed-util-background-accent1\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"f3581vjo\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"fob68ajt\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\" et_line_font\" data-az-id=\"29urewxy\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-strategy\" data-azat-size=\"fa-5x\" data-azat-orientation=\"fa-flip-horizontal\" data-azat-style=\"color:#f85753;font-size:150px;\"><i class=\"et et-icon-strategy fa-5x  undefined undefined  fa-flip-horizontal\" style=\"color:#f85753;font-size:150px;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"\" data-az-id=\"v74a6078\" data-azb=\"az_column\" data-azat-width=\" 2\/3\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"r5yntgsi\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Strategy &amp; Tactics<\/h2><p class=\"lead\">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><p class=\"lead\"><a data-cke-saved-href=\"https:\/\/www.sooperthemes.com\/pricing\" href=\"https:\/\/www.sooperthemes.com\/pricing\">read more<\/a><\/p><\/div><\/div><\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/font-awesome-5-pro\/css\/fontawesome-all.min.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/et-line-font\/et-line-font.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/animate.css\/animate.min.css\">\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n\n",
+            "format": "full_html",
+            "processed": "<div id=\"mii82s28\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"mii82s28\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"tfyiquzk\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"o7v55ixh\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"esxewwzd\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"vj1u8tjd\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Icons<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"0nnmace3\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">Instantly access over 1000 icons, including Glyphicons, Font Awesome icons and various line icon sets!<\/p><p class=\"lead\">At SooperThemes we love icons and we make it easy to use them anywhere in your drag and drop pages.<\/p><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"xed7e05k\" data-azb=\"az_separator\" \/><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"2ljgkqyb\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"7d66mggh\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"7d66mggh\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--xs\" style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-az-id=\"zvyrui5l\" data-azb=\"az_row\" data-azat-device=\"xs\" data-azat-style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column bg-primary col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"i2ppcile\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azat-el_class=\"bg-primary\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\" font_awesome\" data-az-id=\"kglop17v\" data-azb=\"az_icon\" data-azat-icon=\"fa fa-heart-o\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center\"><i class=\"fa fa-heart-o fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent1 col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"50f5wqf1\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azat-el_class=\"glazed-util-background-accent1\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\" font_awesome\" data-az-id=\"p7qj3p7q\" data-azb=\"az_icon\" data-azat-icon=\"fa fa-heart-o\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center\"><i class=\"fa fa-heart-o fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent2 col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"v2gv3qv3\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azat-el_class=\"glazed-util-background-accent2\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\" font_awesome\" data-az-id=\"cgvr2yc0\" data-azb=\"az_icon\" data-azat-icon=\"fa fa-heart-o\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center\"><i class=\"fa fa-heart-o fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><\/div><\/div><\/div><div id=\"qdul7rxu\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"qdul7rxu\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"bujfc71x\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Combine icons with animation<\/h2><\/div><div class=\"az-element az-row row az-row--xs az-row--equal-height\" style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-az-id=\"x3uh0r82\" data-azb=\"az_row\" data-azat-device=\"xs\" data-azat-equal=\"yes\" data-azat-style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column bg-primary col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"lkg5et04\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azat-el_class=\"bg-primary\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\"\" data-az-id=\"n45p2v6q\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-tint\" data-azat-size=\"fa-5x\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInDown\" data-azat-an_infinite=\"yes\" data-azat-an_offset=\"90\" data-azat-an_duration=\"3000\" data-azat-el_class=\"text-center\" style=\"\"><i class=\"glyphicon glyphicon-tint fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent1 col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"nwt60qqi\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azat-el_class=\"glazed-util-background-accent1\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\"\" data-az-id=\"m8dg50sw\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-leaf\" data-azat-size=\"fa-5x\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInLeftBig\" data-azat-an_offset=\"90\" data-azat-an_duration=\"1500\" data-azat-el_class=\"text-center\" style=\"\"><i class=\"glyphicon glyphicon-leaf fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent2 col-xs-4\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-az-id=\"psmz284l\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azat-el_class=\"glazed-util-background-accent2\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center\" data-glazed-builder-libraries=\"\" data-az-id=\"11w6lgj9\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-fire\" data-azat-size=\"fa-5x\" data-azat-an_start=\"appear\" data-azat-an_in=\"pulse\" data-azat-an_infinite=\"yes\" data-azat-el_class=\"text-center\" style=\"\"><i class=\"glyphicon glyphicon-fire fa-5x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><\/div><\/div><\/div><div id=\"3juq1tah\" class=\"az-element az-section\" style=\"padding-top:60px;padding-bottom:5%;\" data-az-id=\"3juq1tah\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"1vrsokhr\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Or visually support your content<\/h2><\/div><div class=\"az-element az-row row az-row--xs\" style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-az-id=\"l5mwiguo\" data-azb=\"az_row\" data-azat-device=\"xs\" data-azat-style=\"margin-top:2px;margin-bottom:2px;padding-top:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column glazed-util-color-white col-xs-6\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;background-color:#8968b5;\" data-az-id=\"rgoptclf\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azat-el_class=\"glazed-util-color-white\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;background-color:#8968b5;\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"i5wiref1\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"niql0lpx\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\" et_line_font\" data-az-id=\"3yukaaue\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-wallet\" data-azat-size=\"fa-5x\" data-azat-style=\"color:#57e2b9;font-size:120px;\"><i class=\"et et-icon-wallet fa-5x  undefined undefined  \" style=\"color:#57e2b9;font-size:120px;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"\" data-az-id=\"qltd87ru\" data-azb=\"az_column\" data-azat-width=\" 2\/3\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"r0g0m231\" data-azb=\"az_text\" data-azcnt=\"true\"><h2><span style=\"color:#ffffff;\">Budgeting for success<\/span><\/h2><p class=\"lead\">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><p class=\"lead\"><a data-cke-saved-href=\"https:\/\/www.sooperthemes.com\/pricing\" href=\"https:\/\/www.sooperthemes.com\/pricing\">read more<\/a><\/p><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column glazed-util-background-accent1 col-xs-6\" style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;\" data-az-id=\"n1repc96\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azat-el_class=\"glazed-util-background-accent1\" data-azat-style=\"margin-bottom:0px;padding-top:5%;padding-bottom:5%;padding-left:3%;padding-right:3%;\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"f3581vjo\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"fob68ajt\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-icon\" data-glazed-builder-libraries=\" et_line_font\" data-az-id=\"29urewxy\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-strategy\" data-azat-size=\"fa-5x\" data-azat-orientation=\"fa-flip-horizontal\" data-azat-style=\"color:#f85753;font-size:150px;\"><i class=\"et et-icon-strategy fa-5x  undefined undefined  fa-flip-horizontal\" style=\"color:#f85753;font-size:150px;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"\" data-az-id=\"v74a6078\" data-azb=\"az_column\" data-azat-width=\" 2\/3\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"r5yntgsi\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Strategy &amp; Tactics<\/h2><p class=\"lead\">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><p class=\"lead\"><a data-cke-saved-href=\"https:\/\/www.sooperthemes.com\/pricing\" href=\"https:\/\/www.sooperthemes.com\/pricing\">read more<\/a><\/p><\/div><\/div><\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/font-awesome-5-pro\/css\/fontawesome-all.min.css\" \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\" \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/et-line-font\/et-line-font.css\" \/>\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/animate.css\/animate.min.css\" \/>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n\n",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

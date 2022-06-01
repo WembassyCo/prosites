@@ -1,0 +1,64 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/15?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_portfolio_category"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/cms_portfolio_category\/parent": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "15d4f20b-792c-49be-bdd6-b9d5b8dc1026"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_portfolio_category"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Moods",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/cms_portfolio_category\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2018-01-22T13:27:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

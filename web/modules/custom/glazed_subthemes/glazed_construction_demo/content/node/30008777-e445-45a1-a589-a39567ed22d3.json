@@ -1,0 +1,160 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/company\/about-us?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "30008777-e445-45a1-a589-a39567ed22d3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-08T10:36:09+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b5827b9-533a-4e90-ac91-889055eec1cc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b5827b9-533a-4e90-ac91-889055eec1cc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "About Us",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-17T18:50:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T10:36:09+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/company\/about-us",
+            "pid": 41,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"48gyq3li\" class=\"az-element az-section\" style=\"padding-top:60px;padding-bottom:60px;\" data-az-id=\"48gyq3li\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;padding-bottom:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"2j6t7cqu\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"bisadoqb\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"e1al4bj4\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_3_4_banner\/public\/2018-01\/construction_304752239_0_0.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_3_4_banner\/public\/2018-01\/construction_304752239_0_0.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"tyrlfoai\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"hy8of466\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Meet Glazed Construction<\/h3><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"xa913y1v\" data-azb=\"az_separator\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gad5xqx9\" data-azb=\"az_text\" data-azcnt=\"true\"><p>Glazed Construction follows its roots back to 1989 in Montana. With a large number of construction tasks added to our repertoire, we can gladly say that we are a stand out amongst national and international organizations performing both local and overseas development work.<\/p><p>Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p><\/div><\/div><\/div><\/div><\/div><div id=\"mbz0sn11\" class=\"az-element az-section glazed-util-overlay-primary glazed-util-text-bold\" style=\"padding-top: 8%; padding-bottom: 8%; background-image: url(&quot;-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/construction_62978068.jpg&quot;); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: 0% 354px;\" data-glazed-builder-libraries=\"waypoints\" data-az-id=\"mbz0sn11\" data-azb=\"az_section\" data-azat-effect=\"parallax\" data-azat-parallax_speed=\"54\" data-azat-parallax_mode=\"fixed\" data-azat-el_class=\"glazed-util-overlay-primary glazed-util-text-bold\" data-azat-style=\"padding-top:8%;padding-bottom:8%;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/construction_62978068.jpg);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"fjtwx6sx\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"1govs0hi\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azcnt=\"true\"><div class=\"az-element az-icon pull-left\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"bi1xxxxa\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-phone\" data-azat-size=\"fa-4x\" data-azat-st_style=\"stbe-util-icon-square\" data-azat-el_class=\"pull-left\" data-azat-style=\"margin-right:30px;color:#ffd013;background-color:#333333;\"><i class=\"glyphicon glyphicon-phone fa-4x stbe-util-icon-square undefined undefined  \" style=\"margin-right:30px;color:#ffd013;background-color:#333333;color: undefined;background-color: undefined;\"><\/i><\/div><div class=\"az-element az-counter\" data-az-id=\"o3pyx4bj\" data-azb=\"az_counter\" data-azat-end=\"24\" data-azat-fontsize=\"48\" data-azat-speed=\"1000\" data-azat-postfix=\"\/7\" data-azat-style=\"margin-top:-20px;color:#333333;\"><div id=\"o3pyx4bj\" class=\"\" style=\"margin-top: -20px; color: rgb(51, 51, 51); font-size: 48px;\" data-glazed-builder-libraries=\"countto waypoints\">12\/7<\/div><\/div><hr class=\"az-element az-separator\" style=\"margin-top:-7px;margin-bottom:10px;border: none;background-color: #333333;\" data-az-id=\"damdfwlu\" data-azb=\"az_separator\" data-azat-bgcolor=\"#333333\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-style=\"margin-top:-7px;margin-bottom:10px;\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"9h60qc8u\" data-azb=\"az_text\" data-azcnt=\"true\"><h5>Emergency support with Global coverage<\/h5><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"obrme0hg\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-icon pull-left\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"1635tsci\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-globe\" data-azat-size=\"fa-4x\" data-azat-st_style=\"stbe-util-icon-square\" data-azat-el_class=\"pull-left\" data-azat-style=\"margin-right:30px;color:#ffd013;background-color:#333333;\"><i class=\"glyphicon glyphicon-globe fa-4x stbe-util-icon-square undefined undefined  \" style=\"margin-right:30px;color:#ffd013;background-color:#333333;color: undefined;background-color: undefined;\"><\/i><\/div><div class=\"az-element az-counter\" data-az-id=\"pyn6un9n\" data-azb=\"az_counter\" data-azat-end=\"30\" data-azat-fontsize=\"48\" data-azat-style=\"margin-top:-20px;color:#333333;\"><div id=\"pyn6un9n\" class=\"\" style=\"margin-top: -20px; color: rgb(51, 51, 51); font-size: 48px;\" data-glazed-builder-libraries=\"countto waypoints\">8<\/div><\/div><hr class=\"az-element az-separator\" style=\"margin-top:-7px;margin-bottom:10px;border: none;background-color: #333333;\" data-az-id=\"21x3dfzv\" data-azb=\"az_separator\" data-azat-bgcolor=\"#333333\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-style=\"margin-top:-7px;margin-bottom:10px;\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"pd9z8ium\" data-azb=\"az_text\" data-azcnt=\"true\"><h5>Locations across North America<\/h5><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"ro4hjdzm\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azcnt=\"true\"><div class=\"az-element az-icon pull-left\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"ehk6ehc4\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-user\" data-azat-size=\"fa-4x\" data-azat-st_style=\"stbe-util-icon-square\" data-azat-el_class=\"pull-left\" data-azat-style=\"margin-right:30px;color:#ffd013;background-color:#333333;\"><i class=\"glyphicon glyphicon-user fa-4x stbe-util-icon-square undefined undefined  \" style=\"margin-right:30px;color:#ffd013;background-color:#333333;color: undefined;background-color: undefined;\"><\/i><\/div><div class=\"az-element az-counter\" data-az-id=\"fjlc0ezw\" data-azb=\"az_counter\" data-azat-end=\"200\" data-azat-fontsize=\"48\" data-azat-postfix=\"+\" data-azat-style=\"margin-top:-20px;color:#333333;\"><div id=\"fjlc0ezw\" class=\"\" style=\"margin-top: -20px; color: rgb(51, 51, 51); font-size: 48px;\" data-glazed-builder-libraries=\"countto waypoints\">50+<\/div><\/div><hr class=\"az-element az-separator\" style=\"margin-top:-7px;margin-bottom:10px;border: none;background-color: #333333;\" data-az-id=\"indp2qxl\" data-azb=\"az_separator\" data-azat-bgcolor=\"#333333\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-style=\"margin-top:-7px;margin-bottom:10px;\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"vvp5nsyl\" data-azb=\"az_text\" data-azcnt=\"true\"><h5>Builders vailable for projects<\/h5><\/div><\/div><\/div><\/div><\/div><div id=\"li89xk22\" class=\"az-element az-section\" style=\"padding-top:60px;padding-bottom:60px;background-color:#eeeeee;\" data-az-id=\"li89xk22\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;padding-bottom:60px;background-color:#eeeeee;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"y5z8m42l\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Our Values<\/h3><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"xwnyyx6g\" data-azb=\"az_separator\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"pvpmkerq\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"ta4tsbws\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"p94uya46\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/construction_406114573.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/construction_406114573.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"padding-top:10px;\" data-az-id=\"krs1v6l3\" data-azb=\"az_text\" data-azat-style=\"padding-top:10px;\" data-azcnt=\"true\"><h4>Construction Safety<\/h4>Our certified workers and regularly inspected equipment keep is safe and we keep your structures safe.. Ut enim ad minim veniam, quis nostrud exercitation.<\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"s10j31ve\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"1om2v84g\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/family5.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/family5.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"padding-top:10px;\" data-az-id=\"9fphwx4m\" data-azb=\"az_text\" data-azat-style=\"padding-top:10px;\" data-azcnt=\"true\"><h4>Customer Success<\/h4>Our first priority to is to satisfy our clients. Without our loyal customers there would be no Glazed Construction. sed do eiusmod tempor incididunt ut labore et dolore.<\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"2la935m6\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"qn2ovbs4\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/construction_1461434181_0.jpg\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/construction_1461434181_0.jpg\" alt=\"\" title=\"\" style=\"width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"padding-top:10px;\" data-az-id=\"97bonyzi\" data-azb=\"az_text\" data-azat-style=\"padding-top:10px;\" data-azcnt=\"true\"><h4>Sustainability<\/h4>Our mission to be the most sustainable conscious construction enterprise in the world has it's roots in our founders dedication to the environment.<\/div><\/div><\/div><\/div><\/div><div id=\"ip4fq36r\" class=\"az-element az-section glazed-util-overlay-60 glazed-util-overlay-black\" style=\"padding-top:8%;padding-bottom:8%;background-color:#eeeeee;background-image: url(-base-url-\/-files-directory-\/2018-01\/bg.jpg);background-repeat: no-repeat;background-size: cover;\" data-az-id=\"ip4fq36r\" data-azb=\"az_section\" data-azat-el_class=\"glazed-util-overlay-60 glazed-util-overlay-black\" data-azat-style=\"padding-top:8%;padding-bottom:8%;background-color:#eeeeee;background-image: url(-base-url-\/-files-directory-\/2018-01\/bg.jpg);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"margin-bottom:30px;\" data-az-id=\"9grslw8f\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:30px;\" data-azcnt=\"true\"><h3>Our Management Team<\/h3><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"dbl7yaef\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"c7azv7al\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"4nhunkm8\" data-azb=\"az_text\" data-azcnt=\"true\"><h4><span style=\"color:#FFFFFF;\">Matthew Gilmore<\/span><\/h4><h5><span style=\"color:#FFFFFF;\">CEO<\/span><\/h5><p><span style=\"color:#dddddd;\">Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at erat, commodo fringilla.<\/span><\/p><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"9kt6li2o\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"illebbop\" data-azb=\"az_text\" data-azcnt=\"true\"><h4><span style=\"color:#FFFFFF;\">Kevin Hunter<\/span><\/h4><h5><span style=\"color:#FFFFFF;\">CFO<\/span><\/h5><p><span style=\"color:#dddddd;\">Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at erat, commodo fringilla.<\/span><\/p><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"i8tbck0m\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"v6lkke2j\" data-azb=\"az_text\" data-azcnt=\"true\"><h4><span style=\"color:#FFFFFF;\">Kari Anderson<\/span><\/h4><h5><span style=\"color:#FFFFFF;\">Managing Director<\/span><\/h5><p><span style=\"color:#dddddd;\">Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at erat, commodo fringilla.<\/span><\/p><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"3xoewdd9\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"4mvlgvat\" data-azb=\"az_text\" data-azcnt=\"true\"><h4><span style=\"color:#FFFFFF;\">Janette Steele<\/span><\/h4><h5><span style=\"color:#FFFFFF;\">Sustainability Officer<\/span><\/h5><p><span style=\"color:#dddddd;\">Donec a felis sed ligula aliquet sollicitudin a in elit. Nunc at erat, commodo fringilla.<\/span><\/p><\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\">\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.parallax\/jquery.parallax.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery-countTo\/jquery.countTo.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_glazed_hide_regions": [
+        {
+            "value": "page_title",
+            "lang": "en"
+        },
+        {
+            "value": "sidebar_first",
+            "lang": "en"
+        },
+        {
+            "value": "sidebar_second",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+name: Glazed Construction Demo
+type: module
+version: 8.x-1.0
+description: Glazed Main Demo
+core: 8.x
+package: Sooperthemes Demos
+dependencies:
+  - cms_core:cms_core
+  - cms_blog:cms_blog
+  - drupal:contact
+  - glazed_builder_block:glazed_builder_block
+  - glazed_builder_page:glazed_builder_page
+  - sooperthemes_gridstack:sooperthemes_gridstack
+  - glazed_helper:glazed_helper
+  - sooperthemes_portfolio:sooperthemes_portfolio
+  - sooperthemes_portfolio:sooperthemes_portfolio_examples
+  - webform:webform
+  - webform:webform_ui
+  - webform_bootstrap:webform_bootstrap
+config:
+  install:
+    - glazed.settings
+    - color.theme.glazed
+    - webform:webform.webform.construction_contact
+    - block.block.glazed_branding
+    - block.block.constructionsecondaryheader
+    - block.block.brochures
+    - block.block.constructionfooter
+    - block.block.mainnavigation
+    - views.view.construction_portfolio
+default_content:
+  node:
+    - 8176e68d-6773-4740-9f05-dd93f02f24a9
+    - ce2defce-a69f-473b-bf50-e11afd0b1e30
+    - 2f79b18a-5f76-477f-b2ad-4d67ceb2b969
+    - c9eab2d1-b926-48c1-9b79-75512bd5a537
+    - 49a8443e-2ee4-4bcf-ab6e-36966cadd5cf
+    - f511a785-55b4-4c74-bc76-87053587e8ac
+    - 5c4c15cf-ce20-4c0f-86e3-181783a293b1
+    - 0ad669ed-ca3e-40f9-9e6a-89cac9fe95ee
+    - 7a9a4453-67d5-4104-b0f0-590bee97db75
+    - c3e66579-c423-4c9c-a27c-5cf2ce2e8af3
+    - 157a7fe3-dd3a-4022-adbc-c98d6d269fa1
+    - bc428b5f-347c-4dff-bcbc-7063be534a2e
+    - 26d72caa-a2b7-4613-a06e-3eda75f98f0c
+    - 8e9cb382-cbe1-4557-9511-5e04753f9a14
+    - 08d4b58b-da84-475f-813c-78a0159fd56a
+    - 95a74240-72da-4f9f-865d-90bc285df7c9
+    - ad8ea48f-29da-4f81-81bf-1c505ac6ce6b
+    - 30093239-994f-4175-a469-73352e66b9d9
+    - 55ef73b7-d223-4b5d-b82c-3f3a857f5720
+    - c74edc11-cf35-4c81-a930-483abbe8bfd6
+    - 7b181540-eb1c-450e-ad18-97d725b2fedd
+    - cb62b19d-7c39-466f-a2b6-ccc6472d119a
+    - 30008777-e445-45a1-a589-a39567ed22d3
+    - f637e49b-0490-46ab-ac82-c66916d97a3a
+    - 97f6c463-f6c3-4f53-9562-bb6f3e3f5e21
+    - e1e7636a-2363-48f8-97e0-8b034a553003
+    - f0580690-d6b7-4685-a037-783eb4259837
+    - 16d7c1a7-dbf2-4492-9db1-ea3c6289c3f8
+  block_content:
+    - 1b843d8b-4482-4fcf-89b2-432701d338e7
+    - 5e850613-1b28-4426-a9d1-28c629982f20
+    - af1f35ac-e38b-4c7e-9fd0-249ed3bb5eab
+    - e6c46db9-a02b-47f1-883a-4a47a1713a80
+  menu_link_content:
+    - 021aadff-ef90-4f2c-9dcb-53d8ebff162a
+    - 028e32ad-b076-4b76-b059-f3c592fb1aef
+    - 0691c9e0-254f-42c9-ba8e-af036da1196b
+    - 1e4558f1-6d2a-4a81-9d93-6aedc133b8cd
+    - 2c372385-dab9-4049-a63a-6d65a1f7f0d0
+    - 30944ae2-e258-4f63-8a9e-17918ce891ab
+    - 31e16373-6c1c-4828-860f-b8331e1b1d7c
+    - 36bc9d54-532a-4835-9539-98fd777ab71e
+    - 46b0ae77-9b32-49ad-9258-4bbb54a54b38
+    - 4c6e2f2a-9b2e-445e-8591-9b934e8539f7
+    - 67991087-eb13-467c-b30b-eda391072e78
+    - 682088c8-cf6d-421f-a576-78c566ab2453
+    - 7d4445c3-3afb-47a1-948e-fed137184517
+    - 85b0eb2c-6a4b-44df-a22a-cd89ffb34f89
+    - 87cb173a-772f-4650-b0d5-da62492c062d
+    - 8e314c34-b15f-4233-b5f7-3fd9f3e39b19
+    - 8f710a8d-a6be-40f9-9ef6-20819f6af7e3
+    - 9e6b53ee-4bb1-4fcc-8f97-32d9556e3aeb
+    - ca33fc18-46ae-4910-a18e-31adc07f120d
+    - e804d9b7-fe63-4217-978b-5e34564ace8a
+    - e8896081-2c3d-44c8-921c-dcdf00b826ba

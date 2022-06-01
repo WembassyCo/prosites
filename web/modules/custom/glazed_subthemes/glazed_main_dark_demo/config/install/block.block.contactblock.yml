@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: contactblock
+theme: glazed
+region: content_top
+weight: 0
+provider: null
+plugin: 'block_content:e1e9ad2a-3c10-4491-9267-0efb7c4cfeef'
+settings:
+  id: 'block_content:e1e9ad2a-3c10-4491-9267-0efb7c4cfeef'
+  label: 'Contact Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

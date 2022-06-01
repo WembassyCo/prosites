@@ -1,0 +1,13 @@
+{#
+/**
+ * @file
+ * The template for "load more" pager.
+ */
+#}
+<div id="pager-{{ options.portfolio_id }}" class="cbp-l-loadMore-button">
+  <a href="{{ options.url }}" class="cbp-l-loadMore-link" rel="nofollow">
+    <span class="cbp-l-loadMore-defaultText">{{ options.button_text }}</span>
+    <span class="cbp-l-loadMore-loadingText">{{ 'Loading...' | t }}</span>
+    <span class="cbp-l-loadMore-noMoreLoading">{{ 'No more works' | t }}</span>
+  </a>
+</div>

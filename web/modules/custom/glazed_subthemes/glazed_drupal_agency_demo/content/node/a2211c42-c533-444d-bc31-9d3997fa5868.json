@@ -1,0 +1,175 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/glazed-drupal-agency?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/office-1920px.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "a2211c42-c533-444d-bc31-9d3997fa5868"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-08T12:36:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de0df3ab-8ffc-404e-b992-445021a56eb5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de0df3ab-8ffc-404e-b992-445021a56eb5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/office-1920px.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7bf3df35-aab6-407e-af9d-78bb7c4fbbf2"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            }
+        ]
+    },
+    "revision_log": [
+        {
+            "value": "Copy of the revision from <em class=\"placeholder\">Fri, 01\/12\/2018 - 20:12<\/em>."
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Glazed Drupal Agency",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-12T20:07:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T12:36:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/glazed-drupal-agency",
+            "pid": 27,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"d9nxktra\" class=\"az-element az-section bg-primary glazed-util-overlay-80 glazed-util-overlay-primary\" style=\"padding-top: 6%; padding-bottom: 5%; background-image: url(&quot;-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/office-1920px.jpg?itok=GdFDk7NY&quot;); background-repeat: no-repeat; background-size: cover; background-position: 100% 117px; background-attachment: fixed;\" data-glazed-builder-libraries=\"waypoints\" data-az-id=\"d9nxktra\" data-azb=\"az_section\" data-azat-effect=\"parallax\" data-azat-parallax_speed=\"59\" data-azat-parallax_mode=\"fixed\" data-azat-video_options=\"loop,mute\" data-azat-video_youtube=\"https:\/\/www.youtube.com\/watch?v=usqCzOJv2tQ\" data-azat-el_class=\"bg-primary glazed-util-overlay-80 glazed-util-overlay-primary\" data-azat-style=\"padding-top:6%;padding-bottom:5%;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/office-1920px.jpg?itok=GdFDk7NY);background-repeat: no-repeat;background-size: cover;background-position:right top;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"fq14tb18\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-2\" style=\"\" data-az-id=\"ki7vztyp\" data-azb=\"az_column\" data-azat-width=\"1\/6\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"\" data-az-id=\"pugcn5zp\" data-azb=\"az_column\" data-azat-width=\" 4\/6 \" data-azcnt=\"true\"><div class=\"az-element az-text glazed-util-color-white\" style=\"opacity: 1;\" data-az-id=\"krvwj1cu\" data-azb=\"az_text\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInUp\" data-azat-an_hidden=\"before_in\" data-azat-an_duration=\"300\" data-azat-el_class=\"glazed-util-color-white\" data-azcnt=\"true\"><h1><span style=\"font-size:48px;\"><span style=\"color:#ffffff;\">We transform your online infrastructure into a money making machine<\/span><\/span><\/h1><\/div><div class=\"az-element az-text\" style=\"margin-top: 20px; margin-bottom: 10px; opacity: 1;\" data-az-id=\"li9j3yym\" data-azb=\"az_text\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInUp\" data-azat-an_hidden=\"before_in\" data-azat-an_duration=\"300\" data-azat-an_in_delay=\"200\" data-azat-style=\"margin-top:20px;margin-bottom:10px;\" data-azcnt=\"true\"><p class=\"lead\"><span style=\"color:#ffffff;\">We build amazing Drupal websites for some of the world's top brands. We provide full service <em>open source<\/em> solutions.<\/span><\/p><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"3lgc8nno\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"vijrbh7o\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-button\" data-az-id=\"nmhwdazk\" data-azb=\"az_button\" data-azat-title=\"See our work\" data-azat-link=\"#\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-block=\"btn-block\" data-azat-size=\"btn-lg\" data-azat-style=\"margin-top:30px;background-color:#ff1968;\"><a href=\"#\" type=\"button\" class=\"btn btn-primary btn-lg btn-block\" style=\"margin-top:30px;background-color:#ff1968;\" target=\"_self\">See our work<\/a><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"rhahfkb0\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-button\" data-az-id=\"y485d2hz\" data-azb=\"az_button\" data-azat-title=\"Get an estimate\" data-azat-link=\"#\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-block=\"btn-block\" data-azat-size=\"btn-lg\" data-azat-style=\"margin-top:30px;background-color:#ff1968;\"><a href=\"#\" type=\"button\" class=\"btn btn-primary btn-lg btn-block\" style=\"margin-top:30px;background-color:#ff1968;\" target=\"_self\">Get an estimate<\/a><\/div><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-2\" style=\"\" data-az-id=\"ecfsam1r\" data-azb=\"az_column\" data-azat-width=\" 1\/6\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"scyn1vqn\" class=\"az-element az-section\" style=\"\" data-az-id=\"scyn1vqn\" data-azb=\"az_section\" data-azat-fluid=\"yes\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm az-row--equal-height\" style=\"\" data-az-id=\"kauuiel7\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-equal=\"yes\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column bg-primary col-sm-4\" style=\"margin-bottom:0px;padding-top:40px;padding-bottom:40px;padding-left:5%;padding-right:5%;\" data-az-id=\"h07ipgd6\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azat-el_class=\"bg-primary\" data-azat-style=\"margin-bottom:0px;padding-top:40px;padding-bottom:40px;padding-left:5%;padding-right:5%;\" data-azcnt=\"true\"><div class=\"az-element az-counter\" data-az-id=\"kuu7y0q5\" data-azb=\"az_counter\" data-azat-end=\"146\" data-azat-fontsize=\"45\" data-azat-postfix=\" Clients\" data-azat-style=\"margin-bottom:15px;\"><div id=\"kuu7y0q5\" class=\"\" style=\"margin-bottom: 15px; font-size: 45px;\" data-glazed-builder-libraries=\"countto waypoints\">146 Clients<\/div><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"zsj6yfpo\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">Far from the countries Vokalia and Consonantia, there live the blind texts. Behin the word mountains.<\/p><\/div><\/div><div class=\"az-element az-ctnr az-column bg-primary col-sm-4\" style=\"margin-bottom:0px;padding-top:40px;padding-bottom:40px;padding-left:5%;padding-right:5%;background-color:#e51666;\" data-az-id=\"jjujlx4v\" data-azb=\"az_column\" data-azat-width=\" 1\/3 \" data-azat-el_class=\"bg-primary\" data-azat-style=\"margin-bottom:0px;padding-top:40px;padding-bottom:40px;padding-left:5%;padding-right:5%;background-color:#e51666;\" data-azcnt=\"true\"><div class=\"az-element az-counter\" data-az-id=\"n99qymbu\" data-azb=\"az_counter\" data-azat-end=\"16\" data-azat-fontsize=\"45\" data-azat-postfix=\" Awards\" data-azat-style=\"margin-bottom:15px;\"><div id=\"n99qymbu\" class=\"\" style=\"margin-bottom: 15px; font-size: 45px;\" data-glazed-builder-libraries=\"countto waypoints\">16 Awards<\/div><\/div><div class=\"az-element az-text glazed-util-color-white\" style=\"\" data-az-id=\"ajet49we\" data-azb=\"az_text\" data-azat-el_class=\"glazed-util-color-white\" data-azcnt=\"true\"><p class=\"lead\">Far from the countries Vokalia and Consonantia, there live the blind texts. Behin the word mountains.<\/p><\/div><\/div><div class=\"az-element az-ctnr az-column bg-primary col-sm-4\" style=\"margin-bottom:0px;padding-top:40px;padding-bottom:40px;padding-left:5%;padding-right:5%;\" data-az-id=\"5ecsle3n\" data-azb=\"az_column\" data-azat-width=\" 1\/3\" data-azat-el_class=\"bg-primary\" data-azat-style=\"margin-bottom:0px;padding-top:40px;padding-bottom:40px;padding-left:5%;padding-right:5%;\" data-azcnt=\"true\"><div class=\"az-element az-counter\" data-az-id=\"5qdkqeew\" data-azb=\"az_counter\" data-azat-end=\"86\" data-azat-fontsize=\"45\" data-azat-postfix=\" Staff\" data-azat-style=\"margin-bottom:15px;\"><div id=\"5qdkqeew\" class=\"\" style=\"margin-bottom: 15px; font-size: 45px;\" data-glazed-builder-libraries=\"countto waypoints\">86 Staff<\/div><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"vm3xw8n5\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">Far from the countries Vokalia and Consonantia, there live the blind texts. Behin the word mountains.<\/p><\/div><\/div><\/div><\/div><\/div><div id=\"0796atwl\" class=\"az-element az-section\" style=\"padding-top:5%;padding-bottom:5%;\" data-az-id=\"0796atwl\" data-azb=\"az_section\" data-azat-style=\"padding-top:5%;padding-bottom:5%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text text-center center-block col-sm-5\" style=\"opacity: 1;\" data-az-id=\"ajhwyl9n\" data-azb=\"az_text\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInUp\" data-azat-an_hidden=\"before_in\" data-azat-an_duration=\"400\" data-azat-el_class=\"text-center center-block col-sm-5\" data-azcnt=\"true\"><h2><span style=\"color:#ff1968;\">Recent Work<\/span><\/h2><\/div><div class=\"az-element az-cms-element\" style=\"\" data-az-id=\"9o4u2bvr\" data-azb=\"az_view-drupal_agency_gridstack-gridstack_7\" data-azat-override_pager=\"no\" data-azat-items=\"\" data-azat-offset=\"\"><\/div><div class=\"az-element az-button text-center\" data-az-id=\"6q2iuogx\" data-azb=\"az_button\" data-azat-title=\"VIEW PORTFOLIO\" data-azat-link=\"portfolio\/premium17\" data-azat-link_target=\"_self\" data-azat-type=\"bg-primary stpe-flatbutton\" data-azat-el_class=\"text-center\" data-azat-style=\"margin-top:20px;margin-bottom:20px;padding-top:9px;padding-bottom:9px;padding-left:35px;padding-right:35px;border-radius:1px;\"><a href=\"-base-url-\/portfolio\/premium17\" type=\"button\" class=\"btn bg-primary stpe-flatbutton  \" style=\"margin-top:20px;margin-bottom:20px;padding-top:9px;padding-bottom:9px;padding-left:35px;padding-right:35px;border-radius:1px;\" target=\"_self\">VIEW PORTFOLIO<\/a><\/div><\/div><\/div><div id=\"7hzx7oxf\" class=\"az-element az-section well\" style=\"margin-bottom:0px;padding-top:60px;padding-bottom:0px;background-repeat: no-repeat;background-size: cover;\" data-az-id=\"7hzx7oxf\" data-azb=\"az_section\" data-azat-el_class=\"well\" data-azat-style=\"margin-bottom:0px;padding-top:60px;padding-bottom:0px;background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div id=\"c0bg11gz\" class=\"az-element az-section well\" style=\"padding-top:100px;padding-bottom:100px;background-repeat: no-repeat;background-size: cover;\" data-az-id=\"c0bg11gz\" data-azb=\"az_section\" data-azat-el_class=\"well\" data-azat-style=\"padding-top:100px;padding-bottom:100px;background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"f1z6prjr\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"1rdzxdi0\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"rdp2ev07\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: right;\"><span style=\"font-size:72px;\"><span style=\"color:#2247ec;\">Drupal Blog<\/span><\/span><\/h2><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"\" data-az-id=\"pdb134v6\" data-azb=\"az_column\" data-azat-width=\" 2\/3\" data-azcnt=\"true\"><div class=\"az-element az-cms-element\" style=\"\" data-az-id=\"xcohjdav\" data-azb=\"az_view-drupal_agency_gridstack-gridstack_5\" data-azat-override_pager=\"no\" data-azat-items=\"\" data-azat-offset=\"\"><\/div><\/div><\/div><\/div><\/div><\/div><\/div><div id=\"x1rs5z8r\" class=\"az-element az-section\" style=\"padding-top:100px;padding-bottom:100px;background-color:#e5e5e5;\" data-az-id=\"x1rs5z8r\" data-azb=\"az_section\" data-azat-style=\"padding-top:100px;padding-bottom:100px;background-color:#e5e5e5;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-well well bg-primary glazed-shadow-4\" style=\"padding-top:3%;padding-bottom:1%;border-radius:5px;\" data-az-id=\"8fzs29ub\" data-azb=\"az_well\" data-azat-el_class=\"bg-primary\" data-azat-style=\"padding-top:3%;padding-bottom:1%;border-radius:5px;\" data-azat-shadow=\"4\"><div class=\"az-ctnr\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"padding-bottom:30px;\" data-az-id=\"a0tomqju\" data-azb=\"az_text\" data-azat-style=\"padding-bottom:30px;\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Why Choose Glazed Agency?<\/h2><h2><br><\/h2><\/div><div class=\"az-element az-row row az-row--sm\" style=\"margin-bottom:0px;padding-bottom:0px;\" data-az-id=\"topzkam5\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-style=\"margin-bottom:0px;padding-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"7bhtpfup\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center glazed-util-color-accent1\" data-glazed-builder-libraries=\"icon_helpers et_line_font\" data-az-id=\"5x7hfuh1\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-heart\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center glazed-util-color-accent1\" data-azat-style=\"padding-bottom:30px;\"><i class=\"et et-icon-heart fa-5x  undefined undefined  \" style=\"padding-bottom:30px;color: undefined;background-color: undefined;\"><\/i><\/div><div class=\"az-element az-text text-center\" style=\"opacity: 0;\" data-az-id=\"mrh2mk2f\" data-azb=\"az_text\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInUp\" data-azat-an_hidden=\"before_in\" data-azat-an_in_delay=\"500\" data-azat-el_class=\"text-center\" data-azcnt=\"true\"><h3>We love our clients<\/h3><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"74l3iaph\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-icon text-center glazed-util-color-accent1\" data-glazed-builder-libraries=\"icon_helpers et_line_font\" data-az-id=\"6gfsckja\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-wallet\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center glazed-util-color-accent1\" data-azat-style=\"padding-bottom:30px;\"><i class=\"et et-icon-wallet fa-5x  undefined undefined  \" style=\"padding-bottom:30px;color: undefined;background-color: undefined;\"><\/i><\/div><div class=\"az-element az-text text-center\" style=\"opacity: 0;\" data-az-id=\"r69gsssi\" data-azb=\"az_text\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInUp\" data-azat-an_hidden=\"before_in\" data-azat-an_in_delay=\"600\" data-azat-el_class=\"text-center\" data-azcnt=\"true\"><h3>We respect your investment<\/h3><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"hyyjs2xb\" data-azb=\"az_column\" data-azat-width=\" 1\/4 \" data-azcnt=\"true\"><div class=\"az-element az-icon text-center glazed-util-color-accent1\" data-glazed-builder-libraries=\"icon_helpers et_line_font\" data-az-id=\"xo2h8eyt\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-lightbulb\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center glazed-util-color-accent1\" data-azat-style=\"padding-bottom:30px;\"><i class=\"et et-icon-lightbulb fa-5x  undefined undefined  \" style=\"padding-bottom:30px;color: undefined;background-color: undefined;\"><\/i><\/div><div class=\"az-element az-text text-center\" style=\"opacity: 0;\" data-az-id=\"oxng2air\" data-azb=\"az_text\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInUp\" data-azat-an_hidden=\"before_in\" data-azat-an_in_delay=\"700\" data-azat-el_class=\"text-center\" data-azcnt=\"true\"><h3>We have bright ideas<\/h3><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"b26c6njn\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><div class=\"az-element az-icon text-center glazed-util-color-accent1\" data-glazed-builder-libraries=\"icon_helpers et_line_font\" data-az-id=\"owawtxtr\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-wine\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-center glazed-util-color-accent1\" data-azat-style=\"padding-bottom:30px;\"><i class=\"et et-icon-wine fa-5x  undefined undefined  \" style=\"padding-bottom:30px;color: undefined;background-color: undefined;\"><\/i><\/div><div class=\"az-element az-text text-center\" style=\"opacity: 0;\" data-az-id=\"rrrva447\" data-azb=\"az_text\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInUp\" data-azat-an_hidden=\"before_in\" data-azat-an_in_delay=\"800\" data-azat-el_class=\"text-center\" data-azcnt=\"true\"><h3>We like to have fun, too<\/h3><\/div><\/div><\/div><\/div><\/div><\/div><\/div><div id=\"lhnmnuq3\" class=\"az-element az-section\" style=\"margin-top:0px;padding-top:60px;padding-bottom:60px;background-color:#ffffff;\" data-az-id=\"lhnmnuq3\" data-azb=\"az_section\" data-azat-style=\"margin-top:0px;padding-top:60px;padding-bottom:60px;background-color:#ffffff;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"94213a2g\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-12\" style=\"\" data-az-id=\"52i7zhlg\" data-azb=\"az_column\" data-azat-width=\"1\/1\" data-azcnt=\"true\"><div class=\"az-element az-text text-center center-block col-sm-5\" style=\"opacity: 0;\" data-az-id=\"vxj433ev\" data-azb=\"az_text\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInUp\" data-azat-an_hidden=\"before_in\" data-azat-el_class=\"text-center center-block col-sm-5\" data-azcnt=\"true\"><h2><span style=\"color:#ff1968;\">Featured Clients<\/span><\/h2><\/div><div class=\"az-element az-template\" style=\"\" data-az-id=\"c2vzymdv\" data-azb=\"logos-1\"><div data-azcnt=\"true\"><img src=\"-base-url-\/-module-directory-\/glazed_elements\/Logos\/logos-1.png\" class=\"\"><\/div><\/div><\/div><\/div><\/div><\/div><div id=\"obyu7r51\" class=\"az-element az-section well\" style=\"padding-top:100px;padding-bottom:40px;background-repeat: no-repeat;background-size: cover;\" data-az-id=\"obyu7r51\" data-azb=\"az_section\" data-azat-el_class=\"well\" data-azat-style=\"padding-top:100px;padding-bottom:40px;background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"ift7xcn9\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-8\" style=\"margin-bottom:0px;\" data-az-id=\"7ecb39w3\" data-azb=\"az_column\" data-azat-width=\" 2\/3\" data-azat-style=\"margin-bottom:0px;\" data-azcnt=\"true\"><div class=\"az-element az-cms-element\" style=\"\" data-az-id=\"hlgxmn6i\" data-azb=\"az_view-cms_blog_teasers-block\" data-azat-override_pager=\"no\" data-azat-items=\"\" data-azat-offset=\"\"><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-4\" style=\"\" data-az-id=\"eqfgx18s\" data-azb=\"az_column\" data-azat-width=\"1\/3\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"u00a5acn\" data-azb=\"az_text\" data-azcnt=\"true\"><h2><span style=\"font-size:72px;\"><span style=\"color:#2247ec;\">Latest<br>News<\/span><\/span><\/h2><\/div><\/div><\/div><\/div><\/div><div id=\"7olartw9\" class=\"az-element az-section\" style=\"margin-top:0px;padding-top:60px;padding-bottom:60px;background-color:#ffffff;\" data-az-id=\"7olartw9\" data-azb=\"az_section\" data-azat-style=\"margin-top:0px;padding-top:60px;padding-bottom:60px;background-color:#ffffff;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"tdm8pybf\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-12\" style=\"\" data-az-id=\"n5ojwax7\" data-azb=\"az_column\" data-azat-width=\"1\/1\" data-azcnt=\"true\"><div class=\"az-element az-text text-center\" style=\"opacity: 0;\" data-az-id=\"qllownex\" data-azb=\"az_text\" data-azat-an_start=\"appear\" data-azat-an_in=\"fadeInUp\" data-azat-an_hidden=\"before_in\" data-azat-el_class=\"text-center\" data-azcnt=\"true\"><h2><span style=\"font-size:48px;\">Are you interested in working with us?<\/span><\/h2><p>Lorem ipsum dolor sit amet, consectetur<br>adipiscing. Curabitur accumsan auctor<br>pulvinar proin.<\/p><\/div><div class=\"az-element az-button center-block col-sm-5\" data-az-id=\"owdx2v4q\" data-azb=\"az_button\" data-azat-title=\"Plan a kick-off meeting now!\" data-azat-link=\"#\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-block=\"btn-block\" data-azat-size=\"btn-lg\" data-azat-el_class=\"center-block col-sm-5\" data-azat-style=\"margin-top:30px;background-color:#ff1968;\"><a href=\"#\" type=\"button\" class=\"btn btn-primary btn-lg btn-block\" style=\"margin-top:30px;background-color:#ff1968;\" target=\"_self\">Plan a kick-off meeting now!<\/a><\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/et-line-font\/et-line-font.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/animate.css\/animate.min.css\">\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.parallax\/jquery.parallax.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery.waypoints\/lib\/jquery.waypoints.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/jquery-countTo\/jquery.countTo.min.js\"><\/script>\n<script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

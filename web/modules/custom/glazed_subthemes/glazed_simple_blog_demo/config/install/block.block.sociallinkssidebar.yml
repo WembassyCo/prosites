@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drag_and_drop_block:41c0155c-6085-45b2-8cfb-b3e03b368d4e'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: sociallinkssidebar
+theme: glazed
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'block_content:41c0155c-6085-45b2-8cfb-b3e03b368d4e'
+settings:
+  id: 'block_content:41c0155c-6085-45b2-8cfb-b3e03b368d4e'
+  label: 'Follow Us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

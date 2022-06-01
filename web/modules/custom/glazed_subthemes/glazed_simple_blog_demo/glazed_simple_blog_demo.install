@@ -1,0 +1,30 @@
+<?php
+
+function glazed_simple_blog_demo_install() {
+  // override existing configuration objects
+  $cfg = \Drupal::configFactory()->getEditable('glazed_simple_blog_demo.glazed.settings');
+  $settings = \Drupal::configFactory()->getEditable('glazed.settings');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('glazed_simple_blog_demo.block.block.glazed_branding');
+  $settings = \Drupal::configFactory()->getEditable('block.block.glazed_branding');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('glazed_simple_blog_demo.block.block.cms_blog_tags');
+  $settings = \Drupal::configFactory()->getEditable('block.block.cms_blog_tags');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('glazed_simple_blog_demo.block.block.block.views_block.cms_blog_authors_block');
+  $settings = \Drupal::configFactory()->getEditable('block.block.views_block.cms_blog_authors_block');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+  $cfg = \Drupal::configFactory()->getEditable('glazed_simple_blog_demo.block.block.views_block.cms_blog_categories_block');
+  $settings = \Drupal::configFactory()->getEditable('block.block.views_block.cms_blog_categories_block');
+  $settings->setData($cfg->get())->save();
+  $cfg->delete();
+
+  // generate themesettings css and color module css
+  require_once(drupal_get_path('theme', 'glazed') . '/glazed_callbacks.inc');
+  glazed_color_module_css_write('glazed');
+  glazed_css_cache_build('glazed');
+}

@@ -1,0 +1,236 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/services?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/SW12072_NIKE_Women_AnaisRoyer01_HD.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1443866451220-8377d57c426a.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1501772529219-ed0014f5032c_0.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1478358161113-b0e11994a36b.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "c0525849-2d86-4a9c-9717-a23d649dd8e8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-08T14:31:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "647d1baf-9551-424b-8101-517366013a96"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "647d1baf-9551-424b-8101-517366013a96"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/SW12072_NIKE_Women_AnaisRoyer01_HD.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a3f978f8-99f0-4b83-85ab-3e2766032692"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1443866451220-8377d57c426a.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "25813ed5-3544-4436-9132-9dbb2cb2f067"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1501772529219-ed0014f5032c_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8d85f804-1069-4f78-aa6a-ed5d4f3b7389"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/photo-1478358161113-b0e11994a36b.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b27162a-3d4f-4faf-bc07-db11281bb25e"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Services",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-12T15:46:13+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T14:31:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/services",
+            "pid": 32,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"iab2ha8o\" class=\"az-element az-section\" style=\"background-repeat: no-repeat;background-size: cover;\" data-az-id=\"iab2ha8o\" data-azb=\"az_section\" data-azat-fluid=\"yes\" data-azat-style=\"background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm az-row--equal-height\" style=\"\" data-az-id=\"sw4rzsv6\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-equal=\"yes\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6 az-util-vertical-centering\" style=\"margin-bottom:0px;padding-top:30px;padding-bottom:30px;background-color:#ffffff;\" data-az-id=\"p14iwjjq\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azat-vertical_centering=\"yes\" data-azat-style=\"margin-bottom:0px;padding-top:30px;padding-bottom:30px;background-color:#ffffff;\" data-azcnt=\"true\"><div class=\"az-element az-text col-sm-8 col-sm-offset-2\" style=\"\" data-az-id=\"6pilv8ju\" data-azb=\"az_text\" data-azat-el_class=\"col-sm-8 col-sm-offset-2\" data-azcnt=\"true\"><h1><span style=\"font-size:48px;\">Work with disruptive technologies<\/span><\/h1><p class=\"lead\"><span style=\"color:#999999;\">We design products, services and experiences for the world of tomorrow. With Glazed Marketing you'll be on the cutting edge of innovation and benefit from our wide knowledge and experience in new technologies.<\/span><\/p><\/div><hr class=\"az-element az-separator col-sm-offset-2\" style=\"border: none;\" data-az-id=\"ey7v0l3f\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-el_class=\"col-sm-offset-2\"><\/div><div class=\"az-element az-ctnr az-column glazed-util-overlay-40 glazed-util-overlay-white col-sm-6\" style=\"margin-bottom:0px;padding-top:50%;background-image: url(-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12_square\/public\/2018-01\/photo-1478358161113-b0e11994a36b.jpg);background-repeat: no-repeat;background-size: cover;\" data-az-id=\"lsu0a9m3\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azat-el_class=\"glazed-util-overlay-40 glazed-util-overlay-white\" data-azat-style=\"margin-bottom:0px;padding-top:50%;background-image: url(-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12_square\/public\/2018-01\/photo-1478358161113-b0e11994a36b.jpg);background-repeat: no-repeat;background-size: cover;\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"iv5n9p7a\" class=\"az-element az-section\" style=\"\" data-az-id=\"iv5n9p7a\" data-azb=\"az_section\" data-azat-fluid=\"yes\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm az-row--equal-height\" style=\"\" data-az-id=\"gitmkn1c\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-equal=\"yes\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6 az-util-vertical-centering\" style=\"margin-bottom:0px;padding-top:30px;padding-bottom:30px;\" data-az-id=\"5wb6m8qn\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azat-vertical_centering=\"yes\" data-azat-style=\"margin-bottom:0px;padding-top:30px;padding-bottom:30px;\" data-azcnt=\"true\"><div class=\"az-element az-text col-sm-8 col-sm-offset-2\" style=\"\" data-az-id=\"cs7cui5k\" data-azb=\"az_text\" data-azat-el_class=\"col-sm-8 col-sm-offset-2\" data-azcnt=\"true\"><h2><span style=\"font-size:48px;\">Strategy Consulting<\/span><\/h2><h3><span style=\"color:#999999;\">We develop award winning strategies that help brands achieve their objectives<\/span><\/h3><\/div><hr class=\"az-element az-separator col-sm-offset-2\" style=\"border: none;\" data-az-id=\"jk454e6o\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-el_class=\"col-sm-offset-2\"><\/div><div class=\"az-element az-ctnr az-column glazed-util-overlay-white col-sm-6\" style=\"margin-bottom:0px;padding-top:50%;background-image: url(-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12_square\/public\/2018-01\/photo-1443866451220-8377d57c426a.jpg);background-repeat: no-repeat;background-size: cover;\" data-az-id=\"1rmxgs5h\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azat-el_class=\"glazed-util-overlay-white\" data-azat-style=\"margin-bottom:0px;padding-top:50%;background-image: url(-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12_square\/public\/2018-01\/photo-1443866451220-8377d57c426a.jpg);background-repeat: no-repeat;background-size: cover;\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"lc2upyxj\" class=\"az-element az-section\" style=\"\" data-az-id=\"lc2upyxj\" data-azb=\"az_section\" data-azat-fluid=\"yes\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm az-row--equal-height\" style=\"\" data-az-id=\"p7um8a79\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-equal=\"yes\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6 az-util-vertical-centering\" style=\"margin-bottom:0px;padding-top:30px;padding-bottom:30px;\" data-az-id=\"f1mf09sf\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azat-vertical_centering=\"yes\" data-azat-style=\"margin-bottom:0px;padding-top:30px;padding-bottom:30px;\" data-azcnt=\"true\"><div class=\"az-element az-text col-sm-8 col-sm-offset-2\" style=\"\" data-az-id=\"5u879mio\" data-azb=\"az_text\" data-azat-el_class=\"col-sm-8 col-sm-offset-2\" data-azcnt=\"true\"><h2><span style=\"font-size:48px;\">Creative Production<\/span><\/h2><h3><span style=\"color:#999999;\">Our fresh creative ads, films, and experiences disrupt the industry<\/span><\/h3><\/div><hr class=\"az-element az-separator col-sm-offset-2\" style=\"border: none;\" data-az-id=\"8hmvmptm\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-el_class=\"col-sm-offset-2\"><\/div><div class=\"az-element az-ctnr az-column glazed-util-overlay-80 glazed-util-overlay-white col-sm-6\" style=\"margin-bottom:0px;padding-top:50%;background-image: url(-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12_square\/public\/2018-01\/SW12072_NIKE_Women_AnaisRoyer01_HD.jpg);background-repeat: no-repeat;background-size: cover;background-position:right center;\" data-az-id=\"m9cqgcou\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azat-el_class=\"glazed-util-overlay-80 glazed-util-overlay-white\" data-azat-style=\"margin-bottom:0px;padding-top:50%;background-image: url(-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12_square\/public\/2018-01\/SW12072_NIKE_Women_AnaisRoyer01_HD.jpg);background-repeat: no-repeat;background-size: cover;background-position:right center;\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"qhwr1719\" class=\"az-element az-section\" style=\"\" data-az-id=\"qhwr1719\" data-azb=\"az_section\" data-azat-fluid=\"yes\"><div class=\"az-ctnr container-fluid\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm az-row--equal-height\" style=\"\" data-az-id=\"zm54ymhe\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-equal=\"yes\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6 az-util-vertical-centering\" style=\"margin-bottom:0px;padding-top:30px;padding-bottom:30px;\" data-az-id=\"x70iysmu\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azat-vertical_centering=\"yes\" data-azat-style=\"margin-bottom:0px;padding-top:30px;padding-bottom:30px;\" data-azcnt=\"true\"><div class=\"az-element az-text col-sm-8 col-sm-offset-2\" style=\"\" data-az-id=\"qli4jy8e\" data-azb=\"az_text\" data-azat-el_class=\"col-sm-8 col-sm-offset-2\" data-azcnt=\"true\"><h2><span style=\"font-size:48px;\">Business Analytics<\/span><\/h2><h3><span style=\"color:#999999;\">Data Driven design is at the heart of all our decisions and creative productions<\/span><\/h3><\/div><hr class=\"az-element az-separator col-sm-offset-2\" style=\"border: none;\" data-az-id=\"sbwichj4\" data-azb=\"az_separator\" data-azat-thickness=\"auto\" data-azat-width=\"auto\" data-azat-el_class=\"col-sm-offset-2\"><\/div><div class=\"az-element az-ctnr az-column glazed-util-overlay-80 glazed-util-overlay-white col-sm-6\" style=\"margin-bottom:0px;padding-top:50%;background-image: url(-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12_square\/public\/2018-01\/photo-1501772529219-ed0014f5032c_0.jpg);background-repeat: no-repeat;background-size: cover;background-position:center center;\" data-az-id=\"parhndat\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azat-el_class=\"glazed-util-overlay-80 glazed-util-overlay-white\" data-azat-style=\"margin-bottom:0px;padding-top:50%;background-image: url(-base-url-\/-files-directory-\/styles\/cms_bootstrap_12_12_square\/public\/2018-01\/photo-1501772529219-ed0014f5032c_0.jpg);background-repeat: no-repeat;background-size: cover;background-position:center center;\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"xrezsxno\" class=\"az-element az-section\" style=\"padding-top:8%;padding-bottom:8%;background-color:#ebebeb;\" data-az-id=\"xrezsxno\" data-azb=\"az_section\" data-azat-style=\"padding-top:8%;padding-bottom:8%;background-color:#ebebeb;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"wn37oodf\" data-azb=\"az_text\" data-azcnt=\"true\"><h4 data-kiu=\"scroll-in-view\" data-kiu-scroll=\"in-view\"><span style=\"font-size:48px;\">\u201cDesign is a potent strategic tool that companies can use to gain a sustainable competitive advantage.&nbsp;\u201d<\/span><\/h4><h4 data-kiu=\"scroll-in-view\" data-kiu-scroll=\"in-view\" style=\"text-align: right;\">\u2013 Philip Kotler<\/h4><\/div><\/div><\/div><script src=\"-base-url-\/\/-module-directory-\/glazed_builder\/glazed_frontend.min.js\"><\/script>\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_glazed_hide_regions": [
+        {
+            "value": "page_title",
+            "lang": "en"
+        }
+    ]
+}

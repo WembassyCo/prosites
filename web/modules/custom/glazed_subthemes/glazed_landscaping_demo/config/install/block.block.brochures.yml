@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: brochures
+theme: glazed
+region: sidebar_second
+weight: -3
+provider: null
+plugin: 'block_content:4140210e-488c-4d4d-8d0d-a477ea2945f4'
+settings:
+  id: 'block_content:4140210e-488c-4d4d-8d0d-a477ea2945f4'
+  label: Brochures
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/services/*\r\n/company/*"
+    negate: false
+    context_mapping: {  }

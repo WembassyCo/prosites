@@ -1,0 +1,23 @@
+name: Glazed Helper
+type: module
+description: Provides features and tools for Glazed Theme
+package: SooperThemes
+# core: '8.x'
+core_version_requirement: ^8 || ^9
+dependencies:
+  - field_group
+  - image
+  - node
+  - text
+config:
+  install:
+    - field.storage.node.field_glazed_body_background
+    - field.storage.node.field_glazed_hide_regions
+    - field.storage.node.field_glazed_main_content_width
+    - field.storage.node.field_glazed_page_layout
+    - field.storage.node.field_glazed_page_title_backgrou
+# Information added by Drupal.org packaging script on 2018-09-10
+version: '8.x-1.1'
+core: '8.x'
+project: 'glazed_helper'
+datestamp: 1536585783

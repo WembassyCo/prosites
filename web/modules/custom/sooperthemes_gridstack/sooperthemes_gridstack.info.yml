@@ -1,0 +1,13 @@
+name: SooperThemes GridStack
+type: module
+description: SooperThemes GridStack Views
+package: Sooperthemes
+# core: 8.x
+dependencies:
+  - views
+
+# Information added by Drupal.org packaging script on 2018-11-16
+version: '8.x-1.1'
+core: '8.x'
+project: 'sooperthemes_gridstack'
+datestamp: 1542363784

@@ -1,0 +1,89 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/block\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/block_content\/drag_and_drop_block"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/drag_and_drop_block\/revision_user": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "b68fce4e-d643-473f-8b64-6131d23f1c13"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_block"
+        }
+    ],
+    "info": [
+        {
+            "value": "Contact Block",
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T14:31:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2018-02-08T14:31:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/block_content\/drag_and_drop_block\/revision_user": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "647d1baf-9551-424b-8101-517366013a96"
+                    }
+                ]
+            }
+        ]
+    },
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"k1rl4fyb\" class=\"az-element az-section\" style=\"\" data-az-id=\"k1rl4fyb\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"cq3p2xew\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"oezwfg4y\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"lurp60af\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>We'd Love to Hear From You.<\/h2><p class=\"lead\">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<\/p><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"bda11fq9\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div style=\"line-height: 0;\" class=\"az-element az-map\" data-az-id=\"fjgf1nk2\" data-azb=\"az_map\" data-azat-address=\"Example Street 7, City\" data-azat-height=\"200\"><iframe src=\"https:\/\/maps.google.com\/maps?q=Example+Street+8, City&amp;iwloc=near&amp;output=embed\" frameborder=\"0\" style=\"width: 100%; height: 200px;\">&amp;lt;\/&amp;lt;iframe&amp;gt;<\/iframe><\/div><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

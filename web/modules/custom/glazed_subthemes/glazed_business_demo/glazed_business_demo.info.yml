@@ -1,0 +1,37 @@
+name: Glazed Business Demo
+type: module
+version: 8.x-1.0
+description: Glazed Main Demo
+core: 8.x
+package: Sooperthemes Demos
+dependencies:
+  - cms_core:cms_core
+  - cms_blog:cms_blog
+  - cms_events:cms_events
+  - cms_news:cms_news
+  - drupal:contact
+  - glazed_builder_block:glazed_builder_block
+  - glazed_builder_page:glazed_builder_page
+  - glazed_helper:glazed_helper
+config:
+  install:
+    - glazed.settings
+    - color.theme.glazed
+    - block.block.glazedbusinessfooter
+    - block.block.contactblock
+    - block.block.glazed_branding
+default_content:
+  node:
+    - 27925937-8544-4131-af50-43e9d38b385d
+    - d7269db7-d03e-4445-b1b7-45b0c9559fe8
+    - 523a7602-9ea2-4fe6-be0f-bd2d6ea403af
+  block_content:
+    - 1dee41e2-89c5-445c-8a67-c5a03cfbe280
+    - 2ea63f46-7346-4761-81cd-7f85110c10ee
+  menu_link_content:
+    - e92d1a95-2a87-4760-8cf3-68a345e576b1
+    - 7546386a-2b4c-4700-be3c-d3e3ec886905
+    - e557a7e2-019f-4d7c-a8c0-fcb13c7a9d63
+    - 5205bc05-c33f-4023-8943-8c9673826cbd
+    - 3a3b929a-6ba9-4f77-b6c1-57ec8c415a79
+    - 024c37a2-f73f-4136-b147-e02c18b54c9a

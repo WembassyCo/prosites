@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drag_and_drop_block:f16bca5f-5e60-4337-bf7b-8e32d52d54c0'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: bigfooter
+theme: glazed
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:f16bca5f-5e60-4337-bf7b-8e32d52d54c0'
+settings:
+  id: 'block_content:f16bca5f-5e60-4337-bf7b-8e32d52d54c0'
+  label: 'Big Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

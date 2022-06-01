@@ -1,0 +1,50 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/default\/taxonomy\/term\/16?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_portfolio_category"
+        }
+    },
+    "uuid": [
+        {
+            "value": "a7f0d4b9-c380-461a-94ad-af50eba84263"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_portfolio_category"
+        }
+    ],
+    "name": [
+        {
+            "value": "Lawn",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-01-17T12:43:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

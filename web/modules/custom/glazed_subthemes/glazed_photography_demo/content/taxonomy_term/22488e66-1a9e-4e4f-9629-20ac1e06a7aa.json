@@ -1,0 +1,64 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/19?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_portfolio_category"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/cms_portfolio_category\/parent": [
+            null
+        ]
+    },
+    "uuid": [
+        {
+            "value": "22488e66-1a9e-4e4f-9629-20ac1e06a7aa"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_portfolio_category"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Black and White",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/cms_portfolio_category\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2018-01-22T13:56:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

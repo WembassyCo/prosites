@@ -1,0 +1,181 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/blog\/budgeting-your-home-renovation?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/cms_blog"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/construction_100165508.jpg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "ce2defce-a69f-473b-bf50-e11afd0b1e30"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cms_blog"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-01-18T10:12:32+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b5827b9-533a-4e90-ac91-889055eec1cc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b5827b9-533a-4e90-ac91-889055eec1cc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/construction_100165508.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "364b67fb-b4bc-497d-93a0-0bf09b5e2a2a"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "1140",
+                "height": "760"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Budgeting your home renovation",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-18T10:10:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T10:00:54+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/blog\/budgeting-your-home-renovation",
+            "pid": 40,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_cms_blog_comments": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1518084054,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
+        }
+    ],
+    "field_cms_page_body": [
+        {
+            "value": "<p>ven the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p>\r\n\r\n<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.<\/p>\r\n\r\n<p>The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word \"and\" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn\u2019t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again.<\/p>\r\n",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

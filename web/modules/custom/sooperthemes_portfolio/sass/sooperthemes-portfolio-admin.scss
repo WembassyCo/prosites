@@ -1,0 +1,32 @@
+.wp-picker-container .wp-picker-input-wrap .form-text.wp-color-picker {
+  min-width: 260px;
+  margin-left: 6px;
+  position: relative;
+  top: -2px;
+  padding: 3px;
+}
+
+.wp-picker-container .wp-picker-clear {
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+}
+.iris-picker,
+.iris-picker * {
+  box-sizing: content-box;
+}
+
+.iris-picker {
+  padding-top: 35px !important;
+}
+
+.iris-palette-container {
+  margin-bottom: 25px !important;
+}
+
+.iris-alpha-slider-container {
+  border: none !important;
+  bottom: 5px !important;
+  left: 5px !important;
+  width: 95% !important;
+}

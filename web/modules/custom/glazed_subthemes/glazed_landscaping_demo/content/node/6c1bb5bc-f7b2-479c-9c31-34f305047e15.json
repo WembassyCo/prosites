@@ -1,0 +1,146 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/services\/landscaping?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "6c1bb5bc-f7b2-479c-9c31-34f305047e15"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-06T10:20:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0b68dca6-e607-4395-940f-89a7074a9251"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0b68dca6-e607-4395-940f-89a7074a9251"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Landscaping",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-16T16:42:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-06T10:20:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/services\/landscaping",
+            "pid": 34,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"fc72xca1\" class=\"az-element az-section\" style=\"\" data-az-id=\"fc72xca1\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"sfjawju9\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"c4cu40zc\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"xf8zuusq\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Landscape Design<\/h3>Our landscapers are the most experienced, most knowledeable experts in the field. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"fuharwdl\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"ur76xvc8\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/team-2_0.jpg\" data-azat-width=\"\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/team-2_0.jpg\" alt=\"\" title=\"\" style=\"\"><\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"0n6o1rh4\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"mlsvusfy\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"ar5r6p2w\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Landscaping<\/h3>We consistently get great results. Our clients expect no less and have come to understand and trust our business processes. Communication is ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"297pcns9\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"wkh4ufwr\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/landscaping-49.jpg\" data-azat-width=\"\" data-azat-height=\"\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_1_2_photo\/public\/2018-01\/landscaping-49.jpg\" alt=\"\" title=\"\" style=\"\"><\/div><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

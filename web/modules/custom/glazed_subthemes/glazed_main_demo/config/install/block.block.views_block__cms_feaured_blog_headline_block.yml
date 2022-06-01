@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cms_feaured_blog_headline
+  module:
+    - block_class
+    - views
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__cms_feaured_blog_headline_block
+theme: glazed
+region: secondary_header
+weight: 0
+provider: null
+plugin: 'views_block:cms_feaured_blog_headline-block'
+settings:
+  id: 'views_block:cms_feaured_blog_headline-block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

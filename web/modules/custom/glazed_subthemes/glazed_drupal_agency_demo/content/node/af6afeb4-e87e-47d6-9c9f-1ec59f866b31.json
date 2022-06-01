@@ -1,0 +1,230 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/solutions?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/office-1920px_0.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/creatives-meeting.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/strategy_0.jpg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2018-01\/unsplash-architect-tools.jpeg"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "af6afeb4-e87e-47d6-9c9f-1ec59f866b31"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-08T12:38:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de0df3ab-8ffc-404e-b992-445021a56eb5"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "de0df3ab-8ffc-404e-b992-445021a56eb5"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/field_glazed_builder_attachments": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/office-1920px_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd4162fc-02b9-4b4a-b86f-dc7e440badb9"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/creatives-meeting.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4d03c491-211d-49d2-a02c-7907b27fd746"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/strategy_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4e9fe7bc-9457-4da9-acc9-ef778cb140b1"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2018-01\/unsplash-architect-tools.jpeg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "227825c1-f541-4b7c-8f47-b106617a6ae0"
+                    }
+                ],
+                "display": "0",
+                "description": ""
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Solutions",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-12T20:07:27+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T12:38:37+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/solutions",
+            "pid": 28,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"lgrrcbi4\" class=\"az-element az-section\" style=\"padding-top:300px;padding-bottom:300px;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/strategy_0.jpg?itok=EXE8-FMT);background-repeat: no-repeat;background-size: cover;background-position:center top;\" data-az-id=\"lgrrcbi4\" data-azb=\"az_section\" data-azat-parallax_speed=\"NaN\" data-azat-style=\"padding-top:300px;padding-bottom:300px;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/strategy_0.jpg?itok=EXE8-FMT);background-repeat: no-repeat;background-size: cover;background-position:center top;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"uc182znq\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-12\" style=\"\" data-az-id=\"9ef3138q\" data-azb=\"az_column\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"uqv8i55c\" data-azb=\"az_text\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><\/div><div id=\"93b1h2ge\" class=\"az-element az-section\" style=\"padding-top:60px;padding-bottom:90px;background-color:#ffffff;\" data-az-id=\"93b1h2ge\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;padding-bottom:90px;background-color:#ffffff;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"u4saeduu\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"4tpjr1w5\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><div class=\"az-element az-icon text-right glazed-util-color-accent1\" data-glazed-builder-libraries=\"icon_helpers et_line_font\" data-az-id=\"9ura3ksn\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-strategy\" data-azat-size=\"fa-5x\" data-azat-orientation=\"fa-flip-horizontal\" data-azat-el_class=\"text-right glazed-util-color-accent1\" data-azat-style=\"font-size:100px;\"><i class=\"et et-icon-strategy fa-5x  undefined undefined  fa-flip-horizontal\" style=\"font-size:100px;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"wqtmc739\" data-azb=\"az_column\" data-azat-width=\" 1\/2 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"gzjk3gsd\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Strategy<\/h2><p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p><\/div><div class=\"az-element az-template\" style=\"\" data-az-id=\"0n87dtya\" data-azb=\"button-border-black\"><div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-borderbutton glazed-util-border-black glazed-util-color-black glazed-util-hover-border-black glazed-util-hover-color-white glazed-util-hover-background-black az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"crmwawzx\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"p9t0e027\" data-azb=\"az_text\" data-azcnt=\"true\"><ul class=\"lead\"><li>Strategy<\/li><li>Marketing<\/li><li>Consulting<\/li><li>Action plan<\/li><\/ul><\/div><\/div><\/div><\/div><\/div><div id=\"iservjma\" class=\"az-element az-section\" style=\"padding-top:300px;padding-bottom:300px;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/creatives-meeting.jpg?itok=T8qhMkKY);background-repeat: no-repeat;background-size: cover;\" data-az-id=\"iservjma\" data-azb=\"az_section\" data-azat-parallax_speed=\"NaN\" data-azat-style=\"padding-top:300px;padding-bottom:300px;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/creatives-meeting.jpg?itok=T8qhMkKY);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"gdgrt9if\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-12\" style=\"\" data-az-id=\"5xo1tive\" data-azb=\"az_column\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"llvtmzeh\" data-azb=\"az_text\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><\/div><div id=\"ebqj09w6\" class=\"az-element az-section\" style=\"padding-top:90px;padding-bottom:90px;background-color:#ffffff;\" data-az-id=\"ebqj09w6\" data-azb=\"az_section\" data-azat-style=\"padding-top:90px;padding-bottom:90px;background-color:#ffffff;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"5zqmtfrn\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"enh5t3oi\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><div class=\"az-element az-icon text-right glazed-util-color-accent1\" data-glazed-builder-libraries=\"icon_helpers et_line_font\" data-az-id=\"jl7183gd\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-pencil\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-right glazed-util-color-accent1\" data-azat-style=\"font-size:100px;\"><i class=\"et et-icon-pencil fa-5x  undefined undefined  \" style=\"font-size:100px;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"klgvcgrw\" data-azb=\"az_column\" data-azat-width=\" 1\/2 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"nrbehutl\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Design<\/h2><p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p><\/div><div class=\"az-element az-template\" style=\"\" data-az-id=\"j7hfcysc\" data-azb=\"button-border-black\"><div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-borderbutton glazed-util-border-black glazed-util-color-black glazed-util-hover-border-black glazed-util-hover-color-white glazed-util-hover-background-black az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"hxutcfau\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"aoepjmgp\" data-azb=\"az_text\" data-azcnt=\"true\"><ul class=\"lead\"><li>User Research<\/li><li>Market Research<\/li><li>UX Design<\/li><li>Web Design<\/li><\/ul><\/div><\/div><\/div><\/div><\/div><div id=\"0eg7rw09\" class=\"az-element az-section\" style=\"padding-top:300px;padding-bottom:300px;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/unsplash-architect-tools.jpeg?itok=1wS0P4R1);background-repeat: no-repeat;background-size: cover;\" data-az-id=\"0eg7rw09\" data-azb=\"az_section\" data-azat-parallax_speed=\"NaN\" data-azat-style=\"padding-top:300px;padding-bottom:300px;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/unsplash-architect-tools.jpeg?itok=1wS0P4R1);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"zte908em\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-12\" style=\"\" data-az-id=\"wryvx8yh\" data-azb=\"az_column\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"b3bwb798\" data-azb=\"az_text\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><\/div><div id=\"6lhib1p8\" class=\"az-element az-section\" style=\"padding-top:90px;padding-bottom:90px;background-color:#ffffff;\" data-az-id=\"6lhib1p8\" data-azb=\"az_section\" data-azat-style=\"padding-top:90px;padding-bottom:90px;background-color:#ffffff;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"4sv4i57z\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"xlecpq0g\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><div class=\"az-element az-icon text-right glazed-util-color-accent1\" data-glazed-builder-libraries=\"icon_helpers et_line_font\" data-az-id=\"su009mf8\" data-azb=\"az_icon\" data-azat-icon=\"et et-icon-gears\" data-azat-size=\"fa-5x\" data-azat-el_class=\"text-right glazed-util-color-accent1\" data-azat-style=\"font-size:100px;\"><i class=\"et et-icon-gears fa-5x  undefined undefined  \" style=\"font-size:100px;color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"9betrpl6\" data-azb=\"az_column\" data-azat-width=\" 1\/2 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"nbgv210z\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>Drupal Development<\/h2><p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<\/p><\/div><div class=\"az-element az-template\" style=\"\" data-az-id=\"5fqfpoc9\" data-azb=\"button-border-black\"><div data-azcnt=\"true\"><a class=\"btn btn-lg stpe-borderbutton glazed-util-border-black glazed-util-color-black glazed-util-hover-border-black glazed-util-hover-color-white glazed-util-hover-background-black az-editable\" href=\"https:\/\/sooperthemes.com\/pricing\" target=\"_self\" type=\"button\">Learn more<\/a><\/div><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"q9ssgleg\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"7a21678e\" data-azb=\"az_text\" data-azcnt=\"true\"><ul class=\"lead\"><li>Agile Project Management<\/li><li>Technical Architecture<\/li><li>Drupal development<\/li><li>Drupal theming<\/li><\/ul><\/div><\/div><\/div><\/div><\/div><div id=\"fi1ahx9n\" class=\"az-element az-section\" style=\"padding-top:300px;padding-bottom:300px;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/office-1920px_0.jpg?itok=a6RPsTKa);background-repeat: no-repeat;background-size: cover;\" data-az-id=\"fi1ahx9n\" data-azb=\"az_section\" data-azat-parallax_speed=\"NaN\" data-azat-style=\"padding-top:300px;padding-bottom:300px;background-image: url(-base-url-\/-files-directory-\/styles\/full_width_1920\/public\/2018-01\/office-1920px_0.jpg?itok=a6RPsTKa);background-repeat: no-repeat;background-size: cover;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"eivzi4fa\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-12\" style=\"\" data-az-id=\"f8nm1gu2\" data-azb=\"az_column\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"88yza8tv\" data-azb=\"az_text\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><\/div><div id=\"4bosu8v9\" class=\"az-element az-section\" style=\"margin-bottom:60px;\" data-az-id=\"4bosu8v9\" data-azb=\"az_section\" data-azat-style=\"margin-bottom:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"margin-left:0px;margin-right:0px;padding-left:0px;padding-right:0px;\" data-az-id=\"f34r2bsu\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azat-style=\"margin-left:0px;margin-right:0px;padding-left:0px;padding-right:0px;\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;\" data-az-id=\"aiw3mi60\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azat-style=\"margin-top:0px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"margin-top:-160px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:#ffffff;\" data-az-id=\"k7b8srt6\" data-azb=\"az_column\" data-azat-width=\" 1\/2 \" data-azat-style=\"margin-top:-160px;margin-bottom:0px;margin-left:0px;margin-right:0px;padding-top:0px;padding-bottom:0px;padding-left:0px;padding-right:0px;background-color:#ffffff;\" data-azcnt=\"true\"><div class=\"az-element az-text glazed-util-background-white\" style=\"padding-top:60px;padding-bottom:15px;padding-left:60px;padding-right:60px;\" data-az-id=\"5gqhnoxz\" data-azb=\"az_text\" data-azat-el_class=\"glazed-util-background-white\" data-azat-style=\"padding-top:60px;padding-bottom:15px;padding-left:60px;padding-right:60px;\" data-azcnt=\"true\"><h2><em>Succesful Relationships<\/em><\/h2><p class=\"lead\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p><p class=\"lead\">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p><\/div><div class=\"az-element az-button center-block col-sm-8\" data-az-id=\"24tk6v4r\" data-azb=\"az_button\" data-azat-title=\"Plan a kick-off meeting now!\" data-azat-link=\"#\" data-azat-link_target=\"_self\" data-azat-type=\"btn-primary\" data-azat-block=\"btn-block\" data-azat-size=\"btn-lg\" data-azat-el_class=\"center-block col-sm-8\" data-azat-style=\"margin-top:30px;background-color:#ff1968;\"><a href=\"#\" type=\"button\" class=\"btn btn-primary btn-lg btn-block\" style=\"margin-top:30px;background-color:#ff1968;\" target=\"_self\">Plan a kick-off meeting now!<\/a><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"wol1nbn5\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/vendor\/et-line-font\/et-line-font.css\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\">\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

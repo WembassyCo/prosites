@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/media-elements\/google-maps?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "7e20cabd-6bfd-4f6c-a39b-a0362a2d53b1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2017-07-21T08:56:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Google Maps",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T20:40:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2017-07-21T08:56:55+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/media-elements\/google-maps",
+            "pid": 33,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"scwkpsgs\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"scwkpsgs\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"d3er2lis\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"z112g156\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"sfb3naw2\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"htslctes\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<h2 style=\"text-align: center;\">Google Maps Element<\/h2>\n\t\t\t\t<\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"t0huo42z\" data-azb=\"az_separator\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"iwfdu65y\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"jao21ure\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"jao21ure\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"p37izpxj\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"yokyx10m\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"sa50epws\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<p class=\"lead\">Easily add Google Maps to your pages. Simply select the Maps element in the Glazed Builder interface and fill in the address.<\/p>\n\n\t\t\t\t\t<p class=\"lead\">The map element is powered by Google, it understands much more that just addresses. For example: \"Walmarts in Chicago\" is used as location in the map below.<\/p>\n\t\t\t\t<\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"jo29y43i\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div style=\"line-height: 0;\" class=\"az-element az-map\" data-az-id=\"012ul0d2\" data-azb=\"az_map\" data-azat-address=\"Example Street 7, City\" data-azat-height=\"200\"><iframe src=\"https:\/\/maps.google.com\/maps?q=Example+Street+8, City&amp;iwloc=near&amp;output=embed\" frameborder=\"0\" style=\"width: 100%; height: 200px;\">&amp;lt;\/&amp;lt;iframe&amp;gt;<\/iframe><\/div><\/div><\/div><\/div><\/div><div id=\"bqzgnoj4\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"bqzgnoj4\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"6gxxa2aa\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-12\" style=\"\" data-az-id=\"yyk5s4e1\" data-azb=\"az_column\" data-azat-width=\"1\/1\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"big8wt9h\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<h2 style=\"text-align: center;\">Find a Wallmart near you:<\/h2>\n\t\t\t\t<\/div><div style=\"line-height: 0;\" class=\"az-element az-map\" data-az-id=\"luu4xdx0\" data-azb=\"az_map\" data-azat-address=\"wallmart supercenter, chicago\" data-azat-height=\"500px\"><iframe src=\"https:\/\/maps.google.com\/maps?q=wallmart+supercenter, chicago&amp;iwloc=near&amp;output=embed\" frameborder=\"0\" style=\"width: 100%; height: 500px;\">&amp;lt;\/&amp;lt;iframe&amp;gt;<\/iframe><\/div><\/div><\/div><\/div><\/div><div id=\"bcfhen28\" class=\"az-element az-section\" style=\"padding-top:10%;padding-bottom:10%;\" data-az-id=\"bcfhen28\" data-azb=\"az_section\" data-azat-style=\"padding-top:10%;padding-bottom:10%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"b03pbrsd\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"mz17eb3n\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"t6xs8341\" data-azb=\"az_column\" data-azat-width=\" 1\/2 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"i3drfdav\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<h2>Full Width Google Map<\/h2>\n\t\t\t\t<\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"8io20cjq\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div style=\"line-height: 0;\" class=\"az-element az-map\" data-az-id=\"7qboj65v\" data-azb=\"az_map\" data-azat-address=\"Example Street 7, City\"><iframe src=\"https:\/\/maps.google.com\/maps?q=Example+Street+8, City&amp;iwloc=near&amp;output=embed\" frameborder=\"0\" style=\"width: 100%; height: 400px;\">&amp;lt;\/&amp;lt;iframe&amp;gt;<\/iframe><\/div>",
+            "format": "full_html",
+            "processed": "<div id=\"scwkpsgs\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"scwkpsgs\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"d3er2lis\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"z112g156\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"sfb3naw2\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"htslctes\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<h2 style=\"text-align: center;\">Google Maps Element<\/h2>\n\t\t\t\t<\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"t0huo42z\" data-azb=\"az_separator\" \/><\/div><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"iwfdu65y\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"jao21ure\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"jao21ure\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"p37izpxj\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"yokyx10m\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"sa50epws\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<p class=\"lead\">Easily add Google Maps to your pages. Simply select the Maps element in the Glazed Builder interface and fill in the address.<\/p>\n\n\t\t\t\t\t<p class=\"lead\">The map element is powered by Google, it understands much more that just addresses. For example: \"Walmarts in Chicago\" is used as location in the map below.<\/p>\n\t\t\t\t<\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"jo29y43i\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div style=\"line-height: 0;\" class=\"az-element az-map\" data-az-id=\"012ul0d2\" data-azb=\"az_map\" data-azat-address=\"Example Street 7, City\" data-azat-height=\"200\"><iframe src=\"https:\/\/maps.google.com\/maps?q=Example+Street+8, City&amp;iwloc=near&amp;output=embed\" frameborder=\"0\" style=\"width: 100%; height: 200px;\">&amp;lt;\/&amp;lt;iframe&amp;gt;<\/iframe><\/div><\/div><\/div><\/div><\/div><div id=\"bqzgnoj4\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"bqzgnoj4\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"6gxxa2aa\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-12\" style=\"\" data-az-id=\"yyk5s4e1\" data-azb=\"az_column\" data-azat-width=\"1\/1\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"big8wt9h\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<h2 style=\"text-align: center;\">Find a Wallmart near you:<\/h2>\n\t\t\t\t<\/div><div style=\"line-height: 0;\" class=\"az-element az-map\" data-az-id=\"luu4xdx0\" data-azb=\"az_map\" data-azat-address=\"wallmart supercenter, chicago\" data-azat-height=\"500px\"><iframe src=\"https:\/\/maps.google.com\/maps?q=wallmart+supercenter, chicago&amp;iwloc=near&amp;output=embed\" frameborder=\"0\" style=\"width: 100%; height: 500px;\">&amp;lt;\/&amp;lt;iframe&amp;gt;<\/iframe><\/div><\/div><\/div><\/div><\/div><div id=\"bcfhen28\" class=\"az-element az-section\" style=\"padding-top:10%;padding-bottom:10%;\" data-az-id=\"bcfhen28\" data-azb=\"az_section\" data-azat-style=\"padding-top:10%;padding-bottom:10%;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row  az-row--sm\" style=\"\" data-az-id=\"b03pbrsd\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"mz17eb3n\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column  col-sm-6\" style=\"\" data-az-id=\"t6xs8341\" data-azb=\"az_column\" data-azat-width=\" 1\/2 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"i3drfdav\" data-azb=\"az_text\" data-azcnt=\"true\">\n\t\t\t\t\t<h2>Full Width Google Map<\/h2>\n\t\t\t\t<\/div><\/div><div class=\"az-element az-ctnr az-column  col-sm-3\" style=\"\" data-az-id=\"8io20cjq\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div style=\"line-height: 0;\" class=\"az-element az-map\" data-az-id=\"7qboj65v\" data-azb=\"az_map\" data-azat-address=\"Example Street 7, City\"><iframe src=\"https:\/\/maps.google.com\/maps?q=Example+Street+8, City&amp;iwloc=near&amp;output=embed\" frameborder=\"0\" style=\"width: 100%; height: 400px;\">&amp;lt;\/&amp;lt;iframe&amp;gt;<\/iframe><\/div>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

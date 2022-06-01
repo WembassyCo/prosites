@@ -1,0 +1,146 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/company\/certifications?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "8e9cb382-cbe1-4557-9511-5e04753f9a14"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-08T10:37:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b5827b9-533a-4e90-ac91-889055eec1cc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "7b5827b9-533a-4e90-ac91-889055eec1cc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Certifications",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-17T18:50:36+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-08T10:37:29+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/glazed-landscaping\/company\/certifications",
+            "pid": 29,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"nx2wi3ej\" class=\"az-element az-section\" style=\"padding-bottom:60px;\" data-az-id=\"nx2wi3ej\" data-azb=\"az_section\" data-azat-style=\"padding-bottom:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-image\" data-az-id=\"1ef0fgjr\" data-azb=\"az_image\" data-azat-image=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_3_4_banner\/public\/2018-01\/construction_104722565_1.jpg\" data-azat-height=\"\" data-azat-style=\"margin-bottom:15px;\"><img src=\"-base-url-\/-files-directory-\/styles\/cms_bootstrap_3_4_banner\/public\/2018-01\/construction_104722565_1.jpg\" alt=\"\" title=\"\" style=\"margin-bottom: 15px; width: 100%;\"><\/div><div class=\"az-element az-text\" style=\"margin-bottom:15px;\" data-az-id=\"9z0qqo4o\" data-azb=\"az_text\" data-azat-style=\"margin-bottom:15px;\" data-azcnt=\"true\">The construction business is a key segment in numerous national economies, and regularly the biggest. Notwithstanding the development of structures and infrastructures, it gives administrations and items to send out around the world. ISO certifications give sthe&nbsp; with solutions for all parts of its activities, from the conventional to the creative, and they incorporate tools to handle new difficulties, for example, contamination and energy performance.<\/div><\/div><\/div><div id=\"m88ud72h\" class=\"az-element az-section\" style=\"\" data-az-id=\"m88ud72h\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"ja5shqsn\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-1\" style=\"\" data-az-id=\"klnk8pc6\" data-azb=\"az_column\" data-azat-width=\"1\/12\" data-azcnt=\"true\"><div class=\"az-element az-icon glazed-util-color-primary\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"yzi0foak\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-bookmark\" data-azat-size=\"fa-3x\" data-azat-el_class=\"glazed-util-color-primary\"><i class=\"glyphicon glyphicon-bookmark fa-3x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-11\" style=\"\" data-az-id=\"ru0bgrmu\" data-azb=\"az_column\" data-azat-width=\" 11\/12\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"bvb5xlac\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>ISO\/TC 59\/WG 2, Construction Procurement<\/h3>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"q38qxttd\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-1\" style=\"\" data-az-id=\"13su6pfu\" data-azb=\"az_column\" data-azat-width=\"1\/12\" data-azcnt=\"true\"><div class=\"az-element az-icon glazed-util-color-primary\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"q98ow4t0\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-bookmark\" data-azat-size=\"fa-3x\" data-azat-el_class=\"glazed-util-color-primary\"><i class=\"glyphicon glyphicon-bookmark fa-3x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-11\" style=\"\" data-az-id=\"wdvb5d5p\" data-azb=\"az_column\" data-azat-width=\" 11\/12\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"pxtdbk8x\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>ISO\/TC 59\/SC 17, Sustainability in buildings and civil engineering works<\/h3>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"5mcz7mdg\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-1\" style=\"\" data-az-id=\"oesy69n2\" data-azb=\"az_column\" data-azat-width=\"1\/12\" data-azcnt=\"true\"><div class=\"az-element az-icon glazed-util-color-primary\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"q9i7qgxv\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-bookmark\" data-azat-size=\"fa-3x\" data-azat-el_class=\"glazed-util-color-primary\"><i class=\"glyphicon glyphicon-bookmark fa-3x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-11\" style=\"\" data-az-id=\"s7zgpkfz\" data-azb=\"az_column\" data-azat-width=\" 11\/12\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"3dh4pckm\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>ISO\/TC 163, Thermal performance and energy use in the built environment<\/h3>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/div><\/div><\/div><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"mrkvuoma\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-1\" style=\"\" data-az-id=\"4j7b49dl\" data-azb=\"az_column\" data-azat-width=\"1\/12\" data-azcnt=\"true\"><div class=\"az-element az-icon glazed-util-color-primary\" data-glazed-builder-libraries=\"icon_helpers\" data-az-id=\"enhj7kva\" data-azb=\"az_icon\" data-azat-icon=\"glyphicon glyphicon-bookmark\" data-azat-size=\"fa-3x\" data-azat-el_class=\"glazed-util-color-primary\"><i class=\"glyphicon glyphicon-bookmark fa-3x  undefined undefined  \" style=\"color: undefined;background-color: undefined;\"><\/i><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-11\" style=\"\" data-az-id=\"gtcmbq7l\" data-azb=\"az_column\" data-azat-width=\" 11\/12\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"khctw2ia\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>ISO\/TC 267, Facilities management<\/h3>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/div><\/div><\/div><\/div><\/div><link rel=\"stylesheet\" type=\"text\/css\" href=\"-base-url-\/\/-module-directory-\/glazed_builder\/css\/icon-helpers.css\">\n",
+            "format": "full_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

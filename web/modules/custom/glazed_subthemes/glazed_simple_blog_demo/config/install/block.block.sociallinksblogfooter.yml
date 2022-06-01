@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drag_and_drop_block:112a3531-6d72-4d7c-8d58-20f5384b7099'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: sociallinksblogfooter
+theme: glazed
+region: footer
+weight: -4
+provider: null
+plugin: 'block_content:112a3531-6d72-4d7c-8d58-20f5384b7099'
+settings:
+  id: 'block_content:112a3531-6d72-4d7c-8d58-20f5384b7099'
+  label: 'Social Links Blog Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

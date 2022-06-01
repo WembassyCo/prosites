@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drag_and_drop_block:b3678f3b-7345-4833-a638-e98ad23fa3a0'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - glazed
+third_party_settings:
+  block_class:
+    classes: ''
+id: minimalportfoliofooter
+theme: glazed
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:b3678f3b-7345-4833-a638-e98ad23fa3a0'
+settings:
+  id: 'block_content:b3678f3b-7345-4833-a638-e98ad23fa3a0'
+  label: 'Minimal Portfolio Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

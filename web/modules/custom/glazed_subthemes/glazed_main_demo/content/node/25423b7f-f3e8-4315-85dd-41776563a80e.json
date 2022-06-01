@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/interactive-elements\/drupal-blocks?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "25423b7f-f3e8-4315-85dd-41776563a80e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-03T14:44:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Drupal Blocks",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T20:47:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-03T14:44:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/interactive-elements\/drupal-blocks",
+            "pid": 76,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"dit1m40v\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"dit1m40v\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"t4dccv7c\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"tzqm547t\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"0b0s3maf\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"p0l2wfvf\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Drupal Blocks<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"pa8rufhn\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">Any blocks that are available in Drupal core's block administration form are also available as drag and drop components in any Glazed Builder instance. Add any dynamic content to your&nbsp; drag and drop builder and it simply works.<\/p><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"wd0m25mz\" data-azb=\"az_separator\"><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"8vi82cu0\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"38juifvy\" class=\"az-element az-section\" style=\"\" data-az-id=\"38juifvy\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"mqc1rbse\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"e8xml1hy\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"ufzgeknj\" data-azb=\"az_column\" data-azat-width=\" 1\/2 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"0ssk2q6e\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>User Login Block<\/h2><p>In Glazed Builder you can load any block in your drag and drop container. Here is an example of loading the user login form, but really you could load any form that is available as a block. Got a from from webform module you want to include? Just expose it as a block from the webform edit page.<\/p><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"yvkupu7r\" data-azb=\"az_separator\"><div class=\"az-element az-cms-element\" style=\"position: relative; left: 0px; top: 0px;\" data-az-id=\"snvt0km1\" data-azb=\"az_block-user_login_block\"><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"eccov8i1\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "processed": "<div id=\"dit1m40v\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"dit1m40v\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"t4dccv7c\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"tzqm547t\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"0b0s3maf\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"p0l2wfvf\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Drupal Blocks<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"pa8rufhn\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">Any blocks that are available in Drupal core's block administration form are also available as drag and drop components in any Glazed Builder instance. Add any dynamic content to your\u00a0 drag and drop builder and it simply works.<\/p><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"wd0m25mz\" data-azb=\"az_separator\" \/><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"8vi82cu0\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"38juifvy\" class=\"az-element az-section\" style=\"\" data-az-id=\"38juifvy\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"mqc1rbse\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"e8xml1hy\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"ufzgeknj\" data-azb=\"az_column\" data-azat-width=\" 1\/2 \" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"0ssk2q6e\" data-azb=\"az_text\" data-azcnt=\"true\"><h2>User Login Block<\/h2><p>In Glazed Builder you can load any block in your drag and drop container. Here is an example of loading the user login form, but really you could load any form that is available as a block. Got a from from webform module you want to include? Just expose it as a block from the webform edit page.<\/p><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"yvkupu7r\" data-azb=\"az_separator\" \/><div class=\"az-element az-cms-element\" style=\"position: relative; left: 0px; top: 0px;\" data-az-id=\"snvt0km1\" data-azb=\"az_block-user_login_block\"><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"eccov8i1\" data-azb=\"az_column\" data-azat-width=\" 1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

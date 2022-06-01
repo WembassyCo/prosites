@@ -1,0 +1,31 @@
+name: Glazed Minimal Portfolio Demo
+type: module
+version: 8.x-1.0
+description: Glazed Main Demo
+core: 8.x
+package: Sooperthemes Demos
+dependencies:
+  - cms_core:cms_core
+  - cms_blog:cms_blog
+  - drupal:contact
+  - glazed_builder_block:glazed_builder_block
+  - glazed_builder_page:glazed_builder_page
+  - sooperthemes_gridstack:sooperthemes_gridstack
+  - glazed_helper:glazed_helper
+  - sooperthemes_portfolio:sooperthemes_portfolio
+  - sooperthemes_portfolio:sooperthemes_portfolio_examples
+config:
+  install:
+    - glazed.settings
+    - color.theme.glazed
+    - block.block.minimalportfoliofooter
+default_content:
+  block_content:
+    - b3678f3b-7345-4833-a638-e98ad23fa3a0
+  node:
+    - b9459fd6-c461-42a8-a8ae-a4b4d1008d23
+  menu_link_content:
+    - b335248a-e19e-493b-88ba-c59e72ecf421
+    - d35d655e-454f-4707-ae4f-ca5585910b42
+    - f98b4158-6421-45a3-b450-84e49c6e2e61
+    - a73cef77-ad80-48e5-b7d0-544dc0909b45

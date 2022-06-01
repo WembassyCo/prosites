@@ -1,0 +1,254 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/work\/portrait-series-3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/cms_portfolio_project"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/field_cms_page_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/portfolio\/images\/sweet-ice-cream-photography-85324-unsplash.jpeg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/portfolio\/images\/alvin-mahmudov-172232-unsplash.jpeg"
+            },
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/portfolio\/images\/almos-bechtold-534205-unsplash.jpeg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/field_cms_portfolio_category": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/20?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "3ca7439c-e95c-483b-a04c-d3094e399759"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cms_portfolio_project"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-01-23T12:05:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3d554d6c-7552-4287-9446-38cbd9b3ecfe"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3d554d6c-7552-4287-9446-38cbd9b3ecfe"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/field_cms_page_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/portfolio\/images\/sweet-ice-cream-photography-85324-unsplash.jpeg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "46b8cc34-d84a-493a-a329-594995abe91f"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "1620",
+                "height": "1080"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/portfolio\/images\/alvin-mahmudov-172232-unsplash.jpeg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f76300fc-da99-4020-98b3-5c7cca43faec"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "720",
+                "height": "1080"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/portfolio\/images\/almos-bechtold-534205-unsplash.jpeg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "06cc318b-b97d-4e2a-a688-330e39811718"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "1620",
+                "height": "1080"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_portfolio_project\/field_cms_portfolio_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/20?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_portfolio_category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a783cdfe-11e7-4193-bc6b-8c5644ba8561"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Portrait Series 3",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2018-01-23T12:04:57+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-10-25T17:10:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/work\/portrait-series-3",
+            "pid": 70,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_cms_page_body": [
+        {
+            "value": "<p>\u201cTo me, photography is an art of observation. It\u2019s about finding something interesting an ordinary place\u2026 I\u2019ve found it has little to do with the things you see and everything to do with the way you see them.\u201d<\/p>\r\n<cite>\u2014 Elliott Erwitt<\/cite>",
+            "format": "full_html",
+            "processed": "<p>\u201cTo me, photography is an art of observation. It\u2019s about finding something interesting an ordinary place\u2026 I\u2019ve found it has little to do with the things you see and everything to do with the way you see them.\u201d<\/p>\n<cite>\u2014 Elliott Erwitt<\/cite>",
+            "summary": ""
+        }
+    ],
+    "field_cms_portfolio_client": [
+        {
+            "value": "Example Client"
+        }
+    ],
+    "field_cms_portfolio_custom_field": [
+        {
+            "value": "Example Custom Field"
+        }
+    ],
+    "field_image_display": [
+        {
+            "type": "image",
+            "settings": "a:2:{s:11:\"image_style\";s:15:\"full_width_1920\";s:10:\"image_link\";s:0:\"\";}"
+        }
+    ]
+}

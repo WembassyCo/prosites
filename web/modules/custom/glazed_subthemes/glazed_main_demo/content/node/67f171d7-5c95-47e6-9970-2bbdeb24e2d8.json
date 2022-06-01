@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/elements\/interactive-elements\/drupal-views?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/drag_and_drop_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "67f171d7-5c95-47e6-9970-2bbdeb24e2d8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "drag_and_drop_page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2018-02-03T14:44:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/drag_and_drop_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ad7b3722-8ee8-4f4e-a7ce-225153924d82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Drupal Views",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2017-07-20T20:48:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2018-02-03T14:44:15+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/elements\/interactive-elements\/drupal-views",
+            "pid": 75,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<div id=\"jsy0uk97\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"jsy0uk97\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"59zxgn4y\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"mg4i8eud\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"dqetacgj\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"44s5lwdk\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Drupal Views<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"edjs9mlh\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">The Drupal view element lets you load any views display in your drag and drop page. You can modify the view too: Create new pager settings, add contextual filters, and control content through exposed sorting and exposed filters.<\/p><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"jsivnfgm\" data-azb=\"az_separator\"><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"fsdz65au\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"a650gj6a\" class=\"az-element az-section\" style=\"\" data-az-id=\"a650gj6a\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"lo1gth4m\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"wnu14e3r\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"04bf0nun\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Views display filtered on <em>Business<\/em> category<\/h3><\/div><div class=\"az-element az-cms-element\" style=\"\" data-az-id=\"kzbqko2w\" data-azb=\"az_view-cms_blog_teasers-block\" data-azat-override_pager=\"no\" data-azat-items=\"\" data-azat-offset=\"\"><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"nad7wjln\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"ghq03951\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Same display filtered on <em>Lifestyle<\/em> category<\/h3><\/div><div class=\"az-element az-cms-element\" style=\"\" data-az-id=\"kutw9bre\" data-azb=\"az_view-cms_blog_teasers-block\" data-azat-settings=\"field_cms_blog_category_target_id=6\" data-azat-override_pager=\"no\" data-azat-items=\"\" data-azat-offset=\"\" data-azat-toggle_fields=\"field_cms_page_image,field_cms_blog_category,title,field_cms_page_body,created,nothing\"><\/div><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "processed": "<div id=\"jsy0uk97\" class=\"az-element az-section\" style=\"padding-top:60px;\" data-az-id=\"jsy0uk97\" data-azb=\"az_section\" data-azat-style=\"padding-top:60px;\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"59zxgn4y\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"mg4i8eud\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"dqetacgj\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"44s5lwdk\" data-azb=\"az_text\" data-azcnt=\"true\"><h2 style=\"text-align: center;\">Drupal Views<\/h2><\/div><div class=\"az-element az-text\" style=\"\" data-az-id=\"edjs9mlh\" data-azb=\"az_text\" data-azcnt=\"true\"><p class=\"lead\">The Drupal view element lets you load any views display in your drag and drop page. You can modify the view too: Create new pager settings, add contextual filters, and control content through exposed sorting and exposed filters.<\/p><\/div><hr class=\"az-element az-separator\" style=\"border: none;\" data-az-id=\"jsivnfgm\" data-azb=\"az_separator\" \/><\/div><div class=\"az-element az-ctnr az-column col-sm-3\" style=\"\" data-az-id=\"fsdz65au\" data-azb=\"az_column\" data-azat-width=\"1\/4\" data-azcnt=\"true\"><\/div><\/div><\/div><\/div><div id=\"a650gj6a\" class=\"az-element az-section\" style=\"\" data-az-id=\"a650gj6a\" data-azb=\"az_section\"><div class=\"az-ctnr container\" data-azcnt=\"true\"><div class=\"az-element az-row row az-row--sm\" style=\"\" data-az-id=\"lo1gth4m\" data-azb=\"az_row\" data-azat-device=\"sm\" data-azcnt=\"true\"><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"wnu14e3r\" data-azb=\"az_column\" data-azat-width=\"1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"04bf0nun\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Views display filtered on <em>Business<\/em> category<\/h3><\/div><div class=\"az-element az-cms-element\" style=\"\" data-az-id=\"kzbqko2w\" data-azb=\"az_view-cms_blog_teasers-block\" data-azat-override_pager=\"no\" data-azat-items=\"\" data-azat-offset=\"\"><\/div><\/div><div class=\"az-element az-ctnr az-column col-sm-6\" style=\"\" data-az-id=\"nad7wjln\" data-azb=\"az_column\" data-azat-width=\" 1\/2\" data-azcnt=\"true\"><div class=\"az-element az-text\" style=\"\" data-az-id=\"ghq03951\" data-azb=\"az_text\" data-azcnt=\"true\"><h3>Same display filtered on <em>Lifestyle<\/em> category<\/h3><\/div><div class=\"az-element az-cms-element\" style=\"\" data-az-id=\"kutw9bre\" data-azb=\"az_view-cms_blog_teasers-block\" data-azat-settings=\"field_cms_blog_category_target_id=6\" data-azat-override_pager=\"no\" data-azat-items=\"\" data-azat-offset=\"\" data-azat-toggle_fields=\"field_cms_page_image,field_cms_blog_category,title,field_cms_page_body,created,nothing\"><\/div><\/div><\/div><\/div><\/div>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}
