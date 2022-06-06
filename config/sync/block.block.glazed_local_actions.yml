@@ -1,0 +1,20 @@
+uuid: 69a0ca88-da5a-4f8f-aae2-139dc798c7d9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - glazed
+_core:
+  default_config_hash: gSFvzuzyFshk2WF3PY7zJu4ltm75qaOWTQGulazbdEw
+id: glazed_local_actions
+theme: glazed
+region: content
+weight: -30
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

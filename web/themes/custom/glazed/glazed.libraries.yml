@@ -3,6 +3,7 @@ global-styling:
     theme:
       css/glazed.css: { minified: true }
   js:
+    https://code.jquery.com/ui/1.12.1/jquery-ui.min.js: { type: external, minified: true }
     js/vendor/classie.js: {}
     js/minified/glazed-mobile-nav.min.js: {}
     js/minified/glazed.min.js: {}

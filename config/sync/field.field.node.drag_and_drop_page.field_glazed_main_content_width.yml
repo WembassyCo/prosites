@@ -1,0 +1,23 @@
+uuid: 7d059e73-e70b-4b55-97a8-33cbba99d7eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_glazed_main_content_width
+    - node.type.drag_and_drop_page
+  module:
+    - options
+_core:
+  default_config_hash: 1UYmcSq_l41sYf5PQOnou4fvLE2CB0BZpEhqNdBd1Pc
+id: node.drag_and_drop_page.field_glazed_main_content_width
+field_name: field_glazed_main_content_width
+entity_type: node
+bundle: drag_and_drop_page
+label: 'Glazed Main Content Width'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

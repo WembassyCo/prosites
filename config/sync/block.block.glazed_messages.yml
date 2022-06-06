@@ -1,0 +1,22 @@
+uuid: a77ed36b-02b0-4f3d-8f26-de9d1011f8d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - glazed
+_core:
+  default_config_hash: O9o7MuGOs_Ue8qPHx_5fxBlks-Iqz4cu9uUyS9g91hw
+id: glazed_messages
+theme: glazed
+region: content
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

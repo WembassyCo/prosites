@@ -21,6 +21,7 @@
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
         "drupal/devel": "^4.1",
+        "drupal/entity_browser": "^2.6",
         "drupal/field_group": "^3.2",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
@@ -71,6 +72,12 @@
         "sort-packages": true,
         "platform": {
             "php": "7.4"
+        },
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     }
 }
