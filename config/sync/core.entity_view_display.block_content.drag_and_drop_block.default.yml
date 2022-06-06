@@ -1,0 +1,24 @@
+uuid: 82760229-7bf0-4c66-afa7-36fa824ff5b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drag_and_drop_block
+    - field.field.block_content.drag_and_drop_block.body
+  module:
+    - glazed_builder
+_core:
+  default_config_hash: 93TbwlgiHlbj2c32-jtb8-R1rI4bs7XbVqUr-q46AZ0
+id: block_content.drag_and_drop_block.default
+targetEntityType: block_content
+bundle: drag_and_drop_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: glazed_builder_text
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

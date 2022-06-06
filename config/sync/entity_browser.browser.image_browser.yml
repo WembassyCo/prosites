@@ -1,0 +1,27 @@
+uuid: 7286913c-bdbd-4c4b-8e7b-d015d22fc67a
+langcode: en
+status: true
+dependencies: {  }
+name: image_browser
+label: 'Image Browser'
+display: modal
+display_configuration:
+  width: '650'
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  827a459c-6bab-434b-b821-56be7139c893:
+    id: upload
+    uuid: 827a459c-6bab-434b-b821-56be7139c893
+    label: upload
+    weight: 1
+    settings:
+      submit_text: 'Select files'
+      upload_location: 'public://'
+      multiple: true
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'

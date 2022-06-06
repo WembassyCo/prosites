@@ -21,6 +21,14 @@ use Drupal\glazed_builder\GlazedBuilderProfileInterface;
  *   },
  *   config_prefix = "glazed_builder_profile",
  *   admin_permission = "administer glazed_builder_profile",
+ *	 config_export = {
+ *     "id",
+ *     "label",
+ *     "enabled",
+ *     "first_field",
+ *     "second_field",
+ *     "bundles"
+ *   },
  *   links = {
  *     "collection" = "/admin/config/content/glazed_builder/profile",
  *     "add-form" = "/admin/config/content/glazed_builder/profile/add",

@@ -1,0 +1,20 @@
+uuid: 0f730c97-b400-4daa-be63-9aa52c9c0eab
+langcode: en
+status: true
+dependencies:
+  theme:
+    - glazed
+_core:
+  default_config_hash: e0MGNczahuYFCJYaVcfdmbY49j5dOCOvHDIYRtz0VzM
+id: glazed_page_title
+theme: glazed
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
