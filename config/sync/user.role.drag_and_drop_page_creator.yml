@@ -1,0 +1,29 @@
+uuid: 92fa1e1b-7d30-4a75-917a-e624d958365d
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.rich_text
+    - node.type.drag_and_drop_page
+  module:
+    - contextual
+    - entity_browser
+    - filter
+    - node
+    - path
+    - toolbar
+id: drag_and_drop_page_creator
+label: 'Drag and drop Page creator'
+weight: 6
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'create drag_and_drop_page content'
+  - 'create url aliases'
+  - 'edit own drag_and_drop_page content'
+  - 'use text format rich_text'
+  - 'view drag_and_drop_page revisions'
+  - 'view own unpublished content'

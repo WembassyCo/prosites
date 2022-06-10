@@ -1,0 +1,14 @@
+uuid: 2d200366-0354-49d9-b830-0a25742879b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.drag_and_drop_page_creator
+  module:
+    - user
+id: user_remove_role_action.drag_and_drop_page_creator
+label: 'Remove the Drag and drop Page creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: drag_and_drop_page_creator

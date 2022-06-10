@@ -3,6 +3,7 @@ _core:
 module:
   automated_cron: 0
   big_pipe: 0
+  blazy: 0
   block: 0
   block_content: 0
   breakpoint: 0
@@ -14,6 +15,8 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  dropzonejs: 0
+  dropzonejs_eb_widget: 0
   dynamic_page_cache: 0
   editor: 0
   entity_browser: 0
@@ -28,8 +31,21 @@ module:
   help: 0
   history: 0
   image: 0
+  inline_entity_form: 0
+  lightning_core: 0
+  lightning_media: 0
+  lightning_media_audio: 0
+  lightning_media_document: 0
+  lightning_media_image: 0
+  lightning_media_instagram: 0
+  lightning_media_slideshow: 0
+  lightning_media_twitter: 0
+  lightning_media_video: 0
+  lightning_roles: 0
   link: 0
   media: 0
+  media_entity_instagram: 0
+  media_entity_twitter: 0
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
@@ -41,8 +57,11 @@ module:
   rdf: 0
   search: 0
   shortcut: 0
+  slick: 0
+  slick_entityreference: 0
   system: 0
   taxonomy: 0
+  tb_megamenu: 0
   text: 0
   toolbar: 0
   tour: 0
@@ -57,4 +76,8 @@ theme:
   seven: 0
   bootstrap: 0
   glazed: 0
+  stable: 0
+  classy: 0
+  bootstrap4: 0
+  glazed_subtheme: 0
 profile: standard

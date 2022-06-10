@@ -1,0 +1,29 @@
+uuid: 61bdb6d7-1c4d-4a59-a436-9e17b32a4ef3
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.rich_text
+    - node.type.article
+  module:
+    - contextual
+    - entity_browser
+    - filter
+    - node
+    - path
+    - toolbar
+id: article_creator
+label: 'Article creator'
+weight: 4
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'create article content'
+  - 'create url aliases'
+  - 'edit own article content'
+  - 'use text format rich_text'
+  - 'view article revisions'
+  - 'view own unpublished content'

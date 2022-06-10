@@ -1,0 +1,25 @@
+uuid: edf8147c-66b9-4cae-abbe-e2fcee82dcac
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - glazed_subtheme
+_core:
+  default_config_hash: F6FJfFI5Bn_LJDPaCEgerDnGHWvsZwpbc-KBcB-7Els
+id: glazed_subtheme_branding
+theme: glazed_subtheme
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

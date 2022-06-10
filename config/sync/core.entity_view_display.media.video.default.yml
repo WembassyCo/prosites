@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.video.field_media_in_library
     - field.field.media.video.field_media_video_file
+    - field.field.media.video.field_show_in_media_library
     - media.type.video
   module:
     - file
@@ -28,8 +30,19 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  field_show_in_media_library:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   created: true
+  field_media_in_library: true
   name: true
   thumbnail: true
   uid: true
