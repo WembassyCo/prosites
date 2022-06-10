@@ -91,7 +91,6 @@ class UninstallForm extends ConfirmFormBase {
 
     batch_set($batch);
 
-    //drupal_set_message($this->t('Tokens have been expanded.'));
 	\Drupal::messenger()->addStatus('Tokens have been expanded.');
   }
 
