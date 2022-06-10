@@ -1,0 +1,6 @@
+global-styling:
+  css:
+    theme:
+      css/glazed.css: { minified: true }
+      css/style.css: {header: true}
+      css/rocket.css: {}

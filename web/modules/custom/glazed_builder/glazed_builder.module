@@ -4,6 +4,7 @@
 use Drupal\Core\Cache\Cache;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Messenger\MessengerTrait;
 
 
 /**
@@ -42,7 +43,7 @@ function glazed_builder_update_status_alter(&$projects) {
  */
 function glazed_builder_page_bottom(array &$page_bottom) {
   if (theme_get_setting('modal_enabled') &&  \Drupal::currentUser()->hasPermission('Administer themes')) {
-    drupal_set_message(t('Your theme is trying to load the Bootstrap Modals override library from the bootstrap basetheme. This library is not compatible with Glazed Builder and therefore its assets have been removed from the page. To make this message disappear Please go to your (default) theme settings form, scroll down to Bootstrap settings, and under the Javascript category disable the "Bootstrap Modals" setting.'), 'error');
+	\Drupal::messenger()->addError(t('Your theme is trying to load the Bootstrap Modals override library from the bootstrap basetheme. This library is not compatible with Glazed Builder and therefore its assets have been removed from the page. To make this message disappear Please go to your (default) theme settings form, scroll down to Bootstrap settings, and under the Javascript category disable the "Bootstrap Modals" setting.'));
   }
   if (\Drupal::service('path.matcher')->isFrontPage()) {
     $page_bottom['glazed_builder'] = [

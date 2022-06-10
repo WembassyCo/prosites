@@ -1,0 +1,20 @@
+uuid: 268dece9-bbfa-4ab9-b428-22cd8a2d2048
+langcode: en
+status: true
+dependencies:
+  module:
+    - tb_megamenu
+  theme:
+    - glazed_subtheme
+id: mainmenu
+theme: glazed_subtheme
+region: navigation_collapsible
+weight: -6
+provider: null
+plugin: 'tb_megamenu_menu_block:main-menu'
+settings:
+  id: 'tb_megamenu_menu_block:main-menu'
+  label: 'Main Menu'
+  label_display: '0'
+  provider: tb_megamenu
+visibility: {  }

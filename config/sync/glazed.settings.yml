@@ -3,14 +3,15 @@ _core:
 header_mobile_breakpoint: '1200'
 full_width_containers:
   cnt_secondary_header: cnt_secondary_header
+  cnt_content: cnt_content
   cnt_footer: cnt_footer
   cnt_header_nav: 0
   cnt_page_title: 0
   cnt_content_top: 0
-  cnt_content: 0
   cnt_content_bottom: 0
 full_width_content_types:
   article: 0
+  drag_and_drop_page: 0
   page: 0
 block_design_regions:
   sidebar_first: sidebar_first
@@ -25,7 +26,7 @@ block_design_regions:
   help: 0
   content: 0
   footer: 0
-boxed_layout: 1
+boxed_layout: 0
 sticky_footer: 1
 boxed_layout_boxbg: '#ffffff'
 box_max_width: '1580'
@@ -102,6 +103,7 @@ background_image_style: cover
 background_image_position: center_center
 prevnext_content_types:
   article: 0
+  drag_and_drop_page: 0
   page: 0
 header_position: 0
 header_top_layout: '0'
@@ -209,8 +211,6 @@ hidden_regions:
   footer: 0
 popover_placement: top
 tooltip_placement: 'auto top'
-modal_enabled: 0
-modal_jquery_ui_bridge: 0
 favicon:
   mimetype: image/vnd.microsoft.icon
   path: ''
@@ -228,3 +228,4 @@ reset_http_request_cache: ''
 page_title_breadcrumbs_align: right
 page_title_image_path: ''
 background_image_path: ''
+modal_enabled: 0

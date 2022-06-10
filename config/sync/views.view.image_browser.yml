@@ -283,10 +283,10 @@ display:
           expose:
             operator_limit_selection: false
             operator_list: {  }
-        field_media_in_library_value:
-          id: field_media_in_library_value
-          table: media__field_media_in_library
-          field: field_media_in_library_value
+        field_show_in_media_library_value:
+          id: field_show_in_media_library_value
+          table: media__field_show_in_media_library
+          field: field_show_in_media_library_value
           relationship: none
           group_type: group
           admin_label: ''

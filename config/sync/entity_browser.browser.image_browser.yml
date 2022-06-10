@@ -1,7 +1,12 @@
 uuid: 7286913c-bdbd-4c4b-8e7b-d015d22fc67a
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - views.view.image_browser
+  module:
+    - lightning_media
+    - views
 name: image_browser
 label: 'Image Browser'
 display: modal
@@ -15,13 +20,24 @@ selection_display_configuration: {  }
 widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:
-  827a459c-6bab-434b-b821-56be7139c893:
-    id: upload
-    uuid: 827a459c-6bab-434b-b821-56be7139c893
-    label: upload
-    weight: 1
+  eafa4c45-f9e5-49a9-88d6-4d599eaa2a6a:
+    id: view
+    uuid: eafa4c45-f9e5-49a9-88d6-4d599eaa2a6a
+    label: Library
+    weight: -10
     settings:
-      submit_text: 'Select files'
-      upload_location: 'public://'
-      multiple: true
-      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      submit_text: Select
+      auto_select: false
+      view: image_browser
+      view_display: entity_browser
+  de6b11f4-2567-47f3-9680-0b575d1bbdf3:
+    id: file_upload
+    uuid: de6b11f4-2567-47f3-9680-0b575d1bbdf3
+    label: Upload
+    weight: 4
+    settings:
+      target_bundles: {  }
+      upload_validators: {  }
+      submit_text: 'Select entities'
+      form_mode: media_browser
+      return_file: true

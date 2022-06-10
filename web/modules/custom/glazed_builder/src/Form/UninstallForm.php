@@ -6,6 +6,7 @@ use Drupal\Core\Form\ConfirmFormBase;
 use Drupal\Core\Form\FormBase;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
+use Drupal\Core\Messenger\MessengerTrait;
 
 class UninstallForm extends ConfirmFormBase {
 
@@ -90,7 +91,7 @@ class UninstallForm extends ConfirmFormBase {
 
     batch_set($batch);
 
-    drupal_set_message($this->t('Tokens have been expanded.'));
+	\Drupal::messenger()->addStatus('Tokens have been expanded.');
   }
 
   public static function expandTokens($field_info, &$context) {

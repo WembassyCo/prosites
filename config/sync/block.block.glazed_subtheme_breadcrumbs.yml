@@ -1,0 +1,22 @@
+uuid: 19c83e13-f203-4c11-827c-b288eef86911
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - glazed_subtheme
+_core:
+  default_config_hash: XwS-32qoNmHq7wPBZ0Yh8CZIppl6JaitQ6zOtJtjS7I
+id: glazed_subtheme_breadcrumbs
+theme: glazed_subtheme
+region: page_title
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: c7fd03fd-12db-46ed-9eb1-a27492f3c8d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.drag_and_drop_page_creator
+  module:
+    - user
+id: user_add_role_action.drag_and_drop_page_creator
+label: 'Add the Drag and drop Page creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: drag_and_drop_page_creator
