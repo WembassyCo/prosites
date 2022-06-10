@@ -3,26 +3,36 @@
     "description": "Install Drupal 9 with Composer on Pantheon.",
     "type": "project",
     "license": "MIT",
-    "repositories": [
-        {
+    "repositories": {
+        "assets": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        },
+        "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        {
+        "1": {
             "type": "path",
             "url": "upstream-configuration"
         }
-    ],
+    },
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/acquia_telemetry-acquia_telemetry": "^1.0@alpha",
         "drupal/admin_toolbar": "^3.1",
         "drupal/bootstrap": "^3.24",
+        "drupal/bootstrap4": "^2.1",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
         "drupal/devel": "^4.1",
         "drupal/entity_browser": "^2.6",
         "drupal/field_group": "^3.2",
+        "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/lightning_core": "^5.10",
+        "drupal/lightning_media": "^4.6",
+        "drupal/tb_megamenu": "^1.7",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"
@@ -31,7 +41,7 @@
         "drupal/core-dev": "^9.2"
     },
     "conflict": {
-            "drupal/drupal": "*"
+        "drupal/drupal": "*"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
@@ -50,16 +60,36 @@
             }
         },
         "installer-paths": {
-            "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
-            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
-            "web/themes/contrib/{$name}": ["type:drupal-theme"],
-            "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
-            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
-            "web/profiles/custom/{$name}": ["type:drupal-custom-profile"],
-            "web/themes/custom/{$name}": ["type:drupal-custom-theme"],
-            "web/private/scripts/quicksilver/{$name}/": ["type:quicksilver-script"]
+            "web/core": [
+                "type:drupal-core"
+            ],
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ],
+            "web/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "web/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "web/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
+            ],
+            "web/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "web/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "web/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ],
+            "web/private/scripts/quicksilver/{$name}/": [
+                "type:quicksilver-script"
+            ]
         },
         "composer-exit-on-patch-failure": true,
         "enable-patching": true,
@@ -77,7 +107,8 @@
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "oomphinc/composer-installers-extender": true
         }
     }
 }

@@ -1,6 +1,6 @@
 _core:
   default_config_hash: Gxgpars9LebZc1DYeJrBy9QFUhKsMuyFRJvO4ZEXsdA
-bootstrap: '2'
+bootstrap: '0'
 cke_fonts: ''
 cke_stylesset: ''
 development: null

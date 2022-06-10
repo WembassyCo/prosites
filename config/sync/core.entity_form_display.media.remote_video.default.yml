@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.remote_video.field_media_in_library
     - field.field.media.remote_video.field_media_oembed_video
+    - field.field.media.remote_video.field_show_in_media_library
     - media.type.remote_video
   module:
     - media
@@ -29,11 +31,26 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_show_in_media_library:
+    type: boolean_checkbox
+    weight: 101
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
   path:
     type: path
     weight: 30
     region: content
     settings: {  }
+    third_party_settings: {  }
+  revision_log_message:
+    type: string_textarea
+    weight: 25
+    region: content
+    settings:
+      rows: 4
+      placeholder: ''
     third_party_settings: {  }
   status:
     type: boolean_checkbox
@@ -53,4 +70,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
+  field_media_in_library: true
   name: true

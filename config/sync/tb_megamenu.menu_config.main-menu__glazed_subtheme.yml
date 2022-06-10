@@ -1,0 +1,13 @@
+uuid: a699e710-cc6d-4d59-94c2-874e71bca026
+langcode: en
+status: true
+dependencies:
+  theme:
+    - glazed_subtheme
+  menu:
+    - main-menu
+id: main-menu__glazed_subtheme
+menu: main-menu
+theme: glazed_subtheme
+block_config: '{"animation":"none","duration":500,"delay":400,"style":"","auto-arrow":"0","always-show-submenu":"0","number-columns":2}'
+menu_config: '{"menu_link_content:a2779f39-b924-424e-ae75-8f5e1af5c352":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:0ca71895-a925-4920-a2bf-91104bb5f684":{"rows_content":[[{"col_content":[{"block_id":"whowearemenuimage","type":"block","tb_item_config":[]}],"col_config":{"width":"5","class":"","hidewcol":"","showblocktitle":"1"}}],[{"col_content":[{"plugin_id":"menu_link_content:9ebf7c2a-3978-4aee-afee-f83da1869e10","type":"menu_item","tb_item_config":[],"weight":"0"},{"plugin_id":"menu_link_content:f95e32f4-fed2-47a0-8dde-3332887f6cb1","type":"menu_item","tb_item_config":[],"weight":"0"}],"col_config":{"width":"2","class":"","hidewcol":"0","showblocktitle":"1"}}]],"submenu_config":{"width":"1170","class":"","group":"0"},"item_config":{"class":"","xicon":"fa fa-angle-down","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:9ebf7c2a-3978-4aee-afee-f83da1869e10":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}},"menu_link_content:f95e32f4-fed2-47a0-8dde-3332887f6cb1":{"rows_content":[],"submenu_config":{"width":"","class":"","group":"0"},"item_config":{"class":"","xicon":"","caption":"","alignsub":"","group":"0","hidewcol":"0","hidesub":"0","label":""}}}'
