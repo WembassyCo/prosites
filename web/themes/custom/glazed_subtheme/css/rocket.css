@@ -486,6 +486,7 @@ body#rocket {
     padding: 0;
 }
 
+.sector-title-main h2,
 #rocket h2 {
     font-family: "eurostile-extended", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: 300 !important;
@@ -497,6 +498,7 @@ body#rocket {
     padding: 0;
 }
 
+.sector-section .az-column .sector-title h3,
 #rocket h3 {
     font-family: "eurostile", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: 300 !important;
@@ -690,7 +692,8 @@ body#rocket {
 }
 
 #rocket .main-content ul li,
-#rocket ul.list li {
+#rocket ul.list li,
+footer .region .az-section .az-column .az-text p a {
     font-family: "myriad-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-style: normal;
     color: #4A4A4A;
@@ -700,7 +703,8 @@ body#rocket {
 }
 
 #rocket .main-content ul li:before,
-#rocket ul.list li:before {
+#rocket ul.list li:before,
+footer .region .az-section .az-column .az-text p a:before {
     content: "›";
     padding-right: 0.5rem;
     margin-left: -0.8rem;
@@ -1015,7 +1019,7 @@ body#rocket {
     }
 }
 
-#rocket .owl-carousel.owl-theme .owl-controls .owl-pagination .owl-page span {
+.custom-carousel .carousel-indicators li {
     width: 25px;
     height: 3px;
     background: rgba(255, 255, 255, 0.3);
@@ -1027,19 +1031,19 @@ body#rocket {
     transition: all 0.2s ease-in-out;
 }
 
-#rocket .owl-carousel.owl-theme .owl-controls .owl-pagination .owl-page span:hover {
+.custom-carousel .carousel-indicators li:hover {
     height: 5px;
     background: white;
     border: 2px solid white;
 }
 
-#rocket .owl-carousel.owl-theme .owl-controls .owl-pagination .owl-page.active span {
+.custom-carousel .carousel-indicators li.active {
     height: 5px;
     background: white;
     border: 0px solid white;
 }
 
-#rocket .owl-carousel.owl-theme .owl-controls .owl-pagination .owl-page.active span:hover {
+.custom-carousel .carousel-indicators li.active:hover {
     background: white;
     border: 2px solid white;
 }
@@ -1438,13 +1442,15 @@ body#rocket {
     transform: scale(1);
 }
 
-#rocket .sector-container .sector h3.sector-title {
+#rocket .sector-container .sector h3.sector-title,
+.sector-section .az-column .sector-title h3 {
     display: block;
     font-size: 20px;
     margin: 0;
     padding: 0.5rem 0.5rem 0.5rem 0.8rem;
 }
 
+.sector-section .az-column .az-image,
 #rocket .sector-container .sector a.sector-image {
     display: block;
     width: 100%;
@@ -1453,6 +1459,7 @@ body#rocket {
     overflow: hidden;
 }
 
+.sector-section .az-column .az-image img,
 #rocket .sector-container .sector a.sector-image img {
     min-width: 100%;
     transform: scale(1.05);
@@ -3195,7 +3202,8 @@ body#rocket {
     }
 }
 
-#rocket #Footer .search-button {
+#rocket #Footer .search-button,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group .input-group-btn button {
     width: 45px;
     height: 40px;
     line-height: 38px;
@@ -3217,8 +3225,13 @@ body#rocket {
 }
 
 @media only screen and (min-width: 1024px) {
-    #rocket #Footer .border-right {
+    #rocket #Footer .border-right,
+    footer .region .az-section .az-column .az-text {
         border-right: 1px solid #CECDC9;
+    }
+
+    footer .region .az-section .az-column:last-of-type .az-text{
+        border: none;
     }
 }
 
@@ -3314,11 +3327,13 @@ body#rocket {
     }
 }
 
-#rocket #Footer ul.list li a {
+#rocket #Footer ul.list li a,
+footer .region .az-section .az-column .az-text p a {
     color: #0054A4;
 }
 
-#rocket #Footer ul.list li a:hover {
+#rocket #Footer ul.list li a:hover,
+footer .region .az-section .az-column .az-text p a:hover {
     color: #0b88ff;
 }
 
@@ -3351,24 +3366,29 @@ body#rocket {
     width: 100%;
 }
 
-#rocket #Footer .search-wrap .form-control {
+#rocket #Footer .search-wrap .form-control,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group input {
     height: 40px !important;
 }
 
-#rocket #Footer .search-wrap button.search-button {
+#rocket #Footer .search-wrap button.search-button,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group .input-group-btn button {
     z-index: 2;
     background-color: #9d9b94;
 }
 
-#rocket #Footer .search-wrap button.search-button:hover {
+#rocket #Footer .search-wrap button.search-button:hover,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group .input-group-btn button:hover {
     background-color: #b6b4ae;
 }
 
-#rocket #Footer .search-wrap button.search-button i.fa {
+#rocket #Footer .search-wrap button.search-button i.fa,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group .input-group-btn button .icon {
     color: #e6e6e4;
 }
 
-#rocket #Footer .search-wrap .form-control {
+#rocket #Footer .search-wrap .form-control,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group input {
     color: #313131;
     background-color: rgba(255, 255, 255, 0.6);
     border: none;
@@ -3376,7 +3396,9 @@ body#rocket {
 }
 
 #rocket #Footer .search-wrap .form-control:hover,
-#rocket #Footer .search-wrap .form-control:focus {
+#rocket #Footer .search-wrap .form-control:focus,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group input:hover,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group input:focus {
     background: white;
 }
 
@@ -3621,3 +3643,139 @@ body#rocket {
 }
 
 /********* End Rocket Overrides *************/
+
+/********* Custom CSS By Smit *************/
+.sector-title-section {
+    padding: 50px 0 30px;
+}
+
+.sector-section{
+    padding-bottom: 100px;
+}
+
+.sector-section .az-column {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    max-width: calc(33.33% - 30px);
+    width: 100%;
+    padding: 0;
+    margin: 0 15px;
+    border: 1px solid #CECDC9;
+}
+
+.sector-section .az-column .az-column {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.sector-section .az-column .az-row {
+    margin: 0;
+}
+
+.sector-section .az-column .sector-title h3 {
+    width: 100%;
+    text-align: left !important;
+}
+
+.sector-section .az-column .az-column {
+    border: none !important;
+    border-top: 1px solid #CECDC9 !important;
+    align-items: initial;
+}
+
+.sector-section .az-column .az-column .sector-desc {
+    max-width: calc(100% - 30px);
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+}
+
+.sector-section .az-column .az-column a.az-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer .container-col{
+    margin-bottom: 0;
+}
+
+footer .region .az-section {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+footer .region .az-section .az-column .az-text p a:hover{
+    text-decoration: none;
+}
+
+footer .region .az-section .az-column.footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer .region .az-section .az-column.footer-social a.az-icon,
+footer .region .az-section .az-column.footer-social .az-text {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: #0054A4;
+}
+
+footer .region .az-section .az-column.footer-social .az-text{
+    background-color: transparent;
+}
+
+footer .region .az-section .az-column.footer-social a.az-icon:hover{
+    background-color: #0b88ff;
+}
+
+footer .region .az-section .az-column.footer-social a.az-icon .az-icon i {
+    background-color: transparent;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+footer .region .az-section .az-column .az-cms-element,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group{
+    width: 100%;
+}
+
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group {
+    margin-top: 10px;
+}
+
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group input,
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group .input-group-btn button {
+    border-radius: 0;
+}
+
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group .input-group-btn button{
+    margin-top: -20px;
+    z-index: 9;
+}
+
+footer .region .az-section .az-column .az-cms-element .search-block-form .form-item .input-group .input-group-btn button .icon {
+    position: relative;
+    top: -2px;
+}
+
+footer .region .az-section .footer-section-main{
+    padding-bottom: 0 !important;
+    margin: 0 -30px;
+}
+
+/********* End Custom CSS By Smit *************/
