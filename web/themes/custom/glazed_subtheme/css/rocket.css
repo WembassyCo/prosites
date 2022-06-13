@@ -704,7 +704,7 @@ footer .region .az-section .az-column .az-text p a {
 
 #rocket .main-content ul li:before,
 #rocket ul.list li:before,
-footer .region .az-section .az-column .az-text p a:before {
+footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:before {
     content: "›";
     padding-right: 0.5rem;
     margin-left: -0.8rem;
