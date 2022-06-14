@@ -2,7 +2,7 @@ core: 8.x
 type: theme
 version: 8.x-1.1.0
 base theme: glazed
-
+core_version_requirement: ^8 || ^9
 name: 'THEMETITLE'
 description: 'For basic customization just use Glazed and theme settings. Use this STARTERKIT example if you need to build extra css files and templates on top of Glazed Theme.
 '
