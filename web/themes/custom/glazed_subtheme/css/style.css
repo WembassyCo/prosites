@@ -133,10 +133,45 @@ a.az-element.az-icon i {
 
 /*------ Slider css stop ----*/
 
+.page-title span {
+  padding-top: 90px;
+  display: block;
+  color: #fff;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  font-family: "eurostile-extended", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 9px;
+}
+
+.page-title-full-width-container {
+  padding-bottom: 30px;
+  background: #2D343A;
+}
+
+#navbar:before{
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, white 15%, white 85%, rgba(255, 255, 255, 0) 100%);
+	transition: opacity 0.3s ease-in-out 0.1s;
+	z-index: -100;
+	opacity: 0.2;
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
 
 /*------ media querry start----*/
 @media only screen and (min-width: 1200px) {
-
+	
+	#navbar .navbar-header{
+		position: relative;
+		top: -7px;
+	}
     /* .body--glazed-nav-desktop #navbar.glazed-header--top.glazed-header--normal .mega-dropdown-inner {
         display: -webkit-box;
         display: -ms-flexbox;
