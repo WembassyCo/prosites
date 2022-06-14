@@ -7,7 +7,7 @@ mail: admin@wampserver.invalid
 slogan: ''
 page:
   403: ''
-  404: ''
+  404: /node/6
   front: /node/5
 admin_compact_mode: false
 weight_select_max: 100
