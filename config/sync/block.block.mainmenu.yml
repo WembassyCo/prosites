@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - system
     - tb_megamenu
   theme:
     - glazed_subtheme
@@ -17,4 +18,8 @@ settings:
   label: 'Main Menu'
   label_display: '0'
   provider: tb_megamenu
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/admin/*'

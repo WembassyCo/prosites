@@ -1,0 +1,25 @@
+uuid: b73e7321-5dcc-4421-9b1d-7a9b4819df86
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2e1d08bc-7ebc-4fda-82a1-6960daa13416'
+  module:
+    - block_content
+  theme:
+    - glazed_subtheme
+id: careersmenuimage
+theme: glazed_subtheme
+region: menu_images
+weight: -7
+provider: null
+plugin: 'block_content:2e1d08bc-7ebc-4fda-82a1-6960daa13416'
+settings:
+  id: 'block_content:2e1d08bc-7ebc-4fda-82a1-6960daa13416'
+  label: 'careers menu image'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

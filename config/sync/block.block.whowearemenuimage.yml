@@ -10,8 +10,8 @@ dependencies:
     - glazed_subtheme
 id: whowearemenuimage
 theme: glazed_subtheme
-region: page_title
-weight: -3
+region: menu_images
+weight: -8
 provider: null
 plugin: 'block_content:bcfd44ea-b069-4f52-9a67-4659988cc9c3'
 settings:
