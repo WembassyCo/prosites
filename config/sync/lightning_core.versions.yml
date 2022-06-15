@@ -54,6 +54,7 @@ path: 9.3.15
 path_alias: 9.3.15
 rdf: 9.3.15
 search: 9.3.15
+shortcode: 2.0.1
 shortcut: 9.3.15
 slick: 2.6.0
 slick_entityreference: 2.0.0
