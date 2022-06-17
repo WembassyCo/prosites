@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* Insert your custom CSS styles */
+
+#rocket img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.az-container>.controls {
+    top: 80px;
+}
+
+.copyright-desc p {
+    text-align: right;
+}
+
+.tb-megamenu .dropdown-menu .active>a,
+.tb-megamenu .dropdown-menu .active>a:hover,
+.tb-megamenu .dropdown-menu .active>span.tb-megamenu-no-link,
+.tb-megamenu .dropdown-menu .active>span.tb-megamenu-no-link:hover {
+    background-image: none;
+}
+
+/* -------- Inner page css start ------- */
+.wrap-containers .page-title-full-width-container {
+    padding-bottom: 0px;
+    background: #2D343A;
+    margin-bottom: 0px;
+}
+
+#rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title {
+    background: rgba(0, 84, 164, 0.9);
+    margin: -51px -15px 0;
+    padding: 0.6rem 1rem 0 1rem;
+    height: 50px;
+    line-height: 1;
+    position: relative;
+    left: 15px;
+}
+
+#rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title span {
+    padding: 0px;
+}
+
+#block-rocketlandingcontentwithimage .az-element.az-row.row.az-row--sm {
+    border-bottom: 1px solid #CECDC9;
+    border-right: 1px solid #CECDC9;
+    border-left: 1px solid #CECDC9;
+}
+
+.page-node-type-page #page-title .page-title {
+    height: 100%;
+}
+
+.page-node-type-page .page-title span {
+    top: 18px;
+}
+
+a.logo.navbar-btn {
+    max-width: 200px;
+    display: inline-block;
+    width: 100%;
+}
+
+#navbar .navbar-header {
+    top: auto;
+}
+
+#rocket.page-node-type-landing-page .landing-content-main-content,
+#rocket.page-node-type-landing-page .view-id-landing_image {
+    padding-top: 20px;
+}
+
+/* -------- Inner page css start ------- */
+
+@media only screen and (max-width: 1024px) {
+    .html--glazed-sticky-footer .body--glazed-nav-mobile.user-logged-in .glazed-header.navbar {
+        position: absolute;
+        width: 100%;
+        top: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .copyright-desc p {
+        text-align: center;
+    }
+}
