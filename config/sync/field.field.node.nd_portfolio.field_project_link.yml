@@ -1,0 +1,23 @@
+uuid: d9d47c7e-9a8d-4b42-bca2-3e85b2e76cca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_project_link
+    - node.type.nd_portfolio
+  module:
+    - link
+id: node.nd_portfolio.field_project_link
+field_name: field_project_link
+entity_type: node
+bundle: nd_portfolio
+label: 'Project Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

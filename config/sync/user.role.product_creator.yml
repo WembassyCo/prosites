@@ -1,0 +1,29 @@
+uuid: 419cad23-8725-4bc5-9cdd-1a452a120e9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.rich_text
+    - node.type.product
+  module:
+    - contextual
+    - entity_browser
+    - filter
+    - node
+    - path
+    - toolbar
+id: product_creator
+label: 'Product creator'
+weight: 12
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'create product content'
+  - 'create url aliases'
+  - 'edit own product content'
+  - 'use text format rich_text'
+  - 'view own unpublished content'
+  - 'view product revisions'

@@ -1,0 +1,14 @@
+uuid: 431e8fe1-459f-4821-8798-311f8dedc01a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.product_creator
+  module:
+    - user
+id: user_remove_role_action.product_creator
+label: 'Remove the Product creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: product_creator

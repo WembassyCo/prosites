@@ -1,0 +1,16 @@
+uuid: e9471b11-e663-41fd-b600-c8f4ea054dd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nd_portfolio
+  module:
+    - node
+id: nd_portfolio_reviewer
+label: 'Portfolio reviewer'
+weight: 27
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any nd_portfolio content'
+  - 'edit any nd_portfolio content'

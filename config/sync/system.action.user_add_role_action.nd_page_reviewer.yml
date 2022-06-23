@@ -1,0 +1,14 @@
+uuid: ab9d9ad1-f5fb-4aaf-9787-69d9a37c0e03
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.nd_page_reviewer
+  module:
+    - user
+id: user_add_role_action.nd_page_reviewer
+label: 'Add the Page reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: nd_page_reviewer

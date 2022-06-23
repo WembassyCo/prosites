@@ -1,0 +1,14 @@
+uuid: 76615c89-1e81-48c8-af45-a6e3d2a8b709
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.feature_slider_creator
+  module:
+    - user
+id: user_add_role_action.feature_slider_creator
+label: 'Add the Feature Slider creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: feature_slider_creator

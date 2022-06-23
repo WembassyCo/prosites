@@ -4,8 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_main_photo
+    - image.style.thumbnail
     - node.type.page
   module:
+    - image
     - path
     - text
 _core:
@@ -30,6 +33,20 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_main_photo:
+    type: entity_browser_file
+    weight: 121
+    region: content
+    settings:
+      entity_browser: image_browser
+      field_widget_edit: true
+      field_widget_remove: true
+      field_widget_replace: false
+      open: true
+      selection_mode: selection_append
+      view_mode: default
+      preview_image_style: thumbnail
     third_party_settings: {  }
   path:
     type: path

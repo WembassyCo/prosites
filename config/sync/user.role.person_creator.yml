@@ -1,0 +1,29 @@
+uuid: 50c173c8-366d-4453-a94c-26ea98fda386
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.rich_text
+    - node.type.person
+  module:
+    - contextual
+    - entity_browser
+    - filter
+    - node
+    - path
+    - toolbar
+id: person_creator
+label: 'Person creator'
+weight: 14
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'create person content'
+  - 'create url aliases'
+  - 'edit own person content'
+  - 'use text format rich_text'
+  - 'view own unpublished content'
+  - 'view person revisions'

@@ -1,0 +1,14 @@
+uuid: a812cade-3560-4815-ae28-4522d5847de1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.nd_blog_creator
+  module:
+    - user
+id: user_add_role_action.nd_blog_creator
+label: 'Add the Blog creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: nd_blog_creator

@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_main_photo
     - node.type.page
   module:
     - glazed_builder
@@ -20,11 +21,12 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
-hidden: {  }
+hidden:
+  field_main_photo: true

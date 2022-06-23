@@ -1,0 +1,16 @@
+uuid: 5a74e424-1a54-4825-973e-03d47a93457f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.product
+  module:
+    - node
+id: product_reviewer
+label: 'Product reviewer'
+weight: 13
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any product content'
+  - 'edit any product content'

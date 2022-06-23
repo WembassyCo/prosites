@@ -1,0 +1,21 @@
+uuid: 5529f474-e45e-4357-99f7-843b62a6aeb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_caption
+    - node.type.gallery_item
+  module:
+    - text
+id: node.gallery_item.field_caption
+field_name: field_caption
+entity_type: node
+bundle: gallery_item
+label: Caption
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

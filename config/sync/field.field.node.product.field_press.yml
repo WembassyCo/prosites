@@ -1,0 +1,21 @@
+uuid: 96d4fe77-7284-4dad-b0b3-e6e53b15492d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_press
+    - node.type.product
+  module:
+    - text
+id: node.product.field_press
+field_name: field_press
+entity_type: node
+bundle: product
+label: Resources
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

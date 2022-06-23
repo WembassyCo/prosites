@@ -1,0 +1,8 @@
+uuid: 89ef0e81-1867-4e1b-9184-c9a535f5c794
+langcode: en
+status: true
+dependencies: {  }
+name: Gallery
+vid: gallery
+description: ''
+weight: 0
