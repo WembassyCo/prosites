@@ -1,0 +1,30 @@
+<?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+/**
+ * Implements template_preprocess_page()
+ */
+function glazed_subtheme_preprocess_page(&$variables) {
+  /*$hide_regions = $local_hide = ['page_title'];
+  var_dump($variables['page']);
+  var_dump($hide_regions);
+  
+  foreach ($hide_regions as $value) {
+    if (!empty($variables['page'][$value])) {
+      unset($variables['page'][$value]);
+    }
+  }*/
+}
+
+function glazed_subtheme_preprocess_html(&$variables) {
+  // Add node ID to the body class.
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if (is_object($node)) {
+    $variables['attributes']['class'][] = 'node-' . $node->id();
+  }
+}

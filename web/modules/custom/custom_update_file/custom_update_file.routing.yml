@@ -1,0 +1,7 @@
+custom_update_file.spa_lambda_node_update:
+  path: '/content/update'
+  defaults:
+    _controller: '\Drupal\custom_update_file\Controller\spalambdaController::spa_lambda_node_update'
+    _title: 'Update File'
+  requirements:
+    _permission: 'access content'

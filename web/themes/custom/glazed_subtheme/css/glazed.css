@@ -2,88 +2,458 @@
 /* Insert your custom CSS styles */
 
 #rocket img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
-.az-container>.controls {
-    top: 80px;
-}
+/*
+.az-container > .controls {
+	top: 80px;
+}*/
 
 .copyright-desc p {
-    text-align: right;
+	text-align: right;
 }
 
-.tb-megamenu .dropdown-menu .active>a,
-.tb-megamenu .dropdown-menu .active>a:hover,
-.tb-megamenu .dropdown-menu .active>span.tb-megamenu-no-link,
-.tb-megamenu .dropdown-menu .active>span.tb-megamenu-no-link:hover {
-    background-image: none;
+.tb-megamenu .dropdown-menu .active > a,
+.tb-megamenu .dropdown-menu .active > a:hover,
+.tb-megamenu .dropdown-menu .active > span.tb-megamenu-no-link,
+.tb-megamenu .dropdown-menu .active > span.tb-megamenu-no-link:hover {
+	background-image: none;
 }
 
 /* -------- Inner page css start ------- */
 .wrap-containers .page-title-full-width-container {
-    padding-bottom: 0px;
-    background: #2D343A;
-    margin-bottom: 0px;
+	padding-bottom: 0px;
+	background: #2D343A;
+	margin-bottom: 0px;
+}
+
+.path-who-we-are .wrap-containers .page-title-full-width-container {
+	padding-bottom: 30px;
 }
 
 #rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title {
-    background: rgba(0, 84, 164, 0.9);
-    margin: -51px -15px 0;
-    padding: 0.6rem 1rem 0 1rem;
-    height: 50px;
-    line-height: 1;
-    position: relative;
-    left: 15px;
+	background: rgba(0, 84, 164, 0.9);
+	margin: -51px -15px 0;
+	padding: 0.6rem 1rem 0 1rem;
+	height: 50px;
+	line-height: 1;
+	position: relative;
+	left: 15px;
+    z-index: 1;
 }
 
 #rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title span {
-    padding: 0px;
+	padding: 0px;
 }
 
 #block-rocketlandingcontentwithimage .az-element.az-row.row.az-row--sm {
-    border-bottom: 1px solid #CECDC9;
-    border-right: 1px solid #CECDC9;
-    border-left: 1px solid #CECDC9;
+	border-bottom: 1px solid #CECDC9;
+	border-right: 1px solid #CECDC9;
+	border-left: 1px solid #CECDC9;
 }
 
 .page-node-type-page #page-title .page-title {
-    height: 100%;
+	height: 100%;
 }
 
-.page-node-type-page .page-title span {
-    top: 18px;
+.page-node-type-page .page-title span,
+.path-who-we-are .page-title span,
+.path-leadership-team .page-title span {
+	top: 18px;
 }
 
 a.logo.navbar-btn {
-    max-width: 200px;
-    display: inline-block;
-    width: 100%;
+	max-width: 200px;
+	display: inline-block;
+	width: 100%;
 }
 
 #navbar .navbar-header {
-    top: auto;
+	top: auto;
 }
 
 #rocket.page-node-type-landing-page .landing-content-main-content,
 #rocket.page-node-type-landing-page .view-id-landing_image {
-    padding-top: 20px;
+	padding-top: 20px;
+}
+
+
+.bg-gray-lighter {
+	background-color: #f8f8f8;
+}
+
+.custom_p-60 {
+	padding-top: 60px;
+}
+
+.custom_p-t-60 {
+	padding-top: 60px;
+}
+
+.custom_p-b-60 {
+	padding-bottom: 60px;
+}
+
+#rocket.page-node-type-page {
+	background-color: #fff;
+}
+
+.our_culture img {
+	max-height: 500px;
+}
+
+#rocket {
+	background-color: #fff;
+}
+
+.custom_investor_relation img {
+	width: 100%;
 }
 
 /* -------- Inner page css start ------- */
+/* -------- Product page css start ------- */
+.product-banner-section {
+	position: relative;
+}
+
+#rocket .product-banner-title {
+	left: 0;
+	display: inline-block;
+	z-index: 2;
+	position: absolute;
+	bottom: 8px;
+	min-width: 270px;
+	height: 50px;
+	margin: 0;
+	padding: 0.6rem 1rem 0 1rem;
+	background: rgba(0, 84, 164, 0.9);
+}
+
+#rocket .product-banner-title h2 {
+	color: #fff;
+	margin: 0;
+}
+
+#rocket .product-main-images .col-sm-12 {
+	margin-bottom: 0px;
+}
+
+.product-nav-container .az-ctnr.container-fluid {
+	padding: 0px;
+}
+
+.product-tab-section > .container {
+	padding: 0px;
+	display: flex;
+}
+
+.product-nav .az-ctnr.container {
+	justify-content: center;
+	display: flex;
+	padding: 0px;
+}
+
+.product-nav .az-ctnr.container .btn-product {
+	width: calc(100% / 4);
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+	margin-bottom: 0px !important;
+}
+
+#rocket .view-landing-carousels.landing-carasoual-image img {
+	max-width: 1600px;
+}
+
+.view-rocket-product-gallery .gallery-item {
+	margin-bottom: 4px !important;
+	overflow: hidden;
+}
+
+.view-rocket-product-gallery .gallery-item img {
+	opacity: 0.85;
+	transform: scale(1);
+	transition: all 0.2s ease-out;
+	width: 100%;
+	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+}
+
+.view-rocket-product-gallery .gallery-item img:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	opacity: 1;
+}
+
+.map_image img {
+	margin: 40px auto;
+}
+
+section#block-views-block-product-related-block-1 {
+	padding-bottom: 40px;
+	padding-top: 50px;
+	background: rgba(206, 205, 201, 0.2);
+	margin-top: 100px;
+}
+
+.wrap-branding {
+	z-index: 9999;
+	position: relative;
+}
+
+#block-views-block-rocket-product-gallery-block-1 span.field-content {
+	display: inline-block;
+	overflow: hidden;
+}
+
+#block-views-block-rocket-product-gallery-block-1 .gallery-item.col-xs-6.col-sm-6.col-md-4.col-lg-3,
+#block-views-block-product-related-block-1 .col-sm-3 {
+	padding: 0 4px !important;
+}
+
+#block-views-block-rocket-product-gallery-block-1 .view-content,
+#block-views-block-product-related-block-1 .view-content {
+	margin: 0 -8px;
+}
+/* ------ Owl Navigation Arrows --------*/
+.owl-nav
+{
+    width: 100%;
+}
+.owl-nav button{
+    width: 50px !important;
+    height: 50px !important;
+    background-color: #000;
+    z-index: 99;
+    line-height: 50px !important;
+}
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.owl-nav button span{
+    font-size: 0px;
+    
+}
+button.owl-prev{left: 0px;}
+button.owl-prev span::before
+{
+    position: absolute;
+    font-family: "FontAwesome"; 
+    content: "\f104";
+    left: 10px;
+    top: 0px;
+    font-size: 60px;
+    color: #fff;
+}
+button.owl-next{ right: 0px;}
+button.owl-next span::before
+{
+    position: absolute;
+    font-family: "FontAwesome"; 
+    content: "\f105";
+    right: 15px;
+    top: 0px; 
+    font-size: 60px;
+    color: #fff;
+    left: auto;
+}
+.owl-theme .owl-dots {
+    position: absolute;
+    z-index: 99;
+    bottom: 60px;
+    height: auto !IMPORTANT;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 25px;
+    height: 3px;
+    margin: 0px 7px;
+    background:rgba(255, 255, 255, 0.3);
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 0px;
+}
+.owl-theme .owl-dots .owl-dot.active span
+{
+    width: 25px;
+    height: 5px;
+    background:rgba(255, 255, 255, 1); 
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent;
+    color: #FFF;
+    text-decoration: none;
+}
+/* ------ Owl Navigation Arrows --------*/
+/* ------ Leadership page css start --------*/
+#block-views-block-rocket-team-block-1 .leadership-team
+{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+#rocket .leadership-team .caption
+{
+    position: relative;
+    left: auto;
+    bottom: auto;
+}
+#block-views-block-rocket-team-block-1 .leadership-team .view-content>.views-row
+{
+
+}
+#block-views-block-rocket-team-block-1 .leadership-team .view-content>.views-row .views-row{
+
+}
+#block-views-block-rocket-team-block-1 .leadership-team .view-content>.views-row .views-row .team-thumbnail img{
+    width: 100%;;
+}
+.ui-accordion .ui-accordion-header{  padding: 0px !important;border-width: 0px}
+.ui-icon-triangle-1-e{  display: none;}
+/* ------ Leadership page css end --------*/
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button
+{
+	background: #0054A4;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button i{
+	font-size: 30px;
+	line-height: 1;
+	color: #fff;
+}
+
+.view-id-rocket_landing_page_lists.view-display-id-block_1
+{
+	margin-top: 40px;
+}
+#rocket.page-node-type-landing-page
+{
+	background: #fff;
+}
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title h3
+{
+	font-size: 1.25rem;
+    line-height: 1.4rem;
+    margin: 0;
+    padding: 0;
+}
+/* -------- Product page css end ------- */
+@media only screen and (min-width: 1024px) {
+
+	.path-who-we-are .main-container.container,
+	.path-leadership-team .main-container.container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
 
 @media only screen and (max-width: 1024px) {
-    .html--glazed-sticky-footer .body--glazed-nav-mobile.user-logged-in .glazed-header.navbar {
-        position: absolute;
-        width: 100%;
-        top: 80px;
-    }
+	.html--glazed-sticky-footer .body--glazed-nav-mobile.user-logged-in .glazed-header.navbar {
+		position: absolute;
+		width: 100%;
+		top: 80px;
+	}
 }
 
 @media only screen and (max-width: 767px) {
-    .copyright-desc p {
-        text-align: center;
-    }
+	.copyright-desc p {
+		text-align: center;
+	}
+
+	.our_culture img {
+		max-height: 300px;
+	}
+
+}
+
+.page-node-type-landing-page .owl-carousel {
+	display: block !important;
+}
+
+div#product-overview {
+	padding-bottom: 40px;
+	padding-top: 50px;
+}
+
+div#product-features {
+	padding-bottom: 40px;
+	padding-top: 50px;
+}
+
+div#product-resources {
+	padding-bottom: 40px;
+	padding-top: 50px;
 }
