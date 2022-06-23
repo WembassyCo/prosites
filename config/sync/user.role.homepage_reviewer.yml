@@ -1,0 +1,16 @@
+uuid: 91018da0-fdbd-4499-a541-4a1cb272cee8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.homepage
+  module:
+    - node
+id: homepage_reviewer
+label: 'Homepage reviewer'
+weight: 23
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any homepage content'
+  - 'edit any homepage content'

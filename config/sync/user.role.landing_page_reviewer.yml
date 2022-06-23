@@ -1,0 +1,16 @@
+uuid: 1ec93823-bfc4-4136-87a6-6a5dd849d4fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.landing_page
+  module:
+    - node
+id: landing_page_reviewer
+label: 'Landing page reviewer'
+weight: 11
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any landing_page content'
+  - 'edit any landing_page content'

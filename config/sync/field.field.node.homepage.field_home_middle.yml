@@ -1,0 +1,23 @@
+uuid: 6951dfe5-0e08-45a5-8d8e-7eae71bb5d03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_middle
+    - node.type.homepage
+  module:
+    - text
+id: node.homepage.field_home_middle
+field_name: field_home_middle
+entity_type: node
+bundle: homepage
+label: 'Home Middle'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

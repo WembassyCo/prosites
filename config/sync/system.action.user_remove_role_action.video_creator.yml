@@ -1,0 +1,14 @@
+uuid: b776782e-6f0f-44d8-a4df-dda075e506ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.video_creator
+  module:
+    - user
+id: user_remove_role_action.video_creator
+label: 'Remove the Video creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: video_creator

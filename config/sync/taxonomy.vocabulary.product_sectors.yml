@@ -1,0 +1,8 @@
+uuid: f2c8043f-835b-4847-a32b-3ad8f467009e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Product Sectors'
+vid: product_sectors
+description: ''
+weight: 0

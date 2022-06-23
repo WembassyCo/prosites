@@ -1,0 +1,29 @@
+uuid: 3cfbae04-2326-4f74-863c-789ba81e8449
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.rich_text
+    - node.type.nd_portfolio
+  module:
+    - contextual
+    - entity_browser
+    - filter
+    - node
+    - path
+    - toolbar
+id: nd_portfolio_creator
+label: 'Portfolio creator'
+weight: 26
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'create nd_portfolio content'
+  - 'create url aliases'
+  - 'edit own nd_portfolio content'
+  - 'use text format rich_text'
+  - 'view nd_portfolio revisions'
+  - 'view own unpublished content'

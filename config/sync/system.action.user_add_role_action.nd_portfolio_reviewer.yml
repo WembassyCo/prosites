@@ -1,0 +1,14 @@
+uuid: 2c1950a9-9ecc-49a3-bf1b-d875d5fdd4cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.nd_portfolio_reviewer
+  module:
+    - user
+id: user_add_role_action.nd_portfolio_reviewer
+label: 'Add the Portfolio reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: nd_portfolio_reviewer

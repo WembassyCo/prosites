@@ -1,0 +1,33 @@
+uuid: 60246608-da5b-4479-9edb-594377701b8e
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.rocket_product_gallery
+  module:
+    - node
+    - views
+  theme:
+    - glazed_subtheme
+id: views_block__rocket_product_gallery_block_1
+theme: glazed_subtheme
+region: content_top
+weight: -8
+provider: null
+plugin: 'views_block:rocket_product_gallery-block_1'
+settings:
+  id: 'views_block:rocket_product_gallery-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      product: product

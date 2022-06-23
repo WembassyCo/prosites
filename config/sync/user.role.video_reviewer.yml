@@ -1,0 +1,16 @@
+uuid: 8a3cb53a-922b-4b83-a6ab-528993a688fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.video
+  module:
+    - node
+id: video_reviewer
+label: 'Video reviewer'
+weight: 29
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any video content'
+  - 'edit any video content'

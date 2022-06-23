@@ -1,0 +1,31 @@
+uuid: 32afaa80-9638-4b95-92c7-c7379bb47e0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - glazed_subtheme
+id: tabs
+theme: glazed_subtheme
+region: content_top
+weight: -15
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      landing_page: landing_page
+      page: page
+      product: product

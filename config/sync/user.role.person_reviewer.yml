@@ -1,0 +1,16 @@
+uuid: ead6a549-30fa-4cb2-9455-b3b0e8bce291
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.person
+  module:
+    - node
+id: person_reviewer
+label: 'Person reviewer'
+weight: 15
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any person content'
+  - 'edit any person content'

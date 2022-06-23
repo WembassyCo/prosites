@@ -1,0 +1,29 @@
+uuid: e8dbab0f-4e7d-4dba-afef-ddee7bd801dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_sector
+    - node.type.landing_page
+    - taxonomy.vocabulary.product_sectors
+id: node.landing_page.field_product_sector
+field_name: field_product_sector
+entity_type: node
+bundle: landing_page
+label: 'Product Sector'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      product_sectors: product_sectors
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: product_categories
+field_type: entity_reference

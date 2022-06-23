@@ -1,7 +1,9 @@
 uuid: 2b41eea8-4991-4188-97a4-f84028baae37
 langcode: en
-status: true
+status: false
 dependencies:
+  module:
+    - system
   theme:
     - glazed_subtheme
 _core:
@@ -9,7 +11,7 @@ _core:
 id: glazed_subtheme_local_tasks
 theme: glazed_subtheme
 region: content
-weight: -20
+weight: -9
 provider: null
 plugin: local_tasks_block
 settings:
@@ -19,4 +21,8 @@ settings:
   provider: core
   primary: true
   secondary: true
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/space/*'

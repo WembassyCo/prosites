@@ -1,0 +1,14 @@
+uuid: 513feeba-6865-40c4-b94d-05d71b3e0169
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.product_reviewer
+  module:
+    - user
+id: user_add_role_action.product_reviewer
+label: 'Add the Product reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: product_reviewer

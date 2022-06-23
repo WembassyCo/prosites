@@ -1,0 +1,14 @@
+uuid: 330593ce-1b44-4c76-b0c5-84596b1da90c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.nd_page_reviewer
+  module:
+    - user
+id: user_remove_role_action.nd_page_reviewer
+label: 'Remove the Page reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: nd_page_reviewer
