@@ -1,0 +1,33 @@
+uuid: e9b3ac14-2955-4f3e-9c8a-6034b86ef2ef
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drag_and_drop_block:ab25f94b-f08f-43ad-9fa8-6603038eb121'
+  module:
+    - block_content
+    - node
+  theme:
+    - glazed_subtheme
+id: rockettabs
+theme: glazed_subtheme
+region: content_top
+weight: -12
+provider: null
+plugin: 'block_content:ab25f94b-f08f-43ad-9fa8-6603038eb121'
+settings:
+  id: 'block_content:ab25f94b-f08f-43ad-9fa8-6603038eb121'
+  label: 'Rocket:tabs'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      product: product

@@ -1,0 +1,23 @@
+uuid: da6121fb-ae8d-409d-ab72-276590232b52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.feature_slider
+  module:
+    - text
+id: node.feature_slider.body
+field_name: body
+entity_type: node
+bundle: feature_slider
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

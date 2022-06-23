@@ -9,10 +9,12 @@ module:
   breakpoint: 0
   ckeditor: 0
   color: 0
+  colorbox: 0
   comment: 0
   config: 0
   contact: 0
   contextual: 0
+  custom_update_file: 0
   datetime: 0
   dblog: 0
   dropzonejs: 0
@@ -32,6 +34,8 @@ module:
   history: 0
   image: 0
   inline_entity_form: 0
+  jquery_ui: 0
+  jquery_ui_accordion: 0
   lightning_core: 0
   lightning_media: 0
   lightning_media_audio: 0
@@ -51,12 +55,15 @@ module:
   menu_ui: 0
   node: 0
   options: 0
+  owlcarousel: 0
   page_cache: 0
   path: 0
   path_alias: 0
   rdf: 0
   search: 0
   shortcode: 0
+  shortcode_basic_tags: 0
+  shortcode_example: 0
   shortcut: 0
   slick: 0
   slick_entityreference: 0
@@ -68,6 +75,8 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_accordion: 0
+  views_menu_children_filter: 0
   views_ui: 0
   views: 10
   glazed_builder: 100

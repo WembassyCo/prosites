@@ -1,0 +1,42 @@
+uuid: 80a1a535-20dd-4ebf-99f7-457f5199904e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.nd_portfolio.body
+    - field.field.node.nd_portfolio.field_category
+    - field.field.node.nd_portfolio.field_description
+    - field.field.node.nd_portfolio.field_images
+    - field.field.node.nd_portfolio.field_portfolio_category
+    - field.field.node.nd_portfolio.field_project
+    - field.field.node.nd_portfolio.field_project_link
+    - node.type.nd_portfolio
+  module:
+    - text
+    - user
+id: node.nd_portfolio.teaser
+targetEntityType: node
+bundle: nd_portfolio
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_category: true
+  field_description: true
+  field_images: true
+  field_portfolio_category: true
+  field_project: true
+  field_project_link: true

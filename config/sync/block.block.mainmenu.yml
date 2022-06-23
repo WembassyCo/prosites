@@ -10,7 +10,7 @@ dependencies:
 id: mainmenu
 theme: glazed_subtheme
 region: navigation_collapsible
-weight: -6
+weight: -9
 provider: null
 plugin: 'tb_megamenu_menu_block:main-menu'
 settings:

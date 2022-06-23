@@ -1,0 +1,42 @@
+uuid: 6f12c216-8ed8-4e47-9468-0a90c242da37
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product.body
+    - field.field.node.product.field_features
+    - field.field.node.product.field_image_gallery
+    - field.field.node.product.field_main_photo
+    - field.field.node.product.field_press
+    - field.field.node.product.field_product_category
+    - field.field.node.product.field_product_sector
+    - node.type.product
+  module:
+    - text
+    - user
+id: node.product.teaser
+targetEntityType: node
+bundle: product
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_features: true
+  field_image_gallery: true
+  field_main_photo: true
+  field_press: true
+  field_product_category: true
+  field_product_sector: true

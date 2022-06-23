@@ -1,0 +1,6 @@
+name: Custom Update File
+description: Custom module for update file mearge table.
+core: 8.x
+package: Custom
+type: module
+core_version_requirement: ^8 || ^9

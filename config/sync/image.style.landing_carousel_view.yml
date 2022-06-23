@@ -1,0 +1,7 @@
+uuid: 6213b1e3-fcc5-4f6a-a8f3-770063500417
+langcode: en
+status: true
+dependencies: {  }
+name: landing_carousel_view
+label: 'Landing Carousel View'
+effects: {  }

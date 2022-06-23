@@ -1,0 +1,30 @@
+uuid: 0304eba0-73de-4e64-81ec-80f6ee304a1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.rocket_landing_page_lists
+  module:
+    - system
+    - views
+  theme:
+    - glazed_subtheme
+id: views_block__rocket_landing_page_lists_block_1
+theme: glazed_subtheme
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:rocket_landing_page_lists-block_1'
+settings:
+  id: 'views_block:rocket_landing_page_lists-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/who-we-are\r\n/defense\r\n/space\r\n/careers\r\n/media"

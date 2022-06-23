@@ -1728,7 +1728,8 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item,
 #rocket .view-display-id-sectors .landing-list-item,
 #rocket .view-display-id-categories .landing-list-item,
-#rocket .view-product-related .landing-list-item {
+#rocket .view-product-related .landing-list-item,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item{
     position: relative;
     top: 0;
     left: 0;
@@ -1741,14 +1742,16 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item:hover .landing-list-thumb a img,
 #rocket .view-display-id-sectors .landing-list-item:hover .landing-list-thumb a img,
 #rocket .view-display-id-categories .landing-list-item:hover .landing-list-thumb a img,
-#rocket .view-product-related .landing-list-item:hover .landing-list-thumb a img {
+#rocket .view-product-related .landing-list-item:hover .landing-list-thumb a img,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item:hover .landing-list-thumb a img  {
     transform: scale(1);
 }
 
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-thumb,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-thumb,
 #rocket .view-display-id-categories .landing-list-item .landing-list-thumb,
-#rocket .view-product-related .landing-list-item .landing-list-thumb {
+#rocket .view-product-related .landing-list-item .landing-list-thumb,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-thumb {
     position: relative;
     width: 100%;
     background-color: rgba(206, 205, 201, 0.2);
@@ -1758,7 +1761,8 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-thumb.compat-object-fit,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-thumb.compat-object-fit,
 #rocket .view-display-id-categories .landing-list-item .landing-list-thumb.compat-object-fit,
-#rocket .view-product-related .landing-list-item .landing-list-thumb.compat-object-fit {
+#rocket .view-product-related .landing-list-item .landing-list-thumb.compat-object-fit,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-thumb.compat-object-fit {
     background-size: cover;
     background-position: center center;
 }
@@ -1766,14 +1770,16 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-thumb.compat-object-fit img,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-thumb.compat-object-fit img,
 #rocket .view-display-id-categories .landing-list-item .landing-list-thumb.compat-object-fit img,
-#rocket .view-product-related .landing-list-item .landing-list-thumb.compat-object-fit img {
+#rocket .view-product-related .landing-list-item .landing-list-thumb.compat-object-fit img,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-thumb.compat-object-fit img {
     opacity: 0;
 }
 
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-thumb a,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-thumb a,
 #rocket .view-display-id-categories .landing-list-item .landing-list-thumb a,
-#rocket .view-product-related .landing-list-item .landing-list-thumb a {
+#rocket .view-product-related .landing-list-item .landing-list-thumb a,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-thumb a {
     display: block;
     width: 100%;
     height: 100%;
@@ -1783,7 +1789,8 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-thumb a img,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-thumb a img,
 #rocket .view-display-id-categories .landing-list-item .landing-list-thumb a img,
-#rocket .view-product-related .landing-list-item .landing-list-thumb a img {
+#rocket .view-product-related .landing-list-item .landing-list-thumb a img,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-thumb a img {
     transform: scale(1.05);
     transition: transform 0.4s ease-out;
     display: block;
@@ -1801,7 +1808,8 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-label,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-label,
 #rocket .view-display-id-categories .landing-list-item .landing-list-label,
-#rocket .view-product-related .landing-list-item .landing-list-label {
+#rocket .view-product-related .landing-list-item .landing-list-label,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-label {
     display: -ms-flex;
     display: -webkit-flex;
     display: flex;
@@ -1814,7 +1822,8 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-title,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-title,
 #rocket .view-display-id-categories .landing-list-item .landing-list-title,
-#rocket .view-product-related .landing-list-item .landing-list-title {
+#rocket .view-product-related .landing-list-item .landing-list-title,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title {
     display: flex;
     flex: 1 1 auto;
 }
@@ -1822,7 +1831,9 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-title h3,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-title h3,
 #rocket .view-display-id-categories .landing-list-item .landing-list-title h3,
-#rocket .view-product-related .landing-list-item .landing-list-title h3 {
+#rocket .view-product-related .landing-list-item .landing-list-title h3,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title h3
+ {
     display: flex;
     flex: 1 1 auto;
 }
@@ -1830,28 +1841,32 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-title h3 a,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-title h3 a,
 #rocket .view-display-id-categories .landing-list-item .landing-list-title h3 a,
-#rocket .view-product-related .landing-list-item .landing-list-title h3 a {
+#rocket .view-product-related .landing-list-item .landing-list-title h3 a,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title h3 a {
     color: #0054A4;
 }
 
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-title h3 a:hover,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-title h3 a:hover,
 #rocket .view-display-id-categories .landing-list-item .landing-list-title h3 a:hover,
-#rocket .view-product-related .landing-list-item .landing-list-title h3 a:hover {
+#rocket .view-product-related .landing-list-item .landing-list-title h3 a:hover,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title h3 a:hover {
     color: #006ed7;
 }
 
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-button,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-button,
 #rocket .view-display-id-categories .landing-list-item .landing-list-button,
-#rocket .view-product-related .landing-list-item .landing-list-button {
+#rocket .view-product-related .landing-list-item .landing-list-button
+ {
     display: flex;
 }
 
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-button a.landing-list-button-inner,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-button a.landing-list-button-inner,
 #rocket .view-display-id-categories .landing-list-item .landing-list-button a.landing-list-button-inner,
-#rocket .view-product-related .landing-list-item .landing-list-button a.landing-list-button-inner {
+#rocket .view-product-related .landing-list-item .landing-list-button a.landing-list-button-inner,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button a.landing-list-button-inner {
     display: flex;
     flex: 1 1 auto;
     text-indent: -1000px;
@@ -1864,7 +1879,8 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-button a.landing-list-button-inner:hover,
 #rocket .view-display-id-sectors .landing-list-item .landing-list-button a.landing-list-button-inner:hover,
 #rocket .view-display-id-categories .landing-list-item .landing-list-button a.landing-list-button-inner:hover,
-#rocket .view-product-related .landing-list-item .landing-list-button a.landing-list-button-inner:hover {
+#rocket .view-product-related .landing-list-item .landing-list-button a.landing-list-button-inner:hover,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button a.landing-list-button-inner:hover {
     background-color: #006ed7;
 }
 
@@ -1893,12 +1909,14 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
     opacity: 1;
 }
 
-#rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-thumb {
+#rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-thumb,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-thumb {
     height: 200px;
 }
 
 @media only screen and (min-width: 1200px) {
-    #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-thumb {
+    #rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-thumb,
+    #rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-thumb {
         height: 290px;
     }
 }
@@ -1911,7 +1929,8 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
     padding: 0.8rem 0.2rem 0.2rem 0.8rem;
 }
 
-#rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-title h3 {
+#rocket .view-clone-of-rocket-landing-page-lists .landing-list-item .landing-list-title h3,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title h3 {
     font-size: 1.25rem;
     line-height: 1.4rem;
     margin: 0;
@@ -2008,17 +2027,20 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 }
 
 #rocket .view-display-id-categories .landing-list-item .landing-list-label,
-#rocket .view-display-id-categories_innovation .landing-list-item .landing-list-label {
+#rocket .view-display-id-categories_innovation .landing-list-item .landing-list-label,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-label {
     min-height: 3.5rem;
 }
 
 #rocket .view-display-id-categories .landing-list-item .landing-list-title,
-#rocket .view-display-id-categories_innovation .landing-list-item .landing-list-title {
+#rocket .view-display-id-categories_innovation .landing-list-item .landing-list-title,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title {
     padding: 0.6rem 0.2rem 0.6rem 0.6rem;
 }
 
 #rocket .view-display-id-categories .landing-list-item .landing-list-title h3,
-#rocket .view-display-id-categories_innovation .landing-list-item .landing-list-title h3 {
+#rocket .view-display-id-categories_innovation .landing-list-item .landing-list-title h3
+ {
     font-size: 1rem;
     line-height: 1.2rem;
     margin: 0;
@@ -2026,7 +2048,8 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 }
 
 #rocket .view-display-id-categories .landing-list-item .landing-list-button,
-#rocket .view-display-id-categories_innovation .landing-list-item .landing-list-button {
+#rocket .view-display-id-categories_innovation .landing-list-item .landing-list-button,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button {
     width: 30px;
 }
 
@@ -3683,9 +3706,10 @@ footer .region .az-section .az-column .az-cms-element .search-block-form .form-i
     margin: 0;
 }
 
-.sector-section .az-column .sector-title h3 {
+.sector-section .az-column .well.custom-box .sector-title h3 {
     width: 100%;
     text-align: left !important;
+    padding-left: 15px !important;
 }
 
 .sector-section .az-column .az-column {

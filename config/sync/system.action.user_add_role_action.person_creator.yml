@@ -1,0 +1,14 @@
+uuid: 74134d44-b136-4cee-9b60-ae872516603d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.person_creator
+  module:
+    - user
+id: user_add_role_action.person_creator
+label: 'Add the Person creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: person_creator

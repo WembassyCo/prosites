@@ -1,0 +1,16 @@
+uuid: 2e0822fc-d225-46e1-a276-d3b34b88c9f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nd_page
+  module:
+    - node
+id: nd_page_reviewer
+label: 'Page reviewer'
+weight: 25
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any nd_page content'
+  - 'edit any nd_page content'

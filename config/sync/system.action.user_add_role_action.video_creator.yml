@@ -1,0 +1,14 @@
+uuid: 992bc895-7ded-4a3a-ba3c-2e68e2ec61e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.video_creator
+  module:
+    - user
+id: user_add_role_action.video_creator
+label: 'Add the Video creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: video_creator

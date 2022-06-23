@@ -138,6 +138,12 @@
   {% endblock %}
 {% endif %}
 
+{# action_tabs #}
+{% if page.action_tabs %}
+  {% block action_tabs %}
+    {{ page.action_tabs }}
+  {% endblock %}
+{% endif %}
 <div class="wrap-containers">
 
 {# Highlighted #}

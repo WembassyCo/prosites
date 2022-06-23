@@ -1,0 +1,33 @@
+uuid: e112cd67-1886-40f7-8604-92799ccd49d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.landing_carousels
+  module:
+    - node
+    - views
+  theme:
+    - glazed_subtheme
+id: views_block__landing_carousels_block_1
+theme: glazed_subtheme
+region: content_top
+weight: -14
+provider: null
+plugin: 'views_block:landing_carousels-block_1'
+settings:
+  id: 'views_block:landing_carousels-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      landing_page: landing_page

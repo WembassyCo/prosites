@@ -9,7 +9,7 @@ dependencies:
 id: searchform
 theme: glazed_subtheme
 region: navigation_collapsible
-weight: 0
+weight: -7
 provider: null
 plugin: search_form_block
 settings:

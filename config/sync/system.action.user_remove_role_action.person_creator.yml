@@ -1,0 +1,14 @@
+uuid: 1a64af66-cc6c-4ee6-9b93-daae49fe1d1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.person_creator
+  module:
+    - user
+id: user_remove_role_action.person_creator
+label: 'Remove the Person creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: person_creator

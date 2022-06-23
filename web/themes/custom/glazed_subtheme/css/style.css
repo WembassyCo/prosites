@@ -100,17 +100,17 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 /*------ Footer css end----*/
 
 /*------ Three-boxes-content-css----*/
-.az-element.az-ctnr.az-column.col-sm-12 {
+.custom-box .az-element.az-ctnr.az-column.col-sm-12 {
     display: flex;
     border: 1px solid;
 }
 
-a.az-element.az-icon {
+.custom-box a.az-element.az-icon {
     width: 30px;
     background: #0054A4;
 }
 
-a.az-element.az-icon i {
+.custom-box a.az-element.az-icon i {
     font-size: 21px;
     color: #fff;
     line-height: 1;
