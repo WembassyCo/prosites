@@ -126,7 +126,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 }
 
 .custom-carousel .item {
-    height: 800px;
+    height: 800px !important;
     object-fit: cover;
     object-position: center;
 }
@@ -303,7 +303,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 
 @media only screen and (max-width: 1024px) {
     .custom-carousel .item {
-        height: 350px;
+        height: 350px !important;
     }
 
     .custom-carousel {
