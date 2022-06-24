@@ -1,0 +1,16 @@
+uuid: 73ec002c-6cc1-41f4-9975-561d70ecc15f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.home_page_slider
+  module:
+    - node
+id: home_page_slider_reviewer
+label: 'home page slider reviewer'
+weight: 31
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'delete any home_page_slider content'
+  - 'edit any home_page_slider content'

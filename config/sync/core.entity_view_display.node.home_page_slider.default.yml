@@ -1,0 +1,21 @@
+uuid: f1aea80f-c5e7-452d-b43d-2ff06a1c060e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.home_page_slider.field_home_page_images
+    - node.type.home_page_slider
+  module:
+    - user
+id: node.home_page_slider.default
+targetEntityType: node
+bundle: home_page_slider
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_home_page_images: true

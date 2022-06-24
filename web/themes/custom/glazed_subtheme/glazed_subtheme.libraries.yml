@@ -1,8 +1,8 @@
 global-styling:
   css:
     theme:
-      css/style.css: {header: true}
       css/glazed.css: { minified: true }
+      css/style.css: {header: true}
       css/rocket.css: {}
       
   js:
