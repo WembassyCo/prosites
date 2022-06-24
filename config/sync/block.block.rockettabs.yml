@@ -12,7 +12,7 @@ dependencies:
 id: rockettabs
 theme: glazed_subtheme
 region: content_top
-weight: -12
+weight: -15
 provider: null
 plugin: 'block_content:ab25f94b-f08f-43ad-9fa8-6603038eb121'
 settings:

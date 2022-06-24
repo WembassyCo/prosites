@@ -1,0 +1,14 @@
+uuid: 7bc4b588-4284-4494-9ba5-a41ff2324646
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.home_page_slider_creator
+  module:
+    - user
+id: user_remove_role_action.home_page_slider_creator
+label: 'Remove the home page slider creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: home_page_slider_creator
