@@ -1,0 +1,14 @@
+uuid: 90af1148-498d-48c5-98e6-db616a8bb391
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.home_page_slider_creator
+  module:
+    - user
+id: user_add_role_action.home_page_slider_creator
+label: 'Add the home page slider creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: home_page_slider_creator

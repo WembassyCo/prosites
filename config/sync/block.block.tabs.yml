@@ -9,7 +9,7 @@ dependencies:
 id: tabs
 theme: glazed_subtheme
 region: content_top
-weight: -15
+weight: -17
 provider: null
 plugin: local_tasks_block
 settings:

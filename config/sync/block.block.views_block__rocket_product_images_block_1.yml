@@ -12,7 +12,7 @@ dependencies:
 id: views_block__rocket_product_images_block_1
 theme: glazed_subtheme
 region: content_top
-weight: -13
+weight: -16
 provider: null
 plugin: 'views_block:rocket_product_images-block_1'
 settings:

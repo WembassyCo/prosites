@@ -37,6 +37,13 @@ jQuery(document).ready(function () {
 			}
 		});
 	}
+	jQuery('.custom-home-page').owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 0,
+            nav: false,
+            autoplay: 5000
+        });
 	
 	/*jQuery('.landing-carasoual-image .view-content .field-content').owlCarousel({
 		loop:true,
@@ -80,3 +87,15 @@ jQuery(document).ready(function () {
 		}
 	};
 })(jQuery, Drupal);*/
+/*(function($){
+        $('.custom-home-page').owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 0,
+            nav: false,
+            autoplay: 5000
+        });
+    
+});*/
+ 
+    
