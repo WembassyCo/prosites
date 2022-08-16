@@ -572,13 +572,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 	align-content: space-between;
 	padding: 20px 10px;
 }
-#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button:hover {
-	background: #006ed7;
-}
 
-#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button i {
-	font-size: 23px !important;line-height: normal !important;
-}
 
 #rocket .owl-carousel.owl-theme .owl-wrapper-outer .owl-wrapper .owl-item section.page-section {
   background-position: center center;
@@ -614,6 +608,24 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 	filter: Alpha(Opacity=100);
 	opacity: 1;
 	text-decoration: none;
+}
+#rocket .landing-list-item .landing-list-button {
+	background: #0054A4;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+#rocket .landing-list-item .landing-list-button i {
+	font-size: 23px !important;line-height: normal !important;
+	color: #fff;
+}
+
+#rocket .landing-list-item .landing-list-button:hover {
+	background: #006ed7 !important;
 }
 
 /*Space Css ends*/
