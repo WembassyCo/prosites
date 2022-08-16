@@ -533,3 +533,87 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 }
 
 /*------ media querry end----*/
+
+
+/*Space Css starts*/
+.landing-list-overlay {
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	background: #fff;
+	padding: 15px;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.7s ease-in-out;
+}
+.landing-list-overlay a,.landing-list-title a{
+  text-decoration: none;
+}
+
+.views-field-nothing :hover .landing-list-overlay {
+	opacity: 0.9;
+}
+
+.node-142 .page-title, .node-142 #block-rocketlandingcontentwithimage{
+	display:none;
+}
+
+#rocket .view-display-id-categories .landing-list-item .landing-list-label, #rocket .view-display-id-categories_innovation .landing-list-item .landing-list-label, #rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-label {
+	min-height: 4.5rem !important;
+}
+#rocket .view-display-id-categories .landing-list-item .landing-list-title, #rocket .view-display-id-categories_innovation .landing-list-item .landing-list-title, #rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title {
+	padding: 0.8rem 0.2rem 0.2rem 0.8rem !important;
+}
+#rocket .view-display-id-categories .landing-list-item .landing-list-button, #rocket .view-display-id-categories_innovation .landing-list-item .landing-list-button, #rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button {
+	width: auto !important;
+}
+.landing-list-button a {
+	vertical-align: middle;
+	align-content: space-between;
+	padding: 20px 10px;
+}
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button:hover {
+	background: #006ed7;
+}
+
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button i {
+	font-size: 23px !important;line-height: normal !important;
+}
+
+#rocket .owl-carousel.owl-theme .owl-wrapper-outer .owl-wrapper .owl-item section.page-section {
+  background-position: center center;
+}
+#rocket .owl-nav {
+  opacity: 0;
+}
+#rocket .owl-nav div.owl-prev, #rocket .owl-nav div.owl-next {
+  width: 45px;
+  height: 45px;
+  text-indent: -1000px;
+  -webkit-border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  border-radius: 0px !important;
+  background: none;
+  overflow: hidden;
+}
+#rocket .owl-nav .owl-prev {
+  left: 2rem;
+  transform: rotate(45deg);
+  border-left: 1px solid #fff;
+  text-indent: -1000px;
+  border-bottom: 1px solid #fff;
+}
+#rocket .owl-nav .owl-next {
+  right: 2rem;
+  transform: rotate(-135deg);
+  border-left: 1px solid #fff;
+  text-indent: -1000px;
+  border-bottom: 1px solid #fff;
+}
+#rocket .owl-slider-wrapper:hover .owl-nav {
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+	text-decoration: none;
+}
+
+/*Space Css ends*/
