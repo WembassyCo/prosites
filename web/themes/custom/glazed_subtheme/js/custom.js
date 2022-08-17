@@ -12,7 +12,7 @@
     attach: function (context, settings) {
       once('glazed_custom', 'html', context).forEach(function (element) {
         console.log('run glazed_custom js once');
-        
+
         setInterval(function () {
           Drupal.behaviors.glazed_custom.init_classic_menu_resize();
         }, 100);
