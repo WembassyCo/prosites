@@ -11,7 +11,8 @@
     },
     attach: function (context, settings) {
       once('glazed_custom', 'html', context).forEach(function (element) {
-        console.log('run');
+        console.log('run glazed_custom js once');
+        
         setInterval(function () {
           Drupal.behaviors.glazed_custom.init_classic_menu_resize();
         }, 100);
@@ -40,10 +41,8 @@
 
         // For Drag and Drop block, if there is no image we will show the first column in full width.
         if($('section[id*="rocketlandingcontentwithimage"]').length > 0) {
-          console.log('enter here1');
           var image = $('.view-landing-image .views-field-field-main-photo > .field-content');
           if(image.length > 0) {
-            console.log('enter here');
             image.parents('section[id*="rocketlandingcontentwithimage"]').addClass('fullwidth-onecol');
           }
         }
