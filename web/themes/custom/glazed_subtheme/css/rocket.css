@@ -3731,6 +3731,19 @@ footer .region .az-section .az-column .az-cms-element .search-block-form .form-i
     text-align: center;
 }
 
+/*Rocket landing with image block styles*/
+.block-block-content.fullwidth-onecol .col-sm-4 {
+    display: none;
+}
+
+.block-block-content.fullwidth-onecol .col-sm-8 {
+    width: 100%;
+}
+
+.block-block-content.fullwidth-onecol .landing-content-main-content {
+  padding-bottom: ;
+}
+
 footer .container-col {
     margin-bottom: 0;
 }
