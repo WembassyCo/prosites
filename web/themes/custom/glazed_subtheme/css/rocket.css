@@ -1519,6 +1519,10 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
     border-top: none;
 }
 
+.landing-list-overlay a {
+  color: inherit;
+}
+
 #rocket .view-news-releases-by-date {
     padding-top: 1.5rem;
 }
@@ -3741,7 +3745,7 @@ footer .region .az-section .az-column .az-cms-element .search-block-form .form-i
 }
 
 .block-block-content.fullwidth-onecol .landing-content-main-content {
-  padding-bottom: ;
+  padding-bottom: 20px;
 }
 
 footer .container-col {
