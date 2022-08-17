@@ -1,101 +1,57 @@
-jQuery(window).resize(function () {
-	init_classic_menu_resize();
-});
+(function ($, Drupal) {
+  Drupal.behaviors.glazed_custom = {
+    init_classic_menu_resize: function() {
+      if ($(window).width() <= 1024) {
+        //$(".nav-collapse").addClass("collapse");
+        $("#navbar").addClass("mobile-on");
+      } else if ($(window).width() > 1023) {
+        //$(".nav-collapse").removeClass("collapse");
+        $("#navbar").removeClass("mobile-on");
+      }
+    },
+    attach: function (context, settings) {
+      once('glazed_custom', 'html', context).forEach(function (element) {
+        console.log('run');
+        setInterval(function () {
+          Drupal.behaviors.glazed_custom.init_classic_menu_resize();
+        }, 100);
 
-function init_classic_menu_resize() {
+        if($('body').hasClass('.home-scroll')) {
+          var navpos = $('#block-rockettabs .home-scroll').offset();
+          console.log(navpos.top);
+          $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > navpos.top) {
+              $('#block-rockettabs .home-scroll').addClass('fixed');
+              // $('#topnav').removeClass('fixed');
+            } else {
+              // $('#topnav').addClass('fixed');
+              $('#block-rockettabs .home-scroll').removeClass('fixed');
+            }
+          });
+        }
 
-	if (jQuery(window).width() <= 1024) {
-		//jQuery(".nav-collapse").addClass("collapse");
-		jQuery("#navbar").addClass("mobile-on");
-	} else if (jQuery(window).width() > 1023) {
-		//jQuery(".nav-collapse").removeClass("collapse");
-		jQuery("#navbar").removeClass("mobile-on");
-	}
-}
-
-jQuery(document).ready(function () {
-	setInterval(function () {
-		init_classic_menu_resize();
-	}, 100);
-});
-
-jQuery(window).on("load", function () {
-	init_classic_menu_resize();
-});
-
-jQuery(document).ready(function () {
-	if(jQuery('body').hasClass('.home-scroll')){
-		var navpos = jQuery('#block-rockettabs .home-scroll').offset();
-		console.log(navpos.top);
-		jQuery(window).bind('scroll', function () {
-			if (jQuery(window).scrollTop() > navpos.top) {
-				jQuery('#block-rockettabs .home-scroll').addClass('fixed');
-				// jQuery('#topnav').removeClass('fixed');
-			} else {
-				// jQuery('#topnav').addClass('fixed');
-				jQuery('#block-rockettabs .home-scroll').removeClass('fixed');
-			}
-		});
-	}
-	jQuery('.custom-home-page').owlCarousel({
-            items: 1,
-            loop: true,
-            margin: 0,
-            nav: false,
-            autoplay: 5000
-        });
-	
-	/*jQuery('.landing-carasoual-image .view-content .field-content').owlCarousel({
-		loop:true,
-		margin:10,
-		nav:true,
-		responsive:{
-			0:{
-				items:1
-			}
-		}
-	});*/
-	
-});
-
-/*(function ($, Drupal) {
-	Drupal.behaviors.slider = {
-		attach: function (context, settings) {
-			exists = Object.values(Drupal.behaviors).includes("owl");
-			if(exists){
-			// $('.landing-carasoual-image .view-content .field-content').slick({
-				// infinite: true,
-				// slidesToShow: 1,
-				// slidesToScroll: 1,
-				// autoplay: true,
-				// arrows: true,
-				// autoplaySpeed: 3000
-			// });
-			$('.landing-carasoual-image .view-content .field-content').owlCarousel({
-				loop:true,
-				margin:10,
-				nav:true,
-				responsive:{
-					0:{
-						items:1
-					}
-				}
-			})
-			//$('.page-node-type-landing-page .owl-carousel').css("display", "inline-block");
-			}
-			
-		}
-	};
-})(jQuery, Drupal);*/
-/*(function($){
         $('.custom-home-page').owlCarousel({
-            items: 1,
-            loop: true,
-            margin: 0,
-            nav: false,
-            autoplay: 5000
+          items: 1,
+          loop: true,
+          margin: 0,
+          nav: false,
+          autoplay: 5000
         });
-    
-});*/
- 
-    
+
+        // For Drag and Drop block, if there is no image we will show the first column in full width.
+        if($('section[id*="rocketlandingcontentwithimage"]').length > 0) {
+          console.log('enter here1');
+          var image = $('.view-landing-image .views-field-field-main-photo > .field-content');
+          if(image.length > 0) {
+            console.log('enter here');
+            image.parents('section[id*="rocketlandingcontentwithimage"]').addClass('fullwidth-onecol');
+          }
+        }
+      });
+
+      $(window).resize(function () {
+        Drupal.behaviors.glazed_custom.init_classic_menu_resize();
+      });
+    }
+  }
+})(jQuery, Drupal);
