@@ -43,8 +43,8 @@
         if($('section[id*="rocketlandingcontentwithimage"]').length > 0) {
           var emptyView = $('.view-landing-image .view-content > .views-row');
           var image = $('.view-landing-image .views-field-field-main-photo > .field-content');
-          if(image.length > 0 || emptyView.length > 0) {
-            image.parents('section[id*="rocketlandingcontentwithimage"]').addClass('fullwidth-onecol');
+          if(image.html() == '' || emptyView.html() == '') {
+            $('.view-landing-image').parents('section[id*="rocketlandingcontentwithimage"]').addClass('fullwidth-onecol');
           }
         }
       });

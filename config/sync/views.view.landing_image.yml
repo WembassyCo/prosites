@@ -142,6 +142,8 @@ display:
           settings:
             image_link: ''
             image_style: ''
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -290,6 +292,7 @@ display:
       defaults:
         fields: true
       display_extenders: {  }
+      block_hide_empty: true
     cache_metadata:
       max-age: -1
       contexts:
