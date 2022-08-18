@@ -537,40 +537,40 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 
 /*Space Css starts*/
 .landing-list-overlay {
-	position: absolute;
-	width: 100%;
-	z-index: 2;
-	background: #fff;
-	padding: 15px;
-	height: 100%;
-	opacity: 0;
-	transition: all 0.7s ease-in-out;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background: #fff;
+  padding: 15px;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
 }
 .landing-list-overlay a,.landing-list-title a{
   text-decoration: none;
 }
 
 .views-field-nothing :hover .landing-list-overlay {
-	opacity: 0.9;
+  opacity: 0.9;
 }
 
 .node-142 .page-title, .node-142 #block-rocketlandingcontentwithimage{
-	display:none;
+  display:none;
 }
 
 #rocket .view-display-id-categories .landing-list-item .landing-list-label, #rocket .view-display-id-categories_innovation .landing-list-item .landing-list-label, #rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-label {
-	min-height: 4.5rem !important;
+  min-height: 4.5rem !important;
 }
 #rocket .view-display-id-categories .landing-list-item .landing-list-title, #rocket .view-display-id-categories_innovation .landing-list-item .landing-list-title, #rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title {
-	padding: 0.8rem 0.2rem 0.2rem 0.8rem !important;
+  padding: 0.8rem 0.2rem 0.2rem 0.8rem !important;
 }
 #rocket .view-display-id-categories .landing-list-item .landing-list-button, #rocket .view-display-id-categories_innovation .landing-list-item .landing-list-button, #rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button {
-	width: auto !important;
+  width: auto !important;
 }
 .landing-list-button a {
-	vertical-align: middle;
-	align-content: space-between;
-	padding: 20px 10px;
+  vertical-align: middle;
+  align-content: space-between;
+  padding: 20px 10px;
 }
 
 
@@ -605,27 +605,27 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
   border-bottom: 1px solid #fff;
 }
 #rocket .owl-slider-wrapper:hover .owl-nav {
-	filter: Alpha(Opacity=100);
-	opacity: 1;
-	text-decoration: none;
+  filter: Alpha(Opacity=100);
+  opacity: 1;
+  text-decoration: none;
 }
 #rocket .landing-list-item .landing-list-button {
-	background: #0054A4;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+  background: #0054A4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #rocket .landing-list-item .landing-list-button i {
-	font-size: 23px !important;line-height: normal !important;
-	color: #fff;
+  font-size: 23px !important;line-height: normal !important;
+  color: #fff;
 }
 
 #rocket .landing-list-item .landing-list-button:hover {
-	background: #006ed7 !important;
+  background: #006ed7 !important;
 }
 
 /*Space Css ends*/
