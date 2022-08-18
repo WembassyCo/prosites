@@ -17,7 +17,7 @@
           Drupal.behaviors.glazed_custom.init_classic_menu_resize();
         }, 100);
 
-        if($('body').hasClass('.home-scroll')) {
+        if(jQuery('div').hasClass('home-scroll')){
           var navpos = $('#block-rockettabs .home-scroll').offset();
           console.log(navpos.top);
           $(window).bind('scroll', function () {
@@ -30,14 +30,18 @@
             }
           });
         }
-
-        $('.custom-home-page').owlCarousel({
-          items: 1,
-          loop: true,
-          margin: 0,
-          nav: false,
-          autoplay: 5000
-        });
+        	if(jQuery('div').hasClass('owl-slider-wrapper')){
+	        $(".owl-slider-wrapper").owlCarousel({
+	        	loop:true,
+	        	autoplay:true,
+			    autoplayTimeout:5000,
+			    autoplayHoverPause:true,
+				animateIn: 'fadeIn', 
+			  	animateOut: 'fadeOut', 
+				items:1,
+	        });
+	    	}
+	    
 
         // For Drag and Drop block, if there is no image we will show the first column in full width.
         if($('section[id*="rocketlandingcontentwithimage"]').length > 0) {
