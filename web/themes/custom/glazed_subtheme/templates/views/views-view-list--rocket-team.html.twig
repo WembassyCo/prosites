@@ -20,12 +20,10 @@
 #}
 <div class="main">
   <ul id="og-grid" class="og-grid">
-
     {% for row in rows %}
       <li{{ row.attributes }}>
         {{- row.content -}}
       </li>
     {% endfor %}
-
   </ul>
 </div>

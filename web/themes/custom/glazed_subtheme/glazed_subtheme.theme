@@ -37,7 +37,6 @@ function glazed_subtheme_preprocess_html(&$variables) {
  */
 function glazed_subtheme_preprocess_views_view(&$variables) {
   if($variables['view_array']['#name'] == 'rocket_team') {
-    $dom_id_class = 'view-dom-id-' . $variables['view']->dom_id;
     $variables['#attached']['library'][] = 'glazed_subtheme/elastic-grid';
   }
 }
