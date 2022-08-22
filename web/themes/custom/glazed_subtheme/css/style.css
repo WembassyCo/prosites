@@ -628,4 +628,63 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
   background: #006ed7 !important;
 }
 
+.path-search {
+	background: #fff !important;
+}
+.path-search #search-form .form-type-search input.form-control {
+	border: 1px solid rgba(0, 0, 0, .1);
+	height: 51px;
+	border-right-width: 0px !important;
+	border-radius: 0px;
+}
+
+.path-search #search-form .form-type-search .btn {
+	background: transparent;
+	border-color: #fff;
+	border: 1px solid rgba(0, 0, 0, .1);
+	border-left-width: 0px !important;
+	border-radius: 0px;
+	height:51px;
+}
+
+
+.path-search #search-form .form-type-search .btn .glyphicon-search:before {
+	color: #000;
+	opacity: 0.6;
+}
+.path-search #search-form a#edit-help-link {
+	display: none;
+}
+
+.path-search nav.pager-nav.text-center {
+	text-align: left !important;
+}
+
+.path-search .pagination > li {
+	display: inline;
+	border-radius: 0px;
+}
+
+.path-search .pagination > li > a {
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	margin-right: 4px !important;
+	border: 1px solid #eaeaea;
+	font-size: 13px;
+	font-weight: 400;
+	color: #0054A4;
+	background: transparent;
+	height: 41px;
+	line-height: 41px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+font-family: "Open Sans", arial, sans-serif;
+}
+
+
+.path-search .pagination > li > a:hover {
+	background: transparent;
+	color: #0b88ff;
+	border-color: #bbb;
+}
 /*Space Css ends*/
