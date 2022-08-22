@@ -682,8 +682,30 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 }
 
 .path-search .pagination > li > a:hover {
-  background: transparent;
-  color: #0b88ff;
-  border-color: #bbb;
+    background: transparent;
+    color: #0b88ff;
+    border-color: #bbb;
 }
 /*Space Css ends*/
+
+#rocket.page-node-type-landing-page .view-id-landing_image
+{
+    padding-top:0px !important;
+}
+#block-rocketlandingcontentwithimage .az-element.az-ctnr.az-column.col-sm-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.human-exploration-category-view .views-col{
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.az-ctnr.container{
+    width:auto !important;
+}
+#rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title {
+    left: 0 !important;
+}
+#rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title {
+    margin: -51px auto 0;
+}
