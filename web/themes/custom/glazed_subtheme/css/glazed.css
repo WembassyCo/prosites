@@ -399,19 +399,83 @@ button.owl-prev {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+    position: unset;
 }
 #rocket .leadership-team .caption
 {
     position: relative;
     left: auto;
     bottom: auto;
+    text-align: left;
 }
-#block-views-block-rocket-team-block-1 .leadership-team .view-content>.views-row
-{
-
+@media (min-width: 992px) {
+  #block-views-block-rocket-team-block-1 .leadership-team ul#og-grid {
+    max-width: 1400px;
+  }
+  #block-views-block-rocket-team-block-1 .leadership-team .og-expander-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  #block-views-block-rocket-team-block-1 .leadership-team ul#og-grid li {
+    width: 19.5%;
+    margin: 0;
+  }
 }
-#block-views-block-rocket-team-block-1 .leadership-team .view-content>.views-row .views-row{
-
+@media (min-width: 768px) and (max-width: 991px) {
+  #block-views-block-rocket-team-block-1 .leadership-team ul#og-grid li {
+    width: 33%;
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  #block-views-block-rocket-team-block-1 .leadership-team ul#og-grid li {
+    width: 49%;
+    margin: 0;
+  }
+}
+#block-views-block-rocket-team-block-1 .leadership-team li.team-member a {
+  text-decoration: none;
+}
+#block-views-block-rocket-team-block-1 .leadership-team li.team-member img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  object-fit: cover;
+  object-position: top center;
+}
+#block-views-block-rocket-team-block-1 .leadership-team li.team-member.og-expanded img {
+  opacity: 0.6;
+}
+.og-grid li.og-expanded > a::after {
+  margin-top: -30px !important;
+}
+#block-views-block-rocket-team-block-1 .leadership-team .og-expander {
+  margin-top: 0;
+}
+#block-views-block-rocket-team-block-1 .leadership-team .team-bio h3 {
+  font-family: "eurostile-extended", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  margin: 0.3rem 0 0.8rem 0;
+  padding: 0;
+}
+#block-views-block-rocket-team-block-1 .leadership-team .team-bio > span {
+  font-family: "myriad-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin: 0;
+  padding: 0;
+  color: #003a71;
+}
+#block-views-block-rocket-team-block-1 .leadership-team .team-bio > p {
+  margin-top: 1.2rem;
+  padding-bottom: 1rem;
+}
+#block-views-block-rocket-team-block-1 .leadership-team .team-bio > a {
+  display: none;
+}
+#block-views-block-rocket-team-block-1 .leadership-team li.team-member.og-expanded .caption {
+  background: #b6b4ae;
 }
 #block-views-block-rocket-team-block-1 .leadership-team .view-content>.views-row .views-row .team-thumbnail img{
     width: 100%;;

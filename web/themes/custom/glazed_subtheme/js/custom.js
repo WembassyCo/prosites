@@ -30,18 +30,18 @@
             }
           });
         }
-	if(jQuery('div').hasClass('owl-slider-wrapper')){
-		$(".owl-slider-wrapper").owlCarousel({
-			loop:true,
-			autoplay:true,
-			autoplayTimeout:5000,
-			autoplayHoverPause:true,
-			animateIn: 'fadeIn', 
-			animateOut: 'fadeOut', 
-			items:1,
-		});
-	}
-	    
+
+        if(jQuery('div').hasClass('owl-slider-wrapper')){
+          $(".owl-slider-wrapper").owlCarousel({
+           loop:true,
+           autoplay:true,
+           autoplayTimeout:5000,
+           autoplayHoverPause:true,
+           animateIn: 'fadeIn', 
+           animateOut: 'fadeOut', 
+           items:1,
+         });
+        }
 
         // For Drag and Drop block, if there is no image we will show the first column in full width.
         if($('section[id*="rocketlandingcontentwithimage"]').length > 0) {
