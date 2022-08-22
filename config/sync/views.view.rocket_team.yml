@@ -6,13 +6,13 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_image
     - field.storage.node.field_position
+    - image.style.large
     - node.type.person
   module:
     - image
     - node
     - text
     - user
-    - views_accordion
 id: rocket_team
 label: 'Rocket: Team'
 module: views
@@ -29,13 +29,13 @@ display:
     display_options:
       title: 'Rocket: Team'
       fields:
-        field_image:
-          id: field_image
+        field_image_1:
+          id: field_image_1
           table: node__field_image
           field: field_image
           relationship: none
           group_type: group
-          admin_label: ''
+          admin_label: 'Image Thumbnail'
           plugin_id: field
           label: ''
           exclude: true
@@ -81,8 +81,73 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_link: content
-            image_style: ''
+            image_link: ''
+            image_style: large
+            image_loading:
+              attribute: lazy
+          group_column: ''
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        field_image:
+          id: field_image
+          table: node__field_image
+          field: field_image
+          relationship: none
+          group_type: group
+          admin_label: 'Image URL'
+          plugin_id: field
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: false
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: target_id
+          type: image_url
+          settings:
+            image_style: large
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -112,7 +177,7 @@ display:
             external: false
             replace_spaces: false
             path_case: none
-            trim_whitespace: false
+            trim_whitespace: true
             alt: ''
             rel: ''
             link_class: ''
@@ -126,7 +191,7 @@ display:
             more_link: false
             more_link_text: ''
             more_link_path: ''
-            strip_tags: false
+            strip_tags: true
             trim: false
             preserve_tags: ''
             html: false
@@ -218,19 +283,19 @@ display:
           multi_type: separator
           separator: ', '
           field_api_classes: false
-        nothing:
-          id: nothing
-          table: views
-          field: nothing
+        body:
+          id: body
+          table: node__body
+          field: body
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: custom
+          plugin_id: field
           label: ''
-          exclude: false
+          exclude: true
           alter:
-            alter_text: true
-            text: "<div class=\"team-thumbnail\">{{ field_image }}</div>\r\n<div class=\"caption\">\r\n\t<h3 class=\"team-title\">{{ title }}</h3>\r\n\t<p class=\"team-position\">{{ field_position }}</p>\r\n</div>"
+            alter_text: false
+            text: ''
             make_link: false
             path: ''
             absolute: false
@@ -244,7 +309,7 @@ display:
             prefix: ''
             suffix: ''
             target: ''
-            nl2br: false
+            nl2br: true
             max_length: 0
             word_boundary: true
             ellipsis: true
@@ -266,15 +331,29 @@ display:
           empty: ''
           hide_empty: false
           empty_zero: false
-          hide_alter_empty: false
-        body:
-          id: body
-          table: node__body
-          field: body
+          hide_alter_empty: true
+          click_sort_column: value
+          type: text_default
+          settings: {  }
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+        view_node:
+          id: view_node
+          table: node
+          field: view_node
           relationship: none
           group_type: group
           admin_label: ''
-          plugin_id: field
+          entity_type: node
+          plugin_id: entity_link
           label: ''
           exclude: true
           alter:
@@ -316,19 +395,9 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          click_sort_column: value
-          type: text_default
-          settings: {  }
-          group_column: value
-          group_columns: {  }
-          group_rows: true
-          delta_limit: 0
-          delta_offset: 0
-          delta_reversed: false
-          delta_first_last: false
-          multi_type: separator
-          separator: ', '
-          field_api_classes: false
+          text: view
+          output_url_as_text: true
+          absolute: false
         nothing_1:
           id: nothing_1
           table: views
@@ -341,7 +410,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"team-body-image\">\r\n<div class=\"team-image\">{{ field_image }}</div>\r\n<div class=\"team-body\"><h2 class=\"team-title\">{{ title }}</h2><span>{{ field_position }}</span>{{ body }}</div>\r\n</div>"
+            text: "<a href=\"http://cargocollective.com/jaimemartinez/\" \r\n  data-largesrc=\"{{ field_image }}\" \r\n  data-title=\"{{ title }}\" \r\n  data-subtitle=\"{{ field_position }}\" \r\n  data-description=\"{{ body|render|striptags|trim }}\">\r\n  {{ field_image_1|render|striptags('<img>')|trim|raw }}\r\n</a>\r\n<div class=\"caption\">\r\n    <h3 class=\"team-title\">{{ title }}</h3>\r\n    <p class=\"team-position\">{{ field_position }}</p>\r\n  </div>"
             make_link: false
             path: ''
             absolute: false
@@ -446,23 +515,21 @@ display:
             operator_limit_selection: false
             operator_list: {  }
       style:
-        type: views_accordion
+        type: html_list
         options:
           grouping: {  }
-          row_class: ''
-          default_row_class: true
-          disableifone: 0
-          row-start-open: '0'
-          collapsible: 0
-          animated: none
-          animation_time: '300'
-          heightStyle: fill
-          event: click
-          use_header_icons: 1
-          icon_header: ui-icon-triangle-1-e
-          icon_active_header: ui-icon-triangle-1-s
+          row_class: team-member
+          default_row_class: false
+          type: ul
+          wrapper_class: main
+          class: og-grid
       row:
         type: fields
+        options:
+          default_field_elements: false
+          inline: {  }
+          separator: ''
+          hide_empty: true
       query:
         type: views_query
         options:
