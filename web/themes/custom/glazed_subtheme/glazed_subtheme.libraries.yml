@@ -11,5 +11,19 @@ global-styling:
     - core/drupal
     - core/jquery
     - core/once
-    
       
+elastic-grid:
+  css:
+    theme:
+      library/elastic-grid/css/component.css: {}
+      library/elastic-grid/css/default.css: {}
+  js:
+    https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js: { type: external, minified: true }
+    library/elastic-grid/js/modernizr.custom.js: {}
+    library/elastic-grid/js/grid.js: {}
+    library/elastic-grid/js/elastic-grid.js: {}
+  dependencies:
+  - core/drupal
+  - core/once
+  - core/jquery
+  - core/jquery.once
