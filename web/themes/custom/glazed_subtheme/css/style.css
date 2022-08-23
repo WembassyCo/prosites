@@ -681,7 +681,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
   font-family: "Open Sans", arial, sans-serif;
 }
 
-.path-search .pagination > li > a:hover {
+.path-search .pagination > li > a:hover,.path-search .pagination > li.active > a {
     background: transparent;
     color: #0b88ff;
     border-color: #bbb;
@@ -708,4 +708,17 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 }
 #rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title {
     margin: -51px auto 0;
+}
+
+body.path-search a:hover, body.path-search a:focus {
+	color: #0b88ff;
+	text-decoration: none;
+}
+
+body.path-search ol, body.path-search ul {
+	padding-left: 3em;
+}
+
+body.path-search ol.pagination, body.path-search ul.pagination {
+	padding-left: 1.5em;
 }
