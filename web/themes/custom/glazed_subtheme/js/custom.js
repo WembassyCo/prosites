@@ -53,6 +53,13 @@
         }
       });
 
+		$(document).ready(function () {
+			var page_title=$("h1.page-title").html();
+			/*$("body.path-search h1.page-title").empty().html('<span property="schema:name">'+page_title+'</span>');*/
+			$("body.path-search h1.page-title").empty().html('<span property="schema:name">PAGES</span>');
+		});
+
+
       $(window).resize(function () {
         Drupal.behaviors.glazed_custom.init_classic_menu_resize();
       });
