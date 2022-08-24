@@ -119,6 +119,18 @@
         $("body.path-search h1.page-title").empty().html('<span property="schema:name">PAGES</span>');
       });
 
+	  $( window ).on("load", function() {
+		 if($('.custom-home-page').length > 0) {
+			$('.custom-home-page').owlCarousel({
+			  items: 1,
+			  loop: true,
+			  margin: 0,
+			  nav: false,
+			  autoplay: 5000
+			});
+		 }
+	  });
+
       $(window).resize(function () {
         Drupal.behaviors.glazed_custom.init_classic_menu_resize();
       });

@@ -32,6 +32,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'myriad-pro';
+    src: url('../fonts/myriad_pro_regular.woff2') format('woff2'),
+        url('../fonts/myriad_pro_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     margin: 0px;
     font-size: 16px;
@@ -143,7 +152,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     letter-spacing: 0.2rem;
     text-transform: uppercase;
     position: relative;
-    top: 9px;
+    top: 5px;
 }
 
 .page-title-full-width-container {
@@ -691,7 +700,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     color: #0b88ff;
     border-color: #bbb;
 }
-/*Space Css ends*/
+
 
 #rocket.page-node-type-landing-page .view-id-landing_image
 {
@@ -705,7 +714,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     padding-right: 4px;
     margin: 4px 0 !important;
 }
-.az-ctnr.container{
+.human-exploration-category-view .views-col .az-ctnr.container{
     width:auto !important;
 }
 #rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title {
@@ -814,4 +823,89 @@ body.path-search ol.pagination, body.path-search ul.pagination {
     padding: 0;
 }
 }
+
 /*----- 23-aug-2022------*/
+
+/*24-Aug-2022 work by rahul*/
+section#block-views-block-landing-carousels-block-1 {
+    overflow: hidden;
+}
+
+.row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col:first-child {
+    padding-left: 0px;
+}
+
+.row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col:last-child {
+    padding-right: 0px;
+}
+
+.row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists {
+    padding-top: 2rem;
+}
+
+.view-id-rocket_landing_page_lists.view-display-id-block_1.custom-defence-node {
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title {
+        margin: 15px auto 0;
+        padding: 0.6rem 1rem 1rem;
+        height: auto;
+        font-size: 1.4rem;
+        letter-spacing: 0.2rem;
+    }
+
+    .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col {
+        padding-left: 0px;
+        width: 100% !important;
+        padding-right: 0px;
+        margin: 1rem 0px 0px;
+    }
+
+    .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .landing-list-item {
+        margin: 1rem 0px;
+    }
+
+    #rocket.page-node-type-landing-page .landing-content-main-content {
+        padding-bottom: 12px;
+    }
+
+    .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col:first-child {
+        margin-top: 0px;
+    }
+
+    .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col:last-child {
+        margin-bottom: 0px;
+    }
+
+    #rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title span {
+        line-height: 28px;
+    }
+
+    .human-exploration-category-view .views-col {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists.custom-defence-node .col-sm-4:first-child .landing-list-item {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .custom-defence-node .col-sm-4 {
+        width: 50%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .custom-defence-node .col-sm-4 {
+        width: 100%;
+    }
+}
+
+/*24-Aug-2022 work by rahul*/
