@@ -1061,6 +1061,11 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket .product-features,
 #rocket .product-related {
     background: rgba(206, 205, 201, 0.2);
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #rocket .view-product-features .owl-carousel,
