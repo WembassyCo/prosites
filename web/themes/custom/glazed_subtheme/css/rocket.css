@@ -159,148 +159,148 @@ body#rocket {
     /***** Lightbox Overrides *****/
     /*
   .overlay_default {
-  	opacity: 0.9 !important;
-  	background-color: rgba($dark-gray,1) !important;
+    opacity: 0.9 !important;
+    background-color: rgba($dark-gray,1) !important;
   }
   #frameContainer,
   #imageContainer {
-  	padding: 0 !important;
+    padding: 0 !important;
   }
   #outerImageContainer {
-  	background-color: transparent !important;
+    background-color: transparent !important;
   }
-  #loadingLink {		
-  	background: none !important;
-  	transform-origin: 50% 0%;
-  	-webkit-animation: rotating 1s linear infinite;
-  	-moz-animation: rotating 1s linear infinite;
-  	-ms-animation: rotating 1s linear infinite;
-  	-o-animation: rotating 1s linear infinite;
-  	animation: rotating 1s linear infinite;
+  #loadingLink {    
+    background: none !important;
+    transform-origin: 50% 0%;
+    -webkit-animation: rotating 1s linear infinite;
+    -moz-animation: rotating 1s linear infinite;
+    -ms-animation: rotating 1s linear infinite;
+    -o-animation: rotating 1s linear infinite;
+    animation: rotating 1s linear infinite;
 
-  	&:before {
-  		font-family: FontAwesome;
-  		content: "\f110";
-  		font-size: 1.5rem;
-  		text-decoration: none;
-  		color: $white;
-  	}
+    &:before {
+      font-family: FontAwesome;
+      content: "\f110";
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: $white;
+    }
   }
   #imageContainer {
-  	#hoverNav {
-  		opacity: 0;
-  		transition: opacity .2s;
-  		&:hover {
-  			opacity: 1;
-  		}
-  		a {
-  			color: $white !important;
-  			&:hover {
-  				text-decoration: none !important;
-  			}
-  		}
-  		#prevLink,
-  		#nextLink {
-  			opacity: 0.5;
-  			padding: 0;
-  			margin: 30% 0 0 0;
-  			background: none !important;
-  			transition: opacity .2s;
-  			&:before {
-  				font-family: FontAwesome;
-  				font-size: 1.5rem;
-  				text-decoration: none;
-  				color: $white;
-  			}
-  		}
-  		#prevLink {
-  			padding-left: 1rem;
-  			text-align: left;
-  			&:hover {
-  				opacity: 1;
-  			}
-  			&:before {
-  				content: "\f053";
-  			}
-  		}
-  		#nextLink {
-  			padding-right: 1rem;
-  			text-align: right;
-  			&:hover {
-  				opacity: 1;
-  			}
-  			&:before {
-  				content: "\f054";
-  			}
-  		}
-  	}
+    #hoverNav {
+      opacity: 0;
+      transition: opacity .2s;
+      &:hover {
+        opacity: 1;
+      }
+      a {
+        color: $white !important;
+        &:hover {
+          text-decoration: none !important;
+        }
+      }
+      #prevLink,
+      #nextLink {
+        opacity: 0.5;
+        padding: 0;
+        margin: 30% 0 0 0;
+        background: none !important;
+        transition: opacity .2s;
+        &:before {
+          font-family: FontAwesome;
+          font-size: 1.5rem;
+          text-decoration: none;
+          color: $white;
+        }
+      }
+      #prevLink {
+        padding-left: 1rem;
+        text-align: left;
+        &:hover {
+          opacity: 1;
+        }
+        &:before {
+          content: "\f053";
+        }
+      }
+      #nextLink {
+        padding-right: 1rem;
+        text-align: right;
+        &:hover {
+          opacity: 1;
+        }
+        &:before {
+          content: "\f054";
+        }
+      }
+    }
   }
   #imageDataContainer {
-  	//display: none;
-  	background-color: transparent !important;
-  	font-family: $font-subhead;
-  	color: $white;
+    //display: none;
+    background-color: transparent !important;
+    font-family: $font-subhead;
+    color: $white;
 
-  	#imageData {
-  		#imageDetails {
-  			#caption {
-  				//display: none !important;
-  				color: $white;
-  				a {
-  					font-size: .9rem;
-  					font-weight: $regular;
-  					text-transform: uppercase;
-  				}
-  			}
-  			#numberDisplay {
-  				font-size: .9rem;
-  				color: $white !important;
-  			}
-  		}
-  		a {
-  			color: $white !important;
-  			&:hover {
-  				text-decoration: none !important;
-  			}
-  		}
-  		#lightshowPlay,
-  		#lightshowPause,
-  		#bottomNavClose {
-  			padding: 0;
-  			margin: 0;
-  			background: none !important;
-  			opacity: 0.5;
-  			transition: opacity .2s;
-  			&:hover {
-  				opacity: 1;
-  			}
-  			&:before {
-  				font-family: FontAwesome;
-  				font-size: 1.3rem;
-  				text-decoration: none;
-  				color: $white;
-  			}
-  		}
-  		#lightshowPlay {
-  			margin: 0 .5rem;
-  			&:before {
-  				content: "\f0da";
-  			}
-  		}
-  		#lightshowPause {
-  			margin: 0 .5rem;
-  			&:before {
-  				font-size: 1rem;
-  				content: "\f04c";
-  			}
-  		}
-  		#bottomNavClose {
-  			margin: 0 0 0 .5rem;
-  			&:before {
-  				content: "\f00d";
-  			}
-  		}
-  	}
+    #imageData {
+      #imageDetails {
+        #caption {
+          //display: none !important;
+          color: $white;
+          a {
+            font-size: .9rem;
+            font-weight: $regular;
+            text-transform: uppercase;
+          }
+        }
+        #numberDisplay {
+          font-size: .9rem;
+          color: $white !important;
+        }
+      }
+      a {
+        color: $white !important;
+        &:hover {
+          text-decoration: none !important;
+        }
+      }
+      #lightshowPlay,
+      #lightshowPause,
+      #bottomNavClose {
+        padding: 0;
+        margin: 0;
+        background: none !important;
+        opacity: 0.5;
+        transition: opacity .2s;
+        &:hover {
+          opacity: 1;
+        }
+        &:before {
+          font-family: FontAwesome;
+          font-size: 1.3rem;
+          text-decoration: none;
+          color: $white;
+        }
+      }
+      #lightshowPlay {
+        margin: 0 .5rem;
+        &:before {
+          content: "\f0da";
+        }
+      }
+      #lightshowPause {
+        margin: 0 .5rem;
+        &:before {
+          font-size: 1rem;
+          content: "\f04c";
+        }
+      }
+      #bottomNavClose {
+        margin: 0 0 0 .5rem;
+        &:before {
+          content: "\f00d";
+        }
+      }
+    }
   }
   */
     /***** End Lightbox Overrides *****/
@@ -308,78 +308,78 @@ body#rocket {
     /***** End Related Products *****/
     /*
   .landing-list {
-  	padding-top: 15px;
-  	padding-bottom: 15px;
-  	border-top: 1px solid $blue-ultralight;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid $blue-ultralight;
 
-  	&:first-child {
-  		border-top: none;
-  	}
+    &:first-child {
+      border-top: none;
+    }
 
-  	h3 {
-  		margin: 0 0 0 0;
-  		padding: .3rem 0 .8rem 0;
+    h3 {
+      margin: 0 0 0 0;
+      padding: .3rem 0 .8rem 0;
 
-  		a {
-  			color: $red;
-  		}
-  	}
+      a {
+        color: $red;
+      }
+    }
 
-  	.thumb {
-  		a {
-  			display: block;
-  			position: relative;
-  			overflow: hidden;
+    .thumb {
+      a {
+        display: block;
+        position: relative;
+        overflow: hidden;
 
-  			&:before {
-  				content: "";
-  				display: block;
-  				position: absolute;
-  				z-index: 2;
-  				top: 0;
-  				left: 0;
-  				width: 100%;
-  				height: 100%;
-  				background: rgba(5,21,140,0.2);
-  				transition: all .2s ease-in-out;
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+          z-index: 2;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(5,21,140,0.2);
+          transition: all .2s ease-in-out;
 
-  			}
+        }
 
-  			img {
-  				width: 100%;
-  			}
-  		}
-  	}
-  	&:hover {
-  		.thumb {
-  			a {				
-  				&:before {
-  					background: rgba(5,21,140,0);
-  				}
-  			}
-  		}
-  	}
+        img {
+          width: 100%;
+        }
+      }
+    }
+    &:hover {
+      .thumb {
+        a {       
+          &:before {
+            background: rgba(5,21,140,0);
+          }
+        }
+      }
+    }
 
-  	.copy {
-  		h3 {
-  			margin: .5rem 0 .5rem 0;
-  			padding: 0;
+    .copy {
+      h3 {
+        margin: .5rem 0 .5rem 0;
+        padding: 0;
 
-  			a {
-  				color: $blue;
+        a {
+          color: $blue;
 
-  				&:hover {
-  					color: lighten($blue,20%);
-  				}
-  			}
-  		}
-  	}
+          &:hover {
+            color: lighten($blue,20%);
+          }
+        }
+      }
+    }
 
-  	.button {
-  		.btn.btn-mod.btn-block.btn-medium {
-  			padding: .5rem .1rem;
-  		}
-  	}
+    .button {
+      .btn.btn-mod.btn-block.btn-medium {
+        padding: .5rem .1rem;
+      }
+    }
 
   }
   */
@@ -409,39 +409,39 @@ body#rocket {
     /***** Lightbox *****/
     /*
   #cboxTopLeft {
-  	width: 15px;
-  	height: 15px;
+    width: 15px;
+    height: 15px;
   }
 
   #cboxTopCenter {
-  	height: 15px;
+    height: 15px;
   }
 
   #cboxTopRight {
-  	width: 15px;
-  	height: 15px;
+    width: 15px;
+    height: 15px;
   }
 
   #cboxBottomLeft {
-  	width: 15px;
-  	height: 10px;
+    width: 15px;
+    height: 10px;
   }
 
   #cboxBottomCenter {
-  	height: 10px;
+    height: 10px;
   }
 
   #cboxBottomRight {
-  	width: 15px;
-  	height: 10px;
+    width: 15px;
+    height: 10px;
   }
 
   #cboxMiddleLeft {
-  	width: 15px;
+    width: 15px;
   }
 
   #cboxMiddleRight {
-  	width: 15px;
+    width: 15px;
   }
   */
     /***** End Lightbox *****/
@@ -1048,6 +1048,16 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
     border: 2px solid white;
 }
 
+.product-no-overview .product-nav .az-ctnr.container .btn-product:first-of-type,
+.product-no-feature .product-nav .az-ctnr.container .btn-product:nth-child(2),
+.product-no-resources .product-nav .az-ctnr.container .btn-product:nth-child(3){
+  display: none;
+}
+
+#rocket section#block-rockettabs {
+  background: #fff;
+}
+
 #rocket .product-features,
 #rocket .product-related {
     background: rgba(206, 205, 201, 0.2);
@@ -1412,6 +1422,7 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 
 #rocket .view-product-related {
     width: 100%;
+    max-width: 1170px;
 }
 
 #rocket .view-product-related .owl-carousel {
@@ -2468,21 +2479,21 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
     margin: 0 0;
     padding: 0 0;
     transition: background-color 0.2s ease-in-out 0.1s;
-    /*												
+    /*                        
   &:nth-last-child(2) {
-  	display: none;
+    display: none;
   }
 
   .fa-angle-down {
-  	&:before {
-  		content: none;
-  	}
+    &:before {
+      content: none;
+    }
   }
 
   .fa-search.fa-angle-down {
-  	&:before {
-  		content: "\f002";
-  	}
+    &:before {
+      content: "\f002";
+    }
   }
   */
     /* 2nd Level */
@@ -2625,23 +2636,23 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 #rocket #main-menu nav.main-nav.small-height .inner-nav.desktop-nav ul.clearlist li.sector ul.dropdown-menu.mega-dropdown-menu.innovation {
     /*
   .view-rocket-product-menu {
-  	display: none;
+    display: none;
   }
   .row {
-  	@include row-eq-height;
+    @include row-eq-height;
   }
 
   li {
-  	.product {
-  		&.category {
-  			.thumb {
-  				display: table-cell;
-  			}
-  			.title {
-  				padding-left: .5rem;
-  			}
-  		}
-  	}
+    .product {
+      &.category {
+        .thumb {
+          display: table-cell;
+        }
+        .title {
+          padding-left: .5rem;
+        }
+      }
+    }
   }
   */
 }
@@ -3012,9 +3023,15 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
     content: "";
     display: block;
 }
-
+body.toolbar-fixed .product-nav.fixed {
+  top: 39px !important;
+}
+body.toolbar-tray-open .product-nav.fixed {
+  top: 79px !important;
+}
 #rocket .product-nav.fixed {
     position: fixed;
+    z-index: 9999;
 }
 
 #rocket .product-nav .no-pad {
@@ -3026,7 +3043,9 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 }
 
 #rocket .product-nav a.btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     opacity: 1;
     min-height: 40px;
     margin: 0;
@@ -3039,6 +3058,7 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
     color: #4A4A4A;
     background: #CECDC9;
     border-right: 1px solid #b6b4ae;
+    border-radius: 0;
 }
 
 #rocket .product-nav a.btn.active {
@@ -3064,10 +3084,12 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
     color: white !important;
 }
 
-#rocket .product-nav a.btn:hover {
+#rocket .product-nav a.btn:hover,
+#rocket .product-nav a.btn.active {
     opacity: 1;
     color: white;
     background: #b6b4ae;
+    box-shadow: none;
 }
 
 #rocket .product-nav .local-scroll:first-child a.btn {
