@@ -679,19 +679,19 @@ body#rocket {
     text-transform: uppercase;
 }
 
-#rocket .main-content ul,
+#rocket .wrap-containers ul,
 #rocket ul.list {
     list-style-type: none;
     color: #B32317;
     padding-left: 1rem;
 }
 
-#rocket .main-content ul.contextual-links li:before,
+#rocket .wrap-containers ul.contextual-links li:before,
 #rocket ul.list.contextual-links li:before {
     content: none;
 }
 
-#rocket .main-content ul li,
+#rocket .wrap-containers ul li,
 #rocket ul.list li,
 footer .region .az-section .az-column .az-text p a {
     font-family: "myriad-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -702,7 +702,7 @@ footer .region .az-section .az-column .az-text p a {
     border-right: none;
 }
 
-#rocket .main-content ul li:before,
+#rocket .wrap-containers ul li:before,
 #rocket ul.list li:before,
 footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:before {
     content: "›";
