@@ -42,7 +42,7 @@
         "drupal/views_menu_children_filter": "^1.0@RC",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
-        "pantheon-upstreams/upstream-configuration": "self.version"
+        "pantheon-upstreams/upstream-configuration": "self.version",
 		"drupal/insert_block": "^1.0@beta"
     },
     "require-dev": {
