@@ -1422,6 +1422,7 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 
 #rocket .view-product-related {
     width: 100%;
+    max-width: 1170px;
 }
 
 #rocket .view-product-related .owl-carousel {

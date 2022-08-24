@@ -25,17 +25,6 @@
       }
     },
     productTabs: function() {
-      var fixmeTop = $('.product-nav').offset().top;
-
-      $(window).scroll(function() {
-        var currentScroll = $(window).scrollTop();
-        if (currentScroll >= fixmeTop) {
-          $('.product-nav').addClass( "fixed" );
-        } else {
-          $('.product-nav').removeClass( "fixed" );
-        }
-      });
-
       // Hide tabs if empty
       var tabs = $('.product-nav');
       if($('#block-views-block-product-related-block-1').length == 0) {
@@ -89,7 +78,17 @@
         // Product Nav Section
         var nav = $('.product-nav');
         if (nav.length) {
+          var fixmeTop = $('.product-nav').offset().top;
           Drupal.behaviors.glazed_custom.productTabs();
+          
+          $(window).scroll(function() {
+            var currentScroll = $(window).scrollTop();
+            if (currentScroll >= fixmeTop) {
+              $('.product-nav').addClass( "fixed" );
+            } else {
+              $('.product-nav').removeClass( "fixed" );
+            }
+          });
 
           $('.az-section.product-nav a').on('click', function(ev) {
             ev.preventDefault();
