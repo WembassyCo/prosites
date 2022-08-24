@@ -56,15 +56,28 @@
 
         if(jQuery('div').hasClass('owl-slider-wrapper')){
           $(".owl-slider-wrapper").owlCarousel({
-           loop:true,
-           autoplay:true,
-           autoplayTimeout:5000,
-           autoplayHoverPause:true,
-           animateIn: 'fadeIn', 
-           animateOut: 'fadeOut', 
-           items:1,
-         });
+            loop:true,
+            autoplay:true,
+            autoplayTimeout:5000,
+            autoplayHoverPause:true,
+            animateIn: 'fadeIn', 
+            animateOut: 'fadeOut', 
+            items:1,
+          });
         }
+
+        // Custom content fade in effect
+        $(window).scroll( function(){
+          $('.fadeIn').each( function(i){
+            var elementHeight = ($(this).outerHeight()/2);
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > (bottom_of_element - elementHeight) ){
+              $(this).animate({'opacity':'1'}, 1000);
+            }
+          }); 
+        });
 
         // For Drag and Drop block, if there is no image we will show the first column in full width.
         if($('section[id*="rocketlandingcontentwithimage"]').length > 0) {

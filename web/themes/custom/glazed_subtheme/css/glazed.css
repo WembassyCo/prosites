@@ -7,6 +7,12 @@
   height: auto;
 }
 
+.fadein,
+.fadeIn {
+  opacity: 0;
+}
+
+
 /*
 .az-container > .controls {
   top: 80px;
