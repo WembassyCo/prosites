@@ -7,6 +7,12 @@
   height: auto;
 }
 
+.fadein,
+.fadeIn {
+  opacity: 0;
+}
+
+
 /*
 .az-container > .controls {
   top: 80px;
@@ -323,6 +329,14 @@ a.logo.navbar-btn {
 
 #rocket .view-landing-carousels.landing-carasoual-image img {
   max-width: 1600px;
+}
+
+.view-rocket-product-gallery {
+  position: relative;
+  margin: 2rem auto 0 auto;
+  padding: 0 4px 3.75rem 4px;
+  width: 100%;
+  max-width: 1170px;
 }
 
 .view-rocket-product-gallery .gallery-item {
