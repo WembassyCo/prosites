@@ -184,9 +184,32 @@ a.logo.navbar-btn {
 }
 
 .product-nav .az-ctnr.container .btn-product {
-  width: calc(100% / 4);
+  /*width: calc(100% / 4);*/
+  flex: 1 1 25%;
+  width: auto;
 }
 
+.product-nav .az-ctnr.container .product-top {
+  width: 9.5%;
+  flex: 0 0 9.5%;
+  padding-left: 20px;
+}
+
+.product-nav .az-ctnr.container .product-top > a {
+  font-size: 0 !important;
+}
+
+.product-nav .az-ctnr.container .product-top > a::before {
+  content: "\f106";
+  font-size: 20px;
+  font-family: "FontAwesome";
+  line-height: normal;
+  display: block;
+}
+
+.product-nav .az-ctnr.container .btn-product:first-of-type {
+  border-left: 1px solid #b6b4ae;
+} 
 .col-xs-1,
 .col-sm-1,
 .col-md-1,

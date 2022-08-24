@@ -29,6 +29,19 @@ function glazed_subtheme_preprocess_html(&$variables) {
   $node = \Drupal::routeMatch()->getParameter('node');
   if (is_object($node)) {
     $variables['attributes']['class'][] = 'node-' . $node->id();
+
+    if($node->bundle() == 'product') {
+      // This is for the rockettabs. If there is no content for that field we will not display the tab
+      if ($node->hasField('body') && $node->get('body')->isEmpty()) {
+        $variables['attributes']['class'][] = 'product-no-overview';
+      }
+      if ($node->hasField('field_features') && $node->get('field_features')->isEmpty()) {
+        $variables['attributes']['class'][] = 'product-no-feature';
+      }
+      if ($node->hasField('field_press') && $node->get('field_press')->isEmpty()) {
+        $variables['attributes']['class'][] = 'product-no-resources';
+      }
+    }
   }
 }
 
