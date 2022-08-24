@@ -11,7 +11,9 @@ global-styling:
     - core/drupal
     - core/jquery
     - core/once
-      
+    - jquery_ui_accordion/accordion
+    - owlcarousel/owlcarousel
+    
 elastic-grid:
   css:
     theme:
