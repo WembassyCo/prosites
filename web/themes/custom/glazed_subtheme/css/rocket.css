@@ -1050,17 +1050,24 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
 
 .product-no-overview .product-nav .az-ctnr.container .btn-product:first-of-type,
 .product-no-feature .product-nav .az-ctnr.container .btn-product:nth-child(2),
-.product-no-resources .product-nav .az-ctnr.container .btn-product:nth-child(3){
+.product-no-resources .product-nav .az-ctnr.container .btn-product:nth-child(3),
+body.page-node-type-product .page-title {
   display: none;
 }
 
-#rocket section#block-rockettabs {
-  background: #fff;
+#rocket section#block-rockettabs,
+body.page-node-type-product {
+  background: #fff !important;
 }
 
 #rocket .product-features,
 #rocket .product-related {
     background: rgba(206, 205, 201, 0.2);
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #rocket .view-product-features .owl-carousel,
