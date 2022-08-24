@@ -6,8 +6,6 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_carousel_images
     - field.storage.node.field_main_photo
-    - image.style.grid
-    - image.style.image_grid
     - image.style.landing_thumbnail_level_1
     - node.type.landing_page
     - node.type.nd_page
@@ -15,7 +13,6 @@ dependencies:
     - node.type.product
     - taxonomy.vocabulary.product_categories
   module:
-    - colorbox
     - image
     - node
     - taxonomy
@@ -473,7 +470,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      css_class: row
+      css_class: 'rows  human-exploration-category-view'
       header: {  }
       footer: {  }
       display_extenders: {  }
@@ -613,7 +610,7 @@ display:
           type: image
           settings:
             image_link: content
-            image_style: grid
+            image_style: landing_thumbnail_level_1
             image_loading:
               attribute: lazy
           group_column: ''
@@ -882,7 +879,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"landing-list-item\">\r\n\t<div class=\"landing-list-thumb\">{{ field_main_photo }}</div>\r\n\t<div class=\"landing-list-label\">\r\n\t\t<div class=\"landing-list-title\"><h3>{{ title }}</h3></div>\r\n\t\t<div class=\"landing-list-button\"><i class=\"fa fa-caret-right\"></i></div>\r\n\t</div>\r\n</div>"
+            text: "<div class=\"landing-list-item\">\r\n  <div class=\"landing-list-thumb\">\r\n    {% if body_1|render|striptags|trim is not empty %} \r\n      <div class=\"landing-list-overlay\">\r\n        <a href=\"{{ view_node }}\">{{ body_1 }}</a>\r\n      </div>\r\n    {% endif %}\r\n    {{ field_main_photo }}\r\n  </div>\r\n  <div class=\"landing-list-label\">    \r\n    <div class=\"landing-list-title\"><h3>{{ title }}</h3></div>\r\n    <div class=\"landing-list-button\">\r\n      <a href=\"{{ view_node }}\"><i class=\"fa fa-caret-right\"></i></a>\r\n    </div>\r\n  </div>\r\n</div>"
             make_link: false
             path: '{{ view_node }}'
             absolute: false
@@ -1025,8 +1022,8 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: col-sm-4
-          default_row_class: false
+          row_class: 'col-xs-12 col-sm-6 col-md-4 col-lg-4'
+          default_row_class: true
       row:
         type: fields
         options: {  }
@@ -1177,15 +1174,12 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: colorbox
+          type: image
           settings:
-            colorbox_node_style: image_grid
-            colorbox_node_style_first: ''
-            colorbox_image_style: ''
-            colorbox_gallery: post
-            colorbox_gallery_custom: ''
-            colorbox_caption: auto
-            colorbox_caption_custom: ''
+            image_link: content
+            image_style: ''
+            image_loading:
+              attribute: lazy
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -1453,7 +1447,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"landing-list-item\">\r\n\t<div class=\"landing-list-thumb\">{{ field_main_photo }}</div>\r\n\t<div class=\"landing-list-label\">\r\n\t\t<div class=\"landing-list-title\"><h3>{{ title }}</h3></div>\r\n\t\t<div class=\"landing-list-button\"><a href=\"/node/{{ nid }}\"><i class=\"fa fa-caret-right\"></i></a></div>\r\n\t</div>\r\n</div>"
+            text: "<div class=\"landing-list-item\">\r\n\t<div class=\"landing-list-thumb\">{{ field_main_photo }}</div>\r\n\t<div class=\"landing-list-label\">\r\n\t\t<div class=\"landing-list-title\"><h3>{{ title }}</h3></div>\r\n\t\t<div class=\"landing-list-button\"><a href = \"/node/{{ nid }}\"><i class=\"fa fa-caret-right\"></i></a></div>\r\n\t</div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false
@@ -1490,7 +1484,38 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: false
-      sorts: {  }
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: created
+          plugin_id: date
+          order: ASC
+          expose:
+            label: ''
+            field_identifier: ''
+          exposed: false
+          granularity: second
+        weight:
+          id: weight
+          table: taxonomy_term_field_data
+          field: weight
+          relationship: term_node_tid_1
+          group_type: group
+          admin_label: ''
+          entity_type: taxonomy_term
+          entity_field: weight
+          plugin_id: standard
+          order: DESC
+          expose:
+            label: ''
+            field_identifier: ''
+          exposed: false
       arguments:
         tid:
           id: tid
@@ -1632,11 +1657,16 @@ display:
         groups:
           1: AND
       style:
-        type: default
+        type: grid
         options:
           grouping: {  }
-          row_class: 'col-sm-12 col-md-6 col-lg-3'
-          default_row_class: false
+          columns: 4
+          automatic_width: false
+          alignment: horizontal
+          row_class_custom: ''
+          row_class_default: true
+          col_class_custom: 'col-xs-12 col-sm-6 col-md-3'
+          col_class_default: true
       row:
         type: fields
         options: {  }
