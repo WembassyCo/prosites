@@ -325,6 +325,14 @@ a.logo.navbar-btn {
   max-width: 1600px;
 }
 
+.view-rocket-product-gallery {
+  position: relative;
+  margin: 2rem auto 0 auto;
+  padding: 0 4px 3.75rem 4px;
+  width: 100%;
+  max-width: 1170px;
+}
+
 .view-rocket-product-gallery .gallery-item {
   margin-bottom: 4px !important;
   overflow: hidden;
