@@ -567,6 +567,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 .node-142 #block-rocketlandingcontentwithimage,
 .node-143 .page-title,
 .node-143 #block-rocketlandingcontentwithimage,
+.node-132 .page-title,
 .node-156 .page-title,
 .node-157 .page-title {
   display:none;
@@ -914,6 +915,17 @@ section#block-views-block-landing-carousels-block-1 {
     .custom-defence-node .col-sm-4 {
         width: 100%;
     }
+}
+
+.owl-carousel .owl-nav{
+	display: inline !important;
+}
+
+.tabs--primary.nav.nav-tabs li::before {
+	display: none;
+}
+.tabs--primary.nav.nav-tabs li {
+	padding: 0 !important;
 }
 
 /*24-Aug-2022 work by rahul*/
