@@ -86,6 +86,12 @@
   border-right: 1px solid #CECDC9;
   border-left: 1px solid #CECDC9;
 }
+@media (max-width: 767px) {
+  #block-rocketlandingcontentwithimage .az-element.az-row.row.az-row--sm {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 .page-node-type-page #page-title .page-title {
   height: 100%;

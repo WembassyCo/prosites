@@ -2003,6 +2003,14 @@ body.page-node-type-product {
     margin-right: -4px;
 }
 
+@media (max-width: 767px) {
+  #rocket .view-display-id-categories,
+  #rocket .view-display-id-categories_innovation {
+      margin-left: 0;
+      margin-right: 0;
+  }  
+}
+
 #rocket .view-display-id-categories .col-md-6,
 #rocket .view-display-id-categories .col-lg-3,
 #rocket .view-display-id-categories_innovation .col-md-6,

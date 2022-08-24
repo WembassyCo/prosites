@@ -770,6 +770,14 @@ body.path-search ol.pagination, body.path-search ul.pagination {
 {
     padding-right: 0px !important;
 }
+@media (max-width: 991px) {
+  #block-rocketlandingcontentwithimage .az-ctnr.container .col-sm-8 {
+    width: 100%;
+  }
+  #block-rocketlandingcontentwithimage .az-ctnr.container .col-sm-4 {
+    padding-left: 0px !important;
+  } 
+}
 #rocket.page-node-type-landing-page .view-id-landing_image
 {
     padding-top: 0px !important;
