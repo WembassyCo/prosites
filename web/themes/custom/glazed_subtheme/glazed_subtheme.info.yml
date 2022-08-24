@@ -20,6 +20,7 @@ regions:
   help: 'Help'
   content_top: 'Content Top'
   content: 'Content'
+  product_bottom: 'Product Bottom'
   content_bottom: 'Content Bottom'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'

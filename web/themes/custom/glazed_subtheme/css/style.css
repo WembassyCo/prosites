@@ -691,7 +691,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     color: #0b88ff;
     border-color: #bbb;
 }
-/*Space Css ends*/
+
 
 #rocket.page-node-type-landing-page .view-id-landing_image
 {
@@ -705,7 +705,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     padding-left: 4px;
     padding-right: 4px;
 }
-.az-ctnr.container{
+.human-exploration-category-view .views-col .az-ctnr.container{
     width:auto !important;
 }
 #rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title {

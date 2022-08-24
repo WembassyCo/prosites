@@ -631,6 +631,9 @@ button.owl-prev {
     margin: 0;
     transition: all 0.2s ease-in-out;
 }
+#rocket #block-views-block-rocket-landing-page-lists-block-1 .landing-list-item a.landing-list-summary:hover{
+	text-decoration: none;
+}
 #rocket #block-views-block-rocket-landing-page-lists-block-1 .landing-list-item a.landing-list-summary .landing-list-summary-inner {
     display: block;
     overflow: hidden;
@@ -659,6 +662,44 @@ position:relative;
     object-fit: cover;
     object-position: center center;
 }
+
+/* -------- 30-june-2022 ------- */
+.view-id-landing_image .views-field-field-main-photo img.img-responsive {
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.view-id-landing_image .views-field-field-main-photo,
+.view-id-landing_image .views-row .views-field-field-main-photo ,
+.view-id-landing_image .views-row .views-field-field-main-photo .field-content,
+.view-id-landing_image .view-content,
+.view-id-landing_image ,
+.view-id-landing_image .views-row ,
+.custom_imgs {
+    height: 100%;
+}
+
+/* -------- 30-june-2022 ------- */
+
+/* -------- 01-july-2022 ------- */
+
+
+.row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists.view-display-id-categories {
+
+}
+.row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+/* -------- 01-july-2022 ------- */
+
+
+ /* START 08-07-2022  */
+.page-node-type-article .page-title-container#page-title .page-title {
+	height: inherit;
+}
+
 /* -------- Product page css end ------- */
 @media only screen and (min-width: 1024px) {
 
@@ -715,4 +756,11 @@ div#product-features {
 div#product-resources {
   padding-bottom: 40px;
   padding-top: 50px;
+}
+/* date 05-07-2022 */
+.landing-list-title a {
+    text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
 }
