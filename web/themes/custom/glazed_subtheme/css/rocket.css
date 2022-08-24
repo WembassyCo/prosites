@@ -1998,7 +1998,17 @@ body.page-node-type-product {
 #rocket .view-display-id-categories,
 #rocket .view-display-id-categories_innovation {
     margin-top: 2.5rem;
-    padding-bottom: 5rem;
+    padding: 2rem 0 5rem;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+@media (max-width: 767px) {
+  #rocket .view-display-id-categories,
+  #rocket .view-display-id-categories_innovation {
+      margin-left: 0;
+      margin-right: 0;
+  }  
 }
 
 #rocket .view-display-id-categories .col-md-6,
