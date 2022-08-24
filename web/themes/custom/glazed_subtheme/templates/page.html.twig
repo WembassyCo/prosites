@@ -265,6 +265,15 @@
   </div><!-- end main-container -->
 {% endblock %}
 
+{# Product Bottom #}
+{% if page.product_bottom %}
+  {% block product_bottom %}
+    <div class="glazed-fluid product-buttom-container">
+      {{ page.product_bottom }}
+    </div>
+  {% endblock %}
+{% endif %}
+
 {# Content Bottom #}
 {% if page.content_bottom %}
   {% block content_bottom %}
