@@ -196,7 +196,7 @@ var Grid = (function() {
       minHeight : 500,
       speed : 350,
       easing : 'ease',
-      showVisitButton : false
+      showVisitButton : true
     };
 
   function init( config ) {
@@ -376,6 +376,8 @@ var Grid = (function() {
         var $currentItem = $items.eq( current );
         $currentItem.removeClass( 'og-expanded' );
         this.$item.addClass( 'og-expanded' );
+        // position the preview correctly
+        this.positionPreview();
       }
 
       // update current value
@@ -421,10 +423,6 @@ var Grid = (function() {
         } ).attr( 'src', eldata.largesrc ); 
       }
 
-      // position the preview correctly
-      this.setHeights();
-      this.positionPreview();
-
     },
     open : function() {
 
@@ -453,7 +451,6 @@ var Grid = (function() {
           this.$largeImg.fadeOut( 'fast' );
         }
         this.$previewEl.css( 'height', 0 );
-        this.$item.css( 'height', 0 );
         // the current expanded item (might be different from this.$item)
         var $expandedItem = $items.eq( this.expandedIdx );
         $expandedItem.css( 'height', $expandedItem.data( 'height' ) ).on( transEndEventName, onEndFn );
@@ -487,7 +484,6 @@ var Grid = (function() {
         };
 
       this.calcHeight();
-      jq191('#og-grid > li').removeAttr('style');
       this.$previewEl.css( 'height', this.height );
       this.$item.css( 'height', this.itemHeight ).on( transEndEventName, onEndFn );
 
