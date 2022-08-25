@@ -891,8 +891,16 @@ section#block-views-block-landing-carousels-block-1 {
 .product-no-tabs #block-rockettabs {
     display: none;
 }
+
 .block-views-blocklanding-carousels-block-1 .form-group {
     margin-bottom: 0 !important;
+}
+
+#rocket .view-display-id-categories .landing-list-item .landing-list-button,
+#rocket .view-display-id-categories_innovation .landing-list-item .landing-list-button,
+#rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-button {
+    width: 40px !important;
+    flex: 0 0 40px !important;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -946,7 +954,7 @@ section#block-views-block-landing-carousels-block-1 {
     }
 
     #rocket .custom-home-page.view-landing-carousels:before {
-        z-index: 4 ;
+        z-index: 4;
     }
 }
 
