@@ -850,12 +850,12 @@ body.path-search ul.pagination {
     align-items: center;
 }
 
-#rocket .landing-list-item .landing-list-button i {
+/*#rocket .landing-list-item .landing-list-button i {
     font-size: 23px !important;
     color: #fff;
     line-height: normal !important;
     width: auto !important;
-}
+}*/
 
 @media only screen and (max-width: 1024px) {
     .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col {
@@ -991,3 +991,14 @@ section#block-views-block-landing-carousels-block-1 {
 }
 
 /*24-Aug-2022 work by rahul*/
+
+/*Task-208 Start*/
+.glazed-editor .az-element--controls-spacer {
+	margin-top: 0 !important;
+}
+
+
+.col-padding-limit .views-row{
+	padding: 0 4px !important;
+}
+/*Task-208 end*/
