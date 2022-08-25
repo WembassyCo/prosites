@@ -7,16 +7,17 @@
 * Copyright 2011 @louis_remi
 * Licensed under the MIT license.
 */
-var $event = $.event,
+jq191 = jQuery.noConflict( true );
+var $event = jq191.event,
 $special,
 resizeTimeout;
 
 $special = $event.special.debouncedresize = {
   setup: function() {
-    $( this ).on( "resize", $special.handler );
+    jq191( this ).on( "resize", $special.handler );
   },
   teardown: function() {
-    $( this ).off( "resize", $special.handler );
+    jq191( this ).off( "resize", $special.handler );
   },
   handler: function( event, execAsap ) {
     // Save the context
@@ -42,7 +43,7 @@ $special = $event.special.debouncedresize = {
 // ======================= imagesLoaded Plugin ===============================
 // https://github.com/desandro/imagesloaded
 
-// $('#my-container').imagesLoaded(myFunction)
+// jq191('#my-container').imagesLoaded(myFunction)
 // execute a callback when all images have loaded.
 // needed because .load() doesn't work on cached images
 
@@ -55,18 +56,18 @@ $special = $event.special.debouncedresize = {
 // blank image data-uri bypasses webkit log warning (thx doug jones)
 var BLANK = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
 
-$.fn.imagesLoaded = function( callback ) {
+jq191.fn.imagesLoaded = function( callback ) {
   var $this = this,
-    deferred = $.isFunction($.Deferred) ? $.Deferred() : 0,
-    hasNotify = $.isFunction(deferred.notify),
+    deferred = jq191.isFunction(jq191.Deferred) ? jq191.Deferred() : 0,
+    hasNotify = jq191.isFunction(deferred.notify),
     $images = $this.find('img').add( $this.filter('img') ),
     loaded = [],
     proper = [],
     broken = [];
 
   // Register deferred callbacks
-  if ($.isPlainObject(callback)) {
-    $.each(callback, function (key, value) {
+  if (jq191.isPlainObject(callback)) {
+    jq191.each(callback, function (key, value) {
       if (key === 'callback') {
         callback = value;
       } else if (deferred) {
@@ -76,8 +77,8 @@ $.fn.imagesLoaded = function( callback ) {
   }
 
   function doneLoading() {
-    var $proper = $(proper),
-      $broken = $(broken);
+    var $proper = jq191(proper),
+      $broken = jq191(broken);
 
     if ( deferred ) {
       if ( broken.length ) {
@@ -87,14 +88,14 @@ $.fn.imagesLoaded = function( callback ) {
       }
     }
 
-    if ( $.isFunction( callback ) ) {
+    if ( jq191.isFunction( callback ) ) {
       callback.call( $this, $images, $proper, $broken );
     }
   }
 
   function imgLoaded( img, isBroken ) {
     // don't proceed if BLANK image, or image is already loaded
-    if ( img.src === BLANK || $.inArray( img, loaded ) !== -1 ) {
+    if ( img.src === BLANK || jq191.inArray( img, loaded ) !== -1 ) {
       return;
     }
 
@@ -109,11 +110,11 @@ $.fn.imagesLoaded = function( callback ) {
     }
 
     // cache image and its state for future calls
-    $.data( img, 'imagesLoaded', { isBroken: isBroken, src: img.src } );
+    jq191.data( img, 'imagesLoaded', { isBroken: isBroken, src: img.src } );
 
     // trigger deferred progress method if present
     if ( hasNotify ) {
-      deferred.notifyWith( $(img), [ isBroken, $images, $(proper), $(broken) ] );
+      deferred.notifyWith( jq191(img), [ isBroken, $images, jq191(proper), jq191(broken) ] );
     }
 
     // call doneLoading and clean listeners if all images are loaded
@@ -135,7 +136,7 @@ $.fn.imagesLoaded = function( callback ) {
 
       // find out if this image has been already checked for status
       // if it was, and src has not changed, call imgLoaded on it
-      var cached = $.data( el, 'imagesLoaded' );
+      var cached = jq191.data( el, 'imagesLoaded' );
       if ( cached && cached.src === src ) {
         imgLoaded( el, cached.isBroken );
         return;
@@ -165,7 +166,7 @@ var Grid = (function() {
     // grid selector
     var $selector = '#og-grid', 
     // list of items
-    $grid = $( $selector ),
+    $grid = jq191( $selector ),
     // the items
     $items = $grid.children( 'li' ),
     // current expanded item's index
@@ -177,8 +178,8 @@ var Grid = (function() {
     scrollExtra = 0,
     // extra margin when expanded (between preview overlay and the next items)
     marginExpanded = 10,
-    $window = $( window ), winsize,
-    $body = $( 'html, body' ),
+    $window = jq191( window ), winsize,
+    $body = jq191( 'html, body' ),
     // transitionend events
     transEndEventNames = {
       'WebkitTransition' : 'webkitTransitionEnd',
@@ -201,7 +202,7 @@ var Grid = (function() {
   function init( config ) {
     
     // the settings..
-    settings = $.extend( true, {}, settings, config );
+    settings = jq191.extend( true, {}, settings, config );
     // preload all images
     $grid.imagesLoaded( function() {
 
@@ -224,7 +225,7 @@ var Grid = (function() {
     $items = $items.add( $newitems );
 
     $newitems.each( function() {
-      var $item = $( this );
+      var $item = jq191( this );
       $item.data( {
         offsetTop : $item.offset().top,
         height : $item.height()
@@ -238,7 +239,7 @@ var Grid = (function() {
   // saves the item´s offset top and height (if saveheight is true)
   function saveItemInfo( saveheight ) {
     $items.each( function() {
-      var $item = $( this );
+      var $item = jq191( this );
       $item.data( 'offsetTop', $item.offset().top );
       if( saveheight ) {
         $item.data( 'height', $item.height() );
@@ -262,7 +263,7 @@ var Grid = (function() {
       // save item´s offset
       saveItemInfo();
       getWinSize();
-      var preview = $.data( this, 'preview' );
+      var preview = jq191.data( this, 'preview' );
       if( typeof preview != 'undefined' ) {
         hidePreview();
       }
@@ -277,7 +278,7 @@ var Grid = (function() {
       return false;
     } ).children( 'a' ).on( 'click', function(e) {
 
-      var $item = $( this ).parent();
+      var $item = jq191( this ).parent();
       // check if item already opened
       current === $item.index() ? hidePreview() : showPreview( $item );
       return false;
@@ -291,7 +292,7 @@ var Grid = (function() {
 
   function showPreview( $item ) {
 
-    var preview = $.data( this, 'preview' ),
+    var preview = jq191.data( this, 'preview' ),
       // item´s offset top
       position = $item.data( 'offsetTop' );
 
@@ -319,7 +320,7 @@ var Grid = (function() {
     // update previewPos
     previewPos = position;
     // initialize new preview for the clicked item
-    preview = $.data( this, 'preview', new Preview( $item ) );
+    preview = jq191.data( this, 'preview', new Preview( $item ) );
     // expand preview overlay
     preview.open();
 
@@ -327,9 +328,9 @@ var Grid = (function() {
 
   function hidePreview() {
     current = -1;
-    var preview = $.data( this, 'preview' );
+    var preview = jq191.data( this, 'preview' );
     preview.close();
-    $.removeData( this, 'preview' );
+    jq191.removeData( this, 'preview' );
   }
 
   // the preview obj / overlay
@@ -343,20 +344,20 @@ var Grid = (function() {
   Preview.prototype = {
     create : function() {
       // create Preview structure:
-      this.$title = $( '<h3></h3>' );
-      this.$subtitle = $( '<span></span>' );
-      this.$description = $( '<p></p>' );
+      this.$title = jq191( '<h3></h3>' );
+      this.$subtitle = jq191( '<span></span>' );
+      this.$description = jq191( '<p></p>' );
       var detailAppends = [this.$title, this.$subtitle, this.$description];
       if (settings.showVisitButton === true) {
-        this.$href = $( '<a href="#">Visit website</a>' );
+        this.$href = jq191( '<a href="#">Visit website</a>' );
         detailAppends.push(this.$href);
       }
-      this.$details = $( '<div class="col-xs-12 col-sm-8 col-md-9 team-bio"></div>' ).append(detailAppends);
-      this.$loading = $( '<div class="og-loading"></div>' );
-      this.$fullimage = $( '<div class="col-sm-4 col-md-3 team-img"></div>' ).append( this.$loading );
-      this.$closePreview = $( '<span class="og-close"></span>' );
-      this.$previewInner = $( '<div class="og-expander-inner"></div>' ).append( this.$closePreview, this.$fullimage, this.$details );
-      this.$previewEl = $( '<div class="og-expander"></div>' ).append( this.$previewInner );
+      this.$details = jq191( '<div class="col-xs-12 col-sm-8 col-md-9 team-bio"></div>' ).append(detailAppends);
+      this.$loading = jq191( '<div class="og-loading"></div>' );
+      this.$fullimage = jq191( '<div class="col-sm-4 col-md-3 team-img"></div>' ).append( this.$loading );
+      this.$closePreview = jq191( '<span class="og-close"></span>' );
+      this.$previewInner = jq191( '<div class="og-expander-inner"></div>' ).append( this.$closePreview, this.$fullimage, this.$details );
+      this.$previewEl = jq191( '<div class="og-expander"></div>' ).append( this.$previewInner );
       // append preview element to the item
       this.$item.append( this.getEl() );
       // set the transitions for the preview and the item
@@ -409,8 +410,8 @@ var Grid = (function() {
       // for smaller screens we don´t display the large image (the media query will hide the fullimage wrapper)
       if( self.$fullimage.is( ':visible' ) ) {
         this.$loading.show();
-        $( '<img/>' ).load( function() {
-          var $img = $( this );
+        jq191( '<img/>' ).load( function() {
+          var $img = jq191( this );
           if( $img.attr( 'src' ) === self.$item.children('a').data( 'largesrc' ) ) {
             self.$loading.hide();
             self.$fullimage.find( 'img' ).remove();
@@ -427,7 +428,7 @@ var Grid = (function() {
     },
     open : function() {
 
-      setTimeout( $.proxy( function() { 
+      setTimeout( jq191.proxy( function() { 
         // set the height for the preview and the item
         this.setHeights();
         // scroll to position the preview in the right place
@@ -440,18 +441,19 @@ var Grid = (function() {
       var self = this,
         onEndFn = function() {
           if( support ) {
-            $( this ).off( transEndEventName );
+            jq191( this ).off( transEndEventName );
           }
           self.$item.removeClass( 'og-expanded' );
           self.$previewEl.remove();
         };
 
-      setTimeout( $.proxy( function() {
+      setTimeout( jq191.proxy( function() {
 
         if( typeof this.$largeImg !== 'undefined' ) {
           this.$largeImg.fadeOut( 'fast' );
         }
         this.$previewEl.css( 'height', 0 );
+        this.$item.css( 'height', 0 );
         // the current expanded item (might be different from this.$item)
         var $expandedItem = $items.eq( this.expandedIdx );
         $expandedItem.css( 'height', $expandedItem.data( 'height' ) ).on( transEndEventName, onEndFn );
@@ -467,8 +469,8 @@ var Grid = (function() {
     },
     calcHeight : function() {
 
-      var heightPreview = $('.team-bio').height() + 100,
-          itemHeight = $('a[data-title]').height() + heightPreview;
+      var heightPreview = jq191('.team-bio').height() + 100,
+          itemHeight = jq191('a[data-title]').height() + heightPreview;
 
       this.height = heightPreview;
       this.itemHeight = itemHeight;
@@ -485,7 +487,7 @@ var Grid = (function() {
         };
 
       this.calcHeight();
-      $('#og-grid > li').removeAttr('style');
+      jq191('#og-grid > li').removeAttr('style');
       this.$previewEl.css( 'height', this.height );
       this.$item.css( 'height', this.itemHeight ).on( transEndEventName, onEndFn );
 
