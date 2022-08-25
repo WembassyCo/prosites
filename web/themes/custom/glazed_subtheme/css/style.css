@@ -1008,4 +1008,8 @@ section#block-views-block-landing-carousels-block-1 {
 .product-nav .az-ctnr.container .product-top {
 	padding-left: 0 !important;
 }
+
+section#block-views-block-product-related-block-1 {
+	padding-bottom: 60px !important;
+}
 /*Task-208 end*/
