@@ -646,6 +646,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    justify-content: center
 }
 
 #rocket .landing-list-item .landing-list-button i {
@@ -756,7 +757,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 }
 
 #rocket.page-node-type-landing-page .wrap-containers .region.region-content .page-title {
-    margin: -50px auto 0;
+    margin: -51px auto 0;
 }
 
 body.path-search a:hover,
@@ -834,13 +835,6 @@ body.path-search ul.pagination {
     padding-bottom: 8px;
 }
 
-.row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col:first-child {
-    padding-left: 0px;
-}
-
-.row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col:last-child {
-    padding-right: 0px;
-}
 
 .glazed-fluid.content-top-container {
     overflow: hidden;
@@ -886,20 +880,19 @@ section#block-views-block-landing-carousels-block-1 {
     overflow: hidden;
 }
 
-.row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col:first-child {
-    padding-left: 0px;
-}
-
-.row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .views-view-grid .views-col:last-child {
-    padding-right: 0px;
-}
-
 .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists {
     padding: 2rem 0 5rem;
 }
 
 .view-id-rocket_landing_page_lists.view-display-id-block_1.custom-defence-node {
     margin-top: 0px;
+}
+
+.product-no-tabs #block-rockettabs {
+    display: none;
+}
+.block-views-blocklanding-carousels-block-1 .form-group {
+    margin-bottom: 0 !important;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -920,6 +913,10 @@ section#block-views-block-landing-carousels-block-1 {
 
     .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists .landing-list-item {
         margin: 1rem 0px;
+    }
+
+    .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists.custom-defence-node .landing-list-item {
+        margin: 15px 0 0 0px;
     }
 
     #rocket.page-node-type-landing-page .landing-content-main-content {
@@ -943,9 +940,19 @@ section#block-views-block-landing-carousels-block-1 {
         padding-right: 0px;
     }
 
-    .row.view.view-rocket-landing-page-lists.view-id-rocket_landing_page_lists.custom-defence-node .col-sm-4:first-child .landing-list-item {
+
+    .view-id-rocket_landing_page_lists.view-display-id-block_1.custom-defence-node {
         margin-top: 0px;
     }
+
+    #rocket .custom-home-page.view-landing-carousels:before {
+        z-index: 4 ;
+    }
+}
+
+.row.custom-defence-node {
+    margin-left: -4px;
+    margin-right: -4px;
 }
 
 @media only screen and (max-width: 991px) {
