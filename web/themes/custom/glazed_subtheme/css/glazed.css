@@ -510,6 +510,13 @@ button.owl-prev {
     bottom: auto;
     text-align: left;
 }
+#block-views-block-rocket-team-block-1 .leadership-team ul#og-grid {
+  text-align: left;
+}
+#block-views-block-rocket-team-block-1 .leadership-team ul#og-grid li {
+  height: auto;
+  margin-bottom: 5px !important;
+}
 @media (min-width: 992px) {
   #block-views-block-rocket-team-block-1 .leadership-team ul#og-grid {
     max-width: 1400px;
