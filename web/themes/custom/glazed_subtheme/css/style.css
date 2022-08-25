@@ -1001,4 +1001,11 @@ section#block-views-block-landing-carousels-block-1 {
 .col-padding-limit .views-row{
 	padding: 0 4px !important;
 }
+
+#rocket .product-nav a.btn {
+	padding: 0 !important;
+}
+.product-nav .az-ctnr.container .product-top {
+	padding-left: 0 !important;
+}
 /*Task-208 end*/
