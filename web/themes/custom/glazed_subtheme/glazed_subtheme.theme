@@ -41,6 +41,12 @@ function glazed_subtheme_preprocess_html(&$variables) {
       if ($node->hasField('field_press') && $node->get('field_press')->isEmpty()) {
         $variables['attributes']['class'][] = 'product-no-resources';
       }
+	  
+	  $hide_product_tabs = array(30);
+	  $has_nidpt = array_search($node->id(),$hide_product_tabs);
+	  if(is_numeric($has_nidpt)){
+		$variables['attributes']['class'][] = 'product-no-tabs';
+	  }
     }
   }
 }
