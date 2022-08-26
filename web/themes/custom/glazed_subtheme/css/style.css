@@ -923,7 +923,8 @@ section#block-views-block-landing-carousels-block-1 {
     padding-bottom: 1rem;
 }
 
-#rocket.page-node-type-landing-page .landing-content-main-content {
+#rocket.page-node-type-landing-page .landing-content-main-content,
+#rocket.page-node-type-landing-page .landing-content-main-content a.none {
     padding-top: 17px;
 }
 
