@@ -502,6 +502,7 @@ button.owl-prev {
     width: 100%;
     margin: 0 auto;
     position: unset;
+    padding: 0 15px;
 }
 #rocket .leadership-team .caption
 {
@@ -509,6 +510,13 @@ button.owl-prev {
     left: auto;
     bottom: auto;
     text-align: left;
+}
+#block-views-block-rocket-team-block-1 .leadership-team ul#og-grid {
+  text-align: left;
+}
+#block-views-block-rocket-team-block-1 .leadership-team ul#og-grid li {
+  height: auto;
+  margin-bottom: 3px !important;
 }
 @media (min-width: 992px) {
   #block-views-block-rocket-team-block-1 .leadership-team ul#og-grid {
@@ -518,14 +526,10 @@ button.owl-prev {
     max-width: 1400px;
     margin: 0 auto;
   }
+}
+@media (min-width: 768px) {
   #block-views-block-rocket-team-block-1 .leadership-team ul#og-grid li {
     width: 19.5%;
-    margin: 0;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  #block-views-block-rocket-team-block-1 .leadership-team ul#og-grid li {
-    width: 33%;
     margin: 0;
   }
 }
@@ -533,6 +537,12 @@ button.owl-prev {
   #block-views-block-rocket-team-block-1 .leadership-team ul#og-grid li {
     width: 49%;
     margin: 0;
+  }
+  #block-views-block-rocket-team-block-1 .leadership-team .team-img {
+    display: none;
+  }
+  #block-views-block-rocket-team-block-1 .leadership-team .og-expander-inner {
+    padding: 3rem 0;
   }
 }
 #block-views-block-rocket-team-block-1 .leadership-team li.team-member a {
@@ -558,7 +568,7 @@ button.owl-prev {
   font-family: "eurostile-extended", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   line-height: 1.6rem;
-  margin: 0.3rem 0 0.8rem 0;
+  margin: 0.3rem 0 0.5rem 0;
   padding: 0;
 }
 #block-views-block-rocket-team-block-1 .leadership-team .team-bio > span {
@@ -568,6 +578,8 @@ button.owl-prev {
   margin: 0;
   padding: 0;
   color: #003a71;
+  display: inline-block;
+  width: 100%;
 }
 #block-views-block-rocket-team-block-1 .leadership-team .team-bio > p {
   margin-top: 1.2rem;
