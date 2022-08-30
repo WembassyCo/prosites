@@ -1,0 +1,173 @@
+{
+    "products": [
+		{
+            "title": "Aerojet Rocketdyne",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "723px",
+                "loc_y": "98px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne is a world-recognized aerospace and defense leader providing propulsion and energetics to its space, missile defense, strategic, tactical missile and armaments customers throughout the world. Aerojet Rocketdyne's strategic and tactical missile programs defend America, our troops and our allies."
+                },
+                {
+                    "label": "Aerojet Rocketdyne",
+                    "type": "link",
+                    "content": "/"
+                },
+                {
+                    "label": "Multi Domain Propulsion",
+                    "type": "link",
+                    "content": "pdf/FINAL_DIGITAL_DefenseAd_SASL.pdf"
+                },
+                {
+                    "label": "Air Force<br>Product Sheet",
+                    "type": "link",
+                    "content": "pdf/FINAL_DIGITAL_AirForce_ProductSheet.pdf"
+                },
+                {
+                    "label": "Video: Mission Ready",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/6qUml_cHqKQ"
+                }
+            ]
+        },
+		{
+            "title": "Space",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "341px",
+                "loc_y": "241px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne is reshaping access to space by offering affordable, innovative propulsion solutions to meet small- to heavy-lift needs and providing increased maneuverability of on-orbit assets.  Our propulsion solutions range from large booster engines that lift rockets off the pad to the tiny thrusters used to steer spacecraft during missions. We stand ready to provide our extensive experience in delivering reliable and flight-proven products for spacecraft to launch vehicles."
+                },
+                {
+                    "label": "Satellite Propulsion<br>Data Sheet",
+                    "type": "link",
+                    "content": "pdf/Satellite Propulsion Data Sheet.pdf"
+                },
+                {
+                    "label": "In-Space Propulsion Data Sheets",
+                    "type": "link",
+                    "content": "/sites/default/files/documents/In-Space%20Data%20Sheets%204.8.20.pdf"
+                },
+                {
+                    "label": "Launch Propulsion",
+                    "type": "link",
+                    "content": "/space/liquid-engines"
+                },
+                {
+                    "label": "Launch Capabilities",
+                    "type": "link",
+                    "content": "/sites/default/files/documents/Launch_Booklet_2020.pdf"
+                }
+            ]
+        },
+		{
+            "title": "Hypersonics",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "380px",
+                "loc_y": "403px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne pioneered advanced hypersonic propulsion, and has been a global leader in hypersonics for more than 40 years. Since teaming with the US Air Force Research Laboratory, DARPA, NASA and Boeing on the historic X-51A Scramjet Engine Demonstrator program ten years ago, we have continued to improve the aerothermal performance, affordability, scalability and rapid manufacturability of scramjet engines to meet emerging needs for hypersonic missile and aircraft applications. Advancing hypersonics is a national security imperative, and Aerojet Rocketdyne has the broadest range of capabilities to support hypersonic platform production. We develop and produce scramjets, solid rocket motor boosters, warheads and missile defense technologies."
+                },
+                {
+                    "label": "Aerojet Rocketdyne Hypersonics",
+                    "type": "link",
+                    "content": "/defense/hypersonics"
+                },
+                {
+                    "label": "Every Second Counts",
+                    "type": "link",
+                    "content": "pdf/FINAL_DIGITAL_HypersonicAd_M51.pdf"
+                },
+                {
+                    "label": "Video: What is<br>a Scramjet",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/KbUDvTpHWBk"
+                }
+            ]
+        },
+		{
+            "title": "At the Center of Defense and Discovery",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "573px",
+                "loc_y": "407px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Through our products and our people, Aerojet Rocketdyne pushes the boundaries of space and provides for a modern defense. Aerojet Rocketdyne is a world-recognized aerospace & defense leader, providing innovative propulsion & power for space, missile defense & strategic systems.<br><br>Our reliable propulsion is a key enabler for both current and future missions, including Hypersonics and GBSD. By developing advanced technology and employing modern manufacturing techniques, Aerojet Rocketdyne products continue to enhance the performance and efficiency of the U.S. Air Force’s strategic and tactical missile programs and launch systems that defend our country, our service members and our allies."
+                },
+                {
+                    "label": "Video: Aerojet Rocketdyne to Power GBSD",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/BK62-eFRrXc"
+                }
+            ]
+        },
+		{
+            "title": "Ground Based Strategic Deterrent",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "807px",
+                "loc_y": "371px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "<div class='popup-content-tight'>Aerojet Rocketdyne will develop a large solid rocket motor and the post-boost propulsion system for the Ground Based Strategic Deterrent (GBSD) program as a key member of Northrop Grumman’s nationwide GBSD team.<br><br>The company’s propulsion has powered every U.S. Air Force Intercontinental Ballistic Missile (ICBM) fielded. Aerojet Rocketdyne has invested significantly in advanced manufacturing capability and new facilities to provide cutting-edge and affordable propulsion solutions for critical next generation national security programs like GBSD.<br><br></div><div class='popup-content-alert'><b>BREAKING NEWS</b><br>Aerojet Rocketdyne selected to power nation's next generation strategic deterrent. Click <a href='/article/aerojet-rocketdyne-selected-power-nation%E2%80%99s-next-generation-strategic-deterrent' target='_blank'>here</a> to learn more.</div>"
+                },
+                {
+                    "label": "Ground Based<br>Strategic Deterrent",
+                    "type": "link",
+                    "content": "/defense/ground-based-strategic-deterrent-gbsd"
+                },
+                {
+                    "label": "Video: Recent Example of an Aerojet Rocketdyne Advanced Large Solid Rocket Motor Test",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/JW_hHceAVU8",
+                    "caption": "One example of how Aerojet Rocketdyne has improved on decades of solid rocket motor propulsion is the company’s <a href='/article/aerojet-rocketdyne-successfully-tests-advanced-large-solid-rocket-motor' target='_blank'>recent announcement</a> of a successful demonstration of an advanced large solid rocket motor, whose design incorporates numerous advanced technologies and materials."
+                }
+            ]
+        },
+		{
+            "title": "Contact Us",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "290px",
+                "loc_y": "560px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "At Aerojet Rocketdyne our people power our success, and our people are here for you.  If you have any questions or would like more information, please contact Teresa Connor (<a href= 'mailto:teresa.connor@rocket.com'>teresa.connor@rocket.com</a>, <a href='tel:7032361262'>(703) 236-1262</a>) or use the \"Send a Message\" button.<br><img src='img/teresa_connor.jpg'>"
+                },
+                {
+                    "label": "Send a Message",
+                    "type": "link",
+                    "content": "/contact"
+                }
+            ]
+        }
+    ],
+    "background": {
+        "image_ref": "afa_virtual_booth_bkgd_1280x756.jpg"
+    }
+}

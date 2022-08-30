@@ -1,0 +1,28 @@
+<?xml-stylesheet type="text/css" href="../css/afa_virtual_booth.css" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="1280px" height="756px" viewBox="0 0 1280 756">
+<defs>
+<filter id="Filter_1" x="-41.473593759157694%" y="-29.95031235828784%" width="182.9471875183154%" height="159.9006247165757%" color-interpolation-filters="sRGB">
+<feFlood flood-color="#FFCC00" flood-opacity="1" in="SourceGraphic" result="result1"/>
+
+<feComposite in2="SourceGraphic" in="result1" operator="in" result="result2"/>
+
+<feGaussianBlur in="result2" stdDeviation="16.666666666666668,16.666666666666668" result="result3"/>
+
+<feComposite in2="SourceGraphic" in="result3" operator="out" result="result4"/>
+</filter>
+
+<g id="hitspot_monitor_0_Layer0_0_FILL">
+<path fill="#00FF00" stroke="none" d="
+M 166.95 264.8
+L 167.85 0 0 0 0.9 264.8 166.95 264.8 Z"/>
+</g>
+</defs>
+
+<g filter="url(#Filter_1)" transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 541.55,243.45) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#hitspot_monitor_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

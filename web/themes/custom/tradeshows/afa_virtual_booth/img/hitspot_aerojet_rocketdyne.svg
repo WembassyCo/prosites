@@ -1,0 +1,32 @@
+<?xml-stylesheet type="text/css" href="../css/afa_virtual_booth.css" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="1280px" height="756px" viewBox="0 0 1280 756">
+<defs>
+<filter id="Filter_1" x="-20%" y="-58.73471136969206%" width="140%" height="217.46942273938413%" color-interpolation-filters="sRGB">
+<feFlood flood-color="#FFCC00" flood-opacity="1" in="SourceGraphic" result="result1"/>
+
+<feComposite in2="SourceGraphic" in="result1" operator="in" result="result2"/>
+
+<feGaussianBlur in="result2" stdDeviation="16.666666666666668,16.666666666666668" result="result3"/>
+
+<feComposite in2="SourceGraphic" in="result3" operator="out" result="result4"/>
+</filter>
+
+<g id="hitspot_aerojet_rocketdyne_0_Layer0_0_FILL">
+<path fill="#00FF00" stroke="none" d="
+M 415.75 92.2
+Q 527.7 92.4 629.3 96.15 731.7 100 801.1 106.6
+L 802.65 24.55
+Q 722.8 12.7 620 6.25 518.45 -0.15 409.45 -0.3 297.95 -0.45 195 5.95 86.55 12.7 0.6 25.95
+L 2.15 108.1
+Q 163.1 91.85 415.75 92.2 Z"/>
+</g>
+</defs>
+
+<g filter="url(#Filter_1)" transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 241.95,107.65) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#hitspot_aerojet_rocketdyne_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>
