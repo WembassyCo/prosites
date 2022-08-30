@@ -750,7 +750,8 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     padding-right: 0px;
 }
 
-#block-rocketlandingcontentwithimage .az-ctnr.container {
+#block-rocketlandingcontentwithimage .az-ctnr.container,
+.page-node-type-page .az-ctnr.container{
     width: auto !important;
 }
 
