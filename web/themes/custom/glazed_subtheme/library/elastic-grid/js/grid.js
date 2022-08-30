@@ -402,6 +402,7 @@ var Grid = (function() {
       }
 
       var self = this;
+      this.setHeights();
       
       // remove the current image in the preview
       if( typeof self.$largeImg != 'undefined' ) {
@@ -465,6 +466,9 @@ var Grid = (function() {
 
     },
     calcHeight : function() {
+
+      // clear all items height first
+      jq191('li.team-member').removeAttr('style');
 
       var heightPreview = jq191('.team-bio').height() + 100,
           itemHeight = jq191('a[data-title]').height() + heightPreview;
