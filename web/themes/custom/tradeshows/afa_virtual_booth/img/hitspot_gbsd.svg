@@ -1,0 +1,34 @@
+<?xml-stylesheet type="text/css" href="../css/afa_virtual_booth.css" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="1280px" height="756px" viewBox="0 0 1280 756">
+<defs>
+<filter id="Filter_1" x="-47.242458318467534%" y="-52.58639832708278%" width="194.48491663693505%" height="205.17279665416555%" color-interpolation-filters="sRGB">
+<feFlood flood-color="#FFCC00" flood-opacity="1" in="SourceGraphic" result="result1"/>
+
+<feComposite in2="SourceGraphic" in="result1" operator="in" result="result2"/>
+
+<feGaussianBlur in="result2" stdDeviation="16.666666666666668,16.666666666666668" result="result3"/>
+
+<feComposite in2="SourceGraphic" in="result3" operator="out" result="result4"/>
+</filter>
+
+<g id="hitspot_gbsd_0_Layer0_0_FILL">
+<path fill="#00FF00" stroke="none" d="
+M 109.45 66.1
+Q 106.6 64.55 102.55 63.35
+L 53.75 13.75
+Q 46.05 6.4 30.7 2.6 15.75 -1.15 0 0 0.55 14.45 7.45 30.25 14.75 47 23.65 51.7 32.25 57.9 55.15 74.2 74.5 88.1 78.2 91.7 79.8 97.15 82.3 98.7
+L 119 123.25
+Q 120.85 124 123 123.75 124.7 123.55 127.15 122.6 132.65 120.1 135.2 117.2 138.5 113.4 139.9 110.7 141.25 108.1 141.75 104.75 142.15 102 141.15 99.8 140.35 98.05 138.25 96
+L 115.25 70.25
+Q 112.5 67.7 109.45 66.1 Z"/>
+</g>
+</defs>
+
+<g filter="url(#Filter_1)" transform="matrix( 1, 0, 0, 1, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 799.65,303.7) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#hitspot_gbsd_0_Layer0_0_FILL"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,307 @@
+{
+    "background": {
+        "image_ref": "ascend_virtual_booth_bkgd_1280x756.jpg"
+    },
+    "products": [
+		{
+            "title": "Aerojet Rocketdyne",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "360px",
+                "loc_y": "65px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne’s unparalleled power and propulsion expertise is enabling a new era of exploration. We are developing the systems and technologies to make a new reach possible, enabling next-generation launch vehicles such as the Space Launch System, and human-rated spacecraft such as Orion. Our power and propulsion systems will not just help deliver the first woman and the next man to the surface of the Moon, but also assist in paving the way for humans to travel further into deep space than ever before. Learn more at <a href='/space' target='_blank'>rocket.com/space</a>."
+                },
+                {
+                    "label": "We are GO for Launch",
+                    "type": "link",
+                    "content": "pdf/launch_booklet_2020.pdf"
+                },
+                {
+                    "label": "We are GO for Exploration",
+                    "type": "link",
+                    "content": "pdf/exploration_book_2019.pdf"
+                },
+                {
+                    "label": "Video: Mission Ready",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/a1E38ZBOKUI"
+                },
+                {
+                    "label": "We’re Hiring",
+                    "type": "link",
+                    "content": "/careers"
+                }
+            ]
+        },
+		{
+            "title": "Innovation",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "205px",
+                "loc_y": "410px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne has invested extensive time and resources to provide innovative techniques, materials and solutions to the unique challenges of working in the aerospace industry.  This investment is now paying dividends as we begin to incorporate the technology into production programs."
+                },
+                {
+                    "label": "Additive Manufacturing",
+                    "type": "link",
+                    "content": "/innovation/additive-manufacturing"
+                },
+                {
+                    "label": "Nuclear Thermal Propulsion",
+                    "type": "link",
+                    "content": "/innovation/nuclear-thermal-propulsion"
+                },
+                {
+                    "label": "Green Propulsion",
+                    "type": "link",
+                    "content": "/innovation/green-propulsion"
+                },
+                {
+                    "label": "Rocket Shop",
+                    "type": "link",
+                    "content": "/innovation/rocket-shop-defense-advanced-programs"
+                }
+            ]
+        },
+        {
+            "title": "Human Exploration",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "430px",
+                "loc_y": "176px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne has been a pivotal player in America’s human spaceflight program from the very beginning, and that legacy continues today. In addition to the engines for the Nation’s next deep space rocket, we are the primary supplier of propulsion and power systems for in-space crew and cargo transports."
+                },
+                {
+                    "label": "Space Launch System",
+                    "type": "link",
+                    "content": "/space/launch-vehicle-propulsion/space-launch-system"
+                },
+                {
+                    "label": "Orion",
+                    "type": "link",
+                    "content": "/space/human-exploration/orion"
+                },
+                {
+                    "label": "Video: What is Artemis?",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/33SQoyVAOF0"
+                },
+                {
+                    "label": "CST-100 Starliner",
+                    "type": "link",
+                    "content": "/space/human-exploration/cst-100-starliner"
+                }
+            ]
+        },
+		{
+            "title": "Space Launch System",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "345px",
+                "loc_y": "335px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "NASA’s Space Launch System (SLS), America’s next-generation heavy-lift rocket, is powered by Aerojet Rocketdyne. Our propulsion plays a critical role in SLS’s ability to successfully launch the heaviest, largest, and most valuable payloads to deep space. Our RS-25 and RL10 rocket engines provide boost and upper stage propulsion for SLS. Learn more at: <a href='/space/launch-vehicle-propulsion/space-launch-system' target='_blank'>rocket.com/space/launch-vehicle-propulsion/space-launch-system</a>."
+                },
+                {
+                    "label": "RS-25 Engine",
+                    "type": "link",
+                    "content": "/space/liquid-engines/rs-25-engine"
+                },
+                {
+                    "label": "RL10 Engine",
+                    "type": "link",
+                    "content": "/space/liquid-engines/rl10-engine"
+                },
+                {
+                    "label": "Core Stage Green Run",
+                    "type": "link",
+                    "content": "/space/greenrun"
+                }
+            ]
+        },
+        {
+            "title": "RS-25: Flight-Proven Power for SLS",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "540px",
+                "loc_y": "260px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne is the prime contractor for the flight proven, high-performance RS-25 engines used to propel America’s next-generation heavy lift launch vehicle, NASA’s Space Launch System (SLS). Four RS-25 engines located at the bottom of the core stage will power the rocket on its eight and a half minute climb to space with more than 2 million pounds of thrust. Learn more about this incredible engine at: <a href='/space/liquid-engines/rs-25-engine' target='_blank'>rocket.com/space/liquid-engines/rs-25-engine</a>."
+                },
+                {
+                    "label": "Video: What is<br>RS-25?",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/oJxMc8_wqCo"
+                },
+                {
+                    "label": "Video: RS-25 Engine Test",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/2_XGPfY3mIs"
+                },
+                {
+                    "label": "RS-25 Data Sheet",
+                    "type": "link",
+                    "content": "/sites/default/files/documents/lr_3-26-19_RS25_data%20sheet.pdf"
+                },
+                {
+                    "label": "RS-25 Incredible Facts",
+                    "type": "link",
+                    "content": "/sites/default/files/documents/rs-25_brochure.pdf"
+                }
+            ]
+        },
+        {
+            "title": "Space",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "680px",
+                "loc_y": "184px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne is reshaping access to space by offering affordable, innovative propulsion solutions to meet small- to heavy-lift needs and providing increased maneuverability of on-orbit assets. Our propulsion solutions range from large booster engines that lift rockets off the pad to the tiny thrusters used to steer spacecraft during missions. We stand ready to provide our extensive experience in delivering reliable and flight-proven products for spacecraft to launch vehicles."
+                },
+                {
+                    "label": "Satellite Propulsion Data Sheet",
+                    "type": "link",
+                    "content": "/sites/default/files/air_armament_virtual_booth/pdf/Satellite%20Propulsion%20Data%20Sheet.pdf"
+                },
+                {
+                    "label": "In-Space Propulsion Data Sheets",
+                    "type": "link",
+                    "content": "/sites/default/files/documents/In-Space%20Data%20Sheets%204.8.20.pdf"
+                },
+                {
+                    "label": "Launch Propulsion",
+                    "type": "link",
+                    "content": "/space/launch-vehicle-propulsion"
+                },
+                {
+                    "label": "Liquid Engines",
+                    "type": "link",
+                    "content": "/space/liquid-engines"
+                }
+            ]
+        },
+		{
+            "title": "Hypersonics",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "947px",
+                "loc_y": "350px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne pioneered advanced hypersonic propulsion, and has been a global leader in hypersonics for more than 40 years. Since teaming with the US Air Force Research Laboratory, DARPA, NASA and Boeing on the historic X-51A Scramjet Engine Demonstrator program ten years ago, we have continued to improve the aerothermal performance, affordability, scalability and rapid manufacturability of scramjet engines to meet emerging needs for hypersonic missile and aircraft applications. Advancing hypersonics is a national security imperative, and Aerojet Rocketdyne has the broadest range of capabilities to support hypersonic platform production. We develop and produce scramjets, solid rocket motor boosters, warheads and missile defense technologies."
+                },
+                {
+                    "label": "Aerojet Rocketdyne Hypersonics",
+                    "type": "link",
+                    "content": "/defense/hypersonics"
+                },
+                {
+                    "label": "Every Second Counts",
+                    "type": "link",
+                    "content": "pdf/HypersonicAd_M51.pdf"
+                },
+                {
+                    "label": "Video: What is<br>a Scramjet",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/KbUDvTpHWBk"
+                }
+            ]
+        },
+        {
+            "title": "Follow Us",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "755px",
+                "loc_y": "365px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Connect with us! Aerojet Rocketdyne maintains a significant online presence and we invite you to connect with us on social media using the buttons above or at <a href='' target='_blank'>rocket.com</a>."
+                },
+                {
+                    "label": "Facebook",
+                    "type": "link",
+                    "content": "https://www.facebook.com/AerojetRdyne"
+                },
+                {
+                    "label": "Instagram",
+                    "type": "link",
+                    "content": "https://www.instagram.com/Aerojet_Rocketdyne"
+                },
+                {
+                    "label": "LinkedIn",
+                    "type": "link",
+                    "content": "https://www.linkedin.com/company/aerojet-rocketdyne"
+                },
+                {
+                    "label": "YouTube",
+                    "type": "link",
+                    "content": "https://www.youtube.com/user/AerojetRocketdyne"
+                },
+                {
+                    "label": "Twitter",
+                    "type": "link",
+                    "content": "https://twitter.com/AerojetRdyne"
+                }
+            ]
+        },
+		{
+            "title": "Contact Us",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "705px",
+                "loc_y": "460px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "At Aerojet Rocketdyne our people power our success, and our people are here for you. If you have any questions or would like more information, please contact Teresa Connor (<a href= 'mailto:teresa.connor@rocket.com'>teresa.connor@rocket.com</a>, <a href='tel:7032361262'>(703) 236-1262</a>) or use the \"Send a Message\" button.<br><img src='img/teresa_connor.jpg'>"
+                },
+                {
+                    "label": "Aerojet Rocketdyne",
+                    "type": "link",
+                    "content": "/"
+                },
+                {
+                    "label": "Send a Message",
+                    "type": "link",
+                    "content": "/contact"
+                }
+            ]
+        }
+    ]
+}

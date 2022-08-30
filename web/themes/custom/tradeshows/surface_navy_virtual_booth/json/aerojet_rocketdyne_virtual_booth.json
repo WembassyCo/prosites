@@ -1,0 +1,320 @@
+{
+    "background": {
+        "image_ref": "surface_navy_virtual_booth_bkgd_1280x756.jpg"
+    },
+    "products": [
+		{
+            "title": "Aerojet Rocketdyne",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "410px",
+                "loc_y": "66px",
+                "label_width_offset": "5px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne provides innovative power and propulsion to help protect our warfighters, our nation, and our allies across multiple domains – sea, air, land and space.  We are the only domestic provider of solid, liquid, electric and air-breathing propulsion.  By employing advanced technology and employing modern manufacturing techniques, Aerojet Rocketdyne products continue to enhance the performance and efficiency of the U.S. Navy’s strategic and tactical missile programs that defend our country, our service members and our allies.  For more than 60 years we’ve supported the Navy in its mission to win conflicts while maintaining security through sustained forward naval presence.  Our team is committed to serving the needs of the Navy’s warfighters and to supporting our nation’s defense."
+                },
+                {
+                    "label": "Navy Product Sheet",
+                    "type": "link",
+                    "content": "pdf/Navy Products.pdf"
+                },
+                {
+                    "label": "Video: Mission Ready",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/6qUml_cHqKQ"
+                }
+            ]
+        },
+		{
+            "title": "Innovation",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "255px",
+                "loc_y": "412px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne has invested extensive time and resources for more than two decades to evolve additive manufacturing technology, also known as 3-D printing, to meet the stringent requirements of rocket engine and defense systems applications. This investment is now paying dividends as we begin to incorporate the technology into production programs. 3-D printing can significantly reduce lead times, make products more affordable, and enable new approaches to design that were not previously feasible. In particular, 3-D printing has made a large impact on Aerojet Rocketdyne's ability to deliver hypersonic flight."
+                },
+                {
+                    "label": "Additive Manufacturing",
+                    "type": "link",
+                    "content": "/innovation/additive-manufacturing"
+                },
+                {
+                    "label": "Additive Manufacturing Product Card",
+                    "type": "link",
+                    "content": "/sites/default/files/documents/Capabilities/PDFs/AM_ProductCard.pdf"
+                },
+                {
+                    "label": "Rocket Shop",
+                    "type": "link",
+                    "content": "/innovation/rocket-shop-defense-advanced-programs"
+                }
+            ]
+        },
+		{
+            "title": "Hypersonics",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "390px",
+                "loc_y": "168px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne pioneered advanced hypersonic propulsion, and has been a global leader in hypersonics for more than 40 years. Since teaming with the US Air Force Research Laboratory, DARPA, NASA and Boeing on the historic X-51A Scramjet Engine Demonstrator program ten years ago, we have continued to improve the aerothermal performance, affordability, scalability and rapid manufacturability of scramjet engines to meet emerging needs for hypersonic missile and aircraft applications. Advancing hypersonics is a national security imperative, and Aerojet Rocketdyne has the broadest range of capabilities to support hypersonic platform production. We develop and produce scramjets, solid rocket motor boosters, warheads and missile defense technologies."
+                },
+                {
+                    "label": "Aerojet Rocketdyne Hypersonics",
+                    "type": "link",
+                    "content": "/defense/hypersonics"
+                },
+                {
+                    "label": "Every Second Counts",
+                    "type": "link",
+                    "content": "pdf/HypersonicAd_M51.pdf"
+                },
+                {
+                    "label": "Video: What is<br>a Scramjet",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/KbUDvTpHWBk"
+                }
+            ]
+        },
+		{
+            "title": "Surface Launched Weapons",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "455px",
+                "loc_y": "270px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Production programs include solid rocket motors for STANDARD Missile Mk 72 and Mk 104 as well as Tactical Tomahawk Mk 135.  Development programs include advanced propulsion systems, pulse motors, attitude control systems, jet reaction control systems, STANDARD Missile upgrades and advanced air-launched pulse motors.<br><br>Technology capabilities include controllable thrust, composites, insensitive munitions and highly-loaded propellant grains."
+                },
+                {
+                    "label": "AEGIS Ballistic Missile Defense System",
+                    "type": "link",
+                    "content": "/defense/missile-defense/aegis-ballistic-missile-defense-system"
+                },
+                {
+                    "label": "Standard Missile",
+                    "type": "link",
+                    "content": "/defense/tactical-missiles/standard-missile-mk104-mk72"
+                },
+                {
+                    "label": "Tactical Tomahawk",
+                    "type": "link",
+                    "content": "/defense/tactical-missiles/tactical-tomahawk"
+                }
+            ] 
+        },
+        {
+            "title": "Faster, Farther, First",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "640px",
+                "loc_y": "272px",
+                "label_width_offset": "8px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "<div class='popup-content-small'>Aerojet Rocketdyne is the post boost propulsion supplier for all of the current U.S. strategic deterrence weapon systems and currently produces propulsion systems for the Navy Trident II D5 missile systems.<br><br>Aerojet Rocketdyne has supported the U.S. Navy's submarine-launched Fleet Ballistic Missile (FBM) program for more than 40 years with boost and post boost propulsion systems produced at its Gainesville and Orange County, Virginia, facilities. To date, the company has manufactured nearly 4,000 Post Boost Control System Gas Generator Units for the Trident I C4 and Trident II D5 programs, along with the Nose Fairing Jettison Motors and Third State Eject Motors.<br><br>Today, Aerojet Rocketdyne continues its support on the Trident II D5 missile currently aboard USS OHIO-class submarines and baselined for the new Columbia class submarines. Aerojet Rocketdyne is proud to be part of the FBM team that has a remarkable mission success track record. As the leader in emerging technologies to enhance capability and affordability, we are well-positioned to design, develop and produce the country’s next-generation FBM propulsion systems.</div>"
+                },
+                {
+                    "label": "Strategic Systems",
+                    "type": "link",
+                    "content": "/defense/strategic-systems"
+                },
+                {
+                    "label": "Maritime & Undersea Systems",
+                    "type": "link",
+                    "content": "/defense/maritime-undersea-systems"
+                },
+                {
+                    "label": "Video: Aerojet Rocketdyne Defense",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/KhhgFn1Mbwc"
+                }
+            ]  
+        },
+        {
+            "title": "Nulka",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "772px",
+                "loc_y": "294px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "The Nulka decoy system, being developed in cooperation with Australia, is an integral part of the ship self defense system against active RF anti-ship missile attacks on most U.S. Navy ships. Nulka is currently being installed on Australian and Canadian ships. The system is effective over a full 360 degrees around the defended ship. The Aerojet Rocketdyne rocket motor launches the decoy payload and hovers it away from the ship where it simulates a radar return from a large ship overlapping the “target” signal. The decoy provides a larger, more attractive target to the anti-ship missile as it moves slowly away from the ship, thus defeating the threat."
+                },
+                {
+                    "label": "Nulka Decoy System",
+                    "type": "link",
+                    "content": "/defense/targets-decoys/nulka"
+                }
+            ]  
+        },
+        {
+            "title": "Supersonic Sea Skimming Target (SSST)",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "620px",
+                "loc_y": "342px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne is a leading supplier of propulsion systems and components that support other target and decoy systems, including the variable flow ducted rocket (VFDR) that powers the GQM-163A Coyote Supersonic Sea Skimming Target, and the solid rocket motor for the Nulka active missile decoy, which is a highly effective defense system for ships to protect against modern, anti-ship missiles."
+                },
+                {
+                    "label": "Coyote Supersonic Sea Skimming Target",
+                    "type": "link",
+                    "content": "/defense/targets-decoys/coyote-supersonic-sea-skimming-target"
+                }
+            ]  
+        },
+        {
+            "title": "Anti-Submarine Warfare",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "820px",
+                "loc_y": "168px",
+                "label_width_offset": "2px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne develops next-generation safe power and propulsion systems for manned and unmanned vehicles and weapons systems, as well as integrated power management and distribution systems for seabed infrastructure.  Based upon decades of man-rated space power systems, such as the International Space Station, Aerojet Rocketdyne has taken that system-level experience and provided that same rigor and attention to detail to build complete power systems for undersea systems such as infrastructure and vehicles, including safe energy production and storage using the latest technologies in batteries and fuel cells.<br><br>The original prime for one of the Navy’s primary torpedo weapon systems, Aerojet Rocketdyne now focuses its significant propulsion expertise on torpedo propulsion, including optimization of existing systems and developing next generation power and propulsion concepts to meet the future needs of our customers."
+                },
+                {
+                    "label": "Targets/Decoys",
+                    "type": "link",
+                    "content": "/defense/targets-decoys"
+                }
+            ]
+        },
+        {
+            "title": "Torpedo",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "834px",
+                "loc_y": "338px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "<div class='popup-content-small'>Aerojet Rocketdyne develops next-generation safe power and propulsion systems for manned and unmanned vehicles and weapons systems, as well as integrated power management and distribution systems for seabed infrastructure.<br><br>Based upon decades of man-rated space power systems, such as the International Space Station, Aerojet Rocketdyne has taken that system-level experience and provided that same rigor and attention to detail to build complete power systems for undersea systems such as infrastructure and vehicles, including safe energy production and storage using the latest technologies in batteries and fuel cells.<br><br>The original prime for one of the Navy’s primary torpedo weapon systems, Aerojet Rocketdyne now focuses its significant propulsion expertise on torpedo propulsion, including optimization of existing systems and developing next generation power and propulsion concepts to meet the future needs of our customers.</div>"
+                },
+                {
+                    "label": "News Release Aerojet Rocketdyne to Develop Advanced Propulsion System for U.S. Navy’s Advanced Lightweight Torpedo",
+                    "type": "link",
+                    "content": "/article/aerojet-rocketdyne-develop-advanced-propulsion-system-us-navy%E2%80%99s-advanced-lightweight-torpedo"
+                }
+            ]
+        },
+		{
+            "title": "Tactical Missiles",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "997px",
+                "loc_y": "368px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Production programs include solid rocket motors for STANDARD Missile Mk 72 and Mk 104 and Tactical Tomahawk Mk 135.  Development programs include advanced propulsion systems, pulse motors, attitude control systems, jet reaction control systems, STANDARD Missile upgrades and advanced air-launched pulse motors.  Technology capabilities include controllable thrust, composites, insensitive munitions and highly-loaded propellant grains."
+                },
+                {
+                    "label": "Tactical Missiles",
+                    "type": "link",
+                    "content": "/defense/tactical-missiles"
+                }
+            ]
+        },
+        {
+            "title": "Follow Us",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "329px",
+                "loc_y": "310px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne maintains a significant online presence.  Visit us at the following sites."
+                },
+                {
+                    "label": "Facebook",
+                    "type": "link",
+                    "content": "https://www.facebook.com/AerojetRdyne"
+                },
+                {
+                    "label": "Instagram",
+                    "type": "link",
+                    "content": "https://www.instagram.com/Aerojet_Rocketdyne"
+                },
+                {
+                    "label": "LinkedIn",
+                    "type": "link",
+                    "content": "https://www.linkedin.com/company/aerojet-rocketdyne"
+                },
+                {
+                    "label": "YouTube",
+                    "type": "link",
+                    "content": "https://www.youtube.com/user/AerojetRocketdyne"
+                },
+                {
+                    "label": "Twitter",
+                    "type": "link",
+                    "content": "https://twitter.com/AerojetRdyne"
+                }
+            ]
+        },
+		{
+            "title": "Contact Us",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "740px",
+                "loc_y": "470px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "At Aerojet Rocketdyne our people power our success, and our people are here for you. If you have any questions or would like more information, please contact Teresa Connor (<a href= 'mailto:teresa.connor@rocket.com'>teresa.connor@rocket.com</a>, <a href='tel:7032361262'>(703) 236-1262</a>) or use the \"Send a Message\" button.<br><img src='img/teresa_connor.jpg'>"
+                },
+                {
+                    "label": "Aerojet Rocketdyne",
+                    "type": "link",
+                    "content": "/"
+                },
+                {
+                    "label": "Send a Message",
+                    "type": "link",
+                    "content": "/contact"
+                }
+            ]
+        }
+    ]
+}

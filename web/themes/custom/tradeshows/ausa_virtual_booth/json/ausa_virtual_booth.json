@@ -1,0 +1,327 @@
+{
+    "products": [
+		{
+            "title": "Aerojet Rocketdyne",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "360px",
+                "loc_y": "65px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne provides innovative power and propulsion to help protect our warfighters, our nation, and our allies across multiple domains – sea, air, land and space.  For more than 80 years, we’ve supported the Army in its mission to be the most lethal and capable ground combat force in history."
+                },
+                {
+                    "label": "CEO Eileen Drake Selected for AUSA John W. Dixon Award",
+                    "type": "link",
+                    "content": "https://www.ausa.org/national-awards"
+                },
+                {
+                    "label": "Army Product Sheet",
+                    "type": "link",
+                    "content": "pdf/AR Support to Army.pdf"
+                },
+                {
+                    "label": "Video: Mission Ready",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/6qUml_cHqKQ"
+                }
+            ]
+        },
+		{
+            "title": "Hypersonics",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "280px",
+                "loc_y": "160px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne pioneered advanced hypersonic propulsion, and has been a global leader in hypersonics for more than 40 years. Since teaming with the US Air Force Research Laboratory, DARPA, NASA and Boeing on the historic X-51A Scramjet Engine Demonstrator program ten years ago, we have continued to improve the aerothermal performance, affordability, scalability and rapid manufacturability of scramjet engines to meet emerging needs for hypersonic missile and aircraft applications. Advancing hypersonics is a national security imperative, and Aerojet Rocketdyne has the broadest range of capabilities to support hypersonic platform production. We develop and produce scramjets, solid rocket motor boosters, warheads and missile defense technologies."
+                },
+                {
+                    "label": "Aerojet Rocketdyne Hypersonics",
+                    "type": "link",
+                    "content": "/defense/hypersonics"
+                },
+                {
+                    "label": "Every Second Counts",
+                    "type": "link",
+                    "content": "pdf/HypersonicAd_M51.pdf"
+                },
+                {
+                    "label": "Video: What is<br>a Scramjet",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/KbUDvTpHWBk"
+                }
+            ]
+        },
+        {
+            "title": "PAC-3",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "318px",
+                "loc_y": "350px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne has supported the PAC-3 Missile System since its inception. The PAC-3 Cost Reduction Initiative (CRI) variant increases interceptor effectiveness by adding hit-to-kill technology. The PAC-3 Missile Segment Enhancement (MSE) provides further performance enhancements adding greater speed and increased maneuverability. AR powers the PAC-3 MSE with a dual-pulse solid rocket motor, attitude control motors, and a Lethality Enhancer (LE)."
+                },
+                {
+                    "label": "PAC-3 MSE",
+                    "type": "link",
+                    "content": "/defense/missile-defense/pac-3-mse"
+                }
+            ]
+        },
+        {
+            "title": "Guided Multiple Launch Rocket System (GMLRS)",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "445px",
+                "loc_y": "334px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne produces the solid propellant rocket motor for the Guided Multiple Launch Rocket System (GMLRS). GMLRS fires surface-to-surface rockets and has been highly effective in recent combat operations, receiving the nickname \"70km sniper rifle.\""
+                },
+                {
+                    "label": "GMLRS",
+                    "type": "link",
+                    "content": "/defense/tactical-missiles/gmlrs"
+                },
+                {
+                    "label": "Video: What is a Solid Rocket Motor (SRM)?",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/t7KfkxzY2u0"
+                },
+                {
+                    "label": "Solid Rocket Motors Product Sheet",
+                    "type": "link",
+                    "content": "pdf/SRM_ProductSheet_2020.pdf"
+                }
+            ]
+        },
+        {
+            "title": "Aeorjet Rocketdyne Supports the Warfighter",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "540px",
+                "loc_y": "260px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne provides innovative power and propulsion to help protect our warfighters, our nation, and our allies across multiple domains – sea, air, land and space. For more than 80 years, we’ve supported the Army in its mission to be the most lethal and capable ground combat force in history."
+                },
+                {
+                    "label": "Video: Aerojet Rocketdyne Defense",
+                    "type": "video",
+                    "content": "https://www.youtube.com/embed/KhhgFn1Mbwc"
+                }
+            ]
+        },
+        {
+            "title": "Specialty Metals",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "855px",
+                "loc_y": "162px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne supplies the heavy alloy weights for Boeing’s revolutionary Composite Main Rotor Blade (CMRB) in support of the AH-64 Apache helicopter. The precision-machined tungsten alloy weights perform a critical function in establishing aeromechanical stability of the blade. Aerojet Ordnance Tennessee, Inc. (AOT), a subsidiary of Aerojet Rocketdyne, is an industry leader in the development and production of high performance specialty metal components for munitions.  AOT has numerous advanced specialty metal capabilities including: powder metallurgy, primary metal processing, metal casting, heat treatment, CNC machining, forging and swaging."
+                },
+                {
+                    "label": "Specialty Metals",
+                    "type": "link",
+                    "content": "/defense/munitions/specialty-metals"
+                }
+            ]
+        },
+        {
+            "title": "Stinger and Javelin",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "850px",
+                "loc_y": "295px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "The \"fire-and-forget\" Stinger missile employs a passive infrared seeker to home in on its airborne target. The Stinger missile is launched by a small launch motor that pushes it a safe distance from the operator before engaging the main flight motor, both solid propellant rocket motors are provided by Aerojet Rocketdyne.<br><br>Aerojet Rocketdyne's Javelin solid rocket motor is an integrated pulse motor with a launcher eject motor and flight motor in a single unit. The Block 1 adds additional length to the flight motor to achieve additional range. Javelin is versatile, adaptable to many platforms, and is effective against tanks, bunkers, buildings, small boats, and slow-moving helicopters. Javelin is combat-proven and utilizes fire-and-forget infrared technology."
+                },
+                {
+                    "label": "Stinger",
+                    "type": "link",
+                    "content": "/defense/tactical-missiles/stinger"
+                },
+                {
+                    "label": "Javelin",
+                    "type": "link",
+                    "content": "/defense/tactical-missiles/javelin"
+                }
+            ]
+        },
+        {
+            "title": "Terminal High Altitude Area Defense (THAAD)",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "688px",
+                "loc_y": "334px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "The Terminal High Altitude Area Defense (THAAD) weapon system is a critical element of the Nation’s Ballistic Missile Defense System.  Aerojet Rocketdyne supplies both the solid rocket booster motor technology that powers the interceptor, as well as the Divert and Attitude Control System (DACS), a high-precision, quick-reaction propulsion system that positions the interceptor to successfully defeat an incoming ballistic missile."
+                },
+                {
+                    "label": "Terminal High Altitude Area Defense (THAAD)",
+                    "type": "link",
+                    "content": "/defense/missile-defense/thaad"
+                },
+                {
+                    "label": "Aerojet Rocketdyne Delivers Propulsion for THAAD",
+                    "type": "link",
+                    "content": "/article/aerojet-rocketdyne-delivers-600th-boost-motor-and-divert-and-attitude-control-system-thaad"
+                },
+                {
+                    "label": "THAAD Missile Propulsion",
+                    "type": "link",
+                    "content": "pdf/THAAD_ProductSheet_2020.pdf"
+                }
+            ]
+        },
+		{
+            "title": "Tactical Missiles",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "990px",
+                "loc_y": "355px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "<div class='popup-content-small'>Production programs include solid rocket motors for Guided Multiple Launch Rocket System (GMLRS), Army Tactical Missile System (ATACMS), STANDARD Missile Mk 72 and Mk 104, Tactical Tomahawk Mk 135, Javelin, Griffin™, PATRIOT PAC-2 Guidance Enhanced Missile TBM (GEM-T) and Stinger.<br><br>Development programs include advanced propulsion systems, pulse motors, attitude control systems, jet reaction control systems, GMLRS Insensitive Munition (IM), Griffin™ Extended Range (ER), STANDARD Missile upgrades and advanced air-launched pulse motors.<br><br>Technology capabilities include controllable thrust, composites, insensitive munitions and highly-loaded propellant grains.Aerojet Rocketdyne produces an advanced solid propellant rocket motor for Javelin. Aerojet Rocketdyne's Javelin solid rocket motor is an integrated pulse motor with a launcher eject motor and flight motor in a single unit.</div>"
+                },
+                {
+                    "label": "Tactical Missiles",
+                    "type": "link",
+                    "content": "/defense/tactical-missiles"
+                }
+            ]
+        },
+		{
+            "title": "Additive Manufacturing and Specialty Metals",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "205px",
+                "loc_y": "410px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "<div class='popup-content-small popup-content-tight'>Aerojet Rocketdyne has invested extensive time and resources for more than two decades to evolve additive manufacturing technology, also known as 3-D printing, to meet the stringent requirements of rocket engine and defense systems applications. This investment is now paying dividends as we begin to incorporate the technology into production programs. 3-D printing can significantly reduce lead times, make products more affordable, and enable new approaches to design that were not previously feasible. In particular, 3-D printing has made a large impact on Aerojet Rocketdyne's ability to deliver hypersonic flight.<br><br>Aerojet Ordnance Tennessee, Inc. (AOT), a subsidiary of Aerojet Rocketdyne, is an industry leader in the development and production of high performance specialty metal components for munitions, commercial products and sporting goods. AOT has numerous advanced specialty metal capabilities including: powder metallurgy, primary metal processing, metal casting, heat treatment, CNC machining, forging and swaging. AOT produces a large variety of ordnance components and assemblies such as: small, medium and large caliber kinetic energy penetrators, fragmentation devices, shaped charges, explosively formed penetrators, warhead components and defensive panels used to defeat incoming mortars and rocket-propelled grenades.</div>"
+                },
+                {
+                    "label": "Additive Manufacturing",
+                    "type": "link",
+                    "content": "/innovation/additive-manufacturing"
+                },
+                {
+                    "label": "Additive Manufacturing Product Card",
+                    "type": "link",
+                    "content": "/sites/default/files/documents/Capabilities/PDFs/AM_ProductCard.pdf"
+                },
+                {
+                    "label": "Specialty Metals",
+                    "type": "link",
+                    "content": "/defense/munitions/specialty-metals"
+                }
+            ]
+        },
+        {
+            "title": "Follow Us",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "755px",
+                "loc_y": "365px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "Aerojet Rocketdyne maintains a significant online presence.  Visit us at the following sites."
+                },
+                {
+                    "label": "Facebook",
+                    "type": "link",
+                    "content": "https://www.facebook.com/AerojetRdyne"
+                },
+                {
+                    "label": "Instagram",
+                    "type": "link",
+                    "content": "https://www.instagram.com/Aerojet_Rocketdyne"
+                },
+                {
+                    "label": "LinkedIn",
+                    "type": "link",
+                    "content": "https://www.linkedin.com/company/aerojet-rocketdyne"
+                },
+                {
+                    "label": "YouTube",
+                    "type": "link",
+                    "content": "https://www.youtube.com/user/AerojetRocketdyne"
+                },
+                {
+                    "label": "Twitter",
+                    "type": "link",
+                    "content": "https://twitter.com/AerojetRdyne"
+                }
+            ]
+        },
+		{
+            "title": "Contact Us",
+            "target_button": {
+                "image_ref": "aerojet_rocketdyne_virtual_booth_target_buttons.svg",
+                "loc_x": "705px",
+                "loc_y": "460px"
+            },
+            "buttons": [
+                {
+                    "label": "Overview",
+                    "type": "text",
+                    "content": "At Aerojet Rocketdyne our people power our success, and our people are here for you. If you have any questions or would like more information, please contact Teresa Connor (<a href= 'mailto:teresa.connor@rocket.com'>teresa.connor@rocket.com</a>, <a href='tel:7032361262'>(703) 236-1262</a>) or use the \"Send a Message\" button.<br><img src='img/teresa_connor.jpg'>"
+                },
+                {
+                    "label": "Aerojet Rocketdyne",
+                    "type": "link",
+                    "content": "/"
+                },
+                {
+                    "label": "Send a Message",
+                    "type": "link",
+                    "content": "/contact"
+                }
+            ]
+        }
+    ],
+    "background": {
+        "image_ref": "ausa_virtual_booth_bkgd_1280x756.jpg"
+    }
+}
