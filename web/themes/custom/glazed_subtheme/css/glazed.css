@@ -504,6 +504,9 @@ button.owl-prev {
     position: unset;
     padding: 0 15px;
 }
+#block-views-block-rocket-team-block-1 .leadership-team .view-header {
+  padding-top: 45px;
+}
 #rocket .leadership-team .caption
 {
     position: relative;
