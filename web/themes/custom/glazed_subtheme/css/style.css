@@ -756,7 +756,8 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     padding-right: 0px;
 }
 
-#block-rocketlandingcontentwithimage .az-ctnr.container {
+#block-rocketlandingcontentwithimage .az-ctnr.container,
+.page-node-type-page .az-ctnr.container{
     width: auto !important;
 }
 
@@ -1046,3 +1047,6 @@ button.owl-prev.disabled {
 
 /*Task-208 end*/
 
+section#block-views-block-product-related-block-1 {
+	padding-bottom: 60px !important;
+}
