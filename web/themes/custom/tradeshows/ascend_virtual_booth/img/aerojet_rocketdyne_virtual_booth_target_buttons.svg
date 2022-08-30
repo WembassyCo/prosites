@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="72px" height="72px" viewBox="0 0 72 72">
+<style type="text/css" >
+    <![CDATA[
+        .product-target-logo {
+            animation: product-target-logo 5s infinite both ease-out;
+            transform-origin: 50% 50%;
+        }
+        .product-target-inner {
+            animation: product-target-inner 5s infinite both;
+            transform-origin: 50% 50%;
+        }
+        .product-target-outer {
+            animation: product-target-outer 5s infinite both;
+            transform-origin: 100% 100%;
+        }
+        @keyframes product-target-logo {
+            0%, 25%, 100% {
+                opacity: 0;
+                transform: scale(0);
+                -webkit-transform: scale(0);
+            }
+            30% {
+                opacity: 1;
+                transform: scale(1.5);
+                -webkit-transform: scale(1.5);
+            }
+            45% {
+                opacity: 1;
+                transform: scale(0.5);
+                -webkit-transform: scale(0.5);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.25);
+                -webkit-transform: scale(1.25);
+            }
+            55% {
+                opacity: 1;
+                transform: scale(0.85);
+                -webkit-transform: scale(0.85);
+            }
+            60% {
+                opacity: 1;
+                transform: scale(1.15);
+                -webkit-transform: scale(1.15);
+            }
+            65% {
+                opacity: 1;
+                transform: scale(0.95);
+                -webkit-transform: scale(0.95);
+            }
+            70%, 95% {
+                opacity: 1;
+                transform: scale(1);
+                -webkit-transform: scale(1);
+            }
+        }
+        @keyframes product-target-inner {
+            0%, 10% {
+                opacity: 0;
+                transform: scale(1.5);
+                -webkit-transform: scale(1.5);
+            }
+            25%, 95% {
+                opacity: 1;
+                transform: scale(1);
+                -webkit-transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(0);
+                -webkit-transform: scale(0);
+            }
+        }
+        @keyframes product-target-outer {
+            0% {
+                opacity: 0;
+                transform: scale(1.5);
+                -webkit-transform: scale(1.5);
+            }
+            15% {
+                opacity: 1;
+                transform: scale(1);
+                -webkit-transform: scale(1);
+            }
+            95% {
+                opacity: 1;
+                transform: scale(1);
+                -webkit-transform: scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(0);
+                -webkit-transform: scale(0);
+            }
+        }
+    ]]>
+</style>
+
+<defs>
+<filter id="Filter_1" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0.5725490196078431 0 1 0 0 0.1607843137254902 0 0 1 0 0.13725490196078433 0 0 0 1 0" result="result1"/>
+</filter>
+
+<filter id="Filter_2" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+<feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0.10588235294117647 0 1 0 0 0.25882352941176473 0 0 1 0 0.5215686274509804 0 0 0 1 0" result="result1"/>
+</filter>
+
+<g id="hitspot_mc_0_Layer0_0_FILL">
+<path fill="#00FF00" fill-opacity="0.00784313725490196" stroke="none" d="
+M 52 0
+L 0 0 0 52 52 52 52 0 Z"/>
+</g>
+
+<g id="logo_mc_0_Layer1_0_FILL" class="product-target-logo">
+<path fill="#0054A4" stroke="none" d="
+M 51.25 19.25
+L 49.1 19.25
+Q 38.45 30.25 29 36.6 19.7 42.8 12.2 44.05 7.95 44.8 4.75 43.55 1.4 42.3 0.2 39.25 -1.5 51.75 9.75 51.55 24.35 51.2 51.25 19.25
+M 44.55 45
+Q 45.2 39 52.55 24.85 46.3 31.75 43 37.25 40 42.15 39.7 45.4 39.35 48.9 41.9 51.2 44.65 52.45 47.65 51.15 44.15 49.15 44.55 45 Z"/>
+</g>
+
+<g id="logo_mc_0_Layer0_0_FILL" class="product-target-logo">
+<path fill="#B32317" stroke="none" d="
+M 44.5 19.25
+L 57.85 19.25 73.25 0 44.5 19.25 Z"/>
+</g>
+
+<path id="inner_lines_mc_0_Layer0_0_1_STROKES" class="product-target-inner" stroke="#000000" stroke-width="10" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3" fill="none" d="
+M 70 -5.9
+Q 85.2830078125 -4.296484375 100 0 103.95 15.25 105.65 30
+M 30 105.9
+Q 14.7 104.3 0 100 -3.95 84.75 -5.65 70
+M 105.9 70
+Q 104.3 85.3 100 100 84.75 103.95 70 105.65
+M -5.9 30
+Q -4.3 14.7 0 0 15.240625 -3.961328125 30 -5.65"/>
+
+<path id="outer_lines_mc_0_Layer0_0_1_STROKES" class="product-target-outer" stroke="#000000" stroke-width="10" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3" fill="none" d="
+M 113.85 0
+Q 136.8 2.4 158.85 8.85 164.75 31.7 167.3 53.85
+M 0 53.85
+Q 2.4 30.9 8.85 8.85 31.7 2.95 53.85 0.4
+M 53.85 167.7
+Q 30.9 165.3 8.85 158.85 2.95 135.95 0.4 113.85
+M 167.7 113.85
+Q 165.3 136.8 158.85 158.85 135.95 164.75 113.85 167.3"/>
+</defs>
+
+<g id="hitspot_mc" transform="matrix( 1.384613037109375, 0, 0, 1.384613037109375, 0,0) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#hitspot_mc_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 0.3124847412109375, 0, 0, 0.3124847412109375, 24.55,27.9) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#logo_mc_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#logo_mc_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g transform="matrix( 0.25, 0, 0, 0.25, 23.5,23.5) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_1)" xlink:href="#inner_lines_mc_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+
+<g transform="matrix( 0.25, 0, 0, 0.25, 15.05,15.05) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use filter="url(#Filter_2)" xlink:href="#outer_lines_mc_0_Layer0_0_1_STROKES"/>
+</g>
+</g>
+</svg>
