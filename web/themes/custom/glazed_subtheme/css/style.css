@@ -591,6 +591,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 }
 
 /* #rocket .view-display-id-categories .landing-list-item .landing-list-title,
+
 #rocket .view-display-id-categories_innovation .landing-list-item .landing-list-title,
 #rocket .view-id-rocket_landing_page_lists.view-display-id-block_1 .landing-list-item .landing-list-title {
     padding: 0.8rem 0.2rem 0.2rem 0.8rem !important;
@@ -672,17 +673,48 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     background: #fff !important;
 }
 
+.path-search #search-form .input-group {
+    display: block;
+}
+
+.path-search #search-form .input-group .input-group-btn {
+    position: absolute;
+    font-size: 0;
+    white-space: nowrap;
+    right: 0;
+    top: 6px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+}
+
+.path-search #search-form .form-item:first-child {
+    margin-top: 0;
+    margin-top: 0px;
+}
+
 .path-search #search-form .form-type-search input.form-control {
     border: 1px solid rgba(0, 0, 0, .1);
     height: 51px;
-    border-right-width: 0px !important;
     border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.path-search #search-form .form-type-search .input-group-btn {
+    position: absolute;
+    font-size: 0;
+    white-space: nowrap;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
 }
 
 .path-search #search-form .form-type-search .btn {
     background: transparent;
     border-color: #fff;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 0px solid rgba(0, 0, 0, .1);
     border-left-width: 0px !important;
     border-radius: 0px;
     height: 51px;
@@ -757,7 +789,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 }
 
 #block-rocketlandingcontentwithimage .az-ctnr.container,
-.page-node-type-page .az-ctnr.container{
+.page-node-type-page .az-ctnr.container {
     width: auto !important;
 }
 
@@ -1031,24 +1063,144 @@ button.owl-prev.disabled {
 
 /*Task-208 Start*/
 .glazed-editor .az-element--controls-spacer {
-	margin-top: 0 !important;
+    margin-top: 0 !important;
 }
 
 
-.col-padding-limit .views-row{
-	padding: 0 4px !important;
+.col-padding-limit .views-row {
+    padding: 0 4px !important;
 }
 
 #rocket .product-nav a.btn {
-	padding: 0 !important;
+    padding: 0 !important;
 }
+
 .product-nav .az-ctnr.container .product-top {
-	padding-left: 0 !important;
+    padding-left: 0 !important;
 }
 
 /*Task-208 end*/
 
+a.logo.navbar-btn {
+    padding-top: 10px;
+}
+
+.path-search .page-title span {
+    margin-top: 1.4rem;
+    top: 0px;
+}
+
+.path-search #page-title .page-title {
+    height: auto;
+    margin-bottom: 0;
+}
+
+.path-search form#search-form {
+    padding-top: 50px;
+}
+
+.path-search h3 a {
+    color: #0054A4;
+}
+
+body.path-search ol,
+body.path-search ul {
+    padding-left: 2.5em;
+}
+
+body.path-search ol li p:last-child {
+    display: none;
+}
+
+#rocket .wrap-containers ul.js-pager__items:not(.og-grid) li:before {
+    display: none;
+}
+
+#rocket ul.js-pager__items li.pager__item.pager__item--first a,
+#rocket ul.js-pager__items li.pager__item.pager__item--previous a,
+#rocket ul.js-pager__items li.pager__item.pager__item--next a,
+#rocket ul.js-pager__items li.pager__item.pager__item--last a {
+    position: relative;
+    font-size: 0px;
+}
+
+#rocket ul.js-pager__items li.pager__item.pager__item--next a:before {
+    color: #0054A4;
+    font-style: normal;
+    content: "\f105";
+    font: normal normal normal 16px/1 FontAwesome;
+    line-height: 1;
+    top: 5px;
+    position: relative;
+}
+
+#rocket ul.js-pager__items li.pager__item.pager__item--last a:before {
+    color: #0054A4;
+    font-style: normal;
+    content: "\f101";
+    font: normal normal normal 16px/1 FontAwesome;
+    line-height: 1;
+    top: 5px;
+    position: relative;
+}
+
+#rocket ul.js-pager__items li.pager__item.pager__item--first a:before {
+    color: #0054A4;
+    font-style: normal;
+    content: "\f100";
+    font: normal normal normal 16px/1 FontAwesome;
+    line-height: 1;
+    top: 5px;
+    position: relative;
+}
+
+#rocket ul.js-pager__items li.pager__item.pager__item--previous a:before {
+    color: #0054A4;
+    font-style: normal;
+    content: "\f104";
+    font: normal normal normal 16px/1 FontAwesome;
+    line-height: 1;
+    top: 5px;
+    position: relative;
+}
+
+#rocket ul.js-pager__items li.page-item .page-link {
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px 5px 0 0;
+    line-height: 41px;
+
+}
+
+.path-search #search-form .form-type-search input.form-control:focus {
+    color: #111;
+    border-color: rgba(0, 0, 0, .7);
+    -webkit-box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    outline: none;
+}
+
+@media only screen and (max-width: 991px) {
+
+    a.logo.navbar-btn {
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    button.btn.btn-navbar.tb-megamenu-button {
+        position: absolute;
+        top: 20px;
+        right: 15px;
+    }
+
+    .path-search .page-title span {
+        margin-top: 0;
+        top: 0px;
+    }
+}
+
 section#block-views-block-product-related-block-1 {
 	padding-bottom: 60px !important;
 }
-
