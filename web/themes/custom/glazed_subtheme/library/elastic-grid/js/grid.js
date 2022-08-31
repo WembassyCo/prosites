@@ -468,7 +468,7 @@ var Grid = (function() {
     calcHeight : function() {
 
       // clear all items height first
-      jq191('li.team-member').removeAttr('style');
+      // jq191('li.team-member').removeAttr('style');
 
       var heightPreview = jq191('.team-bio').height() + 100,
           itemHeight = jq191('a[data-title]').height() + heightPreview;
