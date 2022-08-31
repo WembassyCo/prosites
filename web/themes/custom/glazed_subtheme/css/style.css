@@ -663,6 +663,8 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     font-size: 23px !important;
     line-height: normal !important;
     color: #fff;
+    width: auto;
+    height: auto;
 }
 
 #rocket .landing-list-item .landing-list-button:hover {
