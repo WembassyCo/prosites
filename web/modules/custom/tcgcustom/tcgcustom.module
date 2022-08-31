@@ -15,7 +15,7 @@ use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\StreamWrapper\StreamWrapperManager;
 
 
-function custom_update_file_form_alter(&$form, FormStateInterface $form_state, $form_id)
+function tcgcustom_form_alter(&$form, FormStateInterface $form_state, $form_id)
 {
     //die('hg');
     // $options = array(
@@ -25,4 +25,8 @@ function custom_update_file_form_alter(&$form, FormStateInterface $form_state, $
         //    die();
        // $form['field_address']['country_code']['#default_value'] = 'US';
        //} 
+}
+
+function tcgcustom_menu_children_filter_join_prefix_alter(array &$prefixes) {
+  $prefixes[] = 'internal:/node/';
 }

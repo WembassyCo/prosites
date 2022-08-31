@@ -31,9 +31,11 @@
         "drupal/entity_browser": "^2.6",
         "drupal/field_group": "^3.2",
         "drupal/inline_entity_form": "^1.0@RC",
+        "drupal/insert_block": "^1.0@beta",
         "drupal/lightning_core": "^5.10",
         "drupal/lightning_media": "^4.6",
         "drupal/owlcarousel": "^2.0@beta",
+        "drupal/paragraphs": "^1.15",
         "drupal/quicktabs": "^3.0@alpha",
         "drupal/shortcode": "^2.0",
         "drupal/tb_megamenu": "^1.7",
@@ -42,8 +44,7 @@
         "drupal/views_menu_children_filter": "^1.0@RC",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
-        "pantheon-upstreams/upstream-configuration": "self.version",
-		"drupal/insert_block": "^1.0@beta"
+        "pantheon-upstreams/upstream-configuration": "self.version"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"
