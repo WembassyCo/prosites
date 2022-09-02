@@ -958,6 +958,10 @@ section#block-views-block-landing-carousels-block-1 {
     padding-top: 17px;
 }
 
+#rocket.landing-no-overview .landing-content-main-content {
+  display: none;
+}
+
 button.owl-prev.disabled {
     display: none;
 }
