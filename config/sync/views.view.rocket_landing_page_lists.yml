@@ -470,7 +470,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
-      css_class: row
+      css_class: 'row custom-defence-node'
       header: {  }
       footer: {  }
       display_extenders: {  }
@@ -494,6 +494,72 @@ display:
     display_options:
       title: 'Rocket: Landing Page Lists'
       fields:
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: nid
+          plugin_id: field
+          label: ''
+          exclude: true
+          alter:
+            alter_text: false
+            text: ''
+            make_link: false
+            path: ''
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: number_integer
+          settings:
+            thousand_separator: ''
+            prefix_suffix: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
         title:
           id: title
           table: node_field_data
@@ -764,8 +830,8 @@ display:
           alter:
             alter_text: false
             text: ''
-            make_link: false
-            path: ''
+            make_link: true
+            path: 'node/{{ nid }}'
             absolute: false
             external: false
             replace_spaces: false
@@ -867,6 +933,71 @@ display:
           text: ''
           output_url_as_text: true
           absolute: false
+        title_1:
+          id: title_1
+          table: node_field_data
+          field: title
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: title
+          plugin_id: field
+          label: ''
+          exclude: true
+          alter:
+            alter_text: true
+            text: '<i class="fa fa-caret-right"></i>'
+            make_link: true
+            path: 'node/{{ nid }}'
+            absolute: false
+            external: false
+            replace_spaces: false
+            path_case: none
+            trim_whitespace: false
+            alt: ''
+            rel: ''
+            link_class: ''
+            prefix: ''
+            suffix: ''
+            target: ''
+            nl2br: false
+            max_length: 0
+            word_boundary: true
+            ellipsis: true
+            more_link: false
+            more_link_text: ''
+            more_link_path: ''
+            strip_tags: false
+            trim: false
+            preserve_tags: ''
+            html: false
+          element_type: ''
+          element_class: ''
+          element_label_type: ''
+          element_label_class: ''
+          element_label_colon: false
+          element_wrapper_type: ''
+          element_wrapper_class: ''
+          element_default_classes: true
+          empty: ''
+          hide_empty: false
+          empty_zero: false
+          hide_alter_empty: true
+          click_sort_column: value
+          type: string
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
         nothing:
           id: nothing
           table: views
@@ -879,7 +1010,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"landing-list-item\">\r\n  <div class=\"landing-list-thumb\">\r\n    {% if body_1|render|striptags|trim is not empty %} \r\n      <div class=\"landing-list-overlay\">\r\n        <a href=\"{{ view_node }}\">{{ body_1 }}</a>\r\n      </div>\r\n    {% endif %}\r\n    {{ field_main_photo }}\r\n  </div>\r\n  <div class=\"landing-list-label\">    \r\n    <div class=\"landing-list-title\"><h3>{{ title }}</h3></div>\r\n    <div class=\"landing-list-button\">\r\n      <a href=\"{{ view_node }}\"><i class=\"fa fa-caret-right\"></i></a>\r\n    </div>\r\n  </div>\r\n</div>"
+            text: "<div class=\"landing-list-item\">\r\n\t<div class=\"landing-list-thumb\"><div class=\"landing-list-overlay\">{{ body_1 }}</div>{{ field_main_photo }}</div>\r\n\t<div class=\"landing-list-label\">\t\t\r\n        <div class=\"landing-list-title\"><h3>{{ title }}</h3></div>\r\n\t\t<div class=\"landing-list-button\">{{ title_1 }}</div>\r\n\t</div>\r\n</div>"
             make_link: false
             path: '{{ view_node }}'
             absolute: false
@@ -1022,19 +1153,21 @@ display:
         type: default
         options:
           grouping: {  }
-          row_class: 'col-xs-12 col-sm-6 col-md-4 col-lg-4'
+          row_class: col-sm-4
           default_row_class: true
       row:
         type: fields
         options: {  }
       defaults:
         title: false
+        css_class: false
         style: false
         row: false
         fields: false
         arguments: false
         filters: false
         filter_groups: false
+      css_class: 'row custom-defence-node'
       display_description: ''
       display_extenders: {  }
       block_description: 'Rocket: Landing Page Lists - Level 1'
@@ -1058,15 +1191,15 @@ display:
     display_options:
       title: ''
       fields:
-        tid:
-          id: tid
-          table: taxonomy_term_field_data
-          field: tid
-          relationship: term_node_tid_1
+        nid:
+          id: nid
+          table: node_field_data
+          field: nid
+          relationship: none
           group_type: group
           admin_label: ''
-          entity_type: taxonomy_term
-          entity_field: tid
+          entity_type: node
+          entity_field: nid
           plugin_id: field
           label: ''
           exclude: true
@@ -1328,7 +1461,7 @@ display:
           label: ''
           exclude: true
           alter:
-            alter_text: true
+            alter_text: false
             text: "<div class=\"landing-list-item\">\r\n\t<div class=\"landing-list-thumb\"><a href=\"{{ view_node }}\">{{ field_main_photo }}</a></div>\r\n\t<div class=\"landing-list-label\">\r\n\t\t<div class=\"landing-list-title\"><h3><a href=\"{{ view_node }}\">{{ title }}</a></h3></div>\r\n\t\t<div class=\"landing-list-button\"><a href=\"{{ view_node }}\" class=\"landing-list-button-inner\"><i class=\"fa fa-caret-right\"></i></a></div>\r\n\t</div>\r\n</div>"
             make_link: false
             path: ''
@@ -1367,7 +1500,7 @@ display:
           empty_zero: false
           hide_alter_empty: true
           text: view
-          output_url_as_text: false
+          output_url_as_text: true
           absolute: false
         nothing:
           id: nothing
@@ -1381,10 +1514,10 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"landing-list-item\">\r\n\t<div class=\"landing-list-thumb\">{{ field_main_photo }}</div>\r\n\t<div class=\"landing-list-label\">\r\n\t\t<div class=\"landing-list-title\"><h3>{{ title }}</h3></div>\r\n\t\t<div class=\"landing-list-button\"><i class=\"fa fa-caret-right\"></i></div>\r\n\t</div>\r\n</div>"
+            text: "<div class=\"landing-list-item\">\r\n\t<div class=\"landing-list-thumb\">{{ field_main_photo }}</div>\r\n\t<div class=\"landing-list-label\">\r\n\t\t<div class=\"landing-list-title\"><h3>{{ title }}</h3></div>\r\n\t\t<div class=\"landing-list-button\"><a href=\"{{ view_node }}\"><i class=\"fa fa-caret-right\"></i></a></div>\r\n\t</div>\r\n</div>"
             make_link: false
-            path: ''
-            absolute: false
+            path: '{{ view_node }} '
+            absolute: true
             external: false
             replace_spaces: false
             path_case: none
@@ -1419,33 +1552,16 @@ display:
           empty_zero: false
           hide_alter_empty: false
       sorts:
-        created:
-          id: created
-          table: node_field_data
-          field: created
+        menu_children_sort:
+          id: menu_children_sort
+          table: node
+          field: menu_children_sort
           relationship: none
           group_type: group
           admin_label: ''
           entity_type: node
-          entity_field: created
-          plugin_id: date
+          plugin_id: menu_children
           order: ASC
-          expose:
-            label: ''
-            field_identifier: ''
-          exposed: false
-          granularity: second
-        weight:
-          id: weight
-          table: taxonomy_term_field_data
-          field: weight
-          relationship: term_node_tid_1
-          group_type: group
-          admin_label: ''
-          entity_type: taxonomy_term
-          entity_field: weight
-          plugin_id: standard
-          order: DESC
           expose:
             label: ''
             field_identifier: ''
@@ -1606,6 +1722,7 @@ display:
         options: {  }
       defaults:
         title: false
+        css_class: false
         style: false
         row: false
         relationships: false
@@ -1614,18 +1731,8 @@ display:
         arguments: false
         filters: false
         filter_groups: false
-      relationships:
-        term_node_tid_1:
-          id: term_node_tid_1
-          table: node_field_data
-          field: term_node_tid
-          relationship: none
-          group_type: group
-          admin_label: term
-          entity_type: node
-          plugin_id: node_term_data
-          required: false
-          vids: {  }
+      relationships: {  }
+      css_class: row
       display_description: ''
       display_extenders: {  }
     cache_metadata:
