@@ -80,7 +80,8 @@
         });
 
         // For Drag and Drop block, if there is no image we will show the first column in full width.
-        if($('section[id*="rocketlandingcontentwithimage"]').length > 0) {
+        if($('section[id*="rocketlandingcontentwithimage"]').length > 0 &&
+          $('body.node-139').length == 0) {
           var emptyView = $('.view-landing-image .view-content > .views-row');
           var image = $('.view-landing-image .views-field-field-main-photo > .field-content');
           if(image.html() == '' || emptyView.html() == '') {
