@@ -1294,6 +1294,12 @@ body.path-search ol li p:last-child {
     height: 100%;
 }
 
+.view-id-product_related {
+    padding-top: 50px;
+    padding-top: 40px;
+    background-color: rgba(206, 205, 201, 0.2);
+}
+
 @media only screen and (max-width: 991px) {
 
     a.logo.navbar-btn {
@@ -1317,3 +1323,4 @@ body.path-search ol li p:last-child {
 section#block-views-block-product-related-block-1 {
     padding-bottom: 60px !important;
 }
+
