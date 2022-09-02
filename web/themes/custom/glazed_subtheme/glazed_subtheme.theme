@@ -48,6 +48,12 @@ function glazed_subtheme_preprocess_html(&$variables) {
      	 $variables['attributes']['class'][] = 'product-no-tabs';
       }
     }
+
+    if($node->bundle() == 'landing_page') {
+      if ($node->hasField('body') && $node->get('body')->isEmpty()) {
+        $variables['attributes']['class'][] = 'landing-no-overview';
+      }
+    }
   }
 }
 
