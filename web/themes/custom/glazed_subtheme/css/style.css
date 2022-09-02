@@ -576,7 +576,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 .node-143 .page-title,
 .node-143 #block-rocketlandingcontentwithimage,
 .node-132 .page-title,
-.node-156 .page-title{
+.node-156 .page-title {
     display: none;
 }
 
@@ -966,6 +966,7 @@ button.owl-prev.disabled {
 #rocket .view-id-rocket_product_images .product-main-images .product-banner-section {
     max-height: 550px;
     margin-top: 8px;
+    overflow: hidden;
 }
 
 #rocket .view-id-rocket_product_images .product-main-images .product-banner-section img {
@@ -1236,6 +1237,63 @@ body.path-search ol li p:last-child {
 }
 
 /*Task-198 End*/
+.node-130 .custom_imgs img {
+    height: auto;
+    margin: 0 auto;
+}
+
+.node-130 .view-id-landing_image .views-field-field-main-photo img.img-responsive {
+    min-height: auto;
+    min-width: inherit;
+    object-fit: cover;
+}
+
+.node-130 #block-rocketlandingcontentwithimage .az-row--sm.az-row--equal-height.row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.node-130 #block-rocketlandingcontentwithimage .az-element.az-ctnr.az-column.col-sm-8 {
+    width: 80%;
+    padding-right: 0px;
+}
+
+.node-130 #block-rocketlandingcontentwithimage .az-element.az-ctnr.az-column.col-sm-8 h3 {
+    font-weight: 700 !important;
+    font-family: "eurostile", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.node-130 #block-rocketlandingcontentwithimage .az-element.az-cms-element.custom_imgs {
+    margin: 20px;
+
+}
+
+.node-130 #block-rocketlandingcontentwithimage .az-element.az-ctnr.az-column.col-sm-4 {
+    width: 20%;
+    padding-right: inherit;
+    padding-left: 0px;
+}
+
+.fluid-width-video-wrapper {
+    padding-top: 50%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.fluid-width-video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 @media only screen and (max-width: 991px) {
 
     a.logo.navbar-btn {
