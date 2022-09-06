@@ -30,3 +30,4 @@ function tcgcustom_form_alter(&$form, FormStateInterface $form_state, $form_id)
 function tcgcustom_menu_children_filter_join_prefix_alter(array &$prefixes) {
   $prefixes[] = 'internal:/node/';
 }
+

@@ -121,15 +121,7 @@
       });
 
 	  $( window ).on("load", function() {
-		 if($('.custom-home-page').length > 0) {
-			$('.custom-home-page').owlCarousel({
-			  items: 1,
-			  loop: true,
-			  margin: 0,
-			  nav: false,
-			  autoplay: 5000
-			});
-		 }
+
 	  });
 
       $(window).resize(function () {
@@ -138,3 +130,37 @@
     }
   }
 })(jQuery, Drupal);
+
+(function ($, Drupal) {
+
+  "use strict";
+
+  Drupal.behaviors.initColorboxPlainStyle = {
+    attach: function (context, settings) {
+      $(context).bind('cbox_complete', function () {
+
+		function addLink() {
+		  if ($('#cboxDownload').length) {
+			$('#cboxDownload').remove();
+		  }
+		  var fullHref = $('#cboxLoadedContent > img').attr('src').replace(/styles\/large\/public\//,'');
+		  var fullLink = $('<a/>');
+		  fullLink.attr('href', fullHref);
+		  fullLink.attr('target', 'new');
+		  fullLink.attr('download', '');
+		  fullLink.attr('title', 'Right click to download');
+		  fullLink.addClass("download_link");
+		  $('#cboxClose').before(fullLink);
+		  $('.download_link').wrap('<div id="cboxDownload"></div>');
+		}
+
+		if ($('#cboxLoadedContent > img').attr('src')) {
+		  addLink();
+		}
+		
+      });
+    }
+  };
+
+})(jQuery, Drupal);
+
