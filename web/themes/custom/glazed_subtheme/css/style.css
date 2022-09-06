@@ -1354,7 +1354,7 @@ section#block-views-block-product-related-block-1 {
     -o-transform: scale(1);
 }
 
-.view-rocket-product-gallery .gallery-item span.field-content {
+.view-rocket-product-gallery .gallery-item .field-content {
     display: block;
     overflow: hidden;
 }
