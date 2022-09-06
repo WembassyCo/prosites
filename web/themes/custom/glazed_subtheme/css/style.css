@@ -1302,7 +1302,8 @@ body.path-search ol li p:last-child {
     background-color: rgba(206, 205, 201, 0.2);
 }
 
-.view-id-product_related {
+.view-id-product_related,
+.view-rocket-product-overview {
     padding-top: 50px;
     padding-bottom: 40px;
 }
@@ -1359,6 +1360,15 @@ section#block-views-block-product-related-block-1 {
 .view-rocket-product-gallery .gallery-item .field-content {
     display: block;
     overflow: hidden;
+}
+
+ul,
+ol {
+    margin: 0 0 1.5em 0;
+}
+
+.view-product-related h2 {
+    font-size: 1.4rem;
 }
 
 @media only screen and (max-width: 991px) {
