@@ -1303,7 +1303,9 @@ body.path-search ol li p:last-child {
 }
 
 .view-id-product_related,
-.view-rocket-product-overview {
+.view-rocket-product-overview,
+.views-field-field-features,
+.views-field-field-press {
     padding-top: 50px;
     padding-bottom: 40px;
 }
