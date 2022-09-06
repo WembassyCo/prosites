@@ -1397,7 +1397,10 @@ ol {
 .view-product-related h2 {
     font-size: 1.4rem;
 }
-
+.az-ctnr.container {
+    padding: 0;
+    max-width: 100%;
+}
 @media only screen and (max-width: 991px) {
 
     a.logo.navbar-btn {
@@ -1422,3 +1425,4 @@ ol {
         top: 0px;
     }
 }
+
