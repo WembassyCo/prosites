@@ -798,3 +798,50 @@ div#product-resources {
 html{
 	scroll-behavior: smooth;
 }
+/*Pagination*/
+nav.pager-nav {
+  text-align: left;
+}
+
+ul.pagination {
+  padding-left: 0 !important;
+}
+
+ul.pagination > li > a {
+  display: inline-block;
+  min-width: 30px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 7px 14px;
+  margin: 2px;
+  background: #fff !important;
+  border: 1px solid #eaeaea;
+  border-radius: 0 !important;
+  color: #999;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+ul.pagination > li > a::before {
+  font-size: 13px !important;
+}
+
+ul.pagination > li.active > *,
+ul.pagination > li:hover > * {
+  border-color: #bbb;
+  color: #444;
+}
+
+ul.pagination > li.active > * {
+  cursor: default;
+}
+
