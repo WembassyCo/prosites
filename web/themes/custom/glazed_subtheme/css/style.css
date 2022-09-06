@@ -1376,6 +1376,11 @@ ol {
     a.logo.navbar-btn {
         padding-top: 0px;
     }
+
+    #rocket .product-banner-title {
+        height: auto;
+        padding-bottom: 0.6rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {
