@@ -31,14 +31,17 @@ function glazed_subtheme_preprocess_html(&$variables) {
     $variables['attributes']['class'][] = 'node-' . $node->id();
 
     if($node->bundle() == 'product') {
+
       // This is for the rockettabs. If there is no content for that field we will not display the tab
-      if ($node->hasField('body') && $node->get('body')->isEmpty()) {
+      if ($node->hasField('body') && ($node->get('body')->isEmpty() || $node->get('field_features')->get(0)->getValue()['value'] == '&nbsp;')) {
         $variables['attributes']['class'][] = 'product-no-overview';
       }
-      if ($node->hasField('field_features') && $node->get('field_features')->isEmpty()) {
+
+      if ($node->hasField('field_features') && ($node->get('field_features')->isEmpty() || $node->get('field_features')->get(0)->getValue()['value'] == '&nbsp;')) {
         $variables['attributes']['class'][] = 'product-no-feature';
       }
-      if ($node->hasField('field_press') && $node->get('field_press')->isEmpty()) {
+
+      if ($node->hasField('field_press') && ($node->get('field_press')->isEmpty() || $node->get('field_features')->get(0)->getValue()['value'] == '&nbsp;')) {
         $variables['attributes']['class'][] = 'product-no-resources';
       }
 	  
