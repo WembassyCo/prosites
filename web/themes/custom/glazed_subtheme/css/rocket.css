@@ -3758,6 +3758,10 @@ footer .region .az-section .az-column .az-cms-element .search-block-form .form-i
     background: transparent;
 }
 
+section#block-quicktabspressreleasearchive {
+    padding: 50px 0;
+}
+
 /********* End Rocket Overrides *************/
 
 /********* Custom CSS By Smit *************/
