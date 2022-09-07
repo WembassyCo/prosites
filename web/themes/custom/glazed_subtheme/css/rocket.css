@@ -1537,8 +1537,8 @@ body.page-node-type-product {
     border-top: none;
 }
 
-.landing-list-overlay a {
-  color: inherit;
+.landing-list-overlay > a {
+  color: #4A4A4A !important;
 }
 
 #rocket .view-news-releases-by-date {
