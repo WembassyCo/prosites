@@ -1591,6 +1591,10 @@ body.page-node-type-product {
     background: #0054A4;
 }
 
+.view.view-news-releases-by-date-.view-display-id-page_1 {
+    padding: 50px 0;
+}
+
 #rocket ul.quicktabs-tabs {
   margin-top: 0;
   margin-bottom: 0;
