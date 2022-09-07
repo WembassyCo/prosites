@@ -666,7 +666,7 @@ button.owl-prev {
     transition: all 0.2s ease-in-out;
 }
 #rocket #block-views-block-rocket-landing-page-lists-block-1 .landing-list-item a.landing-list-summary:hover{
-	text-decoration: none;
+  text-decoration: none;
 }
 #rocket #block-views-block-rocket-landing-page-lists-block-1 .landing-list-item a.landing-list-summary .landing-list-summary-inner {
     display: block;
@@ -731,7 +731,7 @@ position:relative;
 
  /* START 08-07-2022  */
 .page-node-type-article .page-title-container#page-title .page-title {
-	height: inherit;
+  height: inherit;
 }
 
 /* -------- Product page css end ------- */
@@ -796,7 +796,7 @@ div#product-resources {
     text-decoration: none;
 }
 html{
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 /*Pagination*/
 nav.pager-nav {
@@ -847,4 +847,35 @@ ul.pagination > li.active > * {
 
 body.node-164 .col-md-10.col-md-offset-1.main-content {
   padding: 0;
+}
+
+/*Override style for Media news page*/
+body.node-163 .quicktabs-block-title {
+  font-family: "eurostile", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 400 !important;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  color: #0054A4;
+  margin: 1rem 0 0.5rem 0;
+  padding: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+body#rocket.path-media {
+  background-color: #fff;
+}
+
+body#rocket.path-media h1.page-title {
+  padding-top: 90px;
+  display: block;
+  color: #fff;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  font-family: "eurostile-extended", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  position: relative;
+  height: auto;
+  top: 18px;
 }
