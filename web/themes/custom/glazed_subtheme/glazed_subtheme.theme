@@ -38,7 +38,9 @@ function glazed_subtheme_preprocess_html(&$variables) {
         $variables['attributes']['class'][] = 'product-no-resources';
       }
 
-      if(!array_key_exists('views_block__product_related_block_1',$variables['page']['product_bottom'])) {
+	  $view_result = views_get_view_result('product_related', $display_id = null);
+
+      if(count($view_result) < 1) {
         $variables['attributes']['class'][] = 'product-no-related';
       }
 
