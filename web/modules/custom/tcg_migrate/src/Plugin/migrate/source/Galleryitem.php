@@ -1,14 +1,9 @@
 <?php
-/**
- * @file
- * Contains \Drupal\tcg_migrate\Plugin\migrate\source\Galleryitem.
- */
- 
+
 namespace Drupal\tcg_migrate\Plugin\migrate\source;
- 
+
 /*use Drupal\migrate\Plugin\SourceEntityInterface;*/
 use Drupal\migrate\Row;
-use Drupal\migrate\Plugin\migrate\source\SqlBase;
 use Drupal\migrate_drupal\Plugin\migrate\source\DrupalSqlBase;
 /* for file */
 use Drupal\Core\File\FileSystemInterface;
@@ -30,7 +25,7 @@ class Galleryitem extends DrupalSqlBase {
     // Select node in its last revision.
     $query = $this->select('node', 'n')
       ->condition('n.type', 'gallery_item', '=')
-      ->fields('n', array(
+      ->fields('n', [
         'nid',
         'vid',
         'type',
@@ -43,8 +38,8 @@ class Galleryitem extends DrupalSqlBase {
         'promote',
         'sticky',
         'uuid',
-      ));
-	  
+      ]);
+
     return $query;
   }
 
@@ -53,11 +48,11 @@ class Galleryitem extends DrupalSqlBase {
    */
   public function fields() {
     $fields = $this->baseFields();
-	
-    $fields['field_caption_value'] = $this->t('Value of field_caption');	
-    $fields['field_gallery_tid'] = $this->t('Value of field_gallery');	
-    $fields['field_image_fid'] = $this->t('Value of field_image');	
-	 
+
+    $fields['field_caption_value'] = $this->t('Value of field_caption');
+    $fields['field_gallery_tid'] = $this->t('Value of field_gallery');
+    $fields['field_image_fid'] = $this->t('Value of field_image');
+
     return $fields;
   }
 
@@ -67,9 +62,8 @@ class Galleryitem extends DrupalSqlBase {
   public function prepareRow(Row $row) {
     $nid = $row->getSourceProperty('nid');
 
-    //field_locid
-    
-	$result = $this->getDatabase()->query('
+    // field_locid.
+    $result = $this->getDatabase()->query('
 	  SELECT
 		flo.field_image_fid,
 		flo.entity_id,
@@ -82,50 +76,45 @@ class Galleryitem extends DrupalSqlBase {
 	  LEFT JOIN {file_managed} file_managed ON file_managed.fid=flo.field_image_fid
 	  WHERE
         flo.entity_id = :nid
-    ', array(':nid' => $nid));
+    ', [':nid' => $nid]);
     foreach ($result as $record) {
-		
-		$row->setSourceProperty('field_image_alt', $record->field_image_alt);
-		$row->setSourceProperty('field_image_title', $record->field_image_title);
-		
-		
-		$filename=$record->filename;
-		$filepath=$record->uri;
-		
-		//$filepath=str_replace("public://","https://www.rocket.com/sites/default/files/",$filepath);
-		
-		if (str_contains($filepath, 'private://')) { 
-			//$filepath=str_replace("private://","https://www.rocket.com/",$filepath);		
-		}
-		
-		
-		$file_temp = file_get_contents($filepath);
 
-		$file_file_save_data = file_save_data($file_temp, 'public://' . $filename, FileSystemInterface::EXISTS_RENAME);
+      $row->setSourceProperty('field_image_alt', $record->field_image_alt);
+      $row->setSourceProperty('field_image_title', $record->field_image_title);
 
-		$_file_save_data = File::load($file_file_save_data->id());
+      $filename = $record->filename;
+      $filepath = $record->uri;
 
-		if ($_file_save_data) {
-			$row->setSourceProperty('field_image_fid', $_file_save_data->id());
-		}
-		
+      // $filepath=str_replace("public://","https://www.rocket.com/sites/default/files/",$filepath);
+      if (str_contains($filepath, 'private://')) {
+        // $filepath=str_replace("private://","https://www.rocket.com/",$filepath);
+      }
+
+      $file_temp = file_get_contents($filepath);
+
+      $file_file_save_data = file_save_data($file_temp, 'public://' . $filename, FileSystemInterface::EXISTS_RENAME);
+
+      $_file_save_data = File::load($file_file_save_data->id());
+
+      if ($_file_save_data) {
+        $row->setSourceProperty('field_image_fid', $_file_save_data->id());
+      }
+
     }
 
-	
-	$result = $this->getDatabase()->query('
+    $result = $this->getDatabase()->query('
 	  SELECT
 		flo.field_caption_value
 	  FROM
 		{field_data_field_caption} flo
 	  WHERE
         flo.entity_id = :nid
-    ', array(':nid' => $nid));
+    ', [':nid' => $nid]);
     foreach ($result as $record) {
-		$row->setSourceProperty('field_caption_value', $record->field_caption_value);
+      $row->setSourceProperty('field_caption_value', $record->field_caption_value);
     }
-	
-	
-	$result = $this->getDatabase()->query('
+
+    $result = $this->getDatabase()->query('
 	  SELECT
 		taxonomy_term_data.name,flo.field_gallery_tid
 	  FROM
@@ -133,29 +122,28 @@ class Galleryitem extends DrupalSqlBase {
 	  INNER JOIN `taxonomy_term_data` ON taxonomy_term_data.tid=flo.field_gallery_tid	
 	  WHERE
         flo.entity_id = :nid
-    ', array(':nid' => $nid));
+    ', [':nid' => $nid]);
     foreach ($result as $record) {
-		
-		$field_gallery_tid=$record->field_gallery_tid;
-		
-		
-		//$term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->loadByProperties(['name' => $record->name]);		
-		$term = \Drupal::entityQuery('taxonomy_term')->condition('name', $record->name)->execute();	
-		
-		foreach($term as $_term){
-			$row->setSourceProperty('field_gallery_tid', $_term);
-		}	
-		
-		/*$field_gallery_tid = \Drupal::entityQuery('node')
-		->condition('title', $record->name)
-		->sort('nid', 'DESC')
-		->execute();*/	
-		
-		//$row->setSourceProperty('field_gallery_tid', $term->id());
+
+      $field_gallery_tid = $record->field_gallery_tid;
+
+      $term = \Drupal::entityQuery('taxonomy_term')
+        ->condition('name', $record->name)
+        ->execute();
+
+      foreach ($term as $_term) {
+        $row->setSourceProperty('field_gallery_tid', $_term);
+      }
+
+      /*$field_gallery_tid = \Drupal::entityQuery('node')
+      ->condition('title', $record->name)
+      ->sort('nid', 'DESC')
+      ->execute();*/
+
+      // $row->setSourceProperty('field_gallery_tid', $term->id());
     }
-	
-	
-	/*print_r($row);die;/**/
+
+    /*print_r($row);die;/**/
 
     return parent::prepareRow($row);
   }
@@ -190,7 +178,7 @@ class Galleryitem extends DrupalSqlBase {
    *   Associative array having field name as key and description as value.
    */
   protected function baseFields() {
-    $fields = array(
+    $fields = [
       'nid' => $this->t('Node ID'),
       'vid' => $this->t('Version ID'),
       'type' => $this->t('Type'),
@@ -205,7 +193,7 @@ class Galleryitem extends DrupalSqlBase {
       'sticky' => $this->t('Sticky at top of lists'),
       'uuid' => $this->t('Universally Unique ID'),
       'language' => $this->t('Language (fr, en, ...)'),
-    );
+    ];
     return $fields;
   }
 
