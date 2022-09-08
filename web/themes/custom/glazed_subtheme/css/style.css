@@ -1124,9 +1124,6 @@ button.owl-prev.disabled {
     }
 }
 
-.owl-carousel .owl-nav {
-    display: inline !important;
-}
 
 .tabs--primary.nav.nav-tabs li::before {
     display: none;
