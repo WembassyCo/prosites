@@ -810,7 +810,8 @@ ul.pagination {
   padding-left: 0 !important;
 }
 
-ul.pagination > li > a {
+ul.pagination > li > a,
+ul.pagination > li > span.page-link {
   display: inline-block;
   min-width: 30px;
   -moz-box-sizing: border-box;
@@ -818,12 +819,12 @@ ul.pagination > li > a {
   padding: 7px 14px;
   margin: 2px;
   background: #fff !important;
-  border: 1px solid #eaeaea;
+  border: 1px solid #eaeaea !important;
   border-radius: 0 !important;
   color: #999;
   font-size: 13px;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 25px !important;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
@@ -832,6 +833,10 @@ ul.pagination > li > a {
   -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+ul.pagination > li > span.page-link {
+  line-height: 39px !important;
 }
 
 ul.pagination > li > a::before {
@@ -881,6 +886,29 @@ body#rocket.path-media h1.page-title {
   position: relative;
   height: auto;
   top: 18px;
+}
+
+body#rocket.path-media ul.breadcrumb {
+  padding-top: 95px;
+  display: block;
+  color: #fff;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+body#rocket.path-media ul.breadcrumb > li::before,
+body#rocket.path-media ul.breadcrumb > li:last-of-type .glazed-breadcrumb-spacer {
+  display: none;
+}
+
+body#rocket.path-media ul.breadcrumb > li a,
+body#rocket.path-media ul.breadcrumb .glazed-breadcrumb-spacer {
+  font-family: "eurostile", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
