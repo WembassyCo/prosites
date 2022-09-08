@@ -41,11 +41,11 @@ function glazed_subtheme_preprocess_html(&$variables) {
       if(!array_key_exists('views_block__product_related_block_1',$variables['page']['product_bottom'])) {
         $variables['attributes']['class'][] = 'product-no-related';
       }
-      
+
       $hide_product_tabs = array(30);
       $has_nidpt = array_search($node->id(),$hide_product_tabs);
       if(is_numeric($has_nidpt)){
-       $variables['attributes']['class'][] = 'product-no-tabs';
+        $variables['attributes']['class'][] = 'product-no-tabs';
       }
     }
 
