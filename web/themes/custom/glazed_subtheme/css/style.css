@@ -998,6 +998,15 @@ button.owl-prev.disabled {
     overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  #rocket .view-id-rocket_product_images .product-main-images .product-banner-section {
+    height: 550px;
+  }
+  section#block-views-block-rocket-product-overview-block-1 {
+    padding-top: 40px;
+  }
+}
+
 #rocket .view-id-rocket_product_images .product-main-images .product-banner-section img {
     height: 100%;
     object-fit: cover;
