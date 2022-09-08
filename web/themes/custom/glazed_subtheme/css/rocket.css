@@ -1048,9 +1048,6 @@ footer .region .az-section .az-ctnr .az-row .az-ctnr .az-column .az-text p a:bef
     border: 2px solid white;
 }
 
-.product-no-overview .product-nav .az-ctnr.container .btn-product:first-of-type,
-.product-no-feature .product-nav .az-ctnr.container .btn-product:nth-child(2),
-.product-no-resources .product-nav .az-ctnr.container .btn-product:nth-child(3),
 body.page-node-type-product .page-title {
   display: none;
 }
