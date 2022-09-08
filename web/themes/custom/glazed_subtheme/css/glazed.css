@@ -893,6 +893,12 @@ body#rocket.path-media h1.page-title {
   body.node-154 .view-rocket-product-resources .col-md-6 {
     width: 100%;
   }
+
+  body.node-159 .az-column {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media (max-width: 767px) {
