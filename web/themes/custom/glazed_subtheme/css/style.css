@@ -1432,7 +1432,7 @@ ol {
 .product-no-related .tab-btn-related,
 .product-no-overview .tab-btn-overview,
 .product-no-feature .tab-btn-feature,
-.product-no-related .tab-btn-resources {
+.product-no-resources .tab-btn-resources {
     display: none;
 }
 
