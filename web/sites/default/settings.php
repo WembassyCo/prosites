@@ -32,5 +32,15 @@ $settings['config_sync_directory'] = '../config/sync';
 $local_settings = __DIR__ . "/settings.local.php";
 if (file_exists($local_settings)) {
   include $local_settings;
-}
+} 
+$databases['migrate']['default'] = array (
+	'database' => 'pantheon',
+	'username' => 'pantheon',
+	'password' => 'cc2d7578c24640209b07ff5abc6de974',
+	'prefix' => '',
+	'host' => 'dbserver.tcgd7.505c0b60-2f0b-49e8-970b-ba563cf3692b.drush.in',
+	'port' => '16326',
+	'namespace' => 'Drupal\Core\Database\Driver\mysql',
+	'driver' => 'mysql',
+);
 $settings['hash_salt'] = 'eYuIsf6oCnkacvsfkodJ-0CvIwqtGHEY4J_a0eIJGCx_Je6wrIhhrIaW479Md6ad8WCVRWiBmA';
