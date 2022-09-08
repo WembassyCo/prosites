@@ -44,6 +44,10 @@ function glazed_subtheme_preprocess_html(&$variables) {
       if ($node->hasField('field_press') && ($node->get('field_press')->isEmpty() || $node->get('field_features')->get(0)->getValue()['value'] == '&nbsp;')) {
         $variables['attributes']['class'][] = 'product-no-resources';
       }
+
+      if(!array_key_exists('views_block__product_related_block_1',$variables['page']['product_bottom'])) {
+        $variables['attributes']['class'][] = 'product-no-related';
+      }
 	  
       $hide_product_tabs = array(30);
       $has_nidpt = array_search($node->id(),$hide_product_tabs);
