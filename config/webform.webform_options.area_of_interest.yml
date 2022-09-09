@@ -1,0 +1,21 @@
+uuid: a3b60da4-e711-4b35-9569-dfd918a03347
+langcode: en
+status: true
+dependencies: {  }
+id: area_of_interest
+label: 'Area of interest'
+category: ''
+likert: false
+options: |-
+  hremployment@rocket.com: Employment
+  suri.perinkulam@rocket.com: Sales
+  web.design@rocket.com: 'Website Feedback'
+  aerojetrocketdynecommunications@rocket.com;teresa.conner@rocket.com: 'Tradeshows and Events'
+  legal@rocket.com: Legal
+  alisa.lee@rocket.com: STEM
+  arfoundation@rocket.com: Sponsors
+  accountspayable@rocket.com: 'Billing / Accounts Payable'
+  aerojetrocketdynesupplychain@rocket.com: Supplier
+  benefits@rocket.com: Benefits
+  401k@rocket.com: 401K
+  espp@rocket.com: ESPP
