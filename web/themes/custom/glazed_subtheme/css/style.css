@@ -1000,12 +1000,13 @@ button.owl-prev.disabled {
 }
 
 @media (max-width: 767px) {
-  #rocket .view-id-rocket_product_images .product-main-images .product-banner-section {
-    height: 550px;
-  }
-  section#block-views-block-rocket-product-overview-block-1 {
-    padding-top: 40px;
-  }
+    #rocket .view-id-rocket_product_images .product-main-images .product-banner-section {
+        height: 550px;
+    }
+
+    section#block-views-block-rocket-product-overview-block-1 {
+        padding-top: 40px;
+    }
 }
 
 #rocket .view-id-rocket_product_images .product-main-images .product-banner-section img {
@@ -1459,6 +1460,12 @@ ol {
     -webkit-animation: scaleout 1.0s infinite ease-in-out;
     animation: scaleout 1.0s infinite ease-in-out;
 }
+
+.cms-student-image img {
+    max-width: 500px;
+    width: 100%;
+}
+
 @media only screen and (max-width: 991px) {
 
     a.logo.navbar-btn {
@@ -1484,4 +1491,3 @@ ol {
         top: 0px;
     }
 }
-
