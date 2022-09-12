@@ -914,6 +914,7 @@ body#rocket.path-media ul.breadcrumb .glazed-breadcrumb-spacer {
 @media (min-width: 768px) {
   body.node-154 .product-features .field-content {
     width: 83.33333333%;
+    max-width: 750px;
   } 
 }
 
