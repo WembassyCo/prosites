@@ -79,6 +79,9 @@
     <js-placeholder token="{{ placeholder_token|raw }}">
   </head>
   <body{{ attributes.addClass(body_classes) }} id="rocket">
+  <div class="page-loader">
+				<div class="loader">Loading...</div>
+	</div>
   {% set breakpoint = theme.settings.header_mobile_breakpoint > 4099 ? '99999' : theme.settings.header_mobile_breakpoint %}
   <script>
   var glazedNavBreakpoint = {{ breakpoint }};
@@ -90,6 +93,7 @@
     document.body.className += ' body--glazed-nav-mobile';
   }
   </script>
+
     <a href="#main-content" class="visually-hidden focusable skip-link">
       {{ 'Skip to main content'|t }}
     </a>

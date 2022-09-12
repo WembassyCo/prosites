@@ -1,6 +1,6 @@
 (function ($, Drupal) {
   Drupal.behaviors.glazed_custom = {
-    init_classic_menu_resize: function() {
+    init_classic_menu_resize: function () {
       if ($(window).width() <= 1024) {
         //$(".nav-collapse").addClass("collapse");
         $("#navbar").addClass("mobile-on");
@@ -9,12 +9,12 @@
         $("#navbar").removeClass("mobile-on");
       }
     },
-    anchorScroll: function(elem) {
+    anchorScroll: function (elem) {
       var bodyTop = document.getElementById("rocket").style.paddingTop;
       bodyTop = (bodyTop != '') ? parseInt(bodyTop.replace('px', '')) : 0;
       var scrollNav = ($('.product-nav').length > 0) ? $('.product-nav').outerHeight() : 0;
-      
-      if($(elem).length > 0) {
+
+      if ($(elem).length > 0) {
         $('html, body').animate({
           scrollTop: $(elem).offset().top - bodyTop - scrollNav
         }, 1000);
@@ -24,13 +24,13 @@
         }, 1000);
       }
     },
-    productTabs: function() {
+    productTabs: function () {
       // Hide tabs if empty
       var tabs = $('.product-nav');
-      if($('#block-views-block-product-related-block-1').length == 0) {
+      if ($('#block-views-block-product-related-block-1').length == 0) {
         tabs.find('a[href="#block-views-block-product-related-block-1"]').parent().remove();
       }
-      
+
     },
     attach: function (context, settings) {
       once('glazed_custom', 'html', context).forEach(function (element) {
@@ -40,7 +40,7 @@
           Drupal.behaviors.glazed_custom.init_classic_menu_resize();
         }, 100);
 
-        if(jQuery('div').hasClass('home-scroll')){
+        if (jQuery('div').hasClass('home-scroll')) {
           var navpos = $('#block-rockettabs .home-scroll').offset();
           console.log(navpos.top);
           $(window).bind('scroll', function () {
@@ -54,37 +54,38 @@
           });
         }
 
-        if(jQuery('div').hasClass('owl-slider-wrapper')){
+
+        if (jQuery('div').hasClass('owl-slider-wrapper')) {
           $(".owl-slider-wrapper").owlCarousel({
-            loop:true,
-            autoplay:true,
-            autoplayTimeout:5000,
-            autoplayHoverPause:true,
-            animateIn: 'fadeIn', 
-            animateOut: 'fadeOut', 
-            items:1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            animateIn: 'fadeIn',
+            animateOut: 'fadeOut',
+            items: 1,
           });
         }
 
         // Custom content fade in effect
-        $(window).scroll( function(){
-          $('.fadeIn').each( function(i){
-            var elementHeight = ($(this).outerHeight()/2);
+        $(window).scroll(function () {
+          $('.fadeIn').each(function (i) {
+            var elementHeight = ($(this).outerHeight() / 2);
             var bottom_of_element = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            if( bottom_of_window > (bottom_of_element - elementHeight) ){
-              $(this).animate({'opacity':'1'}, 1000);
+
+            if (bottom_of_window > (bottom_of_element - elementHeight)) {
+              $(this).animate({ 'opacity': '1' }, 1000);
             }
-          }); 
+          });
         });
 
         // For Drag and Drop block, if there is no image we will show the first column in full width.
-        if($('section[id*="rocketlandingcontentwithimage"]').length > 0 &&
+        if ($('section[id*="rocketlandingcontentwithimage"]').length > 0 &&
           $('body.node-139').length == 0) {
           var emptyView = $('.view-landing-image .view-content > .views-row');
           var image = $('.view-landing-image .views-field-field-main-photo > .field-content');
-          if(image.html() == '' || emptyView.html() == '') {
+          if (image.html() == '' || emptyView.html() == '') {
             $('.view-landing-image').parents('section[id*="rocketlandingcontentwithimage"]').addClass('fullwidth-onecol');
           }
         }
@@ -94,17 +95,17 @@
         if (nav.length) {
           var fixmeTop = $('.product-nav').offset().top;
           Drupal.behaviors.glazed_custom.productTabs();
-          
-          $(window).scroll(function() {
+
+          $(window).scroll(function () {
             var currentScroll = $(window).scrollTop();
             if (currentScroll >= fixmeTop) {
-              $('.product-nav').addClass( "fixed" );
+              $('.product-nav').addClass("fixed");
             } else {
-              $('.product-nav').removeClass( "fixed" );
+              $('.product-nav').removeClass("fixed");
             }
           });
 
-          $('.az-section.product-nav a').on('click', function(ev) {
+          $('.az-section.product-nav a').on('click', function (ev) {
             ev.preventDefault();
             $('.az-section.product-nav a').removeClass('active');
             $(this).addClass('active');
@@ -115,14 +116,14 @@
       });
 
       $(document).ready(function () {
-        var page_title=$("h1.page-title").html();
+        var page_title = $("h1.page-title").html();
         /*$("body.path-search h1.page-title").empty().html('<span property="schema:name">'+page_title+'</span>');*/
         $("body.path-search h1.page-title").empty().html('<span property="schema:name">PAGES</span>');
       });
 
-	  $( window ).on("load", function() {
+      $(window).on("load", function () {
 
-	  });
+      });
 
       $(window).resize(function () {
         Drupal.behaviors.glazed_custom.init_classic_menu_resize();
@@ -132,32 +133,48 @@
 })(jQuery, Drupal);
 
 (function ($, Drupal) {
-
   "use strict";
+  var hidden_loader = 1;
+  function hide_loader() {
+    if (hidden_loader) {
+      // Page loader
+      $(".page-loader div").delay(0).fadeOut();
+      $(".page-loader").delay(600).fadeOut("slow");
+      hidden_loader = 0;
+    }
+  }
+
+  setTimeout(hide_loader, 5000);
+
+  $(window).on("load", function () {
+    hide_loader();
+  });
+
+
 
   Drupal.behaviors.initColorboxPlainStyle = {
     attach: function (context, settings) {
       $(context).bind('cbox_complete', function () {
 
-		function addLink() {
-		  if ($('#cboxDownload').length) {
-			$('#cboxDownload').remove();
-		  }
-		  var fullHref = $('#cboxLoadedContent > img').attr('src').replace(/styles\/large\/public\//,'');
-		  var fullLink = $('<a/>');
-		  fullLink.attr('href', fullHref);
-		  fullLink.attr('target', 'new');
-		  fullLink.attr('download', '');
-		  fullLink.attr('title', 'Right click to download');
-		  fullLink.addClass("download_link");
-		  $('#cboxClose').before(fullLink);
-		  $('.download_link').wrap('<div id="cboxDownload"></div>');
-		}
+        function addLink() {
+          if ($('#cboxDownload').length) {
+            $('#cboxDownload').remove();
+          }
+          var fullHref = $('#cboxLoadedContent > img').attr('src').replace(/styles\/large\/public\//, '');
+          var fullLink = $('<a/>');
+          fullLink.attr('href', fullHref);
+          fullLink.attr('target', 'new');
+          fullLink.attr('download', '');
+          fullLink.attr('title', 'Right click to download');
+          fullLink.addClass("download_link");
+          $('#cboxClose').before(fullLink);
+          $('.download_link').wrap('<div id="cboxDownload"></div>');
+        }
 
-		if ($('#cboxLoadedContent > img').attr('src')) {
-		  addLink();
-		}
-		
+        if ($('#cboxLoadedContent > img').attr('src')) {
+          addLink();
+        }
+
       });
     }
   };
