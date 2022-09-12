@@ -1003,10 +1003,6 @@ button.owl-prev.disabled {
     #rocket .view-id-rocket_product_images .product-main-images .product-banner-section {
         height: 550px;
     }
-
-    section#block-views-block-rocket-product-overview-block-1 {
-        padding-top: 40px;
-    }
 }
 
 #rocket .view-id-rocket_product_images .product-main-images .product-banner-section img {
@@ -1350,6 +1346,12 @@ body.path-search ol li p:last-child {
 
 .view-id-product_related .view-content .col-sm-3.views-row {
     padding: 0 4px;
+}
+
+@media (min-width: 768px) and (max-width: 1180px) {
+  .view-id-product_related .view-content .col-sm-3.views-row {
+    width: 270px;
+  }
 }
 
 #rocket .view-product-related .landing-list-item .landing-list-button a.landing-list-button-inner {
