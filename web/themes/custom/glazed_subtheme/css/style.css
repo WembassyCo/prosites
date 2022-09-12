@@ -1349,9 +1349,9 @@ body.path-search ol li p:last-child {
 }
 
 @media (min-width: 768px) and (max-width: 1180px) {
-  .view-id-product_related .view-content .col-sm-3.views-row {
-    width: 270px;
-  }
+    .view-id-product_related .view-content .col-sm-3.views-row {
+        width: 270px;
+    }
 }
 
 #rocket .view-product-related .landing-list-item .landing-list-button a.landing-list-button-inner {
@@ -1463,7 +1463,7 @@ ol {
     animation: scaleout 1.0s infinite ease-in-out;
 }
 
-.cms-student-image img {
+#rocket .cms-student-image img {
     max-width: 500px;
     width: 100%;
 }
