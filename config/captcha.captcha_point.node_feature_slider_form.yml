@@ -1,0 +1,7 @@
+uuid: 8947d96f-033a-4812-b67f-5c937e4ae886
+langcode: en
+status: false
+dependencies: {  }
+formId: node_feature_slider_form
+captchaType: default
+label: null
