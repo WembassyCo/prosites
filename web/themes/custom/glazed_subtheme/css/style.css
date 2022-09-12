@@ -994,18 +994,13 @@ button.owl-prev.disabled {
 
 /* ----- 31-Aug-2022 ------ */
 #rocket .view-id-rocket_product_images .product-main-images .product-banner-section {
-    max-height: 550px;
+    max-height: 580px;
     margin-top: 8px;
     overflow: hidden;
 }
 
-@media (max-width: 767px) {
-    #rocket .view-id-rocket_product_images .product-main-images .product-banner-section {
-        height: 550px;
-    }
-}
-
 #rocket .view-id-rocket_product_images .product-main-images .product-banner-section img {
+    min-height: 550px;
     height: 100%;
     object-fit: cover;
     min-width: 100%;
@@ -1013,6 +1008,19 @@ button.owl-prev.disabled {
 
 #rocket .view-id-rocket_product_images .az-ctnr.container {
     width: auto;
+}
+
+#rocket .product-main-images .product-banner-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0;
+}
+
+#rocket .product-main-images h2#page-title {
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
 }
 
 /* ----- 31-Aug-2022 ------ */
