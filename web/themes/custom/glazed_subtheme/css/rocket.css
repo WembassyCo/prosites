@@ -3242,6 +3242,15 @@ body.toolbar-tray-open .product-nav.fixed {
     padding: 0;
 }
 
+@media (max-width: 767px) {
+  /*#rocket.page-node-type-article section#title .col-md-4 {
+    display: none;
+  }*/
+
+  #rocket.page-node-type-article #title .col-md-4 {
+  }
+}
+
 #rocket #title .easy-breadcrumb {
     margin: 0;
     padding: 1.4rem 0 0 0;

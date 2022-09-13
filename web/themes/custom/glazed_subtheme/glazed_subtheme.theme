@@ -10,9 +10,30 @@
  * Implements template_preprocess_page()
  */
 function glazed_subtheme_preprocess_page(&$variables) {
-  $variables['url'] = $_SERVER['REQUEST_URI'];
-  $variables['#cache']['contexts'][] = 'url.path';
+  if(isset($variables['node'])) {
+    $node = $variables['node'];
+    if($node->bundle() == 'article')  {
+      if($node->field_tags->target_id == 39) {
+        $variables['is_news'] = TRUE;
+      }
+    }
+  }
 }
+
+/**
+ * Implements template_preprocess_node()
+ */
+function glazed_subtheme_preprocess_node(&$variables) {
+  if(isset($variables['node'])) {
+    $node = $variables['node'];
+    if($node->bundle() == 'article')  {
+      if($node->field_tags->target_id == 39) {
+        $variables['is_news'] = TRUE;
+      }
+    }
+  }
+}
+
 
 /**
  * Implements hook_preprocess_html().
@@ -54,6 +75,12 @@ function glazed_subtheme_preprocess_html(&$variables) {
     if($node->bundle() == 'landing_page') {
       if ($node->hasField('body') && $node->get('body')->isEmpty()) {
         $variables['attributes']['class'][] = 'landing-no-overview';
+      }
+    }
+
+    if($node->bundle() == 'article')  {
+      if($node->field_tags->target_id == 39) {
+        $variables['attributes']['class'][] = 'path-news';
       }
     }
   }
