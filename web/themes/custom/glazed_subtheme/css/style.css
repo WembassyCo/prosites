@@ -52,7 +52,7 @@ img#logo {
 }
 
 .pt50 {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 /*------ Header css start----*/
@@ -1015,10 +1015,10 @@ button.owl-prev.disabled {
 }
 
 #rocket .product-main-images .product-banner-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
 }
 
 #rocket .product-main-images h2#page-title {
@@ -1478,6 +1478,30 @@ ol {
 #rocket .cms-student-image img {
     max-width: 500px;
     width: 100%;
+}
+
+.tabsbar ul.quicktabs-tabs {
+    padding-left: 0px;
+}
+
+#rocket ul.quicktabs-tabs li {
+    padding-top: 0.5rem;
+}
+
+#rocket ul.quicktabs-tabs li a {
+    border: 1px solid transparent;
+    margin-right: 2px;
+    line-height: 1.42857143;
+    font-size: 1.3rem;
+    color: #0054A4;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    font-family: "eurostile", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: 300 !important;
 }
 
 @media only screen and (max-width: 991px) {
