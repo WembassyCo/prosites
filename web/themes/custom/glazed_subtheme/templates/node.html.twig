@@ -76,7 +76,11 @@
     'node',
   ]
 %}
-<article{{ attributes.addClass(classes) }}>
+{% if is_news == TRUE %}
+  <article{{ attributes.addClass(classes) }}>
+{% else %}
+  <article{{ attributes.addClass(classes).addClass('col-md-10 col-md-offset-1 main-content pt50') }}>
+{% endif %}
 
   {{ title_prefix }}
   {% if not page %}

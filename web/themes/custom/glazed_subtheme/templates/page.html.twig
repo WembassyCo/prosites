@@ -164,7 +164,7 @@
   <div{{ page_title_attributes }} class="page-title-full-width-container" id="page-title-full-width-container">
     {% set container = theme.settings.full_width_containers.cnt_page_title ? 'glazed-fluid' : 'container' %}
     <header role="banner" id="page-title" class="{{ container }} page-title-container">
-      {% if '/media/news/' in url %}
+      {% if is_news == TRUE %}
         <div class="row">
           <div class="col-md-8 text-left">
             {{ page.page_title }}
