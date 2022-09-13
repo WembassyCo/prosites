@@ -1480,16 +1480,16 @@ ol {
     width: 100%;
 }
 
-.tabsbar ul.quicktabs-tabs {
+#rocket #quicktabs-image_gallery_tabs ul.quicktabs-tabs {
     padding-left: 0px;
 }
 
-#rocket ul.quicktabs-tabs li {
+#rocket #quicktabs-image_gallery_tabs ul.quicktabs-tabs li {
     padding-top: 0.5rem;
 }
 
-#rocket ul.quicktabs-tabs li a {
-    border: 1px solid transparent;
+#rocket #quicktabs-image_gallery_tabs ul.quicktabs-tabs li a {
+    border: 0px solid transparent;
     margin-right: 2px;
     line-height: 1.42857143;
     font-size: 1.3rem;
