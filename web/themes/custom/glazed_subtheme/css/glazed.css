@@ -870,39 +870,44 @@ body.node-163 .quicktabs-block-title {
   border-bottom: 1px solid #ccc;
 }
 
-body#rocket.path-media {
+body#rocket.path-news {
   background-color: #fff;
 }
 
-body#rocket.path-media h1.page-title {
-  padding-top: 90px;
-  display: block;
-  color: #fff;
-  padding-bottom: 30px;
-  font-size: 1.4rem;
-  font-family: "eurostile-extended", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  position: relative;
-  height: auto;
-  top: 18px;
+body#rocket.path-news h1.page-title {
+  margin-bottom: 0;
 }
 
-body#rocket.path-media ul.breadcrumb {
-  padding-top: 95px;
+body#rocket.path-news h1.page-title span {
+  padding-top: 100px;
+}
+
+body#rocket.path-news ul.breadcrumb {
+  padding: 0 0 30px;
   display: block;
   color: #fff;
   list-style: none;
   margin-bottom: 0;
 }
 
-body#rocket.path-media ul.breadcrumb > li::before,
-body#rocket.path-media ul.breadcrumb > li:last-of-type .glazed-breadcrumb-spacer {
+@media (min-width: 1180px) {
+  body#rocket.path-news ul.breadcrumb {
+    padding-top: 100px;
+  }
+
+  body#rocket.path-news h1.page-title span {
+    padding-top: 110px;
+    line-height: 1.8rem;
+  }
+}
+
+body#rocket.path-news ul.breadcrumb > li::before,
+body#rocket.path-news ul.breadcrumb > li:last-of-type .glazed-breadcrumb-spacer {
   display: none;
 }
 
-body#rocket.path-media ul.breadcrumb > li a,
-body#rocket.path-media ul.breadcrumb .glazed-breadcrumb-spacer {
+body#rocket.path-news ul.breadcrumb > li a,
+body#rocket.path-news ul.breadcrumb .glazed-breadcrumb-spacer {
   font-family: "eurostile", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0.1rem;

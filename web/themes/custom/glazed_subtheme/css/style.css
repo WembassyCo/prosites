@@ -51,6 +51,10 @@ img#logo {
     width: 100%;
 }
 
+.pt50 {
+  padding-top: 50px;
+}
+
 /*------ Header css start----*/
 .body--glazed-header-top #navbar.glazed-header--top.glazed-header--normal a.name.navbar-brand {
     display: none;
