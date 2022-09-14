@@ -52,6 +52,18 @@
               $('#block-rockettabs .home-scroll').removeClass('fixed');
             }
           });
+
+          var navpos = $('.node-1826 .home-scroll').offset();
+          $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > navpos.top) {
+              $('.node-1826 .home-scroll').addClass('fixed');
+              // $('#topnav').removeClass('fixed');
+            } else {
+              // $('#topnav').addClass('fixed');
+              $('.node-1826 .home-scroll').removeClass('fixed');
+            }
+          });
+
         }
 
 
