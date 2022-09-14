@@ -1166,6 +1166,7 @@ button.owl-prev.disabled {
 
 a.logo.navbar-btn {
     padding-top: 10px;
+    padding-right: 0px;
 }
 
 .path-search .page-title span {
@@ -1489,7 +1490,7 @@ ol {
 }
 
 #rocket #quicktabs-image_gallery_tabs ul.quicktabs-tabs li a {
-    border: 0px solid transparent;
+    border: 1px solid transparent;
     margin-right: 2px;
     line-height: 1.42857143;
     font-size: 1.3rem;
@@ -1502,8 +1503,40 @@ ol {
     -o-border-radius: 0px;
     font-family: "eurostile", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: 300 !important;
+    height: auto;
+    min-height: auto;
+    padding: 10px 15px;
+    background: transparent;
 }
 
+#rocket #quicktabs-image_gallery_tabs ul.quicktabs-tabs li.active a {
+    color: #B32317;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    background: transparent;
+}
+
+#rocket #quicktabs-image_gallery_tabs ul.quicktabs-tabs li a:hover {
+    border-color: #eee #eee #ddd;
+    border-bottom-color: transparent;
+}
+
+#rocket .wrap-containers .view-gallery .blazy--view--gallery {
+    padding-left: 0px !important;
+    grid-gap: 8px;
+}
+
+#rocket .wrap-containers .view-gallery {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#rocket .wrap-containers .view-gallery .blazy--view--gallery li.grid {
+    padding: 4px 0;
+}
+#rocket .wrap-containers .view-gallery .blazy--view--gallery li.grid  img{
+    width: 100%;
+}
 @media only screen and (max-width: 991px) {
 
     a.logo.navbar-btn {
