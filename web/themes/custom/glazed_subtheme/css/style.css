@@ -320,7 +320,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
     .custom-carousel .item {
         height: 350px !important;
     }
@@ -437,7 +437,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
         float: none;
     }
 
-    .nav>li {
+    .tb-megamenu .nav-collapse .nav>li {
         position: relative;
         display: block;
     }
@@ -483,6 +483,14 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
         padding: 10px 20px;
     }
 
+    .tb-megamenu .nav-collapse {
+        background: #000;
+        margin-top: 10px;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+    }
+
     .wrap-branding img#logo {
         max-width: 200px;
     }
@@ -498,14 +506,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     }
 }
 
-@media only screen and (max-width: 979px) {
-    .tb-megamenu .nav-collapse {
-        background: #000;
-        margin-top: 10px;
-        position: absolute;
-        top: 60px;
-    }
-}
+@media only screen and (max-width: 979px) {}
 
 @media only screen and (max-width: 767px) {
     .navbar.glazed-header .navbar-header {
@@ -1493,7 +1494,7 @@ ol {
     border: 1px solid transparent;
     margin-right: 2px;
     line-height: 1.42857143;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #0054A4;
     transition: all 0.2s ease-in-out;
     border-radius: 0px;
@@ -1534,9 +1535,11 @@ ol {
 #rocket .wrap-containers .view-gallery .blazy--view--gallery li.grid {
     padding: 4px 0;
 }
-#rocket .wrap-containers .view-gallery .blazy--view--gallery li.grid  img{
+
+#rocket .wrap-containers .view-gallery .blazy--view--gallery li.grid img {
     width: 100%;
 }
+
 @media only screen and (max-width: 991px) {
 
     a.logo.navbar-btn {
@@ -1561,5 +1564,10 @@ ol {
         margin-top: 0;
         top: 0px;
     }
+}
 
-    
+@media only screen and (max-width: 480px) {
+    #rocket #quicktabs-image_gallery_tabs ul.quicktabs-tabs li {
+        width: 100%;
+    }
+}
