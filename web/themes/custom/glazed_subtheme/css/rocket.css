@@ -1427,6 +1427,7 @@ body.page-node-type-product {
 #rocket .view-product-related {
     width: 100%;
     max-width: 1170px;
+    overflow: hidden;
 }
 
 @media (max-width: 979px) {

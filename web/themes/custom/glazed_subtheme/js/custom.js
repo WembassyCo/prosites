@@ -78,7 +78,7 @@
           });
         }
 
-        if($('.view-product-related.view-id-product_related.view-display-id-block_1').length > 0) {
+        if(jQuery('div').hasClass('owl-carousel-block_116')) {
           $(".owl-carousel").owlCarousel({
             loop: false,
             autoplay: true,
