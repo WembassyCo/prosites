@@ -40,32 +40,31 @@
           Drupal.behaviors.glazed_custom.init_classic_menu_resize();
         }, 100);
 
-        if (jQuery('div').hasClass('home-scroll')) {
-          var navpos = $('#block-rockettabs .home-scroll').offset();
-          console.log(navpos.top);
-          $(window).bind('scroll', function () {
-            if ($(window).scrollTop() > navpos.top) {
-              $('#block-rockettabs .home-scroll').addClass('fixed');
-              // $('#topnav').removeClass('fixed');
-            } else {
-              // $('#topnav').addClass('fixed');
-              $('#block-rockettabs .home-scroll').removeClass('fixed');
-            }
-          });
+        if ($('div').attr('id') === "block-rockettabs") {
+          if (jQuery('div').hasClass('home-scroll')) {
+            var navpos = $('#block-rockettabs .home-scroll').offset();
 
-          var navpos = $('.node-1826 .home-scroll').offset();
+            $(window).bind('scroll', function () {
+              if ($(window).scrollTop() > navpos.top) {
+                $('#block-rockettabs .home-scroll').addClass('fixed');
+              } else {
+                $('#block-rockettabs .home-scroll').removeClass('fixed');
+              }
+            });
+          }
+        }
+
+
+        if (jQuery('body').hasClass('node-1826')) {
+          var navpos1826 = $('.node-1826 .home-scroll').offset();
           $(window).bind('scroll', function () {
-            if ($(window).scrollTop() > navpos.top) {
+            if ($(window).scrollTop() > navpos1826.top) {
               $('.node-1826 .home-scroll').addClass('fixed');
-              // $('#topnav').removeClass('fixed');
             } else {
-              // $('#topnav').addClass('fixed');
               $('.node-1826 .home-scroll').removeClass('fixed');
             }
           });
-
         }
-
 
         if (jQuery('div').hasClass('owl-slider-wrapper')) {
           $(".owl-slider-wrapper").owlCarousel({
