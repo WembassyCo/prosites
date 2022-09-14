@@ -1430,7 +1430,7 @@ body.page-node-type-product {
     overflow: hidden;
 }
 
-@media (max-width: 979px) {
+@media (max-width: 1180px) {
   #rocket .view-product-related {
     max-width: 100%;
     padding-left: 4px;
