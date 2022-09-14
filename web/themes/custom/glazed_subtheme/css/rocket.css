@@ -1427,10 +1427,26 @@ body.page-node-type-product {
 #rocket .view-product-related {
     width: 100%;
     max-width: 1170px;
+    overflow: hidden;
+}
+
+@media (max-width: 979px) {
+  #rocket .view-product-related {
+    max-width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  #rocket .view-product-related .view-header {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 750px;
+    margin: 0 auto;
+  }
 }
 
 #rocket .view-product-related .owl-carousel {
-    padding: 0 4px;
+    padding: 0;
 }
 
 #rocket .view-product-related .owl-carousel .owl-wrapper-outer .owl-wrapper .owl-item {
@@ -3240,15 +3256,6 @@ body.toolbar-tray-open .product-nav.fixed {
     line-height: 1.8rem;
     margin: 1.4rem 0 0 0;
     padding: 0;
-}
-
-@media (max-width: 767px) {
-  /*#rocket.page-node-type-article section#title .col-md-4 {
-    display: none;
-  }*/
-
-  #rocket.page-node-type-article #title .col-md-4 {
-  }
 }
 
 #rocket #title .easy-breadcrumb {
