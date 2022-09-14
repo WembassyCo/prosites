@@ -78,6 +78,33 @@
           });
         }
 
+        if($('.view-product-related.view-id-product_related.view-display-id-block_1').length > 0) {
+          $(".owl-carousel").owlCarousel({
+            loop: false,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: false,
+            items: 4,
+            nav: false,
+            dots: false,
+            responsiveClass: true,
+            responsive: {
+              0: {
+                items: 1,
+                nav: true
+              },
+              768: {
+                items: 3,
+                nav: false
+              },
+              1199: {
+                items: 4,
+                nav: false
+              }
+            }
+          });
+        }
+
         // Custom content fade in effect
         $(window).scroll(function () {
           $('.fadeIn').each(function (i) {
