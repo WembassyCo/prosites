@@ -53,9 +53,9 @@
             }
           });
 
-          var navpos = $('.node-1826 .home-scroll').offset();
+          var navpos1826 = $('.node-1826 .home-scroll').offset();
           $(window).bind('scroll', function () {
-            if ($(window).scrollTop() > navpos.top) {
+            if ($(window).scrollTop() > navpos1826.top) {
               $('.node-1826 .home-scroll').addClass('fixed');
               // $('#topnav').removeClass('fixed');
             } else {
