@@ -97,7 +97,7 @@
                 items: 3,
                 nav: false
               },
-              1199: {
+              1179: {
                 items: 4,
                 nav: false
               }

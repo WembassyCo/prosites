@@ -890,12 +890,28 @@ body#rocket.path-news ul.breadcrumb {
   margin-bottom: 0;
 }
 
+body#rocket.path-news.path-media h1.page-title {
+  padding-top: 90px;
+  padding-top: 110px;
+  display: block;
+  color: #fff;
+  padding-bottom: 30px;
+  font-size: 1.4rem;
+  font-family: "eurostile-extended", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  line-height: 1.8rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 5px;
+}
+
 @media (min-width: 1180px) {
   body#rocket.path-news ul.breadcrumb {
     padding-top: 100px;
   }
 
-  body#rocket.path-news h1.page-title span {
+  body#rocket.path-news h1.page-title span,
+  body#rocket.path-news.path-media h1.page-title span {
     padding-top: 110px;
     line-height: 1.8rem;
   }
