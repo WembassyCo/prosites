@@ -10,6 +10,10 @@
  * Implements template_preprocess_page()
  */
 function glazed_subtheme_preprocess_page(&$variables) {
+  if(strpos($_SERVER['REQUEST_URI'], "/media/news/") !== false) {
+    $variables['is_news'] = TRUE;
+  }
+
   if(isset($variables['node'])) {
     $node = $variables['node'];
     if($node->bundle() == 'article')  {
@@ -24,6 +28,10 @@ function glazed_subtheme_preprocess_page(&$variables) {
  * Implements template_preprocess_node()
  */
 function glazed_subtheme_preprocess_node(&$variables) {
+  if(strpos($_SERVER['REQUEST_URI'], "/media/news/") !== false) {
+    $variables['is_news'] = TRUE;
+  }
+
   if(isset($variables['node'])) {
     $node = $variables['node'];
     if($node->bundle() == 'article')  {
@@ -83,6 +91,10 @@ function glazed_subtheme_preprocess_html(&$variables) {
         $variables['attributes']['class'][] = 'path-news';
       }
     }
+  }
+
+  if(strpos($_SERVER['REQUEST_URI'], "/media/news/") !== false) {
+    $variables['attributes']['class'][] = 'path-news';
   }
 }
 
