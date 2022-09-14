@@ -54,7 +54,6 @@
           }
         }
 
-
         if (jQuery('body').hasClass('node-1826')) {
           var navpos1826 = $('.node-1826 .home-scroll').offset();
           $(window).bind('scroll', function () {
