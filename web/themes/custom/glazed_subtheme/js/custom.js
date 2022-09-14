@@ -54,7 +54,6 @@
           });
 
           var navpos = $('.node-1826 .home-scroll').offset();
-          console.log(navpos.top);
           $(window).bind('scroll', function () {
             if ($(window).scrollTop() > navpos.top) {
               $('.node-1826 .home-scroll').addClass('fixed');
