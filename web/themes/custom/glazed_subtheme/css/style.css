@@ -198,8 +198,8 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     height: 80px;
     line-height: 80px;
     width: 80px;
-    text-indent: -9999px;
     position: relative;
+    font-size: 0px;
 }
 
 .body--glazed-nav-desktop .glazed-header--top .nav>li>span::after {
@@ -215,6 +215,14 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+}
+
+.body--glazed-nav-desktop .glazed-header--top .nav>li:hover>span:after {
+    color: #0b88ff;
+}
+
+div#block-searchform {
+    display: none;
 }
 
 /*------ media querry start----*/
