@@ -205,7 +205,7 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 .body--glazed-nav-desktop .glazed-header--top .nav>li>span::after {
     font: normal normal normal 14px/1 FontAwesome;
     content: "\f002";
-    font-size: 21px;
+    font-size: 18px;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -223,6 +223,53 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
 
 div#block-searchform {
     display: none;
+}
+
+.custom-search {
+    padding: 0px 30px;
+}
+
+.custom-search .search-block-form input {
+    width: 99%;
+    background: rgba(206, 205, 201, 0.6);
+    border: none;
+    box-shadow: none;
+    height: 35px !important;
+    font-size: 0.8rem;
+    text-transform: none !important;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+#rocket .custom-search button.btn {
+    width: 42px;
+    overflow: hidden;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #b6b4ae;
+    font-size: 16px;
+    line-height: 1;
+    box-shadow: none;
+    height: 35px;
+    top: -4px;
+    padding: 0px;
+    right: 5px;
+}
+
+
+.tb-megamenu .custom-search input[type="search"]:focus {
+    border-color: transparent;
+    outline: 0;
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 /*------ media querry start----*/
