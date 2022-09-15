@@ -198,15 +198,15 @@ footer .region .az-section .az-column.footer-social .az-text.custom-social-text 
     height: 80px;
     line-height: 80px;
     width: 80px;
-    text-indent: -999px;
+    text-indent: -9999px;
     position: relative;
 }
 
 .body--glazed-nav-desktop .glazed-header--top .nav>li>span::after {
-    font-family: "Glyphicons Halflings";
-    font-style: normal;
-    font-weight: 400;
-    content: "\e003";
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f002";
+    font-size: 21px;
+    color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
