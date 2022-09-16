@@ -272,6 +272,73 @@ div#block-searchform {
     box-shadow: none;
 }
 
+body.path-webform .wrap-containers {
+    background: #fff;
+}
+
+body.path-webform .wrap-containers #webform-submission-contact-add-form textarea {
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 0.8rem;
+    text-transform: none !important;
+    letter-spacing: 1px;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, .1);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+body.path-webform .wrap-containers #webform-submission-contact-add-form input,
+body.path-webform .wrap-containers #webform-submission-contact-add-form select {
+    height: 37px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 0.8rem;
+    text-transform: none !important;
+    letter-spacing: 1px;
+    color: #999;
+    border: 1px solid rgba(0, 0, 0, .1);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+body.path-webform .wrap-containers #webform-submission-contact-add-form label {
+    font-family: "myriad-pro", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+body.path-webform .wrap-containers #webform-submission-contact-add-form .panel-heading {
+    display: none;
+}
+
+body.path-webform .wrap-containers #webform-submission-contact-add-form p#captcha--description {
+    display: none;
+}
+
+body.path-webform .wrap-containers #webform-submission-contact-add-form .panel{
+    padding: 0px;
+    border-width: 0px;
+}
+
 /*------ media querry start----*/
 @media only screen and (min-width: 1025px) {
 
@@ -560,6 +627,18 @@ div#block-searchform {
         border-radius: 0;
     }
 
+    .tb-megamenu .nav-collapse .nav>li>span {
+        padding: 15px;
+        font-size: 0px !important;
+    }
+
+    .tb-megamenu .nav-collapse .nav>li>a:hover,
+    .tb-megamenu .nav-collapse .nav>li>a:focus,
+    .tb-megamenu .nav-collapse .nav>li>span.tb-megamenu-no-link:hover,
+    .tb-megamenu .nav-collapse .nav>li>span.tb-megamenu-no-link:focus {
+        color: #003a71;
+    }
+
     .tb-megamenu .nav [class^="fa-"],
     .tb-megamenu .nav [class*=" fa-"] {
         display: none;
@@ -567,7 +646,7 @@ div#block-searchform {
 
     .tb-megamenu .nav-collapse .nav>li>a,
     .tb-megamenu .nav-collapse .dropdown-menu a {
-        padding: 9px 15px;
+        padding: 15px 15px;
         font-weight: bold;
         text-align: center;
         border-width: 0px;
@@ -595,7 +674,7 @@ div#block-searchform {
         background: rgba(255, 255, 255, 0.8);
         margin-top: 10px;
         position: absolute;
-        top: 60px;
+        top: 0px;
         width: 100%;
         margin-top: 0px;
     }
@@ -617,6 +696,19 @@ div#block-searchform {
     #block-views-block-rocket-home-page-slider-block-1 .form-group {
         margin-bottom: 0px;
     }
+
+    .tb-megamenu .nav li.dropdown.active>.dropdown-toggle {
+        text-transform: uppercase;
+    }
+
+    .tb-megamenu .nav li.dropdown.active>.dropdown-toggle,
+    .tb-megamenu .nav li.dropdown.open.active>.dropdown-toggle,
+    .tb-megamenu .nav>li.dropdown.open.active>a:hover,
+    .tb-megamenu .nav>li.dropdown.open.active>span.tb-megamenu-no-link:hover {
+        background: rgba(255, 255, 255, 0.8);
+        border-color: #fff;
+        color: #003a71;
+    }
 }
 
 @media only screen and (max-width: 979px) {}
@@ -624,6 +716,10 @@ div#block-searchform {
 @media only screen and (max-width: 767px) {
     .navbar.glazed-header .navbar-header {
         float: left;
+    }
+
+    button.btn.btn-navbar.tb-megamenu-button {
+        top: 15px;
     }
 
     .custom-logo {
@@ -663,6 +759,15 @@ div#block-searchform {
     .sector-section .az-column .sector-title h3 {
         padding-left: 0.8rem !important;
     }
+
+    .tb-megamenu .nav-collapse {
+        top: 60px;
+    }
+
+    .tb-megamenu .nav-collapse.collapse.in {
+        top: 60px;
+    }
+
 }
 
 /*------ media querry end----*/
@@ -1667,12 +1772,6 @@ ol {
 }
 
 @media only screen and (max-width: 768px) {
-    button.btn.btn-navbar.tb-megamenu-button {
-        position: absolute;
-        top: 20px;
-        right: 15px;
-    }
-
     .path-search .page-title span {
         margin-top: 0;
         top: 0px;
