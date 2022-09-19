@@ -186,6 +186,37 @@
 
   $(window).on("load", function () {
     hide_loader();
+
+    if (jQuery('#block-supplier-menu-block').length > 0) {
+      var blocksuppliermenublock = jQuery('#block-supplier-menu-block');
+
+      blocksuppliermenublock.find('li').each(function () {
+        if (jQuery(this).hasClass('dropdown') == true) {
+          jQuery(this).removeClass('dropdown');
+        }
+      });
+
+      blocksuppliermenublock.find('a').each(function () {
+        if (jQuery(this).hasClass('dropdown-toggle') == true) {
+          jQuery(this).removeClass('dropdown-toggle');
+        }
+      });
+
+      blocksuppliermenublock.find('ul').each(function () {
+        if (jQuery(this).hasClass('dropdown-menu') == true) {
+          jQuery(this).removeClass('dropdown-menu');
+        }
+      });
+
+      blocksuppliermenublock.find('span').each(function () {
+        if (jQuery(this).hasClass('caret') == true) {
+          jQuery(this).remove();
+        }
+      });
+
+
+    }
+
   });
 
 
