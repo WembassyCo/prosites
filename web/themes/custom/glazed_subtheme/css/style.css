@@ -1808,6 +1808,33 @@ nav#block-supplier-menu-block .open > a {
 	padding-left: 1.0rem;
 }
 
+#rocket .wrap-containers #block-supplier-menu-block ul.nav ul li.expanded ul {
+	display: none;
+}
+
+#rocket .wrap-containers #block-supplier-menu-block ul.nav ul li.expanded.active ul {
+	display: block;
+}
+
+#rocket .wrap-containers #block-supplier-menu-block ul.nav ul li.expanded.active a.active-trail {
+	color: #B32317;
+}
+
+.link-black {
+	color: #000;
+}
+
+.apollovideo iframe {
+	width: 560px;
+	height: 315px;
+}
+
+.contractor-saf-pro-video {
+	width: 420px;
+	height: 236px;
+	padding: 0px;
+}
+
 @media only screen and (max-width: 991px) {
 
 	a.logo.navbar-btn {
