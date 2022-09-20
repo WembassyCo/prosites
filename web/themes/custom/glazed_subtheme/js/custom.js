@@ -190,6 +190,14 @@
     if (jQuery('#block-supplier-menu-block').length > 0) {
       var blocksuppliermenublock = jQuery('#block-supplier-menu-block');
 
+      var sppmenuli = jQuery('#block-supplier-menu-block li a');
+
+      sppmenuli.each(function () {
+        jQuery(this).on("click", function () {
+          window.location = this.href;
+        });
+      });
+
       blocksuppliermenublock.find('li').each(function () {
         if (jQuery(this).hasClass('dropdown') == true) {
           jQuery(this).removeClass('dropdown');
