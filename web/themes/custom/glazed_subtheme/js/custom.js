@@ -91,11 +91,11 @@
             responsive: {
               0: {
                 items: 1,
-                nav: true
+                nav: false
               },
               768: {
                 items: 3,
-                nav: true
+                nav: false
               },
               1179: {
                 items: 4,
