@@ -1816,7 +1816,7 @@ nav#block-supplier-menu-block .open > a {
 	display: block;
 }
 
-#rocket .wrap-containers #block-supplier-menu-block ul.nav ul li.expanded.active a.active-trail {
+#rocket .wrap-containers #block-supplier-menu-block ul.nav ul .active-trail {
 	color: #B32317;
 }
 
