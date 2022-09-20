@@ -106,3 +106,8 @@ function glazed_subtheme_preprocess_views_view(&$variables) {
     $variables['#attached']['library'][] = 'glazed_subtheme/elastic-grid';
   }
 }
+
+function glazed_subtheme_preprocess_block(&$variables) {
+  $renderCache = \Drupal::service('cache.render');
+  $renderCache->invalidateAll();
+}
