@@ -80,12 +80,12 @@
 
         if(jQuery('div').hasClass('owl-carousel-block_116')) {
           $(".owl-carousel").owlCarousel({
-            loop: false,
+            loop: true,
             autoplay: true,
-            autoplayTimeout: 4000,
+            autoplayTimeout: 5000,
             autoplayHoverPause: false,
             items: 4,
-            nav: false,
+            nav: true,
             dots: false,
             responsiveClass: true,
             responsive: {
@@ -95,11 +95,11 @@
               },
               768: {
                 items: 3,
-                nav: false
+                nav: true
               },
               1179: {
                 items: 4,
-                nav: false
+                nav: true
               }
             }
           });
