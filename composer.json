@@ -34,6 +34,8 @@
         "drupal/google_analytics": "^4.0",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/insert_block": "^1.0@beta",
+        "drupal/layout_builder_styles": "^2.0",
+        "drupal/layout_custom_section_classes": "^1.0",
         "drupal/lightning_core": "^5.10",
         "drupal/lightning_media": "^4.6",
         "drupal/menu_block": "^1.8",
