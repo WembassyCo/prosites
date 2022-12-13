@@ -10,6 +10,7 @@ global-styling:
   dependencies:
     - core/jquery
     - core/jquery.once
+    - jquery_ui/core
     - core/modernizr
 
 # Admin interface , styling theme settings form
