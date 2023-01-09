@@ -30,6 +30,7 @@
         "drupal/core-recommended": "^9.2",
         "drupal/devel": "^4.1",
         "drupal/entity_browser": "^2.6",
+        "drupal/feeds": "^3.0@beta",
         "drupal/field_group": "^3.2",
         "drupal/google_analytics": "^4.0",
         "drupal/inline_entity_form": "^1.0@RC",
