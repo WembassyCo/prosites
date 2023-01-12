@@ -26,8 +26,8 @@
         "drupal/bootstrap4": "^2.1",
         "drupal/captcha": "^1.4",
         "drupal/colorbox": "^1.10",
-        "drupal/core-composer-scaffold": "^9.2",
-        "drupal/core-recommended": "^9.2",
+        "drupal/core-composer-scaffold": "^9.4",
+        "drupal/core-recommended": "^9.4",
         "drupal/devel": "^4.1",
         "drupal/entity_browser": "^2.6",
         "drupal/feeds": "^3.0@beta",
@@ -61,7 +61,7 @@
         "pantheon-upstreams/upstream-configuration": "self.version"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.2"
+        "drupal/core-dev": "^9.4"
     },
     "conflict": {
         "drupal/drupal": "*"
