@@ -15,7 +15,61 @@ dependencies:
     - field.field.node.blogs.field_tags
     - node.type.blogs
   module:
+    - feeds_tamper
     - node
+third_party_settings:
+  feeds_tamper:
+    tampers:
+      c2c2e426-f7c9-4ac6-9674-147aeb60a3f5:
+        character: ''
+        side: trim
+        uuid: c2c2e426-f7c9-4ac6-9674-147aeb60a3f5
+        plugin: trim
+        source: background_image
+        weight: 0
+        label: 'Characters to trim'
+      499c5570-9643-48d4-ba63-c628fe77988e:
+        separator: ','
+        limit: null
+        uuid: 499c5570-9643-48d4-ba63-c628fe77988e
+        plugin: explode
+        source: industry
+        weight: 0
+        label: Explode
+      a6eabe42-f161-4a5c-9665-674cdfae6470:
+        character: ''
+        side: trim
+        uuid: a6eabe42-f161-4a5c-9665-674cdfae6470
+        plugin: trim
+        source: social_image
+        weight: 0
+        label: 'Characters to trim'
+      05ee29ff-ff61-4f79-84ae-0338beb48a82:
+        separator: ','
+        limit: null
+        uuid: 05ee29ff-ff61-4f79-84ae-0338beb48a82
+        plugin: explode
+        source: tags
+        weight: 0
+        label: Explode
+      b58483a3-59f6-4502-8c64-54424c5b7025:
+        uuid: b58483a3-59f6-4502-8c64-54424c5b7025
+        plugin: html_entity_decode
+        source: title
+        weight: 0
+        label: 'HTML entity decode'
+      2c5226c0-713b-4d7f-8d05-5f35df26745c:
+        uuid: 2c5226c0-713b-4d7f-8d05-5f35df26745c
+        plugin: html_entity_decode
+        source: summary
+        weight: 0
+        label: 'HTML entity decode'
+      ababb88e-a7b4-41a9-be18-59f15be05447:
+        uuid: ababb88e-a7b4-41a9-be18-59f15be05447
+        plugin: html_entity_decode
+        source: body
+        weight: 0
+        label: 'HTML entity decode'
 label: Blogs
 id: blogs
 description: 'Import blog contents from old site'
@@ -27,7 +81,7 @@ fetcher_configuration:
   directory: 'private://feeds'
 parser: csv
 parser_configuration:
-  delimiter: +
+  delimiter: ','
   no_headers: false
   line_limit: 100
 processor: 'entity:node'
@@ -36,7 +90,7 @@ processor_configuration:
     type: blogs
   langcode: en
   insert_new: 1
-  update_existing: 1
+  update_existing: 2
   update_non_existent: _keep
   skip_hash_check: false
   authorize: true
@@ -153,15 +207,15 @@ mappings:
       value: body
       summary: summary
     settings:
-      language: null
-      format: plain_text
+      language: ''
+      format: full_html
   -
     target: field_conclusion
     map:
       value: conclusion
     settings:
-      language: null
-      format: plain_text
+      language: ''
+      format: full_html
   -
     target: field_goal
     map:
@@ -228,7 +282,8 @@ mappings:
   -
     target: title
     map:
-      value: title_1
+      value: title
     settings:
       language: null
-    unique: {  }
+    unique:
+      value: '1'

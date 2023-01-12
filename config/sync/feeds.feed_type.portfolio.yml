@@ -241,7 +241,8 @@ mappings:
       value: title
     settings:
       language: null
-    unique: {  }
+    unique:
+      value: '1'
   -
     target: field_company_background
     map:
@@ -266,8 +267,8 @@ mappings:
       value: body
       summary: summary
     settings:
-      language: null
-      format: plain_text
+      language: ''
+      format: full_html
   -
     target: created
     map:
