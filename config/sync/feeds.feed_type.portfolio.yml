@@ -82,6 +82,14 @@ third_party_settings:
         source: image_alt
         weight: 0
         label: Explode
+      a4fc5107-2ecd-46b2-ba2b-f0bb0517edd9:
+        character: ''
+        side: trim
+        uuid: a4fc5107-2ecd-46b2-ba2b-f0bb0517edd9
+        plugin: trim
+        source: image
+        weight: 1
+        label: 'Characters to trim'
 label: Portfolio
 id: portfolio
 description: 'Import client/portfolio contents from old site'
