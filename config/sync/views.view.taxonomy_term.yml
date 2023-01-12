@@ -1,4 +1,4 @@
-uuid: 2ebc38fe-00d0-4efd-ad83-1262cc6b6de3
+uuid: c9c9d613-523d-4eb1-9ac1-d00b3f40cca9
 langcode: en
 status: true
 dependencies:
@@ -215,8 +215,7 @@ display:
       style:
         type: default
         options:
-          grouping: {  }
-          row_class: ''
+          row_class: 'text-center col-md-4'
           default_row_class: true
           uses_fields: false
       row:
@@ -232,6 +231,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
+      css_class: row
       link_display: page_1
       link_url: ''
       header:

@@ -1,0 +1,29 @@
+uuid: 57f2f9bc-1f88-4487-8274-ee27a84a4996
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_stage
+    - node.type.blogs
+    - taxonomy.vocabulary.customer_journey_stage
+id: node.blogs.field_stage
+field_name: field_stage
+entity_type: node
+bundle: blogs
+label: Stage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      customer_journey_stage: customer_journey_stage
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

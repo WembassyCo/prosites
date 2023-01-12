@@ -1,0 +1,29 @@
+uuid: fbf9f252-46f0-476f-94a4-64e3c849c62e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_scope
+    - node.type.project
+    - taxonomy.vocabulary.tags
+id: node.project.field_scope
+field_name: field_scope
+entity_type: node
+bundle: project
+label: 'Scope Of Work'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

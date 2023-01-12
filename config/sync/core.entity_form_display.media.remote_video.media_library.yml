@@ -1,12 +1,10 @@
-uuid: 35201c8c-58a2-426c-b6f4-8e9a582a6305
+uuid: d2ccd01d-791b-42cb-8c93-e48572295960
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_form_mode.media.media_library
-    - field.field.media.remote_video.field_media_in_library
     - field.field.media.remote_video.field_media_oembed_video
-    - field.field.media.remote_video.field_show_in_media_library
     - media.type.remote_video
 _core:
   default_config_hash: TBgPW-uaXRaICBwLaVc16rXpRiLSknDIdF9q0XL7qso
@@ -14,20 +12,10 @@ id: media.remote_video.media_library
 targetEntityType: media
 bundle: remote_video
 mode: media_library
-content:
-  revision_log_message:
-    type: string_textarea
-    weight: 25
-    region: content
-    settings:
-      rows: 4
-      placeholder: ''
-    third_party_settings: {  }
+content: {  }
 hidden:
   created: true
-  field_media_in_library: true
   field_media_oembed_video: true
-  field_show_in_media_library: true
   name: true
   path: true
   status: true

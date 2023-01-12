@@ -1,0 +1,31 @@
+uuid: 6e42db62-334c-40e4-9733-ce22fa84c97c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_challenge_and_solutions
+    - node.type.project
+    - paragraphs.paragraphs_type.challenge_solutions
+  module:
+    - entity_reference_revisions
+id: node.project.field_challenge_and_solutions
+field_name: field_challenge_and_solutions
+entity_type: node
+bundle: project
+label: 'Challenge And Solutions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      challenge_solutions: challenge_solutions
+    negate: 0
+    target_bundles_drag_drop:
+      challenge_solutions:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

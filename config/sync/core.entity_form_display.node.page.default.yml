@@ -1,16 +1,17 @@
-uuid: 0bfaba3d-5b59-4934-a561-8b72bddb096a
+uuid: 8e3d5043-0117-4e63-9cad-a60dbfe6c5c1
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.page.body
-    - field.field.node.page.field_main_photo
-    - image.style.thumbnail
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_yoast_seo
     - node.type.page
   module:
-    - image
+    - metatag
     - path
     - text
+    - yoast_seo
 _core:
   default_config_hash: SfpLhPExzvR0MgFp0Wp7CrmgEnhcqQ-fXIWFhbf4ue0
 id: node.page.default
@@ -34,19 +35,20 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_main_photo:
-    type: entity_browser_file
+  field_meta_tags:
+    type: metatag_firehose
     weight: 121
     region: content
     settings:
-      entity_browser: image_browser
-      field_widget_edit: true
-      field_widget_remove: true
-      field_widget_replace: false
-      open: true
-      selection_mode: selection_append
-      view_mode: default
-      preview_image_style: thumbnail
+      sidebar: true
+      use_details: true
+    third_party_settings: {  }
+  field_yoast_seo:
+    type: yoast_seo_widget
+    weight: 122
+    region: content
+    settings:
+      body: body
     third_party_settings: {  }
   path:
     type: path

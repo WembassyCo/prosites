@@ -1,0 +1,23 @@
+uuid: 711931f3-de48-49a5-a44a-999d343bd824
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.testimony
+  module:
+    - text
+id: node.testimony.body
+field_name: body
+entity_type: node
+bundle: testimony
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

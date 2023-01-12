@@ -1,0 +1,21 @@
+uuid: 3957576f-ad52-4edf-8b54-03f6e5b8b65f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_challenge
+    - paragraphs.paragraphs_type.challenge_solutions
+  module:
+    - text
+id: paragraph.challenge_solutions.field_challenge
+field_name: field_challenge
+entity_type: paragraph
+bundle: challenge_solutions
+label: Challenge
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

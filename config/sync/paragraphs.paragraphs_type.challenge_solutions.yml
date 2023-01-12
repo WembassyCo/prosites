@@ -1,0 +1,10 @@
+uuid: 65e9ec50-6b7f-4cf0-9d21-ca221bbffa24
+langcode: en
+status: true
+dependencies: {  }
+id: challenge_solutions
+label: 'Challenge And Solutions'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

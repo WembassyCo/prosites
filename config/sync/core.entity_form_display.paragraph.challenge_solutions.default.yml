@@ -1,0 +1,34 @@
+uuid: e17eb817-b64d-430e-b3bd-5d899c094e76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.challenge_solutions.field_challenge
+    - field.field.paragraph.challenge_solutions.field_solution
+    - paragraphs.paragraphs_type.challenge_solutions
+  module:
+    - text
+id: paragraph.challenge_solutions.default
+targetEntityType: paragraph
+bundle: challenge_solutions
+mode: default
+content:
+  field_challenge:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_solution:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

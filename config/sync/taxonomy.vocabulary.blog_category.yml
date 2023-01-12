@@ -1,8 +1,0 @@
-uuid: 6a33c472-2a9f-44cd-ae48-4d6a7d182d20
-langcode: en
-status: true
-dependencies: {  }
-name: 'Blog Category'
-vid: blog_category
-description: ''
-weight: 0

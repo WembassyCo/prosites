@@ -1,0 +1,49 @@
+uuid: 8b8aa86a-431a-4ec8-9124-8ef39247ea2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.testimony.body
+    - field.field.node.testimony.feeds_item
+    - field.field.node.testimony.field_image
+    - field.field.node.testimony.field_industry
+    - field.field.node.testimony.field_meta_tags
+    - field.field.node.testimony.field_metatags
+    - field.field.node.testimony.field_project
+    - field.field.node.testimony.field_subtitle
+    - field.field.node.testimony.field_tags
+    - field.field.node.testimony.field_yoast_seo
+    - node.type.testimony
+  module:
+    - text
+    - user
+id: node.testimony.teaser
+targetEntityType: node
+bundle: testimony
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  feeds_item: true
+  field_image: true
+  field_industry: true
+  field_meta_tags: true
+  field_metatags: true
+  field_project: true
+  field_subtitle: true
+  field_tags: true
+  field_yoast_seo: true
+  search_api_excerpt: true

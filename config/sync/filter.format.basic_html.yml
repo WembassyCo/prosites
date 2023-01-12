@@ -1,14 +1,15 @@
-uuid: 7921b85f-436a-4bec-b7f8-b1a3f7a3c070
+uuid: cf45f7b9-656b-4a8c-95dd-d798aad89f0c
 langcode: en
 status: true
 dependencies:
   module:
     - editor
+    - slick
 _core:
   default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
 name: 'Basic HTML'
 format: basic_html
-weight: 0
+weight: -8
 filters:
   filter_html:
     id: filter_html
@@ -43,3 +44,11 @@ filters:
     status: true
     weight: 11
     settings: {  }
+  slick_filter:
+    id: slick_filter
+    provider: slick
+    status: false
+    weight: 4
+    settings:
+      optionset: default
+      media_switch: ''

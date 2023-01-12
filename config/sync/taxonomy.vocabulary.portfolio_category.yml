@@ -1,8 +1,0 @@
-uuid: 679ece40-cef7-4582-9071-0179212d92f7
-langcode: en
-status: true
-dependencies: {  }
-name: 'Portfolio Category'
-vid: portfolio_category
-description: ''
-weight: 0

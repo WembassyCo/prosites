@@ -1,16 +1,14 @@
-uuid: 882e8ebc-eed0-4762-a9c4-eaa46dc97a1c
+uuid: e721ab09-4862-42b0-b55e-8c6346b8cbf5
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_form_mode.media.media_library
-    - entity_browser.browser.image_browser
     - field.field.media.image.field_media_image
-    - field.field.media.image.field_media_in_library
-    - field.field.media.image.field_show_in_media_library
+    - image.style.thumbnail
     - media.type.image
   module:
-    - entity_browser
+    - image
 _core:
   default_config_hash: BMLrK4zKp8-FFnMseBdT_6h6YipUsKRfbDf_3WUB5HA
 id: media.image.media_library
@@ -19,31 +17,15 @@ bundle: image
 mode: media_library
 content:
   field_media_image:
-    type: entity_browser_file
+    type: image_image
     weight: 1
     region: content
     settings:
-      entity_browser: image_browser
-      field_widget_edit: true
-      field_widget_remove: true
-      field_widget_replace: false
-      open: false
-      selection_mode: selection_append
-      view_mode: default
+      progress_indicator: throbber
       preview_image_style: thumbnail
-    third_party_settings: {  }
-  revision_log_message:
-    type: string_textarea
-    weight: 25
-    region: content
-    settings:
-      rows: 4
-      placeholder: ''
     third_party_settings: {  }
 hidden:
   created: true
-  field_media_in_library: true
-  field_show_in_media_library: true
   name: true
   path: true
   status: true

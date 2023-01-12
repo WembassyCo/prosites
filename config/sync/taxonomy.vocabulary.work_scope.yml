@@ -1,0 +1,8 @@
+uuid: b9c51d1a-bbdc-4fcb-8b9b-9b260d7a83f9
+langcode: en
+status: true
+dependencies: {  }
+name: 'Work Scope'
+vid: work_scope
+description: ''
+weight: 0

@@ -1,4 +1,4 @@
-uuid: a0665859-8584-4e78-8d06-9141009b77cb
+uuid: e9bc125d-fefd-45a3-83f2-5b8c472375d8
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: glazed_main_menu
 theme: glazed
 region: navigation_collapsible
-weight: 10
+weight: -4
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -24,4 +24,8 @@ settings:
   level: 1
   depth: 9
   expand_all_items: false
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

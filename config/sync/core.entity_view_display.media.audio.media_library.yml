@@ -1,18 +1,16 @@
-uuid: e2355b41-eac3-4340-b109-4debfd7f4dae
+uuid: e0a96584-6e96-4811-840c-d89706843c3e
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.media.media_library
     - field.field.media.audio.field_media_audio_file
-    - field.field.media.audio.field_media_in_library
-    - field.field.media.audio.field_show_in_media_library
     - image.style.thumbnail
     - media.type.audio
   module:
     - image
 _core:
-  default_config_hash: oxp7yFz5G5Yg0Q00XN-9LC_eX4w8wj7vojjkd3XuaQs
+  default_config_hash: tcAUW1Xzq5Tjw5jomR6XKGSgfiXO7QiRAHJBF-n0akg
 id: media.audio.media_library
 targetEntityType: media
 bundle: audio
@@ -22,15 +20,16 @@ content:
     type: image
     label: hidden
     settings:
-      image_link: ''
       image_style: thumbnail
+      image_link: ''
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
 hidden:
   created: true
   field_media_audio_file: true
-  field_media_in_library: true
-  field_show_in_media_library: true
   name: true
+  search_api_excerpt: true
   uid: true

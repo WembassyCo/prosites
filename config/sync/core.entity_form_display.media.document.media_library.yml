@@ -1,12 +1,10 @@
-uuid: 4e16c5d5-d8fe-4c4c-8682-6f6adab311b0
+uuid: 8cbd1fb2-d5a2-4d17-9e64-560b1a61e0d8
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_form_mode.media.media_library
     - field.field.media.document.field_media_document
-    - field.field.media.document.field_media_in_library
-    - field.field.media.document.field_show_in_media_library
     - media.type.document
 _core:
   default_config_hash: dcpfpqyLXOSGpulacMAJW3H-G34_LeNsjdfxd1_oCfY
@@ -14,20 +12,10 @@ id: media.document.media_library
 targetEntityType: media
 bundle: document
 mode: media_library
-content:
-  revision_log_message:
-    type: string_textarea
-    weight: 25
-    region: content
-    settings:
-      rows: 4
-      placeholder: ''
-    third_party_settings: {  }
+content: {  }
 hidden:
   created: true
   field_media_document: true
-  field_media_in_library: true
-  field_show_in_media_library: true
   name: true
   path: true
   status: true

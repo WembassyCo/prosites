@@ -1,0 +1,23 @@
+uuid: 243661f7-5a09-46e6-b4d0-8b9ea8244e36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_headliner
+    - node.type.portfolio
+id: node.portfolio.field_headliner
+field_name: field_headliner
+entity_type: node
+bundle: portfolio
+label: Headliner
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

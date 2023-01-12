@@ -1,0 +1,18 @@
+uuid: fb323bef-dd0d-425a-a209-f7cd4d3899ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_headliner
+field_name: field_headliner
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

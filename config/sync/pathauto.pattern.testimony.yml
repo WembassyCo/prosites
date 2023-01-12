@@ -1,0 +1,22 @@
+uuid: f048e65b-b98e-48d0-a1c6-675ff8556ff7
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: testimony
+label: Testimony
+type: 'canonical_entities:node'
+pattern: '/testimony/[node:title]'
+selection_criteria:
+  6e360127-afa0-42f1-a535-24baa9c7cdf3:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 6e360127-afa0-42f1-a535-24baa9c7cdf3
+    context_mapping:
+      node: node
+    bundles:
+      testimony: testimony
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,21 @@
+uuid: 0f9ebe26-8a54-430e-b794-7eb673ba7d32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_bio
+    - node.type.project
+  module:
+    - text
+id: node.project.field_company_bio
+field_name: field_company_bio
+entity_type: node
+bundle: project
+label: 'Company Background'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

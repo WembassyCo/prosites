@@ -1,0 +1,236 @@
+uuid: 176fd37e-def2-4346-815f-b920ec6a88ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.testimony.body
+    - field.field.node.testimony.feeds_item
+    - field.field.node.testimony.field_image
+    - field.field.node.testimony.field_industry
+    - field.field.node.testimony.field_meta_tags
+    - field.field.node.testimony.field_metatags
+    - field.field.node.testimony.field_project
+    - field.field.node.testimony.field_subtitle
+    - field.field.node.testimony.field_tags
+    - field.field.node.testimony.field_yoast_seo
+    - node.type.testimony
+  module:
+    - image
+    - layout_builder
+    - layout_discovery
+    - metatag
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 33-67
+          custom_id: ''
+          custom_classes: ''
+          custom_class_choose: {  }
+          custom_styles: ''
+          custom_data_attributes: ''
+          regions:
+            first:
+              region_id: ''
+              region_class_choose: {  }
+              region_classes: ''
+              region_styles: ''
+              region_data: ''
+            second:
+              region_id: ''
+              region_class_choose: {  }
+              region_classes: ''
+              region_styles: ''
+              region_data: ''
+        components:
+          f5914f46-b619-4e07-8e70-f5d230d7b894:
+            uuid: f5914f46-b619-4e07-8e70-f5d230d7b894
+            region: first
+            configuration:
+              id: 'field_block:node:testimony:field_image'
+              label: Image
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          000d9944-81b9-41a3-9a4f-ae85c90ede98:
+            uuid: 000d9944-81b9-41a3-9a4f-ae85c90ede98
+            region: second
+            configuration:
+              id: 'field_block:node:testimony:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+        components:
+          07e41cc3-36d1-441f-b0ed-b0b22bb44d0a:
+            uuid: 07e41cc3-36d1-441f-b0ed-b0b22bb44d0a
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_meta_tags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: metatag_empty_formatter
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          aaa5b44b-03e8-48a8-a179-a771641d791d:
+            uuid: aaa5b44b-03e8-48a8-a179-a771641d791d
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_yoast_seo'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+          80a2b7f5-424e-40b0-982c-6877e36abfbd:
+            uuid: 80a2b7f5-424e-40b0-982c-6877e36abfbd
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_subtitle'
+              label: Subtitle
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+        third_party_settings: {  }
+id: node.testimony.default
+targetEntityType: node
+bundle: testimony
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_industry:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_meta_tags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_metatags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_project:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_subtitle:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_yoast_seo:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  feeds_item: true
+  search_api_excerpt: true

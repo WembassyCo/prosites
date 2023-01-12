@@ -1,12 +1,10 @@
-uuid: 49bc2c70-b1e4-4fb7-9d87-25674ad5a006
+uuid: 45d740c9-9421-478e-a572-cbb9aee72457
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_form_mode.media.media_library
     - field.field.media.audio.field_media_audio_file
-    - field.field.media.audio.field_media_in_library
-    - field.field.media.audio.field_show_in_media_library
     - media.type.audio
 _core:
   default_config_hash: 28vwMIYtvyjPcD4RyciZXIztxtZgmuWRCNgYemr_SZE
@@ -14,20 +12,10 @@ id: media.audio.media_library
 targetEntityType: media
 bundle: audio
 mode: media_library
-content:
-  revision_log_message:
-    type: string_textarea
-    weight: 25
-    region: content
-    settings:
-      rows: 4
-      placeholder: ''
-    third_party_settings: {  }
+content: {  }
 hidden:
   created: true
   field_media_audio_file: true
-  field_media_in_library: true
-  field_show_in_media_library: true
   name: true
   path: true
   status: true

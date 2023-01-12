@@ -1,11 +1,9 @@
-uuid: 1641237a-077b-4aa0-bdf8-83399e58658e
+uuid: e4d68cab-b07a-472b-a987-6fd7a06a206a
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.image.field_media_image
-    - field.field.media.image.field_media_in_library
-    - field.field.media.image.field_show_in_media_library
     - image.style.thumbnail
     - media.type.image
   module:
@@ -32,26 +30,11 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-  field_show_in_media_library:
-    type: boolean_checkbox
-    weight: 101
-    region: content
-    settings:
-      display_label: true
-    third_party_settings: {  }
   path:
     type: path
     weight: 30
     region: content
     settings: {  }
-    third_party_settings: {  }
-  revision_log_message:
-    type: string_textarea
-    weight: 25
-    region: content
-    settings:
-      rows: 4
-      placeholder: ''
     third_party_settings: {  }
   status:
     type: boolean_checkbox
@@ -71,5 +54,4 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  field_media_in_library: true
   name: true

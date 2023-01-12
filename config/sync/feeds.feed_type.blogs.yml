@@ -1,0 +1,289 @@
+uuid: b3b3f345-9d14-4bcf-b5ec-b088ab241dc6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.blogs.body
+    - field.field.node.blogs.field_bg_image
+    - field.field.node.blogs.field_conclusion
+    - field.field.node.blogs.field_goal
+    - field.field.node.blogs.field_industry
+    - field.field.node.blogs.field_social_image
+    - field.field.node.blogs.field_social_summary
+    - field.field.node.blogs.field_social_title
+    - field.field.node.blogs.field_stage
+    - field.field.node.blogs.field_tags
+    - node.type.blogs
+  module:
+    - feeds_tamper
+    - node
+third_party_settings:
+  feeds_tamper:
+    tampers:
+      c2c2e426-f7c9-4ac6-9674-147aeb60a3f5:
+        character: ''
+        side: trim
+        uuid: c2c2e426-f7c9-4ac6-9674-147aeb60a3f5
+        plugin: trim
+        source: background_image
+        weight: 0
+        label: 'Characters to trim'
+      499c5570-9643-48d4-ba63-c628fe77988e:
+        separator: ','
+        limit: null
+        uuid: 499c5570-9643-48d4-ba63-c628fe77988e
+        plugin: explode
+        source: industry
+        weight: 0
+        label: Explode
+      a6eabe42-f161-4a5c-9665-674cdfae6470:
+        character: ''
+        side: trim
+        uuid: a6eabe42-f161-4a5c-9665-674cdfae6470
+        plugin: trim
+        source: social_image
+        weight: 0
+        label: 'Characters to trim'
+      05ee29ff-ff61-4f79-84ae-0338beb48a82:
+        separator: ','
+        limit: null
+        uuid: 05ee29ff-ff61-4f79-84ae-0338beb48a82
+        plugin: explode
+        source: tags
+        weight: 0
+        label: Explode
+      b58483a3-59f6-4502-8c64-54424c5b7025:
+        uuid: b58483a3-59f6-4502-8c64-54424c5b7025
+        plugin: html_entity_decode
+        source: title
+        weight: 0
+        label: 'HTML entity decode'
+      2c5226c0-713b-4d7f-8d05-5f35df26745c:
+        uuid: 2c5226c0-713b-4d7f-8d05-5f35df26745c
+        plugin: html_entity_decode
+        source: summary
+        weight: 0
+        label: 'HTML entity decode'
+      ababb88e-a7b4-41a9-be18-59f15be05447:
+        uuid: ababb88e-a7b4-41a9-be18-59f15be05447
+        plugin: html_entity_decode
+        source: body
+        weight: 0
+        label: 'HTML entity decode'
+label: Blogs
+id: blogs
+description: 'Import blog contents from old site'
+help: ''
+import_period: 3600
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'private://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  values:
+    type: blogs
+  langcode: en
+  insert_new: 1
+  update_existing: 2
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: true
+  owner_id: 0
+custom_sources:
+  title:
+    value: Title
+    label: Title
+    machine_name: title
+    type: csv
+  background_image:
+    value: 'Background Image'
+    label: 'Background Image'
+    machine_name: background_image
+    type: csv
+  bg_alt:
+    value: 'BG alt'
+    label: 'BG alt'
+    machine_name: bg_alt
+    type: csv
+  body:
+    value: Body
+    label: Body
+    machine_name: body
+    type: csv
+  summary:
+    value: Summary
+    label: Summary
+    machine_name: summary
+    type: csv
+  conclusion:
+    value: Conclusion
+    label: Conclusion
+    machine_name: conclusion
+    type: csv
+  goal:
+    value: Goal
+    label: Goal
+    machine_name: goal
+    type: csv
+  industry:
+    value: Industry
+    label: Industry
+    machine_name: industry
+    type: csv
+  authored_on:
+    value: 'Authored on'
+    label: 'Authored on'
+    machine_name: authored_on
+    type: csv
+  id:
+    value: ID
+    label: ID
+    machine_name: id
+    type: csv
+  authored_by:
+    value: 'Authored by'
+    label: 'Authored by'
+    machine_name: authored_by
+    type: csv
+  social_image:
+    value: 'Social Image'
+    label: 'Social Image'
+    machine_name: social_image
+    type: csv
+  social_image_alt:
+    value: 'Social Image alt'
+    label: 'Social Image alt'
+    machine_name: social_image_alt
+    type: csv
+  social_summary:
+    value: 'Social Summary'
+    label: 'Social Summary'
+    machine_name: social_summary
+    type: csv
+  social_title:
+    value: 'Social Title'
+    label: 'Social Title'
+    machine_name: social_title
+    type: csv
+  stage:
+    value: Stage
+    label: Stage
+    machine_name: stage
+    type: csv
+  tags:
+    value: Tags
+    label: Tags
+    machine_name: tags
+    type: csv
+  title_1:
+    value: title
+    label: title
+    machine_name: title_1
+    type: blank
+mappings:
+  -
+    target: field_bg_image
+    map:
+      target_id: background_image
+      alt: bg_alt
+      title: ''
+    settings:
+      language: ''
+      reference_by: fid
+      existing: '1'
+      autocreate: 0
+  -
+    target: body
+    map:
+      value: body
+      summary: summary
+    settings:
+      language: ''
+      format: full_html
+  -
+    target: field_conclusion
+    map:
+      value: conclusion
+    settings:
+      language: ''
+      format: full_html
+  -
+    target: field_goal
+    map:
+      target_id: goal
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_industry
+    map:
+      target_id: industry
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: created
+    map:
+      value: authored_on
+    settings:
+      language: null
+      timezone: UTC
+  -
+    target: field_social_image
+    map:
+      target_id: social_image
+      alt: social_image_alt
+      title: ''
+    settings:
+      language: ''
+      reference_by: fid
+      existing: '1'
+      autocreate: 0
+  -
+    target: field_social_summary
+    map:
+      value: social_summary
+    settings:
+      language: null
+  -
+    target: field_social_title
+    map:
+      value: social_title
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_stage
+    map:
+      target_id: stage
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_tags
+    map:
+      target_id: tags
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: title
+    map:
+      value: title
+    settings:
+      language: null
+    unique:
+      value: '1'
