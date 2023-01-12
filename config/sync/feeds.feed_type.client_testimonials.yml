@@ -11,7 +11,19 @@ dependencies:
     - field.field.node.testimony.field_tags
     - node.type.testimony
   module:
+    - feeds_tamper
     - node
+third_party_settings:
+  feeds_tamper:
+    tampers:
+      750ed7c7-f67a-44aa-91c3-0d1686597f11:
+        separator: ','
+        limit: null
+        uuid: 750ed7c7-f67a-44aa-91c3-0d1686597f11
+        plugin: explode
+        source: tags
+        weight: 0
+        label: Explode
 label: 'Client Testimonials'
 id: client_testimonials
 description: 'Import client testimonial contents to site'

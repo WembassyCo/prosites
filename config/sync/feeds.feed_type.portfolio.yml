@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.portfolio.field_client_testimony
     - field.field.node.portfolio.field_company_background
     - field.field.node.portfolio.field_headliner
+    - field.field.node.portfolio.field_image
     - field.field.node.portfolio.field_industry
     - field.field.node.portfolio.field_is_a_featured
     - field.field.node.portfolio.field_logo
@@ -20,7 +21,67 @@ dependencies:
     - field.field.node.portfolio.field_weight
     - node.type.portfolio
   module:
+    - feeds_tamper
     - node
+third_party_settings:
+  feeds_tamper:
+    tampers:
+      a13ffc2b-fd44-41dc-8f43-11d5595fc506:
+        separator: ','
+        limit: null
+        uuid: a13ffc2b-fd44-41dc-8f43-11d5595fc506
+        plugin: explode
+        source: industry
+        weight: 0
+        label: Explode
+      3aab98d6-06de-4bfc-97d1-3da90a96ce30:
+        separator: ','
+        limit: null
+        uuid: 3aab98d6-06de-4bfc-97d1-3da90a96ce30
+        plugin: explode
+        source: scope_of_work
+        weight: 0
+        label: Explode
+      ca266316-0b0c-4781-a47a-aea102a90168:
+        separator: ','
+        limit: null
+        uuid: ca266316-0b0c-4781-a47a-aea102a90168
+        plugin: explode
+        source: tags
+        weight: 0
+        label: Explode
+      461616b1-411d-4a65-a3fa-b1a4635ede2b:
+        separator: ','
+        limit: null
+        uuid: 461616b1-411d-4a65-a3fa-b1a4635ede2b
+        plugin: explode
+        source: top_challenges
+        weight: 0
+        label: Explode
+      3285f658-30fa-44f5-bec6-4a972d5c48a7:
+        separator: ','
+        limit: null
+        uuid: 3285f658-30fa-44f5-bec6-4a972d5c48a7
+        plugin: explode
+        source: top_solutions
+        weight: 0
+        label: Explode
+      b74dd1de-a633-4224-a076-612b1a4278aa:
+        separator: ','
+        limit: null
+        uuid: b74dd1de-a633-4224-a076-612b1a4278aa
+        plugin: explode
+        source: image
+        weight: 0
+        label: Explode
+      9850fe80-aafe-461f-95c3-2b67e26b27b1:
+        separator: ','
+        limit: null
+        uuid: 9850fe80-aafe-461f-95c3-2b67e26b27b1
+        plugin: explode
+        source: image_alt
+        weight: 0
+        label: Explode
 label: Portfolio
 id: portfolio
 description: 'Import client/portfolio contents from old site'
@@ -41,7 +102,7 @@ processor_configuration:
     type: portfolio
   langcode: en
   insert_new: 1
-  update_existing: 1
+  update_existing: 2
   update_non_existent: _keep
   skip_hash_check: false
   authorize: true
@@ -154,6 +215,16 @@ custom_sources:
     value: Weight
     label: Weight
     machine_name: weight
+    type: csv
+  image:
+    value: Image
+    label: Image
+    machine_name: image
+    type: csv
+  image_alt:
+    value: 'Image alt'
+    label: 'Image alt'
+    machine_name: image_alt
     type: csv
 mappings:
   -
@@ -284,3 +355,14 @@ mappings:
     settings:
       language: null
     unique: {  }
+  -
+    target: field_image
+    map:
+      target_id: image
+      alt: image_alt
+      title: ''
+    settings:
+      language: ''
+      reference_by: fid
+      existing: '1'
+      autocreate: 0
