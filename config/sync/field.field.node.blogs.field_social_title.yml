@@ -1,0 +1,19 @@
+uuid: eb4068b7-317b-4599-aa40-439932253ddf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_social_title
+    - node.type.blogs
+id: node.blogs.field_social_title
+field_name: field_social_title
+entity_type: node
+bundle: blogs
+label: 'Social Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,4 +1,4 @@
-uuid: 1ce259be-3696-491b-8775-8e6d18a07255
+uuid: 7cc54993-d3ea-4e72-b950-0efca0f69324
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - ckeditor
 _core:
-  default_config_hash: 967ijj7p6i7rwrYl7r08WQFeCY_c23YAh0h8u-w_CXM
+  default_config_hash: wAnz2zfSYzdcolupgqQxXhngIscFdA_Y53q7FcwXpU0
 format: full_html
 editor: ckeditor
 settings:
@@ -50,9 +50,7 @@ settings:
           items:
             - ShowBlocks
             - Source
-  plugins:
-    stylescombo:
-      styles: ''
+  plugins: {  }
 image_upload:
   status: true
   scheme: public

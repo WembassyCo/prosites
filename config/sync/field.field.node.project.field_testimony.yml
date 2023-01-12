@@ -1,0 +1,29 @@
+uuid: 742136db-626b-4690-a865-e73cc5c77794
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_testimony
+    - node.type.project
+    - node.type.testimony
+id: node.project.field_testimony
+field_name: field_testimony
+entity_type: node
+bundle: project
+label: Testimony
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      testimony: testimony
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

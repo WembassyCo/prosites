@@ -1,0 +1,31 @@
+uuid: 4bab75df-2fef-41e4-9800-2095602ef0b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.challenge_solutions.field_challenge
+    - field.field.paragraph.challenge_solutions.field_solution
+    - paragraphs.paragraphs_type.challenge_solutions
+  module:
+    - text
+id: paragraph.challenge_solutions.default
+targetEntityType: paragraph
+bundle: challenge_solutions
+mode: default
+content:
+  field_challenge:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_solution:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

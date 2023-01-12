@@ -1,14 +1,14 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 6c883f93-a21e-4178-a7cb-7892bf4f18c9
-name: TCGD9
-mail: admin@wampserver.invalid
+uuid: 4cd4225d-5d2c-44c6-85ae-e9270497940b
+name: Wembassy
+mail: cmcintosh@wembassy.com
 slogan: ''
 page:
   403: ''
-  404: /node/6
-  front: /node/5
+  404: ''
+  front: /node/3
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

@@ -1,11 +1,9 @@
-uuid: b645a267-4807-4672-b947-d82bccd7868f
+uuid: 21b65661-c503-40e9-b6c5-ae903c3dbb65
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.media.audio.field_media_audio_file
-    - field.field.media.audio.field_media_in_library
-    - field.field.media.audio.field_show_in_media_library
     - media.type.audio
   module:
     - file
@@ -27,19 +25,9 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_show_in_media_library:
-    type: boolean
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    weight: 1
-    region: content
 hidden:
   created: true
-  field_media_in_library: true
   name: true
+  search_api_excerpt: true
   thumbnail: true
   uid: true

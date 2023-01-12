@@ -1,0 +1,29 @@
+uuid: 3637f703-c3c8-47b6-a5c5-4f26337f6e15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_client_testimony
+    - node.type.portfolio
+    - node.type.testimony
+id: node.portfolio.field_client_testimony
+field_name: field_client_testimony
+entity_type: node
+bundle: portfolio
+label: 'Client Testimony'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      testimony: testimony
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

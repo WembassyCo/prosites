@@ -1,0 +1,21 @@
+uuid: 5aeb8651-7615-4e34-ba7a-0a93e5309668
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yoast_seo
+    - node.type.drag_and_drop_page
+  module:
+    - yoast_seo
+id: node.drag_and_drop_page.field_yoast_seo
+field_name: field_yoast_seo
+entity_type: node
+bundle: drag_and_drop_page
+label: 'Real-time SEO'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: yoast_seo

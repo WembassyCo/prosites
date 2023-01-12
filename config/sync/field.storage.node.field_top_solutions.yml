@@ -1,0 +1,19 @@
+uuid: d72c294d-89aa-4488-b39e-bc79a3bd18e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_top_solutions
+field_name: field_top_solutions
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: bf8be3fd-3382-49fd-98a6-c35c5871c574
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_company_background
+field_name: field_company_background
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

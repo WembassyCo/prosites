@@ -1,21 +1,25 @@
-uuid: c9e23fcb-158e-4b13-99c2-a75588608f6e
+uuid: af967bb1-b0ba-48ff-859b-300f71b6401d
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_date
     - field.field.node.article.field_image
+    - field.field.node.article.field_media_social
+    - field.field.node.article.field_meta_tags
     - field.field.node.article.field_tags
+    - field.field.node.article.field_yoast_seo
     - image.style.thumbnail
     - node.type.article
   module:
     - comment
-    - datetime
     - image
+    - media_library
+    - metatag
     - path
     - text
+    - yoast_seo
 _core:
   default_config_hash: Pzq9mzrsfoPf775qgEU_SUbHSro9pv1ga-Euh1Ykd_k
 id: node.article.default
@@ -45,12 +49,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_date:
-    type: datetime_default
-    weight: 121
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_image:
     type: image_image
     weight: 4
@@ -58,6 +56,21 @@ content:
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_media_social:
+    type: media_library_widget
+    weight: 123
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_meta_tags:
+    type: metatag_firehose
+    weight: 121
+    region: content
+    settings:
+      sidebar: true
+      use_details: true
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete_tags
@@ -68,6 +81,13 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_yoast_seo:
+    type: yoast_seo_widget
+    weight: 122
+    region: content
+    settings:
+      body: body
     third_party_settings: {  }
   path:
     type: path

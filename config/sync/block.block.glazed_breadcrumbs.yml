@@ -1,4 +1,4 @@
-uuid: 96f149a0-8439-4492-903a-e9aa1d8104d6
+uuid: 1631dbd9-9f95-48e0-9e1a-efedc87da19f
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: glazed_breadcrumbs
 theme: glazed
 region: page_title
-weight: 10
+weight: -3
 provider: null
 plugin: system_breadcrumb_block
 settings:

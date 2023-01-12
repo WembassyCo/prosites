@@ -1,4 +1,4 @@
-uuid: 5758e746-6f98-4464-a6db-29e728c99598
+uuid: d4d9da6a-8850-4795-8d0d-f075e7b9c892
 langcode: en
 status: true
 dependencies:
@@ -6,9 +6,11 @@ dependencies:
     - core.entity_view_mode.node.rss
     - field.field.node.article.body
     - field.field.node.article.comment
-    - field.field.node.article.field_date
     - field.field.node.article.field_image
+    - field.field.node.article.field_media_social
+    - field.field.node.article.field_meta_tags
     - field.field.node.article.field_tags
+    - field.field.node.article.field_yoast_seo
     - node.type.article
   module:
     - user
@@ -25,6 +27,9 @@ content:
 hidden:
   body: true
   comment: true
-  field_date: true
   field_image: true
+  field_media_social: true
+  field_meta_tags: true
   field_tags: true
+  field_yoast_seo: true
+  search_api_excerpt: true

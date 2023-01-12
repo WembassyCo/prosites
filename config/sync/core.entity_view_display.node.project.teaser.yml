@@ -1,0 +1,53 @@
+uuid: 5ac7a9dd-dcad-4388-bff6-ff51afc79be7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.project.body
+    - field.field.node.project.field_background_image
+    - field.field.node.project.field_challenge_and_solutions
+    - field.field.node.project.field_company_bio
+    - field.field.node.project.field_industry
+    - field.field.node.project.field_media_image
+    - field.field.node.project.field_media_logo
+    - field.field.node.project.field_meta_tags
+    - field.field.node.project.field_metatags
+    - field.field.node.project.field_scope
+    - field.field.node.project.field_testimony
+    - field.field.node.project.field_website
+    - field.field.node.project.field_weight
+    - field.field.node.project.field_yoast_seo
+    - node.type.project
+  module:
+    - user
+id: node.project.teaser
+targetEntityType: node
+bundle: project
+mode: teaser
+content:
+  field_media_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: slick
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_background_image: true
+  field_challenge_and_solutions: true
+  field_company_bio: true
+  field_industry: true
+  field_media_logo: true
+  field_meta_tags: true
+  field_metatags: true
+  field_scope: true
+  field_testimony: true
+  field_website: true
+  field_weight: true
+  field_yoast_seo: true
+  links: true
+  search_api_excerpt: true

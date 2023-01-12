@@ -1,0 +1,19 @@
+uuid: cb01aa58-b192-4f4b-b6b2-a452738e6b88
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_company_bio
+field_name: field_company_bio
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

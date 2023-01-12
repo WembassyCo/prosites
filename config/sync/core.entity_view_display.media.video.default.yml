@@ -1,11 +1,9 @@
-uuid: a23bc228-a4d9-4913-a9ad-0fea1233d3f2
+uuid: 5d7349d8-97ce-433a-8a7e-b2dc87eae459
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.video.field_media_in_library
     - field.field.media.video.field_media_video_file
-    - field.field.media.video.field_show_in_media_library
     - media.type.video
   module:
     - file
@@ -30,19 +28,9 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_show_in_media_library:
-    type: boolean
-    label: above
-    settings:
-      format: default
-      format_custom_false: ''
-      format_custom_true: ''
-    third_party_settings: {  }
-    weight: 1
-    region: content
 hidden:
   created: true
-  field_media_in_library: true
   name: true
+  search_api_excerpt: true
   thumbnail: true
   uid: true

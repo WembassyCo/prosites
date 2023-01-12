@@ -1,0 +1,23 @@
+uuid: bde29f63-40ab-4c22-8f32-eed4b1d7e504
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.feeds_item
+    - node.type.portfolio
+  module:
+    - feeds
+id: node.portfolio.feeds_item
+field_name: feeds_item
+entity_type: node
+bundle: portfolio
+label: 'Feeds item'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:feeds_feed'
+  handler_settings: {  }
+field_type: feeds_item

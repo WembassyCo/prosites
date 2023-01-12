@@ -1,0 +1,8 @@
+uuid: fe2c8e19-bb1c-4945-ae97-bea32276894c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Customer Journey Stage'
+vid: customer_journey_stage
+description: ''
+weight: 0

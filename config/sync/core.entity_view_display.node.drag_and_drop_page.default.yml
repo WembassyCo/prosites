@@ -1,4 +1,4 @@
-uuid: b6866c55-56f2-4966-bc28-3b4945643158
+uuid: 55aa8e74-ad0b-42fb-9501-cc7672760bcd
 langcode: en
 status: true
 dependencies:
@@ -10,10 +10,13 @@ dependencies:
     - field.field.node.drag_and_drop_page.field_glazed_main_content_width
     - field.field.node.drag_and_drop_page.field_glazed_page_layout
     - field.field.node.drag_and_drop_page.field_glazed_page_title_backgrou
+    - field.field.node.drag_and_drop_page.field_meta_tags
+    - field.field.node.drag_and_drop_page.field_yoast_seo
     - node.type.drag_and_drop_page
   module:
     - file
     - glazed_builder
+    - metatag
     - user
 _core:
   default_config_hash: ADn4MpQJjYIwSbgISPv21mT990dRwMth0mvEOF4gHgc
@@ -23,18 +26,33 @@ bundle: drag_and_drop_page
 mode: default
 content:
   body:
-    label: hidden
     type: glazed_builder_text
-    weight: 0
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 0
     region: content
   field_glazed_builder_attachments:
-    weight: 1
+    type: file_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: file_default
+    weight: 1
+    region: content
+  field_meta_tags:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_yoast_seo:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
     region: content
 hidden:
   field_glazed_body_background: true
@@ -43,3 +61,4 @@ hidden:
   field_glazed_page_layout: true
   field_glazed_page_title_backgrou: true
   links: true
+  search_api_excerpt: true

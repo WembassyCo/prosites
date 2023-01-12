@@ -1,0 +1,8 @@
+uuid: fea8bb33-afa8-4274-991f-6fc974cf5f11
+langcode: en
+status: true
+dependencies: {  }
+name: Industry
+vid: industry
+description: ''
+weight: 0

@@ -1,0 +1,19 @@
+uuid: 9339c427-197c-423d-92ea-6e489d12b9aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_top_solutions
+    - node.type.portfolio
+id: node.portfolio.field_top_solutions
+field_name: field_top_solutions
+entity_type: node
+bundle: portfolio
+label: 'Top Solutions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

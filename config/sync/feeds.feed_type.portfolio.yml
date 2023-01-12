@@ -1,0 +1,286 @@
+uuid: 2878fa46-a9bd-4dd1-a5a9-23811614e7ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.portfolio.body
+    - field.field.node.portfolio.field_bg_image
+    - field.field.node.portfolio.field_client_testimony
+    - field.field.node.portfolio.field_company_background
+    - field.field.node.portfolio.field_headliner
+    - field.field.node.portfolio.field_industry
+    - field.field.node.portfolio.field_is_a_featured
+    - field.field.node.portfolio.field_logo
+    - field.field.node.portfolio.field_public_client
+    - field.field.node.portfolio.field_scope_of_work
+    - field.field.node.portfolio.field_tags
+    - field.field.node.portfolio.field_top_challenges
+    - field.field.node.portfolio.field_top_solutions
+    - field.field.node.portfolio.field_website_link
+    - field.field.node.portfolio.field_weight
+    - node.type.portfolio
+  module:
+    - node
+label: Portfolio
+id: portfolio
+description: 'Import client/portfolio contents from old site'
+help: ''
+import_period: 3600
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'private://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  values:
+    type: portfolio
+  langcode: en
+  insert_new: 1
+  update_existing: 1
+  update_non_existent: _keep
+  skip_hash_check: false
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 1
+custom_sources:
+  title:
+    value: Title
+    label: Title
+    machine_name: title
+    type: csv
+  company_background:
+    value: 'Company Background'
+    label: 'Company Background'
+    machine_name: company_background
+    type: csv
+  background_image:
+    value: 'Background Image'
+    label: 'Background Image'
+    machine_name: background_image
+    type: csv
+  bg_alt:
+    value: 'BG alt'
+    label: 'BG alt'
+    machine_name: bg_alt
+    type: csv
+  body:
+    value: Body
+    label: Body
+    machine_name: body
+    type: csv
+  summary:
+    value: Summary
+    label: Summary
+    machine_name: summary
+    type: csv
+  authored_on:
+    value: 'Authored on'
+    label: 'Authored on'
+    machine_name: authored_on
+    type: csv
+  client_testimony:
+    value: 'Client Testimony'
+    label: 'Client Testimony'
+    machine_name: client_testimony
+    type: csv
+  featured:
+    value: Featured
+    label: Featured
+    machine_name: featured
+    type: csv
+  headliner:
+    value: Headliner
+    label: Headliner
+    machine_name: headliner
+    type: csv
+  industry:
+    value: Industry
+    label: Industry
+    machine_name: industry
+    type: csv
+  logo:
+    value: Logo
+    label: Logo
+    machine_name: logo
+    type: csv
+  logo_alt:
+    value: 'Logo alt'
+    label: 'Logo alt'
+    machine_name: logo_alt
+    type: csv
+  public_client:
+    value: 'Public Client'
+    label: 'Public Client'
+    machine_name: public_client
+    type: csv
+  scope_of_work:
+    value: 'Scope of Work'
+    label: 'Scope of Work'
+    machine_name: scope_of_work
+    type: csv
+  tags:
+    value: Tags
+    label: Tags
+    machine_name: tags
+    type: csv
+  top_challenges:
+    value: 'Top Challenges'
+    label: 'Top Challenges'
+    machine_name: top_challenges
+    type: csv
+  top_solutions:
+    value: 'Top Solutions'
+    label: 'Top Solutions'
+    machine_name: top_solutions
+    type: csv
+  website_link:
+    value: 'Website Link'
+    label: 'Website Link'
+    machine_name: website_link
+    type: csv
+  website_link_title:
+    value: 'Website Link Title'
+    label: 'Website Link Title'
+    machine_name: website_link_title
+    type: csv
+  weight:
+    value: Weight
+    label: Weight
+    machine_name: weight
+    type: csv
+mappings:
+  -
+    target: title
+    map:
+      value: title
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_company_background
+    map:
+      value: company_background
+    settings:
+      language: null
+      format: plain_text
+  -
+    target: field_bg_image
+    map:
+      target_id: background_image
+      alt: bg_alt
+      title: ''
+    settings:
+      language: ''
+      reference_by: fid
+      existing: '1'
+      autocreate: 0
+  -
+    target: body
+    map:
+      value: body
+      summary: summary
+    settings:
+      language: null
+      format: plain_text
+  -
+    target: created
+    map:
+      value: authored_on
+    settings:
+      language: null
+      timezone: UTC
+  -
+    target: field_client_testimony
+    map:
+      target_id: client_testimony
+    settings:
+      language: ''
+      reference_by: title
+      feeds_item: guid
+      autocreate: 0
+  -
+    target: field_is_a_featured
+    map:
+      value: featured
+    settings:
+      language: null
+  -
+    target: field_headliner
+    map:
+      value: headliner
+    settings:
+      language: null
+  -
+    target: field_industry
+    map:
+      target_id: industry
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_logo
+    map:
+      target_id: logo
+      alt: logo_alt
+      title: ''
+    settings:
+      language: ''
+      reference_by: fid
+      autocreate: '1'
+      existing: '1'
+  -
+    target: field_public_client
+    map:
+      value: public_client
+    settings:
+      language: null
+  -
+    target: field_scope_of_work
+    map:
+      target_id: scope_of_work
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_tags
+    map:
+      target_id: tags
+    settings:
+      language: ''
+      reference_by: name
+      autocreate: '1'
+  -
+    target: field_top_challenges
+    map:
+      value: top_challenges
+    settings:
+      language: null
+  -
+    target: field_top_solutions
+    map:
+      value: top_solutions
+    settings:
+      language: null
+  -
+    target: field_website_link
+    map:
+      uri: website_link
+      title: website_link_title
+    settings:
+      language: null
+  -
+    target: field_weight
+    map:
+      value: weight
+    settings:
+      language: null
+    unique: {  }

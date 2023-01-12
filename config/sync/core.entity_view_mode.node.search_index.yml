@@ -1,13 +1,9 @@
-uuid: facd7eea-01ae-4f21-9aa7-0caf02fe2747
+uuid: f1d9002e-afdb-4c49-9220-2f6d3f026ffe
 langcode: en
 status: false
 dependencies:
   module:
-    - lightning_core
     - node
-third_party_settings:
-  lightning_core:
-    internal: true
 _core:
   default_config_hash: fVFfJv_GzBRE-wpRHbfD5a3VjnhbEOXG6lvRd3uaccY
 id: node.search_index

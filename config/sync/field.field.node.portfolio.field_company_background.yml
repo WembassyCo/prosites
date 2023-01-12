@@ -1,0 +1,21 @@
+uuid: 69c6a0a3-1df1-4297-9bdf-aaedf8d22abf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_background
+    - node.type.portfolio
+  module:
+    - text
+id: node.portfolio.field_company_background
+field_name: field_company_background
+entity_type: node
+bundle: portfolio
+label: 'Company Background'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
