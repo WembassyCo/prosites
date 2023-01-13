@@ -12,3 +12,8 @@ global-styling:
     - core/drupal
     - core/jquery
     - core/once
+
+portfolio:
+  js:
+    assets/js/jquery.flexslider.js: {}
+    assets/js/portfolio.js: {}
