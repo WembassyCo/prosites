@@ -1,0 +1,26 @@
+{
+  "name": "mda-theme-kit",
+  "version": "1.0.0",
+  "description": "A starter project to build your SASS your theme",
+  "author": "Erik Cochran",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp watch"
+  },
+  "private": true,
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "breakpoint-sass": "^2.7.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-scss-lint": "^0.7.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-normalize-scss": "^8.0.0",
+    "sass-breakpoints": "^2.1.0"
+  },
+  "dependencies": {}
+}

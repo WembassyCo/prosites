@@ -1,0 +1,53 @@
+.view-projects {
+  h3.title {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  h2.title {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  article {
+    h2 {
+      font-size: 22px;
+      font-weight: 400;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @media (min-width: 992px) and (max-width: 1080px) {
+        height: 55px;
+      }
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    button {
+      font-weight: 400;
+    }
+  }
+
+  .view-content {
+    @media (min-width: 992px) {
+      display: flex;
+      flex-flow: row wrap;
+      clear: both;
+    }
+  }
+
+  nav.pager-nav,
+  .view-footer {
+    display: inline-block;
+    width: 100%;
+    clear: both;
+  }
+
+  .view-footer {
+    text-align: center;
+  }
+}
