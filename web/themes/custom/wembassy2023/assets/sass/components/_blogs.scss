@@ -39,3 +39,25 @@
     }
   }
 }
+
+// Article single page
+article.blogs {
+  &.full {
+    footer {
+      margin: 20px 0;
+      color: #aaa;
+
+      .author {
+        font-style: italic;
+      }
+    }
+
+    .field {
+      margin: 10px 0;
+    }
+
+    .field--label {
+      font-weight: bold; 
+    }
+  }
+}
