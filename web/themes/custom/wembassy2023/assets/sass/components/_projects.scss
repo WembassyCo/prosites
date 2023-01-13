@@ -47,3 +47,16 @@
     text-align: center;
   }
 }
+
+// Client Testimonies
+article.testimony.full {
+  .field--name-body {
+    padding-left: 30px;
+  }
+
+  .field--name-field-subtitle {
+    font-size: 22px;
+    margin: 15px 0;
+    font-weight: 500;
+  }
+}
