@@ -1,0 +1,26 @@
+uuid: 74759d57-1059-418a-9d55-24215db138d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - glazed_subtheme
+_core:
+  default_config_hash: e0MGNczahuYFCJYaVcfdmbY49j5dOCOvHDIYRtz0VzM
+id: glazed_subtheme_page_title
+theme: glazed_subtheme
+region: page_title
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/project/*'

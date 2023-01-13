@@ -1,0 +1,22 @@
+uuid: c0c7d4ca-d8be-4da5-854c-dd105cfa6330
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wembassy2023
+_core:
+  default_config_hash: XwS-32qoNmHq7wPBZ0Yh8CZIppl6JaitQ6zOtJtjS7I
+id: wembassy2023_breadcrumbs
+theme: wembassy2023
+region: page_title
+weight: -3
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: b33ef4b6-52c2-44a5-9d6e-60c840517a13
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wembassy2023
+_core:
+  default_config_hash: O9o7MuGOs_Ue8qPHx_5fxBlks-Iqz4cu9uUyS9g91hw
+id: wembassy2023_messages
+theme: wembassy2023
+region: content
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

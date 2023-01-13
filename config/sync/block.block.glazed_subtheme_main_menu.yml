@@ -1,0 +1,31 @@
+uuid: 529a58ea-2aee-4970-b5a0-4778f896c64c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - glazed_subtheme
+_core:
+  default_config_hash: Q25e9A31Q6-xzL2WVL7lIbWX-i6XLhf6N-KqQe_yYek
+id: glazed_subtheme_main_menu
+theme: glazed_subtheme
+region: navigation_collapsible
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 9
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

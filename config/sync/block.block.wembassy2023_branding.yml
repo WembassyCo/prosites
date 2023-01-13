@@ -1,0 +1,25 @@
+uuid: e6fd849c-702b-4921-a45a-cf47d6ab9bca
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wembassy2023
+_core:
+  default_config_hash: F6FJfFI5Bn_LJDPaCEgerDnGHWvsZwpbc-KBcB-7Els
+id: wembassy2023_branding
+theme: wembassy2023
+region: navigation
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

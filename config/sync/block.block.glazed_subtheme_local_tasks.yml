@@ -1,0 +1,22 @@
+uuid: 6e796740-62b8-49bb-9c29-9ff341a46dac
+langcode: en
+status: true
+dependencies:
+  theme:
+    - glazed_subtheme
+_core:
+  default_config_hash: NQe5ISvgkzSOd_l5albfYfJvBcwn-VARhsbN7J-lTms
+id: glazed_subtheme_local_tasks
+theme: glazed_subtheme
+region: content
+weight: -20
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

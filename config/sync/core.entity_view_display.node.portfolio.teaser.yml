@@ -23,35 +23,75 @@ dependencies:
     - field.field.node.portfolio.field_website_link
     - field.field.node.portfolio.field_weight
     - field.field.node.portfolio.field_yoast_seo
+    - image.style.slick_media
     - node.type.portfolio
   module:
-    - text
+    - slick
     - user
 id: node.portfolio.teaser
 targetEntityType: node
 bundle: portfolio
 mode: teaser
 content:
-  body:
-    type: text_summary_or_trimmed
+  field_image:
+    type: slick_image
     label: hidden
     settings:
-      trim_length: 600
+      caption:
+        title: title
+        alt: '0'
+      optionset: default
+      layout: bottom
+      view_mode: ''
+      cache: 43200
+      skin: ''
+      lazy: ''
+      style: ''
+      background: false
+      box_caption: ''
+      box_caption_custom: ''
+      box_media_style: ''
+      loading: ''
+      preload: false
+      responsive_image_style: ''
+      box_style: ''
+      image_style: slick_media
+      media_switch: content
+      ratio: fluid
+      thumbnail_style: ''
+      grid: ''
+      grid_medium: ''
+      grid_small: ''
+      overridables:
+        arrows: '0'
+        autoplay: '0'
+        dots: '0'
+        draggable: '0'
+        infinite: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      optionset_thumbnail: ''
+      skin_thumbnail: ''
+      thumbnail_caption: ''
+      thumbnail_effect: ''
+      thumbnail_position: ''
+      override: false
+      skin_arrows: ''
+      skin_dots: ''
+      use_theme_field: false
+      preserve_keys: false
+      visible_items: null
     third_party_settings: {  }
-    weight: 101
-    region: content
-  links:
-    settings: {  }
-    third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
+  body: true
   feeds_item: true
   field_bg_image: true
   field_client_testimony: true
   field_company_background: true
   field_headliner: true
-  field_image: true
   field_industry: true
   field_is_a_featured: true
   field_logo: true
@@ -64,4 +104,5 @@ hidden:
   field_website_link: true
   field_weight: true
   field_yoast_seo: true
+  links: true
   search_api_excerpt: true

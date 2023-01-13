@@ -1,0 +1,20 @@
+uuid: f01f2672-dcc3-4bb4-a58d-667d53b96cf6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - wembassy2023
+_core:
+  default_config_hash: gSFvzuzyFshk2WF3PY7zJu4ltm75qaOWTQGulazbdEw
+id: wembassy2023_local_actions
+theme: wembassy2023
+region: content
+weight: -30
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

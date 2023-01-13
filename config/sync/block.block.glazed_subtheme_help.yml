@@ -1,0 +1,22 @@
+uuid: 2d166578-2bc3-45cc-a46c-403db4b92d1b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - glazed_subtheme
+_core:
+  default_config_hash: 7ki_ggG6likVLYlIbM09DmC51I8Jl7Kb_caZCoZUVqA
+id: glazed_subtheme_help
+theme: glazed_subtheme
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
