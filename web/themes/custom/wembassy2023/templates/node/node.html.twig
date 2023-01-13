@@ -86,9 +86,11 @@
   {% endif %}
   {{ title_suffix }}
 
-  <div class="img-wrapper">
-    {{ content.field_bg_image }}
-  </div>
+  {% if content.field_bg_image|render|striptags('<img>')|trim is not empty %}
+    <div class="img-wrapper">{{ content.field_bg_image }}</div>
+  {% elseif content.field_image|render|striptags('<img>')|trim is not empty %}
+    <div class="img-wrapper">{{ content.field_image }}</div>
+  {% endif %}
 
   {% block footer %}
     {% if display_submitted and not teaser %}
@@ -107,6 +109,7 @@
     {% block content %}
       {{ content|without(
         'field_bg_image',
+        'field_image',
         'flippy_pager'
       ) }}
     {% endblock %}

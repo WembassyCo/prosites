@@ -1,0 +1,209 @@
+uuid: 9fca4b2a-5924-476e-beb9-dacc32d502c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.portfolio.body
+    - field.field.node.portfolio.feeds_item
+    - field.field.node.portfolio.field_bg_image
+    - field.field.node.portfolio.field_client_testimony
+    - field.field.node.portfolio.field_company_background
+    - field.field.node.portfolio.field_headliner
+    - field.field.node.portfolio.field_image
+    - field.field.node.portfolio.field_industry
+    - field.field.node.portfolio.field_is_a_featured
+    - field.field.node.portfolio.field_logo
+    - field.field.node.portfolio.field_meta_tags
+    - field.field.node.portfolio.field_public_client
+    - field.field.node.portfolio.field_scope_of_work
+    - field.field.node.portfolio.field_tags
+    - field.field.node.portfolio.field_top_challenges
+    - field.field.node.portfolio.field_top_solutions
+    - field.field.node.portfolio.field_website_link
+    - field.field.node.portfolio.field_weight
+    - field.field.node.portfolio.field_yoast_seo
+    - node.type.portfolio
+  module:
+    - image
+    - layout_builder
+    - link
+    - metatag
+    - text
+    - user
+    - yoast_seo
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.portfolio.full
+targetEntityType: node
+bundle: portfolio
+mode: full
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_bg_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_client_testimony:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_company_background:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_headliner:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_industry:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_is_a_featured:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_logo:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_meta_tags:
+    type: metatag_empty_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_public_client:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_scope_of_work:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 114
+    region: content
+  field_top_challenges:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 115
+    region: content
+  field_top_solutions:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 116
+    region: content
+  field_website_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 117
+    region: content
+  field_weight:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 118
+    region: content
+  field_yoast_seo:
+    type: yoastseo_formatter
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  feeds_item: true
+  search_api_excerpt: true

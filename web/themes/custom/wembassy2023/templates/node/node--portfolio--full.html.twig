@@ -1,0 +1,97 @@
+{{ attach_library('wembassy2023/portfolio') }}
+<div class="single-portfolio-wrapper">
+  <div class="image-project largepadding" data-stellar-background-ratio="0.5" style="background: url({{ file_url(node.field_bg_image.entity.fileuri) }}) 0% -55.0234px / cover;">
+    <section class="container largepadding center">
+      {% if node.title.value is not empty %}
+        <h1 class="white-txt">{{ node.title.value|striptags }}</h1>
+      {% endif %}
+    </section>
+  </div>
+
+  <section id="featured-projects">
+    {% if node.body.value is not empty %}
+      <div class="heading-desc bigpadding center">
+        <div class="container">
+          <h3 class="section-title">{{"Client Information"}}</h3>
+          {{ content.body }}
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="featured-project-info container">
+      {% if content.field_company_background|render|striptags|trim is not empty %}
+        <h3 class="section-title">{{"Project Overview"}}</h3>
+        <div class="content">{{ content.field_company_background }}</div>
+      {% endif %}
+      {% if content.field_industry|render|striptags|trim is not empty %}
+        <h5 class="white-txt case-studies">
+          <label>{{'Case Study Industry'|t}}</label>
+          {{ content.field_industry }}
+        </h5>
+      {% endif %}
+      {% if content.field_website_link|render|striptags|trim is not empty %}
+        <div class="actions center">
+          {{ content.field_website_link }}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if content.field_top_challenges|render|striptags|trim is not empty and content.field_top_solutions|render|striptags|trim is not empty %}
+      <div class="top-challenges row">
+        <div class="col-md-6">
+          <div class="challenges-wrapper">
+            <div class="csd-box-title"> <span class="fa fa-exclamation-triangle csd-box-icon"></span> {{'Top Challenges'|t}} </div>
+            {{ content.field_top_challenges }}
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="solutions-wrapper">
+            <div class="csd-box-title"><span class="fa fa-check-square csd-box-icon"></span>{{ 'Top Solutions'|t }}</div>
+            {{ content.field_top_solutions }}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    {% if content.field_image|render|striptags|trim is not empty %}
+      <div class="device-mockup macbook container">
+        <div class="device">
+          <div class="screen">
+            <div class="flexslider">
+              {# <div class="flex-viewport"> #}
+                <ul class="slides">
+                  {% for slide in node.field_image %}
+                    <li> <img src="{{ file_url(slide.entity.fileuri) }}" alt="slide.entity.label"/> </li>
+                  {% endfor %}
+                </ul>
+                {# <img src="{{ file_url(node.field_image.entity.fileuri) }}"> #}
+              {# </div> #}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    {% if content.field_scope_of_work|render|striptags|trim is not empty %}
+      <div class="scope-of-work">
+        <div class="container">
+          <h5>{{"Scope of Work"}}</h3>
+          {{ content.field_scope_of_work }}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if content.field_client_testimony|render|striptags|trim is not empty %}
+      <div class="client-testimonies">
+        <div class="container">
+          <h3 class="section-title">{{"What the client had to say"}}</h3>
+          <p>
+            <span class="quote">“</span>
+            {{ node.field_client_testimony.entity.body.value|raw|striptags|trim }}
+          </p>
+          <span>{{ node.field_client_testimony.entity.field_title_line_2.value }}</span>
+        </div>
+      </div>
+    {% endif %}
+  </section>
+</div>
