@@ -1,0 +1,25 @@
+uuid: 73682c1f-2fe2-48fb-84f8-7996bf07902a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:drag_and_drop_block:d6aacb7f-2ef3-4aa4-a1aa-c1e705bdd0f2'
+  module:
+    - block_content
+  theme:
+    - glazed_subtheme
+id: glazed_subtheme_scheduleappointment
+theme: glazed_subtheme
+region: secondary_header
+weight: -4
+provider: null
+plugin: 'block_content:d6aacb7f-2ef3-4aa4-a1aa-c1e705bdd0f2'
+settings:
+  id: 'block_content:d6aacb7f-2ef3-4aa4-a1aa-c1e705bdd0f2'
+  label: 'Schedule Appointment'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,14 @@
+global-styling:
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Source+Sans+Pro:400italic,700italic,400,700: { type: external }
+      //fonts.googleapis.com/css?family=Source+Sans+Pro:300: { type: external }
+      //fonts.googleapis.com/css?family=Source+Sans+Pro:300italic: { type: external }
+      assets/css/glazed.css: { minified: true }
+      assets/css/screen.min.css: { minified: true }
+  js:
+    assets/js/custom.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once

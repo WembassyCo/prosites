@@ -1,0 +1,26 @@
+uuid: 31945104-c1ca-410f-a9eb-ce1b4dd1c9fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wembassy2023
+_core:
+  default_config_hash: e0MGNczahuYFCJYaVcfdmbY49j5dOCOvHDIYRtz0VzM
+id: wembassy2023_page_title
+theme: wembassy2023
+region: page_title
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '/project/*'

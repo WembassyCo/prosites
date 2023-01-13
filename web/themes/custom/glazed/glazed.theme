@@ -108,8 +108,10 @@ use Drupal\block\Entity\Block;
  * Implements template_preprocess_block()
  */
 function glazed_preprocess_block(&$variables) {
-  $block = Block::load($variables['elements']['#id']);
-  if ($block) {
-    $variables['region'] = $block->getRegion();
+  if(!empty($variables['elements']['#id'])) {
+    $block = Block::load($variables['elements']['#id']);
+    if ($block) {
+      $variables['region'] = $block->getRegion();
+    }
   }
 }

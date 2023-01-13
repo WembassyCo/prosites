@@ -1,0 +1,22 @@
+uuid: bd589a3a-a7d8-4fae-8b23-df255e7d6416
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - wembassy2023
+_core:
+  default_config_hash: IH5gsY5vhyCX5asJcB1mlbUX9MT-v70liSj-eVhFMpc
+id: wembassy2023_content
+theme: wembassy2023
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,17 @@
+.view {
+  nav.pager-nav {
+    display: inline-block;
+    width: 100%;
+    clear: both;
+
+    li,
+    li a {
+      font-weight: 400 !important;
+    }
+
+    li > a {
+      border-color: #777 !important;
+      padding: 0.7em 1.2em;
+    }
+  }
+}
