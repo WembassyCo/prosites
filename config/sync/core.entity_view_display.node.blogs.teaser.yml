@@ -17,10 +17,17 @@ dependencies:
     - field.field.node.blogs.field_stage
     - field.field.node.blogs.field_tags
     - field.field.node.blogs.field_yoast_seo
+    - image.style.large
     - node.type.blogs
   module:
+    - image
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
 id: node.blogs.teaser
 targetEntityType: node
 bundle: blogs
@@ -30,18 +37,28 @@ content:
     type: text_summary_or_trimmed
     label: hidden
     settings:
-      trim_length: 600
+      trim_length: 250
     third_party_settings: {  }
-    weight: 101
+    weight: 2
+    region: content
+  field_bg_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
   feeds_item: true
-  field_bg_image: true
   field_conclusion: true
   field_goal: true
   field_industry: true
