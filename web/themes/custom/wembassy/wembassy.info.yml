@@ -4,7 +4,7 @@ version: 8.x-1.1.0
 base theme: glazed
 core_version_requirement: ^8 || ^9
 
-name: 'wembassy2023'
+name: 'wembassy'
 description: 'Custom theme design for Wembassy 2023 site.'
 
 regions:
@@ -25,4 +25,4 @@ regions:
 
 libraries:
   - glazed/global-styling
-  - 'wembassy2023/global-styling'
+  - 'wembassy/global-styling'

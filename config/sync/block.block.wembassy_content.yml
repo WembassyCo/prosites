@@ -1,15 +1,15 @@
-uuid: bd589a3a-a7d8-4fae-8b23-df255e7d6416
+uuid: 309bb402-3e02-4000-ad2a-deae138ee577
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - wembassy2023
+    - wembassy
 _core:
   default_config_hash: IH5gsY5vhyCX5asJcB1mlbUX9MT-v70liSj-eVhFMpc
-id: wembassy2023_content
-theme: wembassy2023
+id: wembassy_content
+theme: wembassy
 region: content
 weight: 0
 provider: null

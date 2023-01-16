@@ -1,9 +1,0 @@
-{% for key,item in items %}
-  <div class="solutions">
-    {% set count =  (key + 1) %}
-    <span class="count">{{ (count < 9) ? '0' ~ count : count }}.</span>
-    <span class="value">
-      {{ item }}
-    </span>
-  </div>
-{% endfor %}

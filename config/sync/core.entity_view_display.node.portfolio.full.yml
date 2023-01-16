@@ -27,6 +27,7 @@ dependencies:
   module:
     - image
     - layout_builder
+    - layout_discovery
     - link
     - metatag
     - text
@@ -34,8 +35,330 @@ dependencies:
     - yoast_seo
 third_party_settings:
   layout_builder:
-    enabled: false
+    enabled: true
     allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Header section'
+          context_mapping: {  }
+          custom_id: ''
+          custom_classes: 'image-project largepadding'
+          custom_class_choose: {  }
+          custom_styles: ''
+          custom_data_attributes: ''
+          regions:
+            content:
+              region_id: ''
+              region_class_choose: {  }
+              region_classes: ''
+              region_styles: ''
+              region_data: ''
+        components:
+          9a41962b-f690-468b-9316-4abf4c3c6d6b:
+            uuid: 9a41962b-f690-468b-9316-4abf4c3c6d6b
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_bg_image'
+              label: 'Background Image'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: wide
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          2f9cdb8c-7974-45f1-85e7-19c4eb6f6cea:
+            uuid: 2f9cdb8c-7974-45f1-85e7-19c4eb6f6cea
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:title'
+              label: Title
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 1
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: 'container largepadding center'
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Information Section'
+          context_mapping: {  }
+          custom_id: featured-projects
+          custom_classes: info-section
+          custom_class_choose: {  }
+          custom_styles: 'padding: 0 50px;'
+          custom_data_attributes: ''
+          regions:
+            content:
+              region_id: ''
+              region_class_choose: {  }
+              region_classes: ''
+              region_styles: ''
+              region_data: ''
+        components:
+          3bca5c7f-f9bb-44d9-8770-f10736aa773c:
+            uuid: 3bca5c7f-f9bb-44d9-8770-f10736aa773c
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:body'
+              label: 'Project Overview'
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          5b3b5ce0-9e8b-4c99-ab67-e4478ed73458:
+            uuid: 5b3b5ce0-9e8b-4c99-ab67-e4478ed73458
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_company_background'
+              label: 'Project Overview'
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          972a02e1-b05a-4815-8290-b4ebc3e6aba6:
+            uuid: 972a02e1-b05a-4815-8290-b4ebc3e6aba6
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_industry'
+              label: 'Case Study Industry'
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          d9573bf3-2807-449b-99c7-c7b61766f772:
+            uuid: d9573bf3-2807-449b-99c7-c7b61766f772
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_website_link'
+              label: 'Website Link'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: link
+                label: hidden
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: '0'
+                  target: '0'
+                third_party_settings: {  }
+            weight: 3
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: text-center
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+        third_party_settings: {  }
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+          custom_id: ''
+          custom_classes: 'top-challenges row'
+          custom_class_choose: {  }
+          custom_styles: ''
+          custom_data_attributes: ''
+          regions:
+            first:
+              region_id: ''
+              region_class_choose: {  }
+              region_classes: ''
+              region_styles: ''
+              region_data: ''
+            second:
+              region_id: ''
+              region_class_choose: {  }
+              region_classes: ''
+              region_styles: ''
+              region_data: ''
+        components:
+          6b0146cf-c0f6-4f03-b80a-6f9564ae80f8:
+            uuid: 6b0146cf-c0f6-4f03-b80a-6f9564ae80f8
+            region: first
+            configuration:
+              id: 'field_block:node:portfolio:field_top_challenges'
+              label: 'Top Challenges'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: basic_string
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+          53de15e8-8094-41cf-9d00-5513f18a2040:
+            uuid: 53de15e8-8094-41cf-9d00-5513f18a2040
+            region: second
+            configuration:
+              id: 'field_block:node:portfolio:field_top_solutions'
+              label: 'Top Solutions'
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: basic_string
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional:
+              component_attributes:
+                block_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_title_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+                block_content_attributes:
+                  id: ''
+                  class: ''
+                  style: ''
+                  data: ''
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Bottom section'
+          context_mapping: {  }
+          custom_id: ''
+          custom_classes: ''
+          custom_class_choose: {  }
+          custom_styles: 'padding: 30px 50px;'
+          custom_data_attributes: ''
+          regions:
+            content:
+              region_id: ''
+              region_class_choose: {  }
+              region_classes: ''
+              region_styles: ''
+              region_data: ''
+        components:
+          c90a98e0-cb48-4ade-a31b-50bea25162b0:
+            uuid: c90a98e0-cb48-4ade-a31b-50bea25162b0
+            region: content
+            configuration:
+              id: 'field_block:node:portfolio:field_scope_of_work'
+              label: 'Scope of Work'
+              label_display: visible
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
 id: node.portfolio.full
 targetEntityType: node
 bundle: portfolio

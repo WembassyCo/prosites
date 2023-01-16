@@ -1,13 +1,13 @@
-uuid: f01f2672-dcc3-4bb4-a58d-667d53b96cf6
+uuid: c69a08e4-dfd4-4112-a030-350e8b1e72fd
 langcode: en
 status: true
 dependencies:
   theme:
-    - wembassy2023
+    - wembassy
 _core:
   default_config_hash: gSFvzuzyFshk2WF3PY7zJu4ltm75qaOWTQGulazbdEw
-id: wembassy2023_local_actions
-theme: wembassy2023
+id: wembassy_local_actions
+theme: wembassy
 region: content
 weight: -30
 provider: null

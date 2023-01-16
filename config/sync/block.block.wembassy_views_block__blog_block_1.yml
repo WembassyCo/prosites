@@ -1,4 +1,4 @@
-uuid: e648d6a8-10fe-448c-803a-e239be99cc38
+uuid: ff3ec8f8-df21-49fe-afe2-86a178cb6ac1
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,9 @@ dependencies:
     - node
     - views
   theme:
-    - wembassy2023
-id: wembassy2023_views_block__blog_block_1
-theme: wembassy2023
+    - wembassy
+id: wembassy_views_block__blog_block_1
+theme: wembassy
 region: page_title
 weight: -4
 provider: null

@@ -1,0 +1,12 @@
+<div class="challenges-wrapper">
+  <div class="csd-box-title"> <span class="fa fa-exclamation-triangle csd-box-icon"></span> {{'Top Challenges'|t}} </div>
+  {% for key, item in items %}
+    <div class="challenges">
+    	{% set count =  (key + 1) %}
+      <span class="count">{{ (count < 9) ? '0' ~ count : count }}.</span>
+      <span class="value">
+        {{ item }}
+      </span>
+    </div>
+  {% endfor %}
+</div>
