@@ -126,7 +126,7 @@ article.testimony.full {
   position: relative;
   overflow: hidden;
 
-  &::before {
+  &:not([data-layout])::before {
     content: "";
     display: block;
     position: absolute;
@@ -181,8 +181,6 @@ article.testimony.full {
   .layout__region--content {
     width: 100%;
     height: 100%;
-
-
   }
 }
 
