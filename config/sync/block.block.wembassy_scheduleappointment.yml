@@ -1,4 +1,4 @@
-uuid: bd6e4b9f-9a7e-47db-adb5-f56e33824834
+uuid: 3f297d8d-1a11-470d-a77e-94b1ca2ee237
 langcode: en
 status: true
 dependencies:
@@ -7,9 +7,9 @@ dependencies:
   module:
     - block_content
   theme:
-    - wembassy2023
-id: wembassy2023_scheduleappointment
-theme: wembassy2023
+    - wembassy
+id: wembassy_scheduleappointment
+theme: wembassy
 region: secondary_header
 weight: -4
 provider: null
