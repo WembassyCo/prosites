@@ -126,7 +126,7 @@ article.testimony.full {
   position: relative;
   overflow: hidden;
 
-  &:not([data-layout])::before {
+  &:not([data-layout-update-url])::before {
     content: "";
     display: block;
     position: absolute;
@@ -167,6 +167,11 @@ article.testimony.full {
         background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
         top: 0;
         left: 0;
+      }
+
+      > div {
+        height: 100%;
+        width: 100%;
       }
 
       img {

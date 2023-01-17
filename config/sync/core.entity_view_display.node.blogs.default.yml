@@ -18,6 +18,7 @@ dependencies:
     - field.field.node.blogs.field_yoast_seo
     - node.type.blogs
   module:
+    - glazed_builder
     - image
     - metatag
     - text
@@ -29,7 +30,7 @@ bundle: blogs
 mode: default
 content:
   body:
-    type: text_default
+    type: glazed_builder_text
     label: hidden
     settings: {  }
     third_party_settings: {  }
