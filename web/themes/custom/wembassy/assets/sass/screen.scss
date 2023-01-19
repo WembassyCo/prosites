@@ -6,6 +6,9 @@
 
 * {
   font-family: "Source Sans Pro Light", "Source Sans Pro";
-  font-weight: 400;
   font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, label, .field--label {
+  font-weight: 400;
 }
