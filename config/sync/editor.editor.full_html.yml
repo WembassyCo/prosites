@@ -22,6 +22,7 @@ settings:
             - Strike
             - Superscript
             - Subscript
+            - Underline
             - '-'
             - RemoveFormat
         -
@@ -45,17 +46,25 @@ settings:
           name: 'Block Formatting'
           items:
             - Format
+            - Styles
+            - JustifyLeft
+            - JustifyRight
+            - JustifyCenter
+            - JustifyBlock
         -
           name: Tools
           items:
             - ShowBlocks
             - Source
-  plugins: {  }
+            - DrupalMediaLibrary
+  plugins:
+    stylescombo:
+      styles: ''
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null
