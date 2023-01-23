@@ -91,6 +91,160 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
+          ba491b37-e7d9-48e7-a5b6-23b039c7fdee:
+            uuid: ba491b37-e7d9-48e7-a5b6-23b039c7fdee
+            region: content
+            configuration:
+              id: 'extra_field_block:node:testimony:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          1dd7e82b-a8e4-4f3f-baaa-a4bafdcd0063:
+            uuid: 1dd7e82b-a8e4-4f3f-baaa-a4bafdcd0063
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          d2c565de-63c1-4a52-b029-22abcfdcbf31:
+            uuid: d2c565de-63c1-4a52-b029-22abcfdcbf31
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_industry'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          6329e087-226f-4649-8ed8-98039078c530:
+            uuid: 6329e087-226f-4649-8ed8-98039078c530
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_metatags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: metatag_empty_formatter
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          26063eab-bbd3-4c4e-8137-03f500c549c5:
+            uuid: 26063eab-bbd3-4c4e-8137-03f500c549c5
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_project'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          1ae4d32e-b688-4fe6-a8d0-75a58d36cd11:
+            uuid: 1ae4d32e-b688-4fe6-a8d0-75a58d36cd11
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_subtitle'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          e52d4709-6542-4055-a042-e632d87eb788:
+            uuid: e52d4709-6542-4055-a042-e632d87eb788
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_tags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+          cf6fd7be-3411-4d13-bc32-6ad25af06f44:
+            uuid: cf6fd7be-3411-4d13-bc32-6ad25af06f44
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_meta_tags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: metatag_empty_formatter
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 7
+            additional: {  }
+          4d75a12c-f7dd-44bf-9728-4ad7c89fc8a1:
+            uuid: 4d75a12c-f7dd-44bf-9728-4ad7c89fc8a1
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_yoast_seo'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 8
+            additional: {  }
+          09252304-1910-4d40-b118-9f1c21a57055:
+            uuid: 09252304-1910-4d40-b118-9f1c21a57055
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: above
+                settings:
+                  image_link: ''
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 9
+            additional: {  }
         third_party_settings: {  }
       -
         layout_id: layout_onecol

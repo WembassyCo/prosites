@@ -4,5 +4,5 @@ bootstrap: '1'
 cke_fonts: ''
 cke_stylesset: ''
 development: null
-format_filters: 0
+format_filters: 1
 media_browser: media

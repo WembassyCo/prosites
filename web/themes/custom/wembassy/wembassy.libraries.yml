@@ -12,6 +12,12 @@ global-styling:
     - core/drupal
     - core/jquery
     - core/once
+    - wembassy/glazed-overrides
+
+glazed-overrides:
+  css:
+    theme:
+      assets/css/glazed-overrides.min.css: { minified: true }
 
 portfolio:
   js:
