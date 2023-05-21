@@ -20,15 +20,16 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
-        "drupal/acquia_telemetry-acquia_telemetry": "^1.0@alpha",
         "drupal/admin_toolbar": "^3.1",
         "drupal/bootstrap": "^3.24",
         "drupal/bootstrap4": "^2.1",
         "drupal/captcha": "^1.4",
         "drupal/colorbox": "^1.10",
+        "drupal/commerce": "^2.35",
+        "drupal/commerce_license": "^2.0@beta",
+        "drupal/commerce_recurring": "^1.0@RC",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-recommended": "^9.4",
-        "drupal/devel": "^4.1",
         "drupal/entity_browser": "^2.6",
         "drupal/feeds": "^3.0@beta",
         "drupal/feeds_tamper": "^2.0@beta",
@@ -63,7 +64,8 @@
         "pantheon-upstreams/upstream-configuration": "self.version"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.4"
+        "drupal/core-dev": "^9.4",
+        "drupal/devel": "^4.1"
     },
     "conflict": {
         "drupal/drupal": "*"
