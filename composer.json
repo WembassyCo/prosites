@@ -57,6 +57,9 @@
         "drupal/webform": "^6.1",
         "drupal/yoast_seo": "^1.7",
         "drush/drush": "^10",
+        "drupal/commerce": "^2.35",
+        "drupal/commerce_license": "^2.0@beta",
+        "drupal/commerce_recurring": "^1.0@RC",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"
     },
