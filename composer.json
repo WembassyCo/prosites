@@ -25,9 +25,6 @@
         "drupal/bootstrap4": "^2.1",
         "drupal/captcha": "^1.4",
         "drupal/colorbox": "^1.10",
-        "drupal/commerce": "^2.35",
-        "drupal/commerce_license": "^2.0@beta",
-        "drupal/commerce_recurring": "^1.0@RC",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/entity_browser": "^2.6",
@@ -128,7 +125,7 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "platform": {
-            "php": "7.4"
+            "php": "8.1"
         },
         "allow-plugins": {
             "composer/installers": true,
