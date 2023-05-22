@@ -66,53 +66,14 @@
         "drupal/yoast_seo": "^1.7",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
-        "pantheon-upstreams/upstream-configuration": "self.version",
-        "mautic/core-composer-scaffold": "4.x-dev",
-        "mautic/core-project-message": "4.x-dev",
-        "mautic/core-lib": "4.4.8",
-        "mautic/grapes-js-builder-bundle": "4.4.8",
-        "mautic/plugin-citrix": "4.4.8",
-        "mautic/plugin-clearbit": "4.4.8",
-        "mautic/plugin-cloudstorage": "4.4.8",
-        "mautic/plugin-crm": "4.4.8",
-        "mautic/plugin-emailmarketing": "4.4.8",
-        "mautic/plugin-focus": "4.4.8",
-        "mautic/plugin-fullcontact": "4.4.8",
-        "mautic/plugin-gmail": "4.4.8",
-        "mautic/plugin-outlook": "4.4.8",
-        "mautic/plugin-social": "4.4.8",
-        "mautic/plugin-tagmanager": "4.4.8",
-        "mautic/plugin-zapier": "4.4.8",
-        "mautic/theme-aurora": "4.4.8",
-        "mautic/theme-blank": "4.4.8",
-        "mautic/theme-brienz": "4.4.8",
-        "mautic/theme-cards": "4.4.8",
-        "mautic/theme-coffee": "4.4.8",
-        "mautic/theme-confirmme": "4.4.8",
-        "mautic/theme-fresh-center": "4.4.8",
-        "mautic/theme-fresh-fixed": "4.4.8",
-        "mautic/theme-fresh-left": "4.4.8",
-        "mautic/theme-fresh-wide": "4.4.8",
-        "mautic/theme-goldstar": "4.4.8",
-        "mautic/theme-mauve": "4.4.8",
-        "mautic/theme-nature": "4.4.8",
-        "mautic/theme-neopolitan": "4.4.8",
-        "mautic/theme-oxygen": "4.4.8",
-        "mautic/theme-paprika": "4.4.8",
-        "mautic/theme-skyline": "4.4.8",
-        "mautic/theme-sparse": "4.4.8",
-        "mautic/theme-sunday": "4.4.8",
-        "mautic/theme-vibrant": "4.4.8",
-        "mautic/theme-trulypersonal": "4.4.8"
+        "pantheon-upstreams/upstream-configuration": "self.version"
     },
     "require-dev": {
         "drupal/core-dev": "^9.4",
         "drupal/devel": "^4.1"
     },
     "conflict": {
-        "drupal/drupal": "*",
-        "mautic/mautic": "*",
-        "mautic/core": "*"
+        "drupal/drupal": "*"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -171,32 +132,6 @@
                 "type:mautic-theme"
               ]
         },
-        "mautic-scaffold": {
-            "locations": {
-                "web-root": "web/mautic/"
-            }
-        },
-        "mautic-core-project-message": {
-          "include-keys": [
-            "homepage",
-            "support"
-          ],
-          "post-create-project-cmd-message": [
-            "<bg=blue;fg=white>                                                         </>",
-            "<bg=blue;fg=white>  Congratulations, you’ve installed the Mautic codebase  </>",
-            "<bg=blue;fg=white>  from the mautic/recommended-project template!          </>",
-            "<bg=blue;fg=white>                                                         </>",
-            "",
-            "<bg=yellow;fg=black>Next steps</>:",
-            "  * Install Mautic",
-            "  * Read the user guide",
-            "  * Get support: https://www.mautic.org/support",
-            "  * Get involved with the Mautic community:",
-            "      https://www.mautic.org/getting-involved",
-            "  * Remove the plugin that prints this message:",
-            "      composer remove mautic/core-project-message"
-          ]
-        },
         "composer-exit-on-patch-failure": true,
         "enable-patching": true,
         "patchLevel": {
@@ -220,10 +155,5 @@
             "mautic/core-project-message": true,
             "php-http/discovery": true
         }
-    },
-    "autoload": {
-      "psr-4": {
-        "MauticPlugin\\": "web/mautic/plugins/"
-      }
     }
 }
