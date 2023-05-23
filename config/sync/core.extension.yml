@@ -54,6 +54,9 @@ module:
   glazed_builder_page: 0
   glazed_helper: 0
   google_analytics: 0
+  graphql: 0
+  graphql_composable: 0
+  graphql_core_schema: 0
   help: 0
   history: 0
   image: 0
@@ -106,6 +109,7 @@ module:
   toolbar: 0
   tour: 0
   twig_tweak: 0
+  typed_data: 0
   user: 0
   views_ui: 0
   webform: 0
