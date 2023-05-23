@@ -1,0 +1,14 @@
+uuid: 0e21a337-ce54-49c0-933b-1f9bff418703
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.subscriber_pro_developer
+  module:
+    - user
+id: user_add_role_action.subscriber_pro_developer
+label: 'Add the Subscriber - Pro Developer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: subscriber_pro_developer

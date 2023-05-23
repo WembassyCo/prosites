@@ -1,0 +1,21 @@
+uuid: 42413f14-4aa3-474d-86a9-48ffa30388e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.plan
+    - field.storage.commerce_product_variation.billing_schedule
+id: commerce_product_variation.plan.billing_schedule
+field_name: billing_schedule
+entity_type: commerce_product_variation
+bundle: plan
+label: 'Billing schedule'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_billing_schedule'
+  handler_settings: {  }
+field_type: entity_reference

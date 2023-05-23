@@ -1,0 +1,7 @@
+uuid: 39f87c77-dcc2-4d7c-9c37-1c36a8d03314
+langcode: en
+status: false
+dependencies: {  }
+formId: node_drag_and_drop_page_form
+captchaType: default
+label: node_drag_and_drop_page_form

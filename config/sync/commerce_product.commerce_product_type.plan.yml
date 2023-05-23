@@ -1,0 +1,14 @@
+uuid: 5bde3e0d-66bf-4b9a-88e4-b99d578e60c9
+langcode: en
+status: true
+dependencies: {  }
+id: plan
+label: Plan
+traits: {  }
+locked: false
+description: 'Create a new plan for users to subscribe to.'
+variationType: null
+variationTypes:
+  - plan
+multipleVariations: true
+injectVariationFields: true

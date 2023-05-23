@@ -1,0 +1,29 @@
+uuid: 11ba0143-f306-41ee-b66f-78fc34a48192
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_assigned
+    - node.type.task
+id: node.task.field_assigned
+field_name: field_assigned
+entity_type: node
+bundle: task
+label: Assigned
+description: 'Assign a task to a user'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

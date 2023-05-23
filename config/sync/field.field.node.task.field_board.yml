@@ -1,0 +1,29 @@
+uuid: 0a4c275b-88f1-478d-a768-b4fb3be9f63c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_board
+    - node.type.request_board
+    - node.type.task
+id: node.task.field_board
+field_name: field_board
+entity_type: node
+bundle: task
+label: Board
+description: 'Select the board this task is associated with.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      request_board: request_board
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

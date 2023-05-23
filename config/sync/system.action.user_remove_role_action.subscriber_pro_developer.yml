@@ -1,0 +1,14 @@
+uuid: d9b7dc07-d8d8-4b8c-b250-bbc54a5abf2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.subscriber_pro_developer
+  module:
+    - user
+id: user_remove_role_action.subscriber_pro_developer
+label: 'Remove the Subscriber - Pro Developer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: subscriber_pro_developer

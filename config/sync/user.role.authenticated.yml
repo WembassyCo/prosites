@@ -11,6 +11,10 @@ dependencies:
     - media.type.video
   module:
     - comment
+    - commerce_checkout
+    - commerce_order
+    - commerce_payment
+    - commerce_product
     - contact
     - filter
     - google_analytics
@@ -25,6 +29,7 @@ label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
+  - 'access checkout'
   - 'access comments'
   - 'access content'
   - 'access shortcuts'
@@ -34,10 +39,13 @@ permissions:
   - 'edit own image media'
   - 'edit own remote_video media'
   - 'edit own video media'
+  - 'manage own commerce_payment_method'
   - 'opt-in or out of google analytics tracking'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view commerce_product'
   - 'view media'
+  - 'view own commerce_order'
   - 'view own unpublished media'

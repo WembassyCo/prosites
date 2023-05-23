@@ -1,0 +1,23 @@
+uuid: 593d717c-da0b-4b96-a1c4-01c24569a726
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_estimate
+    - node.type.task
+id: node.task.field_estimate
+field_name: field_estimate
+entity_type: node
+bundle: task
+label: Estimate
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

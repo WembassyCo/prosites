@@ -1,0 +1,23 @@
+uuid: 422e7cb2-a36b-48f6-afcf-0ac68096e672
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_workflow
+    - node.type.task
+  module:
+    - options
+id: node.task.field_workflow
+field_name: field_workflow
+entity_type: node
+bundle: task
+label: Workflow
+description: 'Create the backlog status of this element.'
+required: true
+translatable: false
+default_value:
+  -
+    value: Backlog
+default_value_callback: ''
+settings: {  }
+field_type: list_string

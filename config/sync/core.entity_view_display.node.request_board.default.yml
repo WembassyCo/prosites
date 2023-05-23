@@ -1,0 +1,38 @@
+uuid: 6f69c5e6-3dd1-4931-b226-c7552650c913
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.request_board.body
+    - field.field.node.request_board.field_member
+    - node.type.request_board
+  module:
+    - text
+    - user
+id: node.request_board.default
+targetEntityType: node
+bundle: request_board
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_member:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  search_api_excerpt: true

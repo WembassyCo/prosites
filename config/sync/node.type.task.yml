@@ -1,0 +1,17 @@
+uuid: f4eb25c0-5bb4-423e-a8c5-9c9933b53c60
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Task
+type: task
+description: 'Creates and stores the information for a task request from a client.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: true

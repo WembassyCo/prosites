@@ -1,0 +1,14 @@
+uuid: 7cc9defa-f655-4db0-b815-75127b15c4f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.subscriber_developer
+  module:
+    - user
+id: user_remove_role_action.subscriber_developer
+label: 'Remove the Subscriber - Developer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: subscriber_developer

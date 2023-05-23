@@ -1,0 +1,29 @@
+uuid: 2d9a80d1-aabb-4f5d-ad97-c1fe8531db82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_watching
+    - node.type.task
+id: node.task.field_watching
+field_name: field_watching
+entity_type: node
+bundle: task
+label: Watching
+description: 'Set one or more user to watch a task.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

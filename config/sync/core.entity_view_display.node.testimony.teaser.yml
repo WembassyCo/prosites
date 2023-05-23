@@ -96,6 +96,31 @@ third_party_settings:
                   class: ''
                   style: ''
                   data: ''
+          43854779-b022-4a96-8f8c-d763d2e3eb39:
+            uuid: 43854779-b022-4a96-8f8c-d763d2e3eb39
+            region: content
+            configuration:
+              id: 'extra_field_block:node:testimony:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 3
+            additional: {  }
+          60184f73-60b9-435a-a9c2-0cd8e37e2c75:
+            uuid: 60184f73-60b9-435a-a9c2-0cd8e37e2c75
+            region: content
+            configuration:
+              id: 'field_block:node:testimony:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
         third_party_settings: {  }
 id: node.testimony.teaser
 targetEntityType: node

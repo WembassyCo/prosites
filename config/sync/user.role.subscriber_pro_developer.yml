@@ -1,0 +1,9 @@
+uuid: 6c45830f-eac1-4f58-a6b0-df60897b9f01
+langcode: en
+status: true
+dependencies: {  }
+id: subscriber_pro_developer
+label: 'Subscriber - Pro Developer'
+weight: 5
+is_admin: null
+permissions: {  }

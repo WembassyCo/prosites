@@ -1,0 +1,29 @@
+uuid: be15512d-37dc-4916-878b-6226e1d19cd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member
+    - node.type.request_board
+id: node.request_board.field_member
+field_name: field_member
+entity_type: node
+bundle: request_board
+label: Member
+description: 'Invite other users to the board'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

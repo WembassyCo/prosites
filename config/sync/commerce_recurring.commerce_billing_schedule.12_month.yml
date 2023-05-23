@@ -1,0 +1,22 @@
+uuid: 6da40083-b9a8-4af6-97ae-d7bf9c969817
+langcode: en
+status: true
+dependencies: {  }
+id: 12_month
+label: 12-month
+displayLabel: '12-month Subscription'
+billingType: prepaid
+combineSubscriptions: false
+retrySchedule:
+  - 1
+  - 3
+  - 5
+unpaidSubscriptionState: canceled
+plugin: rolling
+configuration:
+  trial_interval: {  }
+  interval:
+    number: 1
+    unit: year
+prorater: full_price
+proraterConfiguration: {  }

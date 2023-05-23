@@ -1,0 +1,14 @@
+uuid: 1a5eb53a-bb48-415d-ade5-aa4a29bde4a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.subscriber_developer
+  module:
+    - user
+id: user_add_role_action.subscriber_developer
+label: 'Add the Subscriber - Developer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: subscriber_developer

@@ -1,0 +1,19 @@
+uuid: 4427b645-be2a-4594-a0a7-1c152b7cbbda
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_license
+third_party_settings:
+  commerce_license:
+    license_types:
+      role: role
+    activate_on_place: true
+id: plan
+label: Plan
+traits:
+  - commerce_license
+  - purchasable_entity_subscription
+locked: false
+orderItemType: default
+generateTitle: false

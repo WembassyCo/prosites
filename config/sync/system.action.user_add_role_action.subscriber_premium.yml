@@ -1,0 +1,14 @@
+uuid: 4b81e574-f476-4fac-82a7-2e3755781d6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.subscriber_premium
+  module:
+    - user
+id: user_add_role_action.subscriber_premium
+label: 'Add the Subscriber - Premium role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: subscriber_premium
