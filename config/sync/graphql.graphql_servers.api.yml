@@ -1,0 +1,180 @@
+uuid: 3f91067c-630b-4806-aed6-978c0c4e0794
+langcode: en
+status: true
+dependencies: {  }
+name: api
+label: API
+endpoint: /api/v1
+debug_flag: 1
+schema: core_composable
+caching: true
+batching: true
+disable_introspection: false
+query_depth: null
+query_complexity: null
+schema_configuration:
+  core_composable:
+    extensions:
+      entity_query: entity_query
+    generate_value_fields: 1
+    entity_base_fields:
+      fields:
+        accessCheck: accessCheck
+        entityTypeId: entityTypeId
+        getConfigTarget: getConfigTarget
+        isNew: isNew
+        label: label
+        langcode: langcode
+        referencedEntities: referencedEntities
+        toArray: toArray
+        uriRelationships: uriRelationships
+        uuid: uuid
+    enabled_entity_types:
+      file: 1
+      media: 1
+      node: 1
+      profile: 1
+      user: 1
+    fields:
+      file:
+        changed: changed
+        created: created
+        fid: fid
+        filemime: filemime
+        filename: filename
+        filesize: filesize
+        status: status
+        uid: uid
+        uri: uri
+      media:
+        bundle: bundle
+        changed: changed
+        created: created
+        default_langcode: default_langcode
+        field_media_audio_file: field_media_audio_file
+        field_media_document: field_media_document
+        field_media_image: field_media_image
+        field_media_oembed_video: field_media_oembed_video
+        field_media_video_file: field_media_video_file
+        metatag: metatag
+        mid: mid
+        name: name
+        path: path
+        revision_created: revision_created
+        revision_default: revision_default
+        revision_log_message: revision_log_message
+        revision_translation_affected: revision_translation_affected
+        revision_user: revision_user
+        status: status
+        thumbnail: thumbnail
+        uid: uid
+        vid: vid
+      node:
+        body: body
+        changed: changed
+        comment: comment
+        created: created
+        default_langcode: default_langcode
+        feeds_item: feeds_item
+        field_assigned: field_assigned
+        field_attachments: field_attachments
+        field_background_image: field_background_image
+        field_bg_image: field_bg_image
+        field_board: field_board
+        field_challenge_and_solutions: field_challenge_and_solutions
+        field_client_testimony: field_client_testimony
+        field_comments: field_comments
+        field_company_background: field_company_background
+        field_company_bio: field_company_bio
+        field_conclusion: field_conclusion
+        field_estimate: field_estimate
+        field_glazed_body_background: field_glazed_body_background
+        field_glazed_builder_attachments: field_glazed_builder_attachments
+        field_glazed_hide_regions: field_glazed_hide_regions
+        field_glazed_main_content_width: field_glazed_main_content_width
+        field_glazed_page_layout: field_glazed_page_layout
+        field_glazed_page_title_backgrou: field_glazed_page_title_backgrou
+        field_goal: field_goal
+        field_headliner: field_headliner
+        field_image: field_image
+        field_industry: field_industry
+        field_is_a_featured: field_is_a_featured
+        field_logo: field_logo
+        field_media_image: field_media_image
+        field_media_logo: field_media_logo
+        field_media_social: field_media_social
+        field_member: field_member
+        field_meta_tags: field_meta_tags
+        field_metatags: field_metatags
+        field_project: field_project
+        field_public_client: field_public_client
+        field_scope: field_scope
+        field_scope_of_work: field_scope_of_work
+        field_social_image: field_social_image
+        field_social_summary: field_social_summary
+        field_social_title: field_social_title
+        field_stage: field_stage
+        field_subtitle: field_subtitle
+        field_tags: field_tags
+        field_testimony: field_testimony
+        field_top_challenges: field_top_challenges
+        field_top_solutions: field_top_solutions
+        field_watching: field_watching
+        field_website: field_website
+        field_website_link: field_website_link
+        field_weight: field_weight
+        field_workflow: field_workflow
+        field_yoast_seo: field_yoast_seo
+        menu_link: menu_link
+        metatag: metatag
+        nid: nid
+        path: path
+        promote: promote
+        revision_default: revision_default
+        revision_log: revision_log
+        revision_timestamp: revision_timestamp
+        revision_translation_affected: revision_translation_affected
+        revision_uid: revision_uid
+        status: status
+        sticky: sticky
+        title: title
+        type: type
+        uid: uid
+        vid: vid
+      profile:
+        address: address
+        changed: changed
+        created: created
+        data: data
+        is_default: is_default
+        metatag: metatag
+        profile_id: profile_id
+        revision_created: revision_created
+        revision_default: revision_default
+        revision_id: revision_id
+        revision_log_message: revision_log_message
+        revision_user: revision_user
+        status: status
+        type: type
+        uid: uid
+      user:
+        access: access
+        changed: changed
+        commerce_remote_id: commerce_remote_id
+        created: created
+        customer_profiles: customer_profiles
+        default_langcode: default_langcode
+        init: init
+        login: login
+        mail: mail
+        metatag: metatag
+        name: name
+        path: path
+        preferred_admin_langcode: preferred_admin_langcode
+        preferred_langcode: preferred_langcode
+        roles: roles
+        status: status
+        timezone: timezone
+        uid: uid
+        user_picture: user_picture
+persisted_queries_settings: {  }

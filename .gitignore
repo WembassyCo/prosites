@@ -69,6 +69,8 @@
 # custom module, theme, etc., are not ignored unless you purposely do so.
 /vendor/
 
+/node_modules/
+
 # Ignore other scaffold files
 #
 # Ignore all files placed directly at the project root. Rely on

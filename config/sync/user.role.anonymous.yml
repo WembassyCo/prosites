@@ -10,6 +10,7 @@ dependencies:
     - commerce_product
     - contact
     - filter
+    - graphql
     - media
     - search
     - system
@@ -24,6 +25,8 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access site-wide contact form'
+  - 'execute api arbitrary graphql requests'
+  - 'execute api persisted graphql requests'
   - 'search content'
   - 'use text format restricted_html'
   - 'view commerce_product'
