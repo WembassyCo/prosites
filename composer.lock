@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a50313a2bc0001191cf7759dcf310a51",
+    "content-hash": "fecbdbbd477776c7d7ebd04fb407beb8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1500,6 +1500,56 @@
             },
             "abandoned": "roave/better-reflection",
             "time": "2022-05-31T18:46:25+00:00"
+        },
+        {
+            "name": "drupal/abjs",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/abjs.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/abjs-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "f02b2ab48fbbc2c3acfb16b9626e0138d761bbab"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1618934686",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Mowers",
+                    "homepage": "https://www.drupal.org/user/1353878",
+                    "role": "Creator, Maintainer"
+                },
+                {
+                    "name": "Other Contributors",
+                    "homepage": "https://www.drupal.org/node/2601142/committers",
+                    "role": "Contributors"
+                }
+            ],
+            "homepage": "https://drupal.org/project/abjs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/abjs",
+                "issues": "https://drupal.org/project/issues/abjs"
+            }
         },
         {
             "name": "drupal/acl",
