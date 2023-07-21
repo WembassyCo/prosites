@@ -64,6 +64,7 @@
         "drupal/smtp": "^1.2",
         "drupal/social_auth": "^3.1",
         "drupal/social_post": "^3.0",
+        "drupal/tawk_to": "^3.0",
         "drupal/tb_megamenu": "^1.7",
         "drupal/twig_tweak": "^3.1",
         "drupal/views_accordion": "^2.0",
