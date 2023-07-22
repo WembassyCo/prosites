@@ -1,0 +1,91 @@
+<?php
+
+/**
+ * @file
+ * Module file for abtestui.
+ */
+
+use Drupal\abtestui\Service\AbjsTestStorage;
+use Drupal\abtestui\Service\TestStorage;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Render\Markup;
+
+/**
+ * Implements hook_page_attachments().
+ */
+function abtestui_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'abtestui/admin_design_always';
+
+  /** @var \Drupal\abtestui\Service\RequestParser $requestParser */
+  $requestParser = Drupal::service('abtestui.request_parser');
+  $cookieGathererScript = $requestParser->generateGathererScript();
+
+  if ($cookieGathererScript === FALSE) {
+    return;
+  }
+
+  $cookieGathererTag = [
+    '#tag' => 'script',
+    // Use Markup::create(), so the code won't get escaped.
+    '#value' => Markup::create($cookieGathererScript),
+    '#attributes' => [
+      'type' => 'application/javascript',
+    ],
+  ];
+
+  // Init the attachments, like the metatags module.
+  if (empty($attachments['#attached'])) {
+    $attachments['#attached'] = [];
+  }
+  if (empty($attachments['#attached']['html_head'])) {
+    $attachments['#attached']['html_head'] = [];
+  }
+  $attachments['#attached']['html_head'][] = [
+    $cookieGathererTag,
+    'abtestui_cookie_gatherer',
+  ];
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function abtestui_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  // @todo: Clean up.
+  if ($form_id === 'abjs_test' && isset($form['tid'])) {
+    $id = $form['tid']['#value'];
+    /** @var \Drupal\abtestui\Service\TestStorage $storage */
+    $storage = Drupal::service('abtestui.test_storage');
+    $test = $storage->load($id);
+
+    if ($test !== FALSE) {
+      Drupal::messenger()
+        ->addWarning(t('This test was created by the A/B Test UI module. Deleting or modifying it might result in the test breaking.'));
+    }
+  }
+  if ($form_id === 'abjs_experience' && isset($form['eid'])) {
+    $query = Drupal::database()
+      ->select(AbjsTestStorage::EXPERIENCE_RELATION_TABLE, 'exp_rel');
+    $query->fields('exp_rel', ['tid']);
+    $query->condition('eid', $form['eid']['#value']);
+    $query->leftJoin(TestStorage::BASE_TABLE_NAME, 'test', 'exp_rel.tid = test.tid');
+    $result = $query->countQuery()->execute();
+
+    if ($result->fetchObject()->expression > 0) {
+      Drupal::messenger()
+        ->addWarning(t('This experience was created by the A/B Test UI module. Deleting or modifying it might result in the test breaking.'));
+    }
+  }
+  if ($form_id === 'abjs_condition' && isset($form['cid'])) {
+    $query = Drupal::database()
+      ->select(AbjsTestStorage::CONDITION_RELATION_TABLE, 'cond_rel');
+    $query->fields('cond_rel', ['tid']);
+    $query->condition('cid', $form['cid']['#value']);
+    $query->leftJoin(TestStorage::BASE_TABLE_NAME, 'test', 'cond_rel.tid = test.tid');
+    $result = $query->countQuery()->execute();
+
+    if ($result->fetchObject()->expression > 0) {
+      Drupal::messenger()
+        ->addWarning(t('This condition was created by the A/B Test UI module. Deleting or modifying it might result in the test breaking.'));
+    }
+  }
+}

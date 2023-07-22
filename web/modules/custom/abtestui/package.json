@@ -1,0 +1,56 @@
+{
+  "name": "abtestui",
+  "version": "1.5.0",
+  "description": "Easy to use abjs ui for non-devs.",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.drupalcode.org/project/abtestui"
+  },
+  "author": "Marton Danko <mdanko@brainsum.com>",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "start": "gulp",
+    "prod": "gulp prod",
+    "lint": "gulp lint",
+    "sassDev": "gulp sassDev",
+    "sassProd": "gulp sassProd",
+    "scripts": "gulp scripts"
+  },
+  "keywords": [
+    "drupal",
+    "drupal8",
+    "gulp",
+    "gulp4",
+    "sass",
+    "AB test",
+    "module"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-drupal": "^0.3.1",
+    "eslint-plugin-import": "^2.21.2",
+    "fibers": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-split-media-queries": "^1.0.3",
+    "gulp-stylelint": "^13.0.0",
+    "sass": "^1.26.8",
+    "stylelint": "^13.6.1",
+    "stylelint-config-scss": "^1.0.0-security",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  },
+  "resolutions": {
+    "http-proxy": "1.18.1",
+    "yargs-parser": "13.1.2"
+  }
+}

@@ -1,0 +1,10 @@
+name: A/B Test UI - Google Analytics Integration
+type: module
+description: Integrate A/B Test UI with the Google Analytics module.
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: ABJS
+dependencies:
+  - abjs:abjs
+  - abtestui:abtestui
+  - google_analytics:google_analytics

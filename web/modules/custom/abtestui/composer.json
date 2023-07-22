@@ -1,0 +1,31 @@
+{
+    "name": "drupal/abtestui",
+    "type": "drupal-module",
+    "description": "User friendly UI to the A/B Test JS module.",
+    "keywords": ["Drupal"],
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.drupal.org/project/abtestui",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/abtestui",
+        "source": "https://git.drupalcode.org/project/abtestui"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "ext-PDO": "*",
+        "ext-json": "*",
+        "drupal/abjs": "^1.0 || ^2.0",
+        "drupal/core": "^8.5 || ^9.0",
+        "drupal/google_analytics": "^4.0.1",
+        "symfony/dependency-injection": "^3.4 || ^4.4 || ^5.0"
+    }
+}
