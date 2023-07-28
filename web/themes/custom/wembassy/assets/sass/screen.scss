@@ -5,11 +5,13 @@
 @import "components/**/*";
 
 * {
-  font-family: "Source Sans Pro Light", "Source Sans Pro";
+  font-family: Arial,Helvetica,"Nimbus Sans L","Liberation Sans","FreeSans",sans-serif;
+  font-weight: 400;
   font-style: normal;
+  color: var(--text);
 }
 
-h1, h2, h3, h4, h5, h6, label, .field--label {
+h1, h2, h3, h4, h5, h6, label, .field--label, p, span {
   font-weight: 400;
 }
 

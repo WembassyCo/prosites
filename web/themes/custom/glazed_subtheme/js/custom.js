@@ -80,7 +80,7 @@
 
         if(jQuery('div').hasClass('owl-carousel-block_116')) {
           $(".owl-carousel").owlCarousel({
-            loop: true,
+
             autoplay: true,
             autoplayTimeout: 5000,
             autoplayHoverPause: false,
@@ -93,13 +93,22 @@
                 items: 1,
                 nav: false
               },
-              768: {
+              480: {
+                items: 2,
+                nav: false
+              },
+              769: {
                 items: 3,
                 nav: false
               },
-              1179: {
+              980: {
                 items: 4,
-                nav: true
+                nav: false
+              },
+              1024: {
+                items: 4,
+                nav: true,
+                loop: ($('.item').length > 4)
               }
             }
           });
@@ -185,8 +194,11 @@
   setTimeout(hide_loader, 5000);
 
   $(window).on("load", function () {
+    if (jQuery('.path-webform .captcha #edit-captcha-response').length) {
+      jQuery('.path-webform .captcha #edit-captcha-response').removeClass('required').removeAttr('required').attr("aria-required", "false");
+    }
     hide_loader();
-
+    resize_func();
     if (jQuery('#block-supplier-menu-block').length > 0) {
       var blocksuppliermenublock = jQuery('#block-supplier-menu-block');
 
@@ -225,9 +237,34 @@
 
     }
 
+    if (jQuery('.path-webform .page-title').length > 0) {
+        var title_webform = jQuery('.path-webform .page-title');
+        title_webform[0].innerHTML = '<span>' + title_webform[0].innerHTML + '</span>'; 
+    }
+
+    if (jQuery('.path-sitemap .page-title').length > 0) {
+      var title_webform = jQuery('.path-sitemap .page-title');
+      title_webform[0].innerHTML = '<span>' + title_webform[0].innerHTML + '</span>';
+    }
+    
   });
 
+  function resize_func() { 
+    var scrnwdth = jQuery(window).width();
+    if (scrnwdth >= 1024) {
+      if (jQuery('body').hasClass('body--glazed-nav-mobile')) {
+        jQuery('body').removeClass('body--glazed-nav-mobile').addClass('body--glazed-nav-desktop');
+      }
+    } else {
+      if (jQuery('body').hasClass('body--glazed-nav-desktop')) {
+        jQuery('body').removeClass('body--glazed-nav-desktop').addClass('body--glazed-nav-mobile');
+      }
+    }
+  }
 
+  jQuery(window).resize(function () {
+    resize_func();
+  });
 
   Drupal.behaviors.initColorboxPlainStyle = {
     attach: function (context, settings) {

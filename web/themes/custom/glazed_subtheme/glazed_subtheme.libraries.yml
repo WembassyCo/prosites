@@ -1,11 +1,14 @@
 global-styling:
   css:
     theme:
+      css/bootstrap.css: {}
+      css/drupal-bootstrap.css: {}
+      css/font-awesome.min.css: { minified: true }
       css/glazed.css: { minified: true }
       css/style.css: {header: true}
-      css/rocket.css: {}
-      
+      //fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap: {} 
   js:
+    js/bootstrap.js: {}
     js/custom.js: {}
   dependencies:
     - core/drupal
@@ -13,6 +16,11 @@ global-styling:
     - core/once
     - jquery_ui_accordion/accordion
     - owlcarousel/owlcarousel
+
+rocket:
+  css:
+    theme:
+      css/rocket.css: {}
     
 elastic-grid:
   css:

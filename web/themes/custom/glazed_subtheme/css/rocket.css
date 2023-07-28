@@ -2324,6 +2324,7 @@ body.page-node-type-product {
     border-top: none;
 }
 
+#rocket.path-search .breadcrumb,
 #rocket ol.search-results li.search-result .search-info {
     display: none;
 }
