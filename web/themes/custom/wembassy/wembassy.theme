@@ -1,1 +1,17 @@
 <?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+/**
+ * Implements template_page_attachments_alter().
+ */
+function wembassy_page_attachments_alter(&$page) {
+  // Add subtheme style to non-admin pages
+  if (!\Drupal::service('router.admin_context')->isAdminRoute()) {
+    $page['#attached']['library'][] = 'wembassy/wembassy';
+  }
+}
