@@ -60,4 +60,10 @@ article.blogs {
       font-weight: bold; 
     }
   }
+
+  &.teaser {
+    a {
+      color: var(--link-color);
+    }
+  }
 }

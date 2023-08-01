@@ -25,4 +25,4 @@ regions:
 
 libraries:
   - glazed/global-styling
-  - 'wembassy/global-styling'
+  - 'wembassy_theme/global-styling'
