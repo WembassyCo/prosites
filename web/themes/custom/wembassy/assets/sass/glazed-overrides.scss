@@ -9,7 +9,7 @@ body.html  {
 
   .az-element {
     .az-text[style*="color"] {
-      * {
+      *:not(.control) {
         color: inherit;
       }
     }
