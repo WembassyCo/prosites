@@ -45,6 +45,143 @@
   }
 }
 
+.heading-title-big {
+  color: var(--white);
+  font-size: 2.125rem;
+  line-height: 4rem;
+  font-weight: 500;
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.5;
+
+  span {
+    font-weight: 800;
+    color: var(--white);
+    font-size: 70px;
+    padding-bottom: 0;
+    line-height: 70px;
+    text-transform: uppercase;
+  }
+
+  &::after {
+    content: "";
+    width: 165px;
+    height: 2px;
+    display: inline-block;
+    text-align: center;
+    background-color: var(--alphaColor);
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+// Slideshow
+.owl-carousel {
+  .owl-item {
+    .az-element {
+      height: 100%;
+
+      .az-text > div {
+        max-width: 630px;
+        margin-left: 0;
+        margin-right: auto;
+      }
+      
+      .container {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+}
+
+// Our Works
+.portfolio-list-item {
+  padding-bottom: 20px;
+
+  > ul {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    zoom: 1;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: block;
+      height: auto;
+      float: left;
+      overflow: hidden;
+      margin-bottom: 0;
+      flex: 1 1 33.33%;
+      width: 33.33%;
+      padding-bottom: 0;
+      zoom: 1;
+
+      @media (max-width: 992px) {
+        flex: 1 1 50%;
+        width: 50%;
+      }
+
+      @media (max-width: 767px) {
+        flex: 1 1 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .grid-project {
+    position: relative;
+    min-width: 350px;
+
+    .img-box {
+      top: 0;
+      position: relative;
+      overflow: hidden;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+      background-color: #eeeeee;
+
+      img {
+        display: block;
+        -webkit-transition: .7s;
+        -moz-transition: .7s;
+        -ms-transition: .7s;
+        -o-transition: .7s;
+        width: 100%;
+      }
+    }
+  }
+
+  .project-info {
+    position: absolute;
+    bottom: 90px;
+    opacity: 0;
+    height: 100px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    width: 100%;
+    padding: 15px;
+    background: #eee;
+
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      padding-top: 0;
+
+      a {
+        color: var(--alphaColor);
+        font-weight: bold;
+      }
+    }
+  }
+}
+
 // Explorers section
 .explorers-section {
   h1 {

@@ -46,6 +46,8 @@ body.page-node-type-portfolio {
   }
 
   .view-content {
+    margin-top: 30px;
+    
     @media (min-width: 992px) {
       display: flex;
       flex-flow: row wrap;
