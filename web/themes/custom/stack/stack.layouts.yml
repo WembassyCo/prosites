@@ -1,0 +1,59 @@
+stack_col2-5-7:
+  label: 2 Columns 5 and 7
+  category: Barrio Columns
+  path: layouts
+  template: col2-5-7
+  default_region: first
+  icon_map:
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+barrio_col2-7-5:
+  label: 2 Columns 7 and 5
+  category: Barrio Columns
+  path: layouts
+  template: col2-7-5
+  default_region: first
+  icon_map:
+    - [top]
+    - [first, second]
+    - [bottom]
+  regions:
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    bottom:
+      label: Bottom
+barrio_col3-3-6-3:
+  label: 3 Columns 3-6-3
+  category: Barrio Columns
+  path: layouts
+  template: col3-3-6-3
+  default_region: first
+  icon_map:
+    - [top]
+    - [first, second, third]
+    - [bottom]
+  regions:
+    top:
+      label: Top
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    bottom:
+      label: Bottom
